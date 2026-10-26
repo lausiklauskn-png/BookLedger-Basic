@@ -1,0 +1,2191 @@
+{
+ "pro": "lausiklauskn-png/BookLedgerPro",
+ "proCommit": "c52523f99c537275b1f552f7554128bf4a9687b6",
+ "nachgezogenAm": "2026-10-26",
+ "regeln": 1,
+ "anzahl": 545,
+ "umgeschrieben": 49,
+ "baumHash": "9c1088b05f3c4c61202bc2686042f269b73b9d620765c9210ce07b720e84c453",
+ "dateien": [
+  {
+   "pfad": ".github/workflows/ci.yml",
+   "sha256": "b54fd5b46c32a69b6e7c8dcabf5a112e818a7a04d3a589592011f19832a75b00"
+  },
+  {
+   "pfad": ".gitignore",
+   "sha256": "af7e6bbddf90d3ae9e7d476e38aadc2e03a61b3b8544a4c44ada9a729800228d"
+  },
+  {
+   "pfad": ".nojekyll",
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+   "pfad": "AGENTS.md",
+   "sha256": "e26c1fa1b3cd5a90753dd2f85a6fbfff83cb9333e87f16d9cc58e66779f16d35"
+  },
+  {
+   "pfad": "ARCHITECTURE.md",
+   "sha256": "b48256db11587b1d3a09a17b21b70289b182957f04ce1903333b83850ff13736"
+  },
+  {
+   "pfad": "LICENSE",
+   "sha256": "02e9581244f313572f4ad631c0ca778db8a60a1d4a5ee7cb4c0c9db1ef92db81"
+  },
+  {
+   "pfad": "RECHTE.md",
+   "sha256": "ab64ab233343dfa0e0919e3c2737b36aaca6037b4b1e02f33cf5728afb7e49db"
+  },
+  {
+   "pfad": "THIRD_PARTY.md",
+   "sha256": "26d39d1bca45d94f1b7fbac3df252fcdcef44b6927386786b5f37d392b3af249"
+  },
+  {
+   "pfad": "apps/HERKUNFT.json",
+   "sha256": "3f1251b0374567af4166be06c2a6e389f3f1222a49100584e2745981ed9c1feb"
+  },
+  {
+   "pfad": "apps/blp-bruecke.js",
+   "sha256": "51ea9bed81ab3fb697ba3cffe2f0829dc0329b2abf85d94026d575f47f9df4cd"
+  },
+  {
+   "pfad": "apps/blp-thema.css",
+   "sha256": "ec70bae1f13e825d6e42ab298963f1eadff862fd6316991d4cf164b49d1a6ce1"
+  },
+  {
+   "pfad": "apps/calculate/assets/app.css",
+   "sha256": "69bcd7c25d39e1608f098c36d7d7218fd6356d0f8734281c5ddf3c3deffa4d95"
+  },
+  {
+   "pfad": "apps/calculate/assets/app.js",
+   "sha256": "63051df144a64e690e9777560518252f02cb8010a322d1aea5b80dd9a85cfa26"
+  },
+  {
+   "pfad": "apps/calculate/assets/daten/beispiel-angebote.js",
+   "sha256": "8061fc9c76f9a71af87e15705822011fbbc1b7bf6c4ae48235629702f10f073e"
+  },
+  {
+   "pfad": "apps/calculate/assets/daten/beispiel-fragen.js",
+   "sha256": "1caa273f3bb29343ee3e6ed0bb1f218730de999ebcf481703648dd0a0bf6925d"
+  },
+  {
+   "pfad": "apps/calculate/assets/daten/bilder.js",
+   "sha256": "d89f767030e7c6cc0b13d8091379a5046c431040dd98171d42a9c19d161a1378"
+  },
+  {
+   "pfad": "apps/calculate/assets/daten/dienstleistung.js",
+   "sha256": "07cfd2d3a396e215aedf0aacced7bcaa9116d84228721df4b078c892fa1be6e8"
+  },
+  {
+   "pfad": "apps/calculate/assets/daten/handelsware.js",
+   "sha256": "b97aa49d1ac7c931848ac48d9371e98f6016242b40ef2863f92c4c98e9369e52"
+  },
+  {
+   "pfad": "apps/calculate/assets/daten/laser.js",
+   "sha256": "c8e9908c2c2d055227bc2534d0ac8815765d0f0368b3aa2de73f784e43eecf16"
+  },
+  {
+   "pfad": "apps/calculate/assets/daten/stickerei.js",
+   "sha256": "5a18ebdec862ecad80babba266ecf74c2e3b322a2ee6be51958424769cfc2595"
+  },
+  {
+   "pfad": "apps/calculate/assets/daten/werbetechnik.js",
+   "sha256": "0c27ce5432cf9d42e1012ea25337545dafc5ee38c0b0e504b3cc47fd5e3a1f24"
+  },
+  {
+   "pfad": "apps/calculate/assets/installieren.js",
+   "sha256": "e0644084e2e72773608633190a3e5ed287f93d88f438e7473f03c765c7f873c3"
+  },
+  {
+   "pfad": "apps/calculate/assets/kern/anfrage.js",
+   "sha256": "0d7506432ae7a8124bd454074ad38cc1cecc29fe42ce4627ed3a957a4f4cc15a"
+  },
+  {
+   "pfad": "apps/calculate/assets/kern/angebot.js",
+   "sha256": "1b5ab6b84c94e16ea0967ba13f7c67393e9f3f209b60a3feea2d2f07808c94dd"
+  },
+  {
+   "pfad": "apps/calculate/assets/kern/aussen.js",
+   "sha256": "7094ebcc3ab2971e3af24430d1d033c139fb821c4750776242709fe159ab8a73"
+  },
+  {
+   "pfad": "apps/calculate/assets/kern/geld.js",
+   "sha256": "cc9b465c3c0011f6a3191a240812b60be6462c5742c26ddfd5d36117ea87de66"
+  },
+  {
+   "pfad": "apps/calculate/assets/kern/kalkulation.js",
+   "sha256": "24916a7dc1d21581febfda2595cda88b8657c7af8e141f9ac4a1db6ff7bbb788"
+  },
+  {
+   "pfad": "apps/calculate/assets/kern/katalog.js",
+   "sha256": "be22a5dcc53eafbb63f769ad9fd6ecd3c9d6e0586817d364f0f01d7ac8a6d184"
+  },
+  {
+   "pfad": "apps/calculate/assets/kern/ki-anfrage.js",
+   "sha256": "267937b6a2376db9b522a8ea997bca405adce021f7f2a29a8bf974005f53e2a7"
+  },
+  {
+   "pfad": "apps/calculate/assets/kern/mail.js",
+   "sha256": "84fe7a98567594a6d8a2a3996960be139efee9a346bf3628041c9c8b2cda4253"
+  },
+  {
+   "pfad": "apps/calculate/assets/kern/markt.js",
+   "sha256": "88c2665a73d0a2cb8ad240942508d8efc2a6789f8b71357faa1be6f8e36cd538"
+  },
+  {
+   "pfad": "apps/calculate/assets/kern/mengen.js",
+   "sha256": "42478f5f7b53dcc1c9786f31b11fbe166a01bfc2ef33f6a4b8875d054004397d"
+  },
+  {
+   "pfad": "apps/calculate/assets/kern/nachkalk.js",
+   "sha256": "b38b83d61dd8262db25c2c9694036005328ead9f93849710ad6f95894150d58d"
+  },
+  {
+   "pfad": "apps/calculate/assets/kern/pruefer-mail.js",
+   "sha256": "cdf3ca7881bfa68763a2c0be7436d35a65bea4dbd03f606e02eaec5c613632d7"
+  },
+  {
+   "pfad": "apps/calculate/assets/kern/recherche.js",
+   "sha256": "dd364c3cd3b7246f12b1d40e64d279051ce48134f77e6221dd02ba751eb994d4"
+  },
+  {
+   "pfad": "apps/calculate/assets/kern/sicherung.js",
+   "sha256": "4f2a0a017d7ea19084b8e4235f27ca61f6c03ff427e30eccae7e1b0d994362f9"
+  },
+  {
+   "pfad": "apps/calculate/assets/kern/suche.js",
+   "sha256": "0a454388e82394be04fc79448ccf29cb9f958bdc74becd086595e430dd651179"
+  },
+  {
+   "pfad": "apps/calculate/assets/kern/tabelle.js",
+   "sha256": "e38b7ad5abe5dcc0d1f27c4832153ead0c31f638339042aa4680b15da15da8c8"
+  },
+  {
+   "pfad": "apps/calculate/assets/kern/uebergabe.js",
+   "sha256": "06774b82272acb8776ab14dabc5b59a236b3fba76ec625dcf7469838f2e3e912"
+  },
+  {
+   "pfad": "apps/calculate/assets/kern/unterlagen.js",
+   "sha256": "6b762014ded926c8f55876ced382e2b5dc8c4f2c8795466a45eee9f137039f8a"
+  },
+  {
+   "pfad": "apps/calculate/assets/kern/versand.js",
+   "sha256": "7b4b0e23780649c9ab02ad8d6e65c763681c3bd96ee01f18f7935a91d4cc47ba"
+  },
+  {
+   "pfad": "apps/calculate/assets/sbkim-init.js",
+   "sha256": "321e0694d1e24b3ee2b22beca66f109a81cc02c22c409a4c94d9ac4b2c16c87b"
+  },
+  {
+   "pfad": "apps/calculate/assets/schluesseltresor.js",
+   "sha256": "eaed30e8f3921835a3f58b69f89d9b008831f69f164ad1dfec630fa43161f666"
+  },
+  {
+   "pfad": "apps/calculate/assets/siegel-inhalt.js",
+   "sha256": "54375cce7a07fe5c8f6e73dacbafc13fb9c8d2215b146c5f14aca291fade8f01"
+  },
+  {
+   "pfad": "apps/calculate/assets/wfpdf/bedeutung.js",
+   "sha256": "749cea778b0bcc9bb86c733827aa7467a8468286cf78f22f7f189f465223ac7d"
+  },
+  {
+   "pfad": "apps/calculate/assets/wfpdf/sprechen.js",
+   "sha256": "9e4feb404f9b729fa12e6e5aa5d7a87192e9e89595585504f22669b90c64da52"
+  },
+  {
+   "pfad": "apps/calculate/assets/wfpdf/suche.js",
+   "sha256": "df5e2cb9473d24f630ead34706281d666e8644c0831f3c7f94300cf7607380e6"
+  },
+  {
+   "pfad": "apps/calculate/datenschutz.html",
+   "sha256": "0ef306e92a6ffc4b662908c6bda1d1b55f0706ff2ff092f047073ca3b83b136c"
+  },
+  {
+   "pfad": "apps/calculate/icons/apple-touch-icon.png",
+   "sha256": "46ccfed6249fc3a173efd30f4ff5af927ac197236621592a1fd5a5ec6d2d2ec8"
+  },
+  {
+   "pfad": "apps/calculate/icons/favicon-32.png",
+   "sha256": "561f57ded3983f5972de5f4f29951dd004a161492d964673ca597ed9e67d224a"
+  },
+  {
+   "pfad": "apps/calculate/icons/favicon-48.png",
+   "sha256": "6c9de5a6e71a39283dbbddfc9cbf0a035a18039ff4dff7de024a1515ba80e951"
+  },
+  {
+   "pfad": "apps/calculate/icons/icon-192.png",
+   "sha256": "221b2b130a1fd079629f996e6f56b7dedf58043afded9747846192a0c2a1d4b8"
+  },
+  {
+   "pfad": "apps/calculate/icons/icon-512.png",
+   "sha256": "6a36fcd7727163e50769529fb186ef4a64c26733e53552ca7d4bcc13e6eb10a0"
+  },
+  {
+   "pfad": "apps/calculate/icons/maskable-512.png",
+   "sha256": "5a6ee8d5d416d76b28f3d348110b11ed7c19448ab2b5e92490cba1bd0e072fc7"
+  },
+  {
+   "pfad": "apps/calculate/icons/quelle/icon-klaus.png",
+   "sha256": "534c40c1a3b2b605f456e45a7c77f1e458c0c59667618bc77eec614dbfaa5d84"
+  },
+  {
+   "pfad": "apps/calculate/impressum.html",
+   "sha256": "a877cb517051c621b1fee703c36c4cb779f3711c2b2d3647a3bb4374c9c91793"
+  },
+  {
+   "pfad": "apps/calculate/index.html",
+   "sha256": "890ab4bb689baab4f380612ca3cc03fb620463f832d9e737e0409f92dabb7cd1"
+  },
+  {
+   "pfad": "apps/calculate/manifest.json",
+   "sha256": "6fb1c10e4ff6db6667ef6e7d5ce9b2fb204baa3f89681652ad7f071a2f30c2f0"
+  },
+  {
+   "pfad": "apps/calculate/modules/01_storage.js",
+   "sha256": "5a5a4bf64dfcc107da7ed70fb755d7db5cce7d80e963b3e2fbc2004537747820"
+  },
+  {
+   "pfad": "apps/calculate/modules/02_spore.js",
+   "sha256": "0cbf0664e2a79f1301c03e52f7ac0030d4b2961f03b97b38e8634827a52353c5"
+  },
+  {
+   "pfad": "apps/calculate/modules/05_anastomose.js",
+   "sha256": "255ac79aeb3b0203e92f0cebd0a905e47c488b43efe18f41332a7d35520bbf23"
+  },
+  {
+   "pfad": "apps/calculate/modules/05b_nostr_relay.js",
+   "sha256": "37eee5b196b3efad57131edd1cc3c0ee23acb97b5ca40740d6a0771db4b4a421"
+  },
+  {
+   "pfad": "apps/calculate/modules/07_apoptose.js",
+   "sha256": "0acdd6ab2d95e131fa6953061cc0e95a2396e05fff091a7dc690b2668a4c035a"
+  },
+  {
+   "pfad": "apps/calculate/modules/15_membran.js",
+   "sha256": "829a5bc01976b59c5ce428125314b87b314b6212cd5a473634c2d22c02579397"
+  },
+  {
+   "pfad": "apps/calculate/modules/16_siegel.js",
+   "sha256": "d26a262f593a75c44d22377059d4d076e4455e9f6bcc68b0c2ea992cd3380d37"
+  },
+  {
+   "pfad": "apps/calculate/modules/16b_andock_wizard.js",
+   "sha256": "c415eafdb1b660a5256e19957c667074b64b0c3990cc8acc4daeeef34a57e85d"
+  },
+  {
+   "pfad": "apps/calculate/modules/23_rendezvous.js",
+   "sha256": "5aa8262638eeaf70f5e5563592a730f240a95ed80daf41a4df5d7d51824afb74"
+  },
+  {
+   "pfad": "apps/calculate/modules/23_rendezvous_ui.js",
+   "sha256": "66b2c6b95d27e35cb3b9697a5edc3250dfb50eb960375f9a68ab696ab05b82d2"
+  },
+  {
+   "pfad": "apps/calculate/modules/25_pseudonym.js",
+   "sha256": "8c3092babee80b8fce2c6607cc4c8ced4bbef4addf31a5f0f3de6ba5c92c2ad7"
+  },
+  {
+   "pfad": "apps/calculate/modules/noble-secp256k1.js",
+   "sha256": "8f3879ca422c4fdfe7ca0361688636fa7cc550a59bd94d512ed6ec79aa3d55d1"
+  },
+  {
+   "pfad": "apps/calculate/sicherheit.html",
+   "sha256": "0611b146bdf466e5cb0957dd341af7498e6fdc155ebaff4432258f8914ba4a65"
+  },
+  {
+   "pfad": "apps/calculate/vendor/sbkim/03_embedding.js",
+   "sha256": "2e31baa09a2959c95efff8eecd224e8343e75695b4b293aa35209d8f96d1f3b5"
+  },
+  {
+   "pfad": "apps/calculate/vendor/sbkim/04_match.js",
+   "sha256": "721eecc3c0d6ea4c259259e6071215ec1cd16f1c43c87b42ce9e72e9a0b5e41c"
+  },
+  {
+   "pfad": "apps/needs/THIRD_PARTY.md",
+   "sha256": "c8fa26cec873ef228282608bf61ed573f91e6ff4fdde39947e7ee38c0d23ada4"
+  },
+  {
+   "pfad": "apps/needs/assets/app.css",
+   "sha256": "ddba5617e316408a5acdb3ea3e4b5032547821d204f3efc25a4e53c3fbb5aaf9"
+  },
+  {
+   "pfad": "apps/needs/assets/app.js",
+   "sha256": "d6ee1505c3ee352c6d18086d39027f9766307cdf738e766e6db84779ecdfdbd5"
+  },
+  {
+   "pfad": "apps/needs/assets/bild-prisma.webp",
+   "sha256": "434cd69f94618753c3d1418e1edb21fcf7f78830d97b8d73e5976d8b55282d58"
+  },
+  {
+   "pfad": "apps/needs/assets/daten/bausteine.js",
+   "sha256": "3af21ab672614f6ce80edd33591eecddd397269d466b879821a4c77ccddceeb7"
+  },
+  {
+   "pfad": "apps/needs/assets/daten/beispiel-alis.js",
+   "sha256": "40721e1933f87ea8f8a8870a2a7bb32dd7b2eda527c6f727118d370c568d4489"
+  },
+  {
+   "pfad": "apps/needs/assets/daten/beispiel-eigene.js",
+   "sha256": "5e835779a3775bd6fd75782c6f52b734dc6dd2f327668a9456028f343000ea01"
+  },
+  {
+   "pfad": "apps/needs/assets/daten/beispiel-psb.js",
+   "sha256": "b4ffba202822e59f2abaa8a68b57e2da8090b9f170a0bda51489a763bf3843a3"
+  },
+  {
+   "pfad": "apps/needs/assets/daten/beispiel-tomys-gesamt.js",
+   "sha256": "6d490826675d168e75f98a2029da81b9d43fece91c1f477c58d40a4752025d01"
+  },
+  {
+   "pfad": "apps/needs/assets/daten/beispiel-tomys.js",
+   "sha256": "1601d7a760e66e15ae23c01bd195d0435e54e6d261ed92c5f6172337690b16a6"
+  },
+  {
+   "pfad": "apps/needs/assets/daten/beispiel-unterschriften.js",
+   "sha256": "7e0f01c806d4392ad1df6e67d646d92c0ee3c0d571f0b6133045a7722025e636"
+  },
+  {
+   "pfad": "apps/needs/assets/daten/beispiel.js",
+   "sha256": "89b197af32bb3b06827c214cda61a871e1c347545b03837a2e33b1456787eaa8"
+  },
+  {
+   "pfad": "apps/needs/assets/daten/markt.js",
+   "sha256": "55e0fb2cd99e78d6c7ad319bd51b347c4bb9ee689d4081c5d1930c3a04dbffd6"
+  },
+  {
+   "pfad": "apps/needs/assets/installieren.js",
+   "sha256": "e0644084e2e72773608633190a3e5ed287f93d88f438e7473f03c765c7f873c3"
+  },
+  {
+   "pfad": "apps/needs/assets/kern/aussen.js",
+   "sha256": "0af5cffd6e63ab4bcb8444d56cdcbf4dae9c223a49e685ed95bb0c6564b02959"
+  },
+  {
+   "pfad": "apps/needs/assets/kern/bauauftrag.js",
+   "sha256": "7f629781b339347b2e6a78bafaabb52ca27ca14acb6d07e18ece2ae58e57b30d"
+  },
+  {
+   "pfad": "apps/needs/assets/kern/bedarf.js",
+   "sha256": "01c9b9365372df06c6c69b084f90865aea5e431b921a830fc70dc210099c8c2f"
+  },
+  {
+   "pfad": "apps/needs/assets/kern/fassungen.js",
+   "sha256": "57e86b5ab785ddb53f26f874d09cd639ffdb13cd841137d251e15f6f3e9a4d4a"
+  },
+  {
+   "pfad": "apps/needs/assets/kern/geld.js",
+   "sha256": "6742e77dd51c6e7098cee2d16247c01372bf2366b1d957ed37522511897734f6"
+  },
+  {
+   "pfad": "apps/needs/assets/kern/mail.js",
+   "sha256": "84fe7a98567594a6d8a2a3996960be139efee9a346bf3628041c9c8b2cda4253"
+  },
+  {
+   "pfad": "apps/needs/assets/kern/rechnen.js",
+   "sha256": "f2a85762bbfb91867d82eb86a627c994aa708f3ba3d237c4a641e4b039daa98c"
+  },
+  {
+   "pfad": "apps/needs/assets/kern/sicherung.js",
+   "sha256": "1f07b8c92caf8903e1f9123c0a09ef5f99096bdc19d30728f9fe98e6d17b5320"
+  },
+  {
+   "pfad": "apps/needs/assets/kern/uebergabe.js",
+   "sha256": "9f849c22fa91b3fd6f1cd8ae8b0c4486510c4701f6786710d03df24d61f8abb5"
+  },
+  {
+   "pfad": "apps/needs/assets/pruefer-mail.js",
+   "sha256": "cdf3ca7881bfa68763a2c0be7436d35a65bea4dbd03f606e02eaec5c613632d7"
+  },
+  {
+   "pfad": "apps/needs/assets/sbkim-init.js",
+   "sha256": "2b40b0c0bee35995d893adfa119cbb2b1c381e7b359a7eb5bacc8ad465ffba86"
+  },
+  {
+   "pfad": "apps/needs/assets/schluesseltresor.js",
+   "sha256": "eaed30e8f3921835a3f58b69f89d9b008831f69f164ad1dfec630fa43161f666"
+  },
+  {
+   "pfad": "apps/needs/assets/siegel-inhalt.js",
+   "sha256": "f561786960c5d35ee06d4a5b384ec13c47e117e7be66cbf245fa48fc22759bdd"
+  },
+  {
+   "pfad": "apps/needs/assets/texte.js",
+   "sha256": "d0b465fd1c6e8d72a092ba1c59a692f37336ae8bffb85aeda1122fc1e9d40722"
+  },
+  {
+   "pfad": "apps/needs/beispiele/tomys-gesamt/Ablauf-Motiv-bis-Rechnung.pdf",
+   "sha256": "3cc376eb2873208d538af8b98ac9e2040f16598e8146b2ddf9a5e2c7b2efff7a"
+  },
+  {
+   "pfad": "apps/needs/beispiele/tomys-gesamt/Anfrage-Tomys-Hub.eml",
+   "sha256": "782ab08365e73c5c64151a7e97822805b46680c988400439058eaf87f02597b2"
+  },
+  {
+   "pfad": "apps/needs/beispiele/tomys-gesamt/Auftragszettel-Papier.jpg",
+   "sha256": "a56441f6cd571f04f409b0f15e9a2613b9a52320c7083c031f1544864f07beca"
+  },
+  {
+   "pfad": "apps/needs/beispiele/tomys-gesamt/Logo-Entwurf-Kunde.png",
+   "sha256": "368b494fafb33d02c3d6f526844b93bc5bbb1da72525d7239639a34bf98615c8"
+  },
+  {
+   "pfad": "apps/needs/beispiele/tomys-gesamt/Preisliste-Beispiel.pdf",
+   "sha256": "347f094ea0d9d1cf306ecaa86674562bea598faf879a262b900e706ead2bdf5f"
+  },
+  {
+   "pfad": "apps/needs/beispiele/tomys-gesamt/Rueckfrage-Buchhaltung.eml",
+   "sha256": "eb9d91f1fe9d7044597af43579af8d388fa237da8226f63075057db19a0dadb5"
+  },
+  {
+   "pfad": "apps/needs/beispiele/tomys-gesamt/Skizze-Schaufenster.png",
+   "sha256": "559df129b9b4fc306b9a49e565bb6a916ebd2da9e83f7f4a8e411161602e12a6"
+  },
+  {
+   "pfad": "apps/needs/datenschutz.html",
+   "sha256": "6acfd2c036080420ebcfe8c60fdadc917c545fa59b4c61e74447cb2598466a0d"
+  },
+  {
+   "pfad": "apps/needs/icons/apple-touch-icon.png",
+   "sha256": "d079c7ee9c1556114f18715bd28a9539ccf1e0a4abc751710118edb7efd8a590"
+  },
+  {
+   "pfad": "apps/needs/icons/favicon-32.png",
+   "sha256": "a35acf486352491828f880af3a57c95b95aaa703139fc13d9f2975d78e6494f7"
+  },
+  {
+   "pfad": "apps/needs/icons/favicon-48.png",
+   "sha256": "b0272eef0ef696d54f74f52d0b0842b52bb759db741cf7bed92d6567e50f047d"
+  },
+  {
+   "pfad": "apps/needs/icons/icon-192.png",
+   "sha256": "6da50e46404a7d0139adb983b848b95164a59a9746b4e1c666fffce52da74656"
+  },
+  {
+   "pfad": "apps/needs/icons/icon-512.png",
+   "sha256": "30045f0f86fd1ff6c35c01a50695c667bc3fd5d752cf27b71926dfdfdac21fbf"
+  },
+  {
+   "pfad": "apps/needs/icons/maskable-512.png",
+   "sha256": "90015439293c90fd62ba09de974a30b2dbfe3f9de0df5bafa0ffcae4dcc31ea5"
+  },
+  {
+   "pfad": "apps/needs/icons/quelle/bild-prisma-splitter.jpg",
+   "sha256": "403f4758e0db05bd5b3ec01b56375edc882c3b2c76872719bbeeeb5048d96cff"
+  },
+  {
+   "pfad": "apps/needs/icons/quelle/icon-prisma.jpg",
+   "sha256": "ae71c45cc767a1057afcd1a21707fab88d9c3015fc55684235896f4a58cbc2b5"
+  },
+  {
+   "pfad": "apps/needs/icons/werbung-1200.jpg",
+   "sha256": "1a3b0653194a31ed6b376addfc649c8d24c851a45c961fbcfcaffb285e31e90c"
+  },
+  {
+   "pfad": "apps/needs/impressum.html",
+   "sha256": "be626b464a478fa0c2ceb9b6b0c84b827af4ef8f89ea183b0f3f03501288490f"
+  },
+  {
+   "pfad": "apps/needs/index.html",
+   "sha256": "a5f9001571027f222917a62be45acb4c5879685b80307c629a97d9d3ef3164e2"
+  },
+  {
+   "pfad": "apps/needs/manifest.json",
+   "sha256": "a9467276c6ec4bd2f390392e211ad47bda6febfc6db18d439cd44fb8169b8445"
+  },
+  {
+   "pfad": "apps/needs/modules/01_storage.js",
+   "sha256": "5a5a4bf64dfcc107da7ed70fb755d7db5cce7d80e963b3e2fbc2004537747820"
+  },
+  {
+   "pfad": "apps/needs/modules/02_spore.js",
+   "sha256": "0cbf0664e2a79f1301c03e52f7ac0030d4b2961f03b97b38e8634827a52353c5"
+  },
+  {
+   "pfad": "apps/needs/modules/03_embedding.js",
+   "sha256": "2e31baa09a2959c95efff8eecd224e8343e75695b4b293aa35209d8f96d1f3b5"
+  },
+  {
+   "pfad": "apps/needs/modules/04_match.js",
+   "sha256": "721eecc3c0d6ea4c259259e6071215ec1cd16f1c43c87b42ce9e72e9a0b5e41c"
+  },
+  {
+   "pfad": "apps/needs/modules/05_anastomose.js",
+   "sha256": "255ac79aeb3b0203e92f0cebd0a905e47c488b43efe18f41332a7d35520bbf23"
+  },
+  {
+   "pfad": "apps/needs/modules/05b_nostr_relay.js",
+   "sha256": "37eee5b196b3efad57131edd1cc3c0ee23acb97b5ca40740d6a0771db4b4a421"
+  },
+  {
+   "pfad": "apps/needs/modules/07_apoptose.js",
+   "sha256": "0acdd6ab2d95e131fa6953061cc0e95a2396e05fff091a7dc690b2668a4c035a"
+  },
+  {
+   "pfad": "apps/needs/modules/15_membran.js",
+   "sha256": "829a5bc01976b59c5ce428125314b87b314b6212cd5a473634c2d22c02579397"
+  },
+  {
+   "pfad": "apps/needs/modules/16_siegel.js",
+   "sha256": "d26a262f593a75c44d22377059d4d076e4455e9f6bcc68b0c2ea992cd3380d37"
+  },
+  {
+   "pfad": "apps/needs/modules/16b_andock_wizard.js",
+   "sha256": "c415eafdb1b660a5256e19957c667074b64b0c3990cc8acc4daeeef34a57e85d"
+  },
+  {
+   "pfad": "apps/needs/modules/23_rendezvous.js",
+   "sha256": "5aa8262638eeaf70f5e5563592a730f240a95ed80daf41a4df5d7d51824afb74"
+  },
+  {
+   "pfad": "apps/needs/modules/23_rendezvous_ui.js",
+   "sha256": "66b2c6b95d27e35cb3b9697a5edc3250dfb50eb960375f9a68ab696ab05b82d2"
+  },
+  {
+   "pfad": "apps/needs/modules/25_pseudonym.js",
+   "sha256": "8c3092babee80b8fce2c6607cc4c8ced4bbef4addf31a5f0f3de6ba5c92c2ad7"
+  },
+  {
+   "pfad": "apps/needs/modules/noble-secp256k1.js",
+   "sha256": "8f3879ca422c4fdfe7ca0361688636fa7cc550a59bd94d512ed6ec79aa3d55d1"
+  },
+  {
+   "pfad": "apps/needs/sicherheit.html",
+   "sha256": "0611b146bdf466e5cb0957dd341af7498e6fdc155ebaff4432258f8914ba4a65"
+  },
+  {
+   "pfad": "apps/needs/vendor/pdfjs/pdf.min.js",
+   "sha256": "978fd1b2d134a98e98966186a97777bebf87d8e770dadab1ece3687e21a5aa6c"
+  },
+  {
+   "pfad": "apps/needs/vendor/pdfjs/pdf.worker.min.js",
+   "sha256": "38cde5311957b86bc3669f93e7d2566de333a90055ed6635bef60d9bf00e96f2"
+  },
+  {
+   "pfad": "apps/needs/werbung.html",
+   "sha256": "7bc6660c6b1e2bc55633732a69ac09e7d8d43ea0f1f322464283e7134a5ea7c0"
+  },
+  {
+   "pfad": "assets/app.css",
+   "sha256": "a54452052e53baeb81fa07b2ad93cf0be6029ae715e7354e7533d051f6b809c9"
+  },
+  {
+   "pfad": "assets/blp-icons.svg",
+   "sha256": "fa6621677c25237ce082de3af7fcc0ca3f44e78fb928c7bec3426a64fd178fc3"
+  },
+  {
+   "pfad": "assets/demo/beleg-bewirtung.jpg",
+   "sha256": "f93fc949a8f9e17cd625f1a4b073f8c2023ce5c0bbf3368eaae4d26e9ca82dff"
+  },
+  {
+   "pfad": "assets/demo/beleg-buerobedarf.jpg",
+   "sha256": "bbff9dc9d5afb73ca212858e0a52b3bc987193f2cd7eb7cbad79b282d584f436"
+  },
+  {
+   "pfad": "assets/demo/beleg-cloud-13b.jpg",
+   "sha256": "e9e9f2ef1556418d15763be654982aa9d04e2e3fa1139db873bed874067db2a0"
+  },
+  {
+   "pfad": "assets/demo/beleg-hotel.jpg",
+   "sha256": "b3455650fea201f618421944626c69f83cbb0d8576caa8cf800d2e705065a610"
+  },
+  {
+   "pfad": "assets/demo/beleg-quittung-blumen.jpg",
+   "sha256": "e470cdf83a4f3cf0866d1a4c72cec2ebb22a1d4be3c08f4917de981820f37877"
+  },
+  {
+   "pfad": "assets/demo/beleg-tank.jpg",
+   "sha256": "6019552c5b2879c9a4aa858f90cc5111513be6656854f84151647b0c8aac34c4"
+  },
+  {
+   "pfad": "assets/eingang.js",
+   "sha256": "a0f5fcc3644296bde09064d076bc227a97993012a048957136abe1a4b5955a13"
+  },
+  {
+   "pfad": "assets/icon.svg",
+   "sha256": "f5ad0db15f2b5c2f5045218a35230df6bea1a3cf89178f086830aed67999bd67"
+  },
+  {
+   "pfad": "assets/icons/apple-touch-icon.png",
+   "sha256": "a2dbc44f581d481244c3105d68b7e6522a321f156ff1f40c56f1a54aa950d3f3"
+  },
+  {
+   "pfad": "assets/icons/favicon-32.png",
+   "sha256": "b887bacb261c983e3505598e668882f0b661d3311617cb0e0a0d6b50040af70a"
+  },
+  {
+   "pfad": "assets/icons/icon-192.png",
+   "sha256": "86a111acdad76c428609a3afba0ab3313a1101155b720288b2279f8f586c891e"
+  },
+  {
+   "pfad": "assets/icons/icon-512.png",
+   "sha256": "e05a5979de002727794fa08432bb14a899a6fcc0fdd8dd4042e67d52e0d20975"
+  },
+  {
+   "pfad": "assets/icons/maskable-512.png",
+   "sha256": "ac1e64785d37c5f0a8562b3fcfa6e09add1a34f241ddf2e81fae2ea8b19cded0"
+  },
+  {
+   "pfad": "assets/img/cover-640.webp",
+   "sha256": "f30e4fc5f4608b55f5ebfeb9c4d498648711f9b6e1cb1a58ebe139fad39e1e0d"
+  },
+  {
+   "pfad": "assets/img/cover.webp",
+   "sha256": "ccb0b919fa450d8d00d12399ac34fd99d4f03ecfe7c64606140b6b2a6395f02e"
+  },
+  {
+   "pfad": "assets/img/empty-customers.png",
+   "sha256": "00ee988907f0a21b139c6ed05984e76b794ff050679eaafd61f1d0772f80055d"
+  },
+  {
+   "pfad": "assets/img/empty-documents.png",
+   "sha256": "ce757864f3b28d3772c0e4d8266e857bf5c43573f60906d56bd4ae74f11d9f23"
+  },
+  {
+   "pfad": "assets/img/empty-employees.png",
+   "sha256": "c97d4c79d4ece9516eb0171dc6dfebdd96e7fc09f69b79e2d191c7c69f80facd"
+  },
+  {
+   "pfad": "assets/img/empty-journal.png",
+   "sha256": "1d2cce1ca03173575c785f9cc68c400138825e12670ce57ade0f84a8e1593179"
+  },
+  {
+   "pfad": "assets/img/empty-network.png",
+   "sha256": "42931097fd4b47b0b774f9288ed625ff1b50d75642ad12aa5fa08dd8e3c932eb"
+  },
+  {
+   "pfad": "assets/img/empty-orders.png",
+   "sha256": "5c543a202f2c02945a20af963b8e77efbe05f2654da07ce2c5ea1ad510795b22"
+  },
+  {
+   "pfad": "assets/img/empty-reports.png",
+   "sha256": "e88842ee2c9115ee5964171e802744fc28bfac72d0daaf7545c4aee7fa85f338"
+  },
+  {
+   "pfad": "assets/img/hero-lock.png",
+   "sha256": "318ecfe84cd47cb3a60a2fcce26766f7eede58627b4e0facb514c4d15e9fd5c1"
+  },
+  {
+   "pfad": "assets/img/iso-iec.jpg",
+   "sha256": "d9dc2fe6df908b6426d93d61449ac2edd4edcff2c9e3fbb6f7dcd063fe2abd72"
+  },
+  {
+   "pfad": "assets/img/og-image.png",
+   "sha256": "d441de157aebaa1414e998797ffefd130a2927ee2514a743ddad6e093929e3fc"
+  },
+  {
+   "pfad": "assets/img/onboard-backup.png",
+   "sha256": "78633367bedff51d232dccbd500ee9b0f38d471f0351a02948176049e7355071"
+  },
+  {
+   "pfad": "assets/img/onboard-key.png",
+   "sha256": "a4e1a19f64bcbeac2e4571f94a894336420e6ad2ba0faa84cd0f3c0a27a8a4bc"
+  },
+  {
+   "pfad": "assets/img/onboard-shamir.png",
+   "sha256": "7de7e6ff1921ecb499cad1c73237a1335096afa330eaad330091bfc4fe71b523"
+  },
+  {
+   "pfad": "assets/installieren.js",
+   "sha256": "e0644084e2e72773608633190a3e5ed287f93d88f438e7473f03c765c7f873c3"
+  },
+  {
+   "pfad": "assets/pb-icons.svg",
+   "sha256": "a75e7c8fbef3f015d6686b1f2b8eb1c2ae9f2935167a7c49a9773efcfc8eea2e"
+  },
+  {
+   "pfad": "assets/pruefer-anhang.js",
+   "sha256": "c31ddb5cebc293b542e781a5d1f3bca6d558da227db997822c73b2b8a4c1ea17"
+  },
+  {
+   "pfad": "assets/pruefer-formate.js",
+   "sha256": "c7206f163521fd3cf1b09845a7e547e912564838ff1bf899c2575366764d15cd"
+  },
+  {
+   "pfad": "assets/pruefer-mail.js",
+   "sha256": "cdf3ca7881bfa68763a2c0be7436d35a65bea4dbd03f606e02eaec5c613632d7"
+  },
+  {
+   "pfad": "assets/reinigung.js",
+   "sha256": "c3420fb57875db193096b13bd586387d41b383bd9625b54145dece8c4b65ac0e"
+  },
+  {
+   "pfad": "assets/tokens.css",
+   "sha256": "47ef6be4c24543092a7fd6379db7f0bdaf5f4e6f31fefa91450d04d1fb2cd281"
+  },
+  {
+   "pfad": "assets/wfpdf/HERKUNFT.json",
+   "sha256": "ea0d69a41b9e23b16182e1d938f683d9c5c31f1413fdb37df0c816d601b9c171"
+  },
+  {
+   "pfad": "assets/wfpdf/blatt.js",
+   "sha256": "88e8ae8c03b662ce7f8bbfe0401cd0c5c59ca78a5b788b747518ace1d90a7188"
+  },
+  {
+   "pfad": "assets/wfpdf/fontkit-LICENSE.txt",
+   "sha256": "9855615bf84733e86e0b527971ed2c1e479c6c9aef2e003d9229154ea688191e"
+  },
+  {
+   "pfad": "assets/wfpdf/fontkit.umd.min.js",
+   "sha256": "d8df561b9fba98e24f2e5130e40948809281bbbc55a20c412359f1a0a5eb35a6"
+  },
+  {
+   "pfad": "assets/wfpdf/fonts/NotoSans-Regular.ttf",
+   "sha256": "f3961a9cde016d41a4879aecda1474d3a36d6bf54fa0e4643de029cc2248b0e8"
+  },
+  {
+   "pfad": "assets/wfpdf/fonts/OFL.txt",
+   "sha256": "cee9892f9f0cc8fe882c9e9537ee6a89621d86ee7ceaf70b02e2b2b1c25c061a"
+  },
+  {
+   "pfad": "assets/wfpdf/pdf-lib.min.js",
+   "sha256": "0f9a5cad07941f0826586c94e089d89b918c46e5c17cf2d5a3c6f666e3bc694f"
+  },
+  {
+   "pfad": "assets/wfpdf/scan-bild.js",
+   "sha256": "96da5878d68d42e4e66ad48247bba998e543a4249a7074c38bcb58852b0dc739"
+  },
+  {
+   "pfad": "assets/wfpdf/scanner.css",
+   "sha256": "21c160a9e91918b56f13fce2e94b464eb2a05238808237122171116c83ca6ac4"
+  },
+  {
+   "pfad": "assets/wfpdf/scanner.js",
+   "sha256": "ef9db8c62ed8eab72aed6a3b81788ef8bc3c0cf299467066ad68c3e3a3cbe4cb"
+  },
+  {
+   "pfad": "assets/wfpdf/zip.js",
+   "sha256": "5c5a721c9a13aa551f453b3d42f9c4fcbe49555276a70ff53959e01caba0dce3"
+  },
+  {
+   "pfad": "datenschutz.html",
+   "sha256": "c9619f894fe1e545c9fd2ca51f7d691ec46f801b8a9431625dc47ae7a24ffabf"
+  },
+  {
+   "pfad": "docs/ABNAHME_CHECKLISTE.md",
+   "sha256": "0e9c45333e006a5ba75adf9708f9aea8641ed256d51b853366a96c9e4d4f9cba"
+  },
+  {
+   "pfad": "docs/AI.md",
+   "sha256": "de0d8f1ca81cf6903f0b67ccfa2c56d766c3598a079aa7f1ecea5d9492b8ca7d"
+  },
+  {
+   "pfad": "docs/APPS-CALCULATE-NEEDS.md",
+   "sha256": "2e74a4a31ca3f82203db09f67fb7c710e11879edd5fd23ededa6c97cecc00312"
+  },
+  {
+   "pfad": "docs/BAUPLAN.md",
+   "sha256": "45bac4a7184febe51a35f4955ba462a8fa2a6bf1c366b1afb86f93f0d64a0d13"
+  },
+  {
+   "pfad": "docs/BRIEF_ABSCHLUSS_2026-10-26_PLANUNG.md",
+   "sha256": "54db9d9975c899004aa3cf11d2d0d94ab04b7b6495de9d3a7e447c8286051728"
+  },
+  {
+   "pfad": "docs/BRIEF_BLP_ECHTES_EMBEDDING_EU.md",
+   "sha256": "6cb6d777c984b12b22d21119f99461856cda76d5385341b48788ea83fc78f152"
+  },
+  {
+   "pfad": "docs/BRIEF_NACHFOLGE_2026-10-26_BAU-PRIVAT.md",
+   "sha256": "2ab792ac102a75c59124fca7bf1c3acf339263a64b8c905b46619b764bed6439"
+  },
+  {
+   "pfad": "docs/CONNECT.md",
+   "sha256": "0ab89d2bcbfff265ee1fcb3da458e80d6c559182fc9379e45f9bda7772b21376"
+  },
+  {
+   "pfad": "docs/DATENSICHERUNG.md",
+   "sha256": "f956bb58bf24d0f6d740753e44b40ad8b0f53e63ab2eb4b1a2213851971cfa81"
+  },
+  {
+   "pfad": "docs/DATEV_IMPORT.md",
+   "sha256": "4af5f28f628d551ba3727e6735e6bbd02636fa3e134d720bd6a2548bd3ca0e20"
+  },
+  {
+   "pfad": "docs/KALKULATION_KATALOG.md",
+   "sha256": "f8e28124d76e9a439a47b30eb411d7aa5a56e8b9274334dd8c7ccaeccacbcd11"
+  },
+  {
+   "pfad": "docs/KONZEPT_DATENSCHUTZ_MODI.md",
+   "sha256": "acfc4b3a814c380dc64fb8200137c28b915a877fe32d1e61734c3459702f4138"
+  },
+  {
+   "pfad": "docs/LOHN.md",
+   "sha256": "4aef97bdacda428b46550482fa3aafc743a91a1de178e635adb3dfbcd8d07ec5"
+  },
+  {
+   "pfad": "docs/MAIL-TEILEN.md",
+   "sha256": "7b77be5e61e0fcaa8e84c5664a6e639430e9308d65d3b902bbcd2fe061889cbe"
+  },
+  {
+   "pfad": "docs/MANDANTEN.md",
+   "sha256": "fa9e933bfb8118c443cafef94f790c6290c84a29b52fae41b81056f1c60f2df4"
+  },
+  {
+   "pfad": "docs/NACHFOLGE_PLAN.md",
+   "sha256": "34862a2626868c1960ce0012b9da296e6970c28a9d2e6e77609399be0f42a768"
+  },
+  {
+   "pfad": "docs/NAECHSTE_SITZUNG.md",
+   "sha256": "905d7e84bdf200d6eb905dff4dd729ff8333d3aec47e8d7c8a1ea88f0e98233b"
+  },
+  {
+   "pfad": "docs/OFFENE_PUNKTE.md",
+   "sha256": "8e0c336ce80d938d9c757472626531aa3667e957db7b2ccb13a5ae11ad062824"
+  },
+  {
+   "pfad": "docs/SAGE_ANDOCK_BRIEF.md",
+   "sha256": "587c8d8ab0455f7f79d1121008e96b301945bc675d8fa1b5661dd02470efd42e"
+  },
+  {
+   "pfad": "docs/SAGE_BROWSER_LEHREN.md",
+   "sha256": "39593be0a989384b000fe71384f237ea508622b163c23271b97cc281be044158"
+  },
+  {
+   "pfad": "docs/SAGE_E2E_ANFRAGE.md",
+   "sha256": "6526ff72f42cbf7161329d3abe5012b2305da17def8c3f99d1f56f55754e88a8"
+  },
+  {
+   "pfad": "docs/SAGE_SYNC_BRIEFKASTEN.md",
+   "sha256": "f64867d86f8cd7a744d1eaa194c4fe356e40bb7ebf8b796e4729928f55dc0680"
+  },
+  {
+   "pfad": "docs/SBKIM-SUCHE-MUSTER.md",
+   "sha256": "3851f3b8c37463e7c5d48025bd1f6bdb8f5455ba84ac6d00b74ca1e31ea1322e"
+  },
+  {
+   "pfad": "docs/SCANNER-IN-BLP.md",
+   "sha256": "93c0908c447cad51c5bf6065d080db197c6c99ae92e4637790264e4c97d99781"
+  },
+  {
+   "pfad": "docs/TESTDATEN.md",
+   "sha256": "fe48edddedf70164cbbc99f258ca81e4774246dd172c0d8713bb030f6bdb00bf"
+  },
+  {
+   "pfad": "docs/TESTPLAN.md",
+   "sha256": "70aadbc6d3015b87b987e5f5ac1b5dab18abe4e1ee603c0b66cac57c478b9d15"
+  },
+  {
+   "pfad": "docs/TEST_MODUS.md",
+   "sha256": "0682a8da660271cbb93cfd0a608a99ad510e5e9d37c1e0add77b76461f6ccd45"
+  },
+  {
+   "pfad": "docs/TRANSPARENZ_ZWISCHENSTAND.html",
+   "sha256": "7ec1cef676f1dfb6c1fb7482bec135bfb00602713f2a000615ac3bb9728bd391"
+  },
+  {
+   "pfad": "docs/UEBERNAHME_SHOP.md",
+   "sha256": "fa2ed2da11bdfdce93c6126ee2af11a4c7e617c137a38d5ef6c1e3b43a3f83be"
+  },
+  {
+   "pfad": "docs/UEBERNAHME_TOMY.md",
+   "sha256": "f92a3cbbb7b95ee7345ce86d2677f658c0105abfb382560dc74ae7693ca47d33"
+  },
+  {
+   "pfad": "docs/WORKFLOH_IMPORT.md",
+   "sha256": "a0c1c152c0fa87acb38ded6e293ace27426de146ed3268f91fefa6afec0dda9d"
+  },
+  {
+   "pfad": "docs/WORKFLOW-PDF-EINBINDUNG.md",
+   "sha256": "2997f22d446e1b5c6cdf93b6397c904c4d021f862469dc7ee80085736dcafb8a"
+  },
+  {
+   "pfad": "docs/archiv/CLAUDE-2026-08-22.md",
+   "sha256": "b939ae1d58fe3dd8c206cb76263ec3cad1e35a68c0cdd7a62b7d6997b979b218"
+  },
+  {
+   "pfad": "docs/design/BEFUND-OFFLINE-UEBERSETZUNG-2026-10-26.md",
+   "sha256": "3e73824a78124d77b752dbc8e8ef3438ee592fe7d329ddc802753cd5a7e8af30"
+  },
+  {
+   "pfad": "docs/design/ELSTER-ERIC-RECHERCHE-2026-10-26.md",
+   "sha256": "44a7414c5ec3d6265fa7287593c0739c6fd62e76a55cd249d65f0cc621b8c188"
+  },
+  {
+   "pfad": "docs/design/PLAN-CALCULATE-NEEDS-2026-10-26.md",
+   "sha256": "452ee49ad3877d8268b3d9a27e627843c70263f62234eacaf6871c8778d754e3"
+  },
+  {
+   "pfad": "docs/design/PLAN-STEUER-ZUORDNUNG-ELSTER-2026-10-26.md",
+   "sha256": "06ef7599e415287e5138f87d42b46ae60ac171e39a2dedeae125f1d523942622"
+  },
+  {
+   "pfad": "docs/design/PLAN-SUCHE-MIKRO-ANONYM-2026-10-26.md",
+   "sha256": "067d709afb2ac208a656d51683059371846a45193dd495756323a04a5fad0b17"
+  },
+  {
+   "pfad": "docs/design/PLAN-TRESORORDNER-2026-10-26.md",
+   "sha256": "a9d6b23d863081cfa7dc3bdb50f83832f1bcd43834ebe466097fdce4658f2046"
+  },
+  {
+   "pfad": "docs/design/PLAN-WORKFLOH-BRUECKE-RUNDLAUF-2026-10-26.md",
+   "sha256": "808646f7e21b84ce0ba5219ef08490257aa773c59eaa5ff66c92ca561a12cc33"
+  },
+  {
+   "pfad": "docs/design/SAMMLUNG-DESIGN-2026-10-26.md",
+   "sha256": "98f124733b388d38ab9debedafadfbb1286f2be402ca6093de71b5fe80a4bbc7"
+  },
+  {
+   "pfad": "docs/design/WORKFLOW-PDF-EINBINDUNG-PLAN-2026-10-26.md",
+   "sha256": "0297bad4a4f2da90bbce90b99336eca8b612d80283f0a39d5a8218841b2a264c"
+  },
+  {
+   "pfad": "docs/design/ist-2026-10-26/phone-startseite.png",
+   "sha256": "4cff77ff186b7a7801a4a594f51e59b3024bf2a81cb311e9cdd401b573d63c49"
+  },
+  {
+   "pfad": "docs/design/ist-2026-10-26/phone-uebersicht.png",
+   "sha256": "36a107fb51da1a770fdca07ff3355a81d2432ef6feb8188be225ab1563824922"
+  },
+  {
+   "pfad": "docs/design/ist-2026-10-26/wide-belege.png",
+   "sha256": "e55e29640f9e7e737f94a752ca921e7864625fbf0087c9b368aaba949f2b3f0a"
+  },
+  {
+   "pfad": "docs/design/ist-2026-10-26/wide-journal.png",
+   "sha256": "420f18434184b89bdf79bf304ce9135c639a21014dfdeeec1310c2541b1f333c"
+  },
+  {
+   "pfad": "docs/design/ist-2026-10-26/wide-startseite.png",
+   "sha256": "20fb4ceb3ebdd3275284560838df167e4be70567afd7776193b5d7ecaf1d671f"
+  },
+  {
+   "pfad": "docs/design/ist-2026-10-26/wide-uebersicht.png",
+   "sha256": "b040b465ccb1b863f3269664ccc544511f5a7ab294608f9ea2423f988a66119f"
+  },
+  {
+   "pfad": "docs/design/umbau-2026-10-26/README.md",
+   "sha256": "9bbc127c85f7d2f759fce75f6d9473fda9643dba2f478c3d74684937ca874519"
+  },
+  {
+   "pfad": "docs/design/umbau-2026-10-26/fotos/dashboard-1024-100.png",
+   "sha256": "405f1d39b354fc67525e37422fa6a2264cec8a3059d9baaa5f72685b6b704f79"
+  },
+  {
+   "pfad": "docs/design/umbau-2026-10-26/fotos/dashboard-1024-200.png",
+   "sha256": "1057212d102398d1a55e1bda98beec31daf3a9cdc2f47ad03ffeb94417adbedf"
+  },
+  {
+   "pfad": "docs/design/umbau-2026-10-26/fotos/dashboard-1366-100.png",
+   "sha256": "320c9a283fc8862843bc29ff7a0c222b328ce00570dce60adc2b971f799db490"
+  },
+  {
+   "pfad": "docs/design/umbau-2026-10-26/fotos/dashboard-1366-200.png",
+   "sha256": "53f6a80c840b6dffbdd311d0a5f02752b3141c987d66fa7ca540d492c8e01e3d"
+  },
+  {
+   "pfad": "docs/design/umbau-2026-10-26/fotos/dashboard-320-100.png",
+   "sha256": "95546b4710e2b34fd5a6777293e0fcc9decd0341bd689ae22bef57764bdd728f"
+  },
+  {
+   "pfad": "docs/design/umbau-2026-10-26/fotos/dashboard-320-200.png",
+   "sha256": "93ce67a4ae3cd2e43e3cdaa4b5e477741d232dbdffe737888ea6b83581cfb1d7"
+  },
+  {
+   "pfad": "docs/design/umbau-2026-10-26/fotos/dashboard-390-100.png",
+   "sha256": "97398cd0b03920a2e0b276e19d5e66060a44699370cffa8e7fe5f77bbcbbbb2c"
+  },
+  {
+   "pfad": "docs/design/umbau-2026-10-26/fotos/dashboard-390-200.png",
+   "sha256": "54fc3132904c1ce73040be2521acefb3b59046372db8cff109c113227fae8c81"
+  },
+  {
+   "pfad": "docs/design/umbau-2026-10-26/fotos/dashboard-768-100.png",
+   "sha256": "3c408ddc2d7679ee6446aec1a224c919c2e1bdfdaf0103d0de698eae4d02bdcd"
+  },
+  {
+   "pfad": "docs/design/umbau-2026-10-26/fotos/dashboard-768-200.png",
+   "sha256": "bbbb9bae20421bc1b2b1b86e850fa530238a4ed08bbffdb81b76a568cb776b84"
+  },
+  {
+   "pfad": "docs/design/umbau-2026-10-26/fotos/deckblatt-nachtpetrol-1366.png",
+   "sha256": "66660cd31ead3effb65afcf84871f801d9f77eb0ba044da94a0cb36d9b11fb7f"
+  },
+  {
+   "pfad": "docs/design/umbau-2026-10-26/fotos/documents-1024-100.png",
+   "sha256": "678e6751e2d7cb2d47741fc8004a91669e49001a49903288d5d1383e4be16003"
+  },
+  {
+   "pfad": "docs/design/umbau-2026-10-26/fotos/documents-1024-200.png",
+   "sha256": "e4150e5930f8c243b3aad92d3268ae3ae2cd65ebc33fffbfa1f987808734258e"
+  },
+  {
+   "pfad": "docs/design/umbau-2026-10-26/fotos/documents-1366-100.png",
+   "sha256": "cd3c5e1c0d09cda40fa1640b6400f07ad0ba21fbae9ebed299f304ab9221ffdc"
+  },
+  {
+   "pfad": "docs/design/umbau-2026-10-26/fotos/documents-1366-200.png",
+   "sha256": "540782412e3e87be86bab582b6a999c176a3ab26114703b3bc05a6a668f8fea4"
+  },
+  {
+   "pfad": "docs/design/umbau-2026-10-26/fotos/documents-320-100.png",
+   "sha256": "6c840787da5b0f153d2492c42255c5cec34c2f19442caec8788f0dd5563b515d"
+  },
+  {
+   "pfad": "docs/design/umbau-2026-10-26/fotos/documents-320-200.png",
+   "sha256": "67b76c809cf0c9bcb84a0d219d397b331ba119fd4931c58f7cae6f8df00b063e"
+  },
+  {
+   "pfad": "docs/design/umbau-2026-10-26/fotos/documents-390-100.png",
+   "sha256": "82cc002d8774654888f764557a5b374a7c7225bdb579a3b959032b76d644d20c"
+  },
+  {
+   "pfad": "docs/design/umbau-2026-10-26/fotos/documents-390-200.png",
+   "sha256": "24c4747204c3473d9718fbee3088092e84d4b51c69c9e7ffbcb2e8e35aac214c"
+  },
+  {
+   "pfad": "docs/design/umbau-2026-10-26/fotos/documents-768-100.png",
+   "sha256": "47420d76d195c931a33785aa2f1fe82dcce3c3f9b910b5fbd8089af4b01fbf89"
+  },
+  {
+   "pfad": "docs/design/umbau-2026-10-26/fotos/documents-768-200.png",
+   "sha256": "9ade00909ceba4e2d1f69d2c44fb9c0da915ae1bb1f9b608a5e5c35b7d82c9ab"
+  },
+  {
+   "pfad": "docs/design/umbau-2026-10-26/fotos/einrichtung-fertig-privat-1024.png",
+   "sha256": "1e5eae2634d6c5f09353f54b424761b07f492e4736de10cf0fb9bec506ea3e84"
+  },
+  {
+   "pfad": "docs/design/umbau-2026-10-26/fotos/einrichtung-modus-1024.png",
+   "sha256": "f17e2cb88305f01d5aa65f8bf5fce08dd7494f2822b0f49b90f7dddd476895d3"
+  },
+  {
+   "pfad": "docs/design/umbau-2026-10-26/fotos/einrichtung-shamir-1024.png",
+   "sha256": "89d9eab2a48f31d36a79e8b280652c075e739481a33334dc0523794c5bddfc14"
+  },
+  {
+   "pfad": "docs/design/umbau-2026-10-26/fotos/journal-1024-100.png",
+   "sha256": "71a13ce69b29ba396fc0e0ae41ad3c1f12f6ff05b8b58033260a528ed6d9f61c"
+  },
+  {
+   "pfad": "docs/design/umbau-2026-10-26/fotos/journal-1024-200.png",
+   "sha256": "469d33f53372f13d2af661b3ac61b7fa7dcdefb9c860ab54f8521808d07aa4e8"
+  },
+  {
+   "pfad": "docs/design/umbau-2026-10-26/fotos/journal-1366-100.png",
+   "sha256": "8517732beab3563cadf477691df99c8a2d789a47eab444283cf048e70f64f73e"
+  },
+  {
+   "pfad": "docs/design/umbau-2026-10-26/fotos/journal-1366-200.png",
+   "sha256": "1e00a426e92a2f81dccb78b2a4949d016cc7cf272e344fcedae61d7111b1a3e9"
+  },
+  {
+   "pfad": "docs/design/umbau-2026-10-26/fotos/journal-320-100.png",
+   "sha256": "64f2cb3555a827325513de87cc228c575a1edc291cff838efcdcb0f335a6cce9"
+  },
+  {
+   "pfad": "docs/design/umbau-2026-10-26/fotos/journal-320-200.png",
+   "sha256": "3f532244c0a83ed90cba00e9e4ba431eff93fa08567416590ea246b518e72464"
+  },
+  {
+   "pfad": "docs/design/umbau-2026-10-26/fotos/journal-390-100.png",
+   "sha256": "14f4176caf530636a382f835a2a21c3652cb07c1c5d4ac233b5fc025f69aea91"
+  },
+  {
+   "pfad": "docs/design/umbau-2026-10-26/fotos/journal-390-200.png",
+   "sha256": "3953b87ba36fcce3bf70bcda9007fb4955f3472c69b2aff3e1de2bdfd1d03042"
+  },
+  {
+   "pfad": "docs/design/umbau-2026-10-26/fotos/journal-768-100.png",
+   "sha256": "7cce3d7a49e94dcc626e61e373448584632ca2e88cd5391030c4f88182e03c6d"
+  },
+  {
+   "pfad": "docs/design/umbau-2026-10-26/fotos/journal-768-200.png",
+   "sha256": "815e2f5fc2f6ebc128206cfb719fda2cebb18275f3bd0f4948c1518bcc25e7af"
+  },
+  {
+   "pfad": "docs/design/umbau-2026-10-26/fotos/palette-dunkel-390.png",
+   "sha256": "2d6c248d177d00e6587a121ed665cf7492bade300128c3cda0ea55c93349b6ca"
+  },
+  {
+   "pfad": "docs/design/umbau-2026-10-26/fotos/palette-offen-390.png",
+   "sha256": "d8587901a2c78b5a212417212851479eb1cd668988c9f9862381ca0211a0f34b"
+  },
+  {
+   "pfad": "docs/design/umbau-2026-10-26/fotos/phone-390-schublade.png",
+   "sha256": "d7d6297bf42b58c65e85a0a7e8500c59c0f5a26abec145ae6f4656ba539f2f7c"
+  },
+  {
+   "pfad": "docs/design/umbau-2026-10-26/fotos/privat-einstellungen-1366.png",
+   "sha256": "bf278559e5041f9089a88363aa61a3c7d8e7f8b453ea630279d7811e2757f946"
+  },
+  {
+   "pfad": "docs/design/umbau-2026-10-26/fotos/privat-uebersicht-1366.png",
+   "sha256": "58fac7591c3520e55fc91391914769d4bf1bc6cf3786dcf0ad8b2c8eaaa25198"
+  },
+  {
+   "pfad": "docs/design/umbau-2026-10-26/fotos/schublade-390-100.png",
+   "sha256": "2cf58652ae4b2a6e469bbcf04ecc965d7716aba8db4a135d7a8f2611da018cc6"
+  },
+  {
+   "pfad": "docs/design/umbau-2026-10-26/fotos/schublade-390-200.png",
+   "sha256": "b6c31576ba0dfa7710cc49eff7a74f223b6a372e751ff365bdad2864f2f467a2"
+  },
+  {
+   "pfad": "docs/design/umbau-2026-10-26/fotos/settings-1024-100.png",
+   "sha256": "fd69605921b6e00cb469081ea9af3200ef70185ece7476b840cc009f9dbc7fd2"
+  },
+  {
+   "pfad": "docs/design/umbau-2026-10-26/fotos/settings-1024-200.png",
+   "sha256": "baf141a521ea1bfed5b9c023458c5ab264dc9aff93366398a6767a69af86a2ad"
+  },
+  {
+   "pfad": "docs/design/umbau-2026-10-26/fotos/settings-1366-100.png",
+   "sha256": "00b9856e40e37673ce4afc2dbb71597b593c610e4f1762cc0bfefbb3f5a64414"
+  },
+  {
+   "pfad": "docs/design/umbau-2026-10-26/fotos/settings-1366-200.png",
+   "sha256": "b1eb7f1e24a3e3adb16646c3be0f816e9481dbc5917f58b21d1f67323d0830b3"
+  },
+  {
+   "pfad": "docs/design/umbau-2026-10-26/fotos/settings-320-100.png",
+   "sha256": "5045b1b27da36c043a0edad6f8b73396705215f40a57cf5b13f0e08545ab7934"
+  },
+  {
+   "pfad": "docs/design/umbau-2026-10-26/fotos/settings-320-200.png",
+   "sha256": "331a59e09790e2e3e23d63cd6b8808b71d631060f77b3f711d44a2f0d8f6c944"
+  },
+  {
+   "pfad": "docs/design/umbau-2026-10-26/fotos/settings-390-100.png",
+   "sha256": "2d5c3be11d33fa0afd586250fd9c27ab2e0d6b4d770ba35f705f59072a0221fc"
+  },
+  {
+   "pfad": "docs/design/umbau-2026-10-26/fotos/settings-390-200.png",
+   "sha256": "2034ebd8a035bbc2d7551851df91a02fccc6979bac3c6dd18e053c5a7c6024b1"
+  },
+  {
+   "pfad": "docs/design/umbau-2026-10-26/fotos/settings-768-100.png",
+   "sha256": "22b6ba9455ec19c0dee10202ef7bab8c2bfc0102a76d9feb1385da066618a033"
+  },
+  {
+   "pfad": "docs/design/umbau-2026-10-26/fotos/settings-768-200.png",
+   "sha256": "64e7a437d95603923a5a7f4750d86a09737106f2a75f77ce597b6fb42613540d"
+  },
+  {
+   "pfad": "docs/design/umbau-2026-10-26/fotos/thema-graphit-1366.png",
+   "sha256": "fdbfd48dcf481cb55becb05118c8194c9f972035742087b492e619890e12ba3d"
+  },
+  {
+   "pfad": "docs/design/umbau-2026-10-26/fotos/thema-klarblau-1366.png",
+   "sha256": "320c9a283fc8862843bc29ff7a0c222b328ce00570dce60adc2b971f799db490"
+  },
+  {
+   "pfad": "docs/design/umbau-2026-10-26/fotos/thema-nachtblau-1366.png",
+   "sha256": "748eaa3b074e345f828f2643c5ddd4545245409079ed271f6a6f5c6e29e3b785"
+  },
+  {
+   "pfad": "docs/design/umbau-2026-10-26/fotos/thema-nachtgraphit-1366.png",
+   "sha256": "009e759bee76feb400ba806d68200e4ab9a22599c4b277d5a7cdce09a1197c40"
+  },
+  {
+   "pfad": "docs/design/umbau-2026-10-26/fotos/thema-nachtpetrol-1366.png",
+   "sha256": "46ae450aa6fbb632a02e1416ddccfe533aa3fabca901109ce9adc833be111aff"
+  },
+  {
+   "pfad": "docs/design/umbau-2026-10-26/fotos/thema-petrol-1366.png",
+   "sha256": "e131988e6c9d561beb9539789cb684a1d497b11ef6b602dc481305f49526a0b0"
+  },
+  {
+   "pfad": "docs/design/umbau-2026-10-26/fotos/ueberlauf-befunde.txt",
+   "sha256": "48e157c111d2766a0991f8a28d1af3af26346da4ceee37cb9fa47512342bd5fc"
+  },
+  {
+   "pfad": "docs/legal/Datenschutz.md",
+   "sha256": "554190ea31e1c33752510917b3022ba760ed57d37ab1f358f7d8f2dbdb031809"
+  },
+  {
+   "pfad": "docs/legal/Verfahrensdokumentation.md",
+   "sha256": "9a5004c0ac5325f89cd54db372460689fa4db33a2dd437ea1e18caa7705611d5"
+  },
+  {
+   "pfad": "docs/sessions/BRIEF_WORKFLOH_BLP_BRUECKE.md",
+   "sha256": "4ce35c0575662b2f5ef41c5226fc08144f1c8ffe205b017be36712769909a1b7"
+  },
+  {
+   "pfad": "impressum.html",
+   "sha256": "31fca0ca2528e402f45efe2c80c7f27770f5252ce4e6ca5f7428c4806b67417f"
+  },
+  {
+   "pfad": "index.html",
+   "sha256": "9d2535f8f9c2f2917169e1984b4e55318b9cf6e54a3024b1cd5e318720adf5b9"
+  },
+  {
+   "pfad": "manifest.webmanifest",
+   "sha256": "05bb2614c1bdfa2973d88482df1f0417b68428a43214c667835405090d4d9366"
+  },
+  {
+   "pfad": "sbkim/01_storage.js",
+   "sha256": "5a5a4bf64dfcc107da7ed70fb755d7db5cce7d80e963b3e2fbc2004537747820"
+  },
+  {
+   "pfad": "sbkim/02_spore.js",
+   "sha256": "0cbf0664e2a79f1301c03e52f7ac0030d4b2961f03b97b38e8634827a52353c5"
+  },
+  {
+   "pfad": "sbkim/03_embedding.js",
+   "sha256": "2e31baa09a2959c95efff8eecd224e8343e75695b4b293aa35209d8f96d1f3b5"
+  },
+  {
+   "pfad": "sbkim/04_match.js",
+   "sha256": "721eecc3c0d6ea4c259259e6071215ec1cd16f1c43c87b42ce9e72e9a0b5e41c"
+  },
+  {
+   "pfad": "sbkim/05_anastomose.js",
+   "sha256": "255ac79aeb3b0203e92f0cebd0a905e47c488b43efe18f41332a7d35520bbf23"
+  },
+  {
+   "pfad": "sbkim/05b_nostr_relay.js",
+   "sha256": "37eee5b196b3efad57131edd1cc3c0ee23acb97b5ca40740d6a0771db4b4a421"
+  },
+  {
+   "pfad": "sbkim/07_apoptose.js",
+   "sha256": "0acdd6ab2d95e131fa6953061cc0e95a2396e05fff091a7dc690b2668a4c035a"
+  },
+  {
+   "pfad": "sbkim/15_membran.js",
+   "sha256": "829a5bc01976b59c5ce428125314b87b314b6212cd5a473634c2d22c02579397"
+  },
+  {
+   "pfad": "sbkim/16_siegel.js",
+   "sha256": "d26a262f593a75c44d22377059d4d076e4455e9f6bcc68b0c2ea992cd3380d37"
+  },
+  {
+   "pfad": "sbkim/17_floating_widget.js",
+   "sha256": "e4ee076c1295910d0e83470ebda327e7419f29bc06f6718148369c8369e1a5ce"
+  },
+  {
+   "pfad": "sbkim/20_schluessel_safe.js",
+   "sha256": "38404dc0a16d69cbbde8dd7ff40d6270161990d7b17bd06b442cdec18a4a19b7"
+  },
+  {
+   "pfad": "sbkim/21_spracheingabe.js",
+   "sha256": "020ca26ff52f2ed726f6344bd3ac55eb52e3472a7f97bdd41bdd0d54132777ba"
+  },
+  {
+   "pfad": "sbkim/23_rendezvous.js",
+   "sha256": "5aa8262638eeaf70f5e5563592a730f240a95ed80daf41a4df5d7d51824afb74"
+  },
+  {
+   "pfad": "sbkim/23_rendezvous_ui.js",
+   "sha256": "66b2c6b95d27e35cb3b9697a5edc3250dfb50eb960375f9a68ab696ab05b82d2"
+  },
+  {
+   "pfad": "sbkim/25_pseudonym.js",
+   "sha256": "8c3092babee80b8fce2c6607cc4c8ced4bbef4addf31a5f0f3de6ba5c92c2ad7"
+  },
+  {
+   "pfad": "sbkim/AUSTAUSCH-SB-KIMTool-Point.md",
+   "sha256": "8c0d5ad3bc6a078c6f78d1cf9489215e0e699fb3474942f50210aaf76ff66a37"
+  },
+  {
+   "pfad": "sbkim/AUSTAUSCH-Sage.md",
+   "sha256": "64de35cfc72761b7327d4588c3529322bcfc1c8f2681e5e4c4624c42e18a58af"
+  },
+  {
+   "pfad": "sbkim/AUSTAUSCH-template.md",
+   "sha256": "5650a0dc6bccb6c4ff5e221272a476ea173b91e9d8156d1c29fab8164f279fac"
+  },
+  {
+   "pfad": "sbkim/README.md",
+   "sha256": "156f9335b4ed1b8fc9ed9c5da048da33160dfd160ce6e5c12ace67a510b4286f"
+  },
+  {
+   "pfad": "sbkim/SB-KIMTool-Point_inbox.json",
+   "sha256": "f02e5b32c70eae82417ee9e65356a30c869e739f22ffd1065d325bebe8a1f296"
+  },
+  {
+   "pfad": "sbkim/SB-KIMTool-Point_inbox.verify.md",
+   "sha256": "dba621a62f287accfa7ed1760a7c67f8cc99a8ef17ccd66237e4a0e72d8e0ed9"
+  },
+  {
+   "pfad": "sbkim/SIGNAL.json",
+   "sha256": "44d286f1fb2dd6136024b12d433db63b2f1b87b1cf5311c82bc376c12ed4b45a"
+  },
+  {
+   "pfad": "sbkim/SIGNAL.template.json",
+   "sha256": "b4318783444be144cec0bc487e7d7f963b45cf47f44916a55a085ab50a89969b"
+  },
+  {
+   "pfad": "sbkim/Sage_inbox.json",
+   "sha256": "1825135d50530826e96925573aa8392e2993fe06789e92516fbaae76a4824d60"
+  },
+  {
+   "pfad": "sbkim/Sage_inbox.verify.md",
+   "sha256": "ab9c10768f871d649b8cb9825318e34fb819566e38a3202f4b34dc34a5083dfb"
+  },
+  {
+   "pfad": "sbkim/andock.html",
+   "sha256": "d95cbff2e3f6aebabfed7f9a6d812aabafd5301c3217f40e10021d1c32a8d26a"
+  },
+  {
+   "pfad": "sbkim/mycelknoten.html",
+   "sha256": "cb918c7d263aa3e993f220eaef49160d8db3d2453072464df3929c4f8564690c"
+  },
+  {
+   "pfad": "sbkim/noble-secp256k1.js",
+   "sha256": "8f3879ca422c4fdfe7ca0361688636fa7cc550a59bd94d512ed6ec79aa3d55d1"
+  },
+  {
+   "pfad": "sbkim/sbkim-init.js",
+   "sha256": "8d99a8bf62b303d9e1b4e155f9dff1954c12346d87db3ddaaa2936f079b6ebae"
+  },
+  {
+   "pfad": "sbkim/siegel-inhalt.js",
+   "sha256": "4905e8ef6f36caa875fcf62cd883b012a983810042ed1bf6fe01c5d3dbeae34e"
+  },
+  {
+   "pfad": "sbkim/spore.json",
+   "sha256": "d43b1a4b5464e3760af35e3ea8cc82bc3a1caa0fc83e2e2f0fb4fff9cd8cd8f0"
+  },
+  {
+   "pfad": "sicherheit.html",
+   "sha256": "733625042a4bbd400d79f6ec66981e10bd2c30dbe35e7e90865848d81d41569a"
+  },
+  {
+   "pfad": "src/ai/aiConfig.js",
+   "sha256": "ff33e1ac7efe2a94b07a8b362b9cd9992c649eea07f9a015684ddc0855cdbd06"
+  },
+  {
+   "pfad": "src/ai/anbieter.js",
+   "sha256": "91892f05815a68724fec072064add2e701702f1c6f56a0ad896a9116c83b5708"
+  },
+  {
+   "pfad": "src/ai/anker.js",
+   "sha256": "53f1264bf0863ed3aa2d85157eb1cca66dfba69af4c2ce46d94c5b206fb14eda"
+  },
+  {
+   "pfad": "src/ai/belegRichter.js",
+   "sha256": "014194cf9332e0db48977d1b332aedd29079d3bf57291f1e9348e88f573d88b8"
+  },
+  {
+   "pfad": "src/ai/berater.js",
+   "sha256": "e106294dcfff04dbc4099e28b63ef00c8d6f77e452f5e2956d5935edbce2134c"
+  },
+  {
+   "pfad": "src/ai/briefkasten.js",
+   "sha256": "47d00cfa1b8d5eb826bc138a578c8dcf4362b9191dfa3a99c14c706e1cd1ac73"
+  },
+  {
+   "pfad": "src/ai/categorize.js",
+   "sha256": "7b1f9ee2d5d61e299c9d5c679d87ca6d6d76ff6ba6cd4dc927dba65b28c7965a"
+  },
+  {
+   "pfad": "src/ai/extract.js",
+   "sha256": "127779c68d91bc49db9ab4d1434edb1632a4b81972c9dd609265af1071af6e5d"
+  },
+  {
+   "pfad": "src/ai/kiVorbereitung.js",
+   "sha256": "5fd3d1ef3838b859c568861aa7111d48d1b57acc1d3c707d8acbc330ae18ec07"
+  },
+  {
+   "pfad": "src/ai/mistral.js",
+   "sha256": "146f89af2dfc034ec2aab5e3ebd2ee7af7aeb176c99400d7d1645971e4630408"
+  },
+  {
+   "pfad": "src/ai/mistralOcr.js",
+   "sha256": "a2099810491519760ad42ec6ee83bc9ded9a0ed3f2253f327840a3840ce3da3d"
+  },
+  {
+   "pfad": "src/ai/namensmuster.js",
+   "sha256": "313f15948efcff5b2c52b1c9555c940f60185ccae9b53328c65829fc29524089"
+  },
+  {
+   "pfad": "src/ai/namensvorschlag.js",
+   "sha256": "4b9f0a32b94202ce32b6831c80bf77f47a9a4aeb1ed9502a560fb9ddbf31bb7d"
+  },
+  {
+   "pfad": "src/ai/ner.js",
+   "sha256": "8fd0f684ec88ccf1b3fe0a5449637f154a29b73715dfebe67248f10cb8df851a"
+  },
+  {
+   "pfad": "src/ai/pseudonym.js",
+   "sha256": "312e9a7f93200895af4bb357d4fbfa45ae62e55a769e283838aa5808f9bb82bc"
+  },
+  {
+   "pfad": "src/ai/schluesselabgleich.js",
+   "sha256": "0771b9c246ff3e3458ea552442174d4c1de37cca8290933805343347e35ac769"
+  },
+  {
+   "pfad": "src/ai/speech.js",
+   "sha256": "88e644e00d3be0bba18602fd82e91cd8061f800bdd77dce43496e7285d9cf7ce"
+  },
+  {
+   "pfad": "src/ai/suggest.js",
+   "sha256": "e0df4668c95fa4a78617ff2a5e7ea8135678fe6bc7d665f6ccbcee3147506c63"
+  },
+  {
+   "pfad": "src/ai/taxAssist.js",
+   "sha256": "475db9509acb3ee7074096898df099fa8b5bfce92b3279d26bfda1bbcddaa6ad"
+  },
+  {
+   "pfad": "src/ai/vision.js",
+   "sha256": "026c57a05703fb11fde1fbab1cf346c78f2ce61ed849d1b96606b19bde821000"
+  },
+  {
+   "pfad": "src/core/backup.js",
+   "sha256": "472f94c570c3659eae62916d42ca52b855de91d501015511de2e6f4ea7dc0237"
+  },
+  {
+   "pfad": "src/core/backupOrdner.js",
+   "sha256": "8ed2dd3b14bd33e104ebbbb8deb2fa4b53456635bfd31d15688539bb0adb8db3"
+  },
+  {
+   "pfad": "src/core/crypto.js",
+   "sha256": "7dae034fe4468ee731a1eb4ed3daf43f1cbd6a4c1edb6f42dd2bf3581dd06ee7"
+  },
+  {
+   "pfad": "src/core/db.js",
+   "sha256": "a8e6941e443e8ff4e904e15c8e53ed61aecfb1c0f7188f1288fa3c8dc24f41aa"
+  },
+  {
+   "pfad": "src/core/durability.js",
+   "sha256": "46ec453a4e58f03519cc1a5b23067e0e99745cfaacfcaec078812a936a94997c"
+  },
+  {
+   "pfad": "src/core/files.js",
+   "sha256": "6c622a41e45c47809f68a6ae33031674f574cf186993a0d401664e8a9da55291"
+  },
+  {
+   "pfad": "src/core/mandantenStore.js",
+   "sha256": "e56f9ba64970ebf467047b57573c33883d43ed7f0709f791115dcd97b7f92310"
+  },
+  {
+   "pfad": "src/core/qr.js",
+   "sha256": "6d30ee50dd0ed6d732f13e1a9b4eafab39f1bbcba37ad765f647157df5a5d969"
+  },
+  {
+   "pfad": "src/core/safebox.js",
+   "sha256": "4fdf587bb84ddea8863177259615f648bb42ad4875f64d7e5328d33ba6f63ed9"
+  },
+  {
+   "pfad": "src/core/sandboxStore.js",
+   "sha256": "10b62fa2ad85cb3725ef41f04eadc54521327b182c4d4d1c71463a8fbfb05fdb"
+  },
+  {
+   "pfad": "src/core/scanPdf.js",
+   "sha256": "6649c9c41f72a1cb21be69a7aa935341b4f26ba57842604bda276ff534f08d6c"
+  },
+  {
+   "pfad": "src/core/shamir.js",
+   "sha256": "3c359c879d5ccf89bacf8df1c25df8f74810618a85fa895ef36ca35aeea21238"
+  },
+  {
+   "pfad": "src/core/vault.js",
+   "sha256": "961248b6e0327463d307d0663dfc2bc8c453d22afa1f779b4979a40d35229869"
+  },
+  {
+   "pfad": "src/core/zip.js",
+   "sha256": "19d20620ccf1b84c9ac1d00f815427131f760bd006e453eb70e98eceae5f49c6"
+  },
+  {
+   "pfad": "src/domain/accounts.js",
+   "sha256": "5b67c5a99b2cce8e49403cb6869783cce980e471d6893b10f26304f2bf1291ee"
+  },
+  {
+   "pfad": "src/domain/anfangsbestand-store.js",
+   "sha256": "61bcaa6a73d5a147bce8f1c98e80607be8e128a38593cf94e5ffd1ca267e7cd8"
+  },
+  {
+   "pfad": "src/domain/angebotUebernahme.js",
+   "sha256": "39c7f99fd599955ff08dbeea02cea4a8820c65203d89905df226a4eefeb76c96"
+  },
+  {
+   "pfad": "src/domain/angebote-store.js",
+   "sha256": "65cdaf877ae18bfa4303d98a4b5f400ef633fb781578e2f7fd4decc4224f0d2c"
+  },
+  {
+   "pfad": "src/domain/angebote.js",
+   "sha256": "cd20aab82910cdb205e928e0b467a7a9aa78dd2c37a37fb615de97f6d58372f1"
+  },
+  {
+   "pfad": "src/domain/anlagen-store.js",
+   "sha256": "7ee010cd6bf193f1ef61f215b379957e34a28ea1aba3af1b830749f691dde2e1"
+  },
+  {
+   "pfad": "src/domain/anlagen.js",
+   "sha256": "657a86f3d2a09a621870f30d0e84c771148bd81c4fed4e78128e1da393f8a5be"
+  },
+  {
+   "pfad": "src/domain/audit.js",
+   "sha256": "626ab2fd0ca94fa6110b88ce031b4fe43e31a0c5d953e23efe82693113cad1a0"
+  },
+  {
+   "pfad": "src/domain/aufbewahrung.js",
+   "sha256": "deab767688fe7c66dc9acf795683ba8c59d58550a4bb6b759d387dadb2fce0e0"
+  },
+  {
+   "pfad": "src/domain/aufklaerung.js",
+   "sha256": "461b3c7cf41f8adc551ce4db363efaa0128119a61d933905d583ee5c726cc8a4"
+  },
+  {
+   "pfad": "src/domain/backupStrategie.js",
+   "sha256": "7e98992448d6df18537d628bd0fe2faa72bda8b6eb9cfaf8e39ebc5c38fa095a"
+  },
+  {
+   "pfad": "src/domain/bankimport.js",
+   "sha256": "8a79dc9a8cba2de68d87ed56d92e3207888e4ca18e0466184f8d9d1253b5f46f"
+  },
+  {
+   "pfad": "src/domain/bankschema.js",
+   "sha256": "3f1f1b62a282df584ea6753fedf596f556f68884eff1d98c1d0d51b3df80aa6c"
+  },
+  {
+   "pfad": "src/domain/baukasten.js",
+   "sha256": "70859808c6fadbc761fb99fa7b1f21f106b6f7b71e6848855fdb41387edbbf49"
+  },
+  {
+   "pfad": "src/domain/belegPositionen.js",
+   "sha256": "59f1f312942456afe1bb6e1b55b6bfd24a9f9a883419694c1007066ba119e771"
+  },
+  {
+   "pfad": "src/domain/belegPruefung.js",
+   "sha256": "46e335514788ff423181cd7cf6a01bfe31a86aed47c11a2341d6d48c00b8f6ff"
+  },
+  {
+   "pfad": "src/domain/belegsuche.js",
+   "sha256": "f27907a1bcb47f882c1810eb979b61a3e1ad4d19bfd74e9a32640ba71b8edab8"
+  },
+  {
+   "pfad": "src/domain/berichte.js",
+   "sha256": "aab319e5faa6b5c12dcabd42cf459b2a3642d09f1fb37fdd7bc1c3768c84136d"
+  },
+  {
+   "pfad": "src/domain/besteller.js",
+   "sha256": "f48ef1fc182e5abb640789510bf8c6ebfd73fe4364ee982e7b72823e0df1fb23"
+  },
+  {
+   "pfad": "src/domain/bilanz.js",
+   "sha256": "a68306a1e16f9acf12443e45bc971ee0258de76bbccff35755a31b9a58870e42"
+  },
+  {
+   "pfad": "src/domain/bilanzierung.js",
+   "sha256": "3e98e0b48e399a450446eb0a5acfc017d864e7acbc69bf41faa1b8c959cdf7b1"
+  },
+  {
+   "pfad": "src/domain/connect.js",
+   "sha256": "1a8d12505e41f48e14c15a8ab98d810076bf5282e9992f6c4ba685270aded166"
+  },
+  {
+   "pfad": "src/domain/costcenters.js",
+   "sha256": "022eedd1a55c6200dbe217d9236d872a716027eef7fd6bda90c45f32b2c4bce6"
+  },
+  {
+   "pfad": "src/domain/crm-store.js",
+   "sha256": "73b8ea90bd5ee9301610004654f8ce6bb35a94608e78a332fba83d1b7a9a3596"
+  },
+  {
+   "pfad": "src/domain/datenschutzStandard.js",
+   "sha256": "939434e2af06191c5179811ccdf7c9f86066b729f7c19534c0512cf87c146f53"
+  },
+  {
+   "pfad": "src/domain/demodaten-store.js",
+   "sha256": "68cc7689c4ec4f6fb892773e663fddf26adf4c9b581e0e3ad3ee8bee8604bcd5"
+  },
+  {
+   "pfad": "src/domain/demodaten.js",
+   "sha256": "ab35b488c5700fd97dc31ef96824b9955ae513dd3b10d77285cf0ad0448c0bbc"
+  },
+  {
+   "pfad": "src/domain/documents.js",
+   "sha256": "6a460cc4a49c90c5151d34edbcd9b6be103ae51d0867f4fa1861b8fc052a4509"
+  },
+  {
+   "pfad": "src/domain/eingangsverzug.js",
+   "sha256": "9eac9d32a94066f4b3633f19669280f5c0b277ed2a46bb03359e449cb1433f9a"
+  },
+  {
+   "pfad": "src/domain/eingebettet.js",
+   "sha256": "6d0d3bfbbabf4f90ab97cd4853ed628f64b79b501eccaeb6b928690ff556edc7"
+  },
+  {
+   "pfad": "src/domain/employees.js",
+   "sha256": "c81763f42d4f9a99361977e4219c72a097398d9db869e047bdda42bfd65b15c9"
+  },
+  {
+   "pfad": "src/domain/encstore.js",
+   "sha256": "1cd6f167ade568e131596c50f381d0518f2330631bb989cd01e43c553659771c"
+  },
+  {
+   "pfad": "src/domain/erechnung.js",
+   "sha256": "fa5abfca4bd310e316d41d09499e7b94c8281584310fd4bc56524d0840d4b4d6"
+  },
+  {
+   "pfad": "src/domain/erechnungLesen.js",
+   "sha256": "34a38a48a4d68c54f62cd8648af7ed612a7d2dfe15197810aab266539aa29aaf"
+  },
+  {
+   "pfad": "src/domain/export.js",
+   "sha256": "4193bb6d4eb70f72c379b0aeefa1e2a306ac0e3d32c9b8a3d92ddfb720f5a306"
+  },
+  {
+   "pfad": "src/domain/gdpdu.js",
+   "sha256": "1fc6db6695ed59ce85ae7efd35a3dc1d225daac1e63619e782b1af933908d3d8"
+  },
+  {
+   "pfad": "src/domain/geschaeftsjahr.js",
+   "sha256": "da656bd8b8ac097972cb2e267e655660474c0494c35f3248d3047b8f02a230e5"
+  },
+  {
+   "pfad": "src/domain/importPlatz.js",
+   "sha256": "3e9960f18f3918c67e0b2bfcf4c7130c280ff459905f3487a86005e5e8a41e2e"
+  },
+  {
+   "pfad": "src/domain/importworkfloh.js",
+   "sha256": "340d6f350fa1b770e41625c9364b76f9018c00c26b44fdae7f7d26cb89a75a41"
+  },
+  {
+   "pfad": "src/domain/invoicing.js",
+   "sha256": "8af737c30bf698e41a05a508bf5061e4494f8b5562c1706a852ec0bbdb50efb2"
+  },
+  {
+   "pfad": "src/domain/journal.js",
+   "sha256": "5c6217b4c9be7c924dfaabdf28652f303746a9079ace23bc9e28c61f10a22235"
+  },
+  {
+   "pfad": "src/domain/kalibrierung.js",
+   "sha256": "49e118f74e381595b8ec6eef530f32a06b84da53708aa9ea9c58e89d1f81b293"
+  },
+  {
+   "pfad": "src/domain/kalkulation.js",
+   "sha256": "0113c3d37f5b4a46c1e2db8d23eeedd39a14c506d00eb88730fa8ae8045b49c8"
+  },
+  {
+   "pfad": "src/domain/kassenbuch.js",
+   "sha256": "290307d9a874d259199a34c3771609ba2c76937b6ab79429aa329968708a7554"
+  },
+  {
+   "pfad": "src/domain/kiReinigung.js",
+   "sha256": "fa79e0e987333953cee10d872e0dda0197bc872e73bd861b0c3c119c18231511"
+  },
+  {
+   "pfad": "src/domain/kleinfaelle.js",
+   "sha256": "c8e989e47b91d47d120d8374538fe20cf1d74b6eb79442edde64e5df02bd8a7b"
+  },
+  {
+   "pfad": "src/domain/kundenimport.js",
+   "sha256": "a47795dd0632307ba48b6f0c7154cd51fd605e6f04eecf9b9c6f2c2cdd8981fe"
+  },
+  {
+   "pfad": "src/domain/liquiditaet.js",
+   "sha256": "a68cfe4e5b0841853f72224b51ca598989acfff4b3f3ed9be622848eb706bba7"
+  },
+  {
+   "pfad": "src/domain/lohn-store.js",
+   "sha256": "b54925f5c24c0970a094dceec6b8a33f4c115a1aa0ea22cf226d66dfff1e3d8b"
+  },
+  {
+   "pfad": "src/domain/lohnbuchung.js",
+   "sha256": "28a68b80889c5764cbd1e079f61e2abcf82b2c4ad8f890eb44afd3cfccd2165c"
+  },
+  {
+   "pfad": "src/domain/mahnwesen.js",
+   "sha256": "05c62f16102b284c8d03e6900b85882d806dfdf8300c80cb4f4ecd880959ce04"
+  },
+  {
+   "pfad": "src/domain/mailEml.js",
+   "sha256": "8dc65c53b53c286367bc91a57b432bce70a4cddf5075043f1e366cd5e7a80d68"
+  },
+  {
+   "pfad": "src/domain/mandanten.js",
+   "sha256": "12aa2c34b3287af3aaa8c925fca1e4e8ee43c49e07f562a2787c0cb8e9803ff7"
+  },
+  {
+   "pfad": "src/domain/money.js",
+   "sha256": "44d8cd3da2a68010bec34b0c3206ef09ba871a017da7246c593594f1616483a0"
+  },
+  {
+   "pfad": "src/domain/nachkalkulation-store.js",
+   "sha256": "ccaa21bfe32d3ae0180c5a0638a1d2456f169c950a20d473e5c0bbfd94e26524"
+  },
+  {
+   "pfad": "src/domain/nachkalkulation.js",
+   "sha256": "abed4ded71804387bac864d5b738d977709281e3792bc008adb1be3b1e5d0fce"
+  },
+  {
+   "pfad": "src/domain/nutzungsmodus.js",
+   "sha256": "5b2cf2f4e075b46515a5eb356433f574eaa8157260766217f5147fe9ab7565eb"
+  },
+  {
+   "pfad": "src/domain/orders.js",
+   "sha256": "38785435954b48397f17debefd2f856966955195f3b6b0713bc3046fda86c84f"
+  },
+  {
+   "pfad": "src/domain/payables-store.js",
+   "sha256": "7da28abf22fdd247742f477b70d95d29607cf1127a3bd7f68e728fffe2023e74"
+  },
+  {
+   "pfad": "src/domain/payables.js",
+   "sha256": "341d153fe4012da1e506ae0e6f20ea375b360cd1012057a99f5dbec0fbc1d1cb"
+  },
+  {
+   "pfad": "src/domain/produktschemata.js",
+   "sha256": "cb5404b7af20f0dc4d7d4a5b50fcc94e9aa1121ac682e5a9966318e05d6b0908"
+  },
+  {
+   "pfad": "src/domain/pruefung.js",
+   "sha256": "012f02765219d93cf617e40b3c0f3dd012506c8ac0f075cf134c5b712aae0fe9"
+  },
+  {
+   "pfad": "src/domain/rechnung.js",
+   "sha256": "0f4f01852825edf6f4beb76550b61be931553084669f3d10d6140bd65d23ca19"
+  },
+  {
+   "pfad": "src/domain/rechnungsstelle.js",
+   "sha256": "03fd7f37e33f4843fef29f086c20de5b3d17864567e4ab0d7c516b8542ff84e9"
+  },
+  {
+   "pfad": "src/domain/rechtsregeln.js",
+   "sha256": "7bfa7bbe660d4b548cdd40283629e7397b927e3cf046a5cbaa071cc9194bac87"
+  },
+  {
+   "pfad": "src/domain/selbsttest.js",
+   "sha256": "190198bdf2a20bb989b481a119ee810818902189e416c9c615ddad5054fcdd55"
+  },
+  {
+   "pfad": "src/domain/shopbuchung.js",
+   "sha256": "2914f6f659b1aae3ac7cae46cfaf0c0e9fd4e7d4aef8bb1cc707da3025b89d5a"
+  },
+  {
+   "pfad": "src/domain/skonto.js",
+   "sha256": "83e235b5f56843b13bca0a71eb818d6ae656273c409d71204fd09705a1b3d8f2"
+  },
+  {
+   "pfad": "src/domain/store.js",
+   "sha256": "911563a383f525c0eb9691c36e25ec4d98f6d2358274d973ff86b61f36aae7cb"
+  },
+  {
+   "pfad": "src/domain/summary.js",
+   "sha256": "ae87b45fd0fbd6fab5a5b34d3815ec211379987ce6a2e2c022ecef914144f1d6"
+  },
+  {
+   "pfad": "src/domain/taxes.js",
+   "sha256": "e9a6443c207741770f2282affa2986404c6b83a4a0c877c0312db1c6f35c79ed"
+  },
+  {
+   "pfad": "src/domain/teilenEmpfang.js",
+   "sha256": "0e2ee31aa07321ab31948cd6ebb011c67caff357e96f73162077d59aaabcc5fc"
+  },
+  {
+   "pfad": "src/domain/uebernahmeExtern.js",
+   "sha256": "a6b6db2108d9e48c2af759b4fa5718fc0255658f99401b90253720bad489d4ac"
+  },
+  {
+   "pfad": "src/domain/umsatzsteuer.js",
+   "sha256": "d17e104410abd41a7e6861aa2d7e160bbbb3a12bcc57001b81443c6aa0fb8a0b"
+  },
+  {
+   "pfad": "src/domain/vorgang.js",
+   "sha256": "12c0bceb73a47199f75f7831877229dedc55e5bbfbe8719c121c3e988e449cf5"
+  },
+  {
+   "pfad": "src/domain/workflowPdf.js",
+   "sha256": "fb69a824fe9067e81517ce1c874dad17e061f68043a47be86ff9bc5320a380af"
+  },
+  {
+   "pfad": "src/domain/workflowPdfRundlauf.js",
+   "sha256": "8381ef1adf1e30fcb84902a74aa752d6474f99474e98be7577f6addaaf194eff"
+  },
+  {
+   "pfad": "src/domain/zahlungsabgleich.js",
+   "sha256": "7e3967557d9df0aa7a7614b00d7419721482fd8e79ef47ad2eb28aa2cf0dcf36"
+  },
+  {
+   "pfad": "src/domain/zugferd.js",
+   "sha256": "7aaccf0dd17cf27d1c96ef9c6f45e38630c685827b1d3b24ee68b38b365e4934"
+  },
+  {
+   "pfad": "src/main.js",
+   "sha256": "a9cdc829682dfee3475d4e0bda21523483078ee650c12142be33bdd3ce00ebb5"
+  },
+  {
+   "pfad": "src/sbkim/domainvector.js",
+   "sha256": "0f414d2f004ea4bc658550b846f77e5719ef98ed47c5268e799bcb3a79091373"
+  },
+  {
+   "pfad": "src/sbkim/embed.js",
+   "sha256": "ce4bcea4cf880c31fccdd45a60b84932f68ceafccbf2e4c8731145ca128eac87"
+  },
+  {
+   "pfad": "src/sbkim/hybridSearch.js",
+   "sha256": "668acc0beb95f0fce3f42802ea06ec9385df86582faec4ef73d7c109ad539551"
+  },
+  {
+   "pfad": "src/sbkim/identity.js",
+   "sha256": "ca78c42c79b534bce496bcf34ed2d0c9ed6608622cedbf8f03dd66e3f93f96b8"
+  },
+  {
+   "pfad": "src/sbkim/kontoSynonyme.js",
+   "sha256": "9fabdc4a3fa2c07bf810e1eb5b14ca979b9dbb4f057ce03d82074008ca2160dd"
+  },
+  {
+   "pfad": "src/sbkim/match.js",
+   "sha256": "c1cd3aa9699d89dd83118942695a811bc4feee070990b4814afb00067b49068d"
+  },
+  {
+   "pfad": "src/sbkim/nodeProfile.js",
+   "sha256": "0260ab104a8f88540dee99b7bd68ed9c17095bc3c6273c05ce678f4fdd8c7721"
+  },
+  {
+   "pfad": "src/sbkim/peers.js",
+   "sha256": "8958ed6b52d613bc16465bc5c6e2b6577efedb1c878c118fe025562fb494f72f"
+  },
+  {
+   "pfad": "src/sbkim/searchCorpus.js",
+   "sha256": "11d0ecf14778335b0b74026224b8886add443e6a390eb7bcc497ecad8c8f2314"
+  },
+  {
+   "pfad": "src/sbkim/signal.js",
+   "sha256": "b81ae811d94784a899895324b7848362a6feb51ec5b2aed76252b06592c0d8a6"
+  },
+  {
+   "pfad": "src/sbkim/spore.js",
+   "sha256": "2096ff5cd190dd0d5757ca260b75f6d843b2bbba05460c4db875ed593c3843db"
+  },
+  {
+   "pfad": "src/sbkim/wappen.js",
+   "sha256": "6494380fde17e1ead51553c24be5b8ca991854063b9d97330080114377e08f2d"
+  },
+  {
+   "pfad": "src/state.js",
+   "sha256": "d6f3f5ff23aff40b8b2e2c416865c2b4a87038fabd7d1ae1ee229259bd8c2151"
+  },
+  {
+   "pfad": "src/ui/belegDialoge.js",
+   "sha256": "15a90563698b5a006b66ba25a8062593210f04783c396406e8124bbf7aeb12cf"
+  },
+  {
+   "pfad": "src/ui/datensicherung.js",
+   "sha256": "8d34fbf8abc8b670c92cec76dd830f7dca900425f7748333f17ec82e8f5ee582"
+  },
+  {
+   "pfad": "src/ui/dom.js",
+   "sha256": "eab49dd28b0fc06874eca7b5c7f878077d80b3f931afc04f71f7a03c77ec8182"
+  },
+  {
+   "pfad": "src/ui/empty.js",
+   "sha256": "65799d9036347808d81b7de7b362b3431d070a52fdd500e6ebf60b2d59eb2ab1"
+  },
+  {
+   "pfad": "src/ui/geraetename.js",
+   "sha256": "1f0289ae626ccf70450f33884e6e4f585164fd6d7439cf55808763c700534a64"
+  },
+  {
+   "pfad": "src/ui/i18n.js",
+   "sha256": "9b4aa9740ee504f9a8cb3a075053f80b4320896f3fb6db8b161e5aaf53118065"
+  },
+  {
+   "pfad": "src/ui/icons.js",
+   "sha256": "8d43b96d14c200da2b3d4811e5b18925dbc6cb8b9088c96cb18cf4b345bd1ef8"
+  },
+  {
+   "pfad": "src/ui/intro.js",
+   "sha256": "b937fc18894e680ea2e831fc44c25f4c0ad153b35648f6ee335ebacbff13099d"
+  },
+  {
+   "pfad": "src/ui/lock.js",
+   "sha256": "ce093d7007e42ab4e9a8ad203931e9eca4fbd20134aa2cb5e96e2d59018ceeb2"
+  },
+  {
+   "pfad": "src/ui/mikro.js",
+   "sha256": "f25e746546120dcc24b4de01b6fb1a9d11fa3dde91028a692c9df744c4ee79cf"
+  },
+  {
+   "pfad": "src/ui/mycel.js",
+   "sha256": "ade2c1638114ae78c625a7c05c837e2299cf7f6a3efa58d60d49dbb0407a3667"
+  },
+  {
+   "pfad": "src/ui/mycelCanvas.js",
+   "sha256": "a360b98c058c34cec1a20cc903b24a31e747a553417ff9f1b4dfca0afb9da555"
+  },
+  {
+   "pfad": "src/ui/namensvorschlag.js",
+   "sha256": "e970dcda2c2e47cb0cd32bef51f22f495fa1b68a022e4a216ab2dc0cdc1ca99c"
+  },
+  {
+   "pfad": "src/ui/scanner.js",
+   "sha256": "ddc512f01f128dc067627d2398d39f15f7a6ba53832ac28243248017c8550daf"
+  },
+  {
+   "pfad": "src/ui/schluesselabgleich.js",
+   "sha256": "ca98b819cc7551a686241fa3a76a78b78e3a9ca17fbe1d3f792e9379be494e50"
+  },
+  {
+   "pfad": "src/ui/shell.js",
+   "sha256": "d51e27cc57aace76b55c9b0c788c219083ed9019892a30cd1c91edf409d4854e"
+  },
+  {
+   "pfad": "src/ui/testmarke.js",
+   "sha256": "dcd3f9a75374327d6091c9be2bf5041cc3d11bfcd9e3625d8663a206118a8a71"
+  },
+  {
+   "pfad": "src/ui/theme.js",
+   "sha256": "5f62961f71924501477e6a3b2aa0b286822f736afcf7701d89e57d01918bb68b"
+  },
+  {
+   "pfad": "src/ui/views/accounts.js",
+   "sha256": "18c9a824155c02e875a1119a6a7e03aceb03e6cb9a00483747fc8ed29376ab4f"
+  },
+  {
+   "pfad": "src/ui/views/angebote.js",
+   "sha256": "202c54708b02146523110401b46ccde3beff8da31ea82298ec9374943fd57220"
+  },
+  {
+   "pfad": "src/ui/views/anlagen.js",
+   "sha256": "c951f7e12e2c00747c3524a5d3cf9a80ee7d76ff9b2d461e58592be6afc02978"
+  },
+  {
+   "pfad": "src/ui/views/anleitung.js",
+   "sha256": "0b43165b1243dd3208068eb42dccbd15e863a9e6fdedc9f76a07672fcf7b352f"
+  },
+  {
+   "pfad": "src/ui/views/apps.js",
+   "sha256": "35e5a92536ec7b26e2c77452c9933c7ab67b25023ea1d7ae39ea6517791d160f"
+  },
+  {
+   "pfad": "src/ui/views/berichte.js",
+   "sha256": "61e22799e8b641cf786c6b7339e2910f5186d4c41dcd74edbbfc9c56559b4ec8"
+  },
+  {
+   "pfad": "src/ui/views/customers.js",
+   "sha256": "5771e0cf9bfe2b4a66c850a111ab0caeff46874e17cfc905477721136176a611"
+  },
+  {
+   "pfad": "src/ui/views/dashboard.js",
+   "sha256": "0b05768597aed613d505c373e8157b607df426fae47c4084150ef5d9f2b8d584"
+  },
+  {
+   "pfad": "src/ui/views/documents.js",
+   "sha256": "ee2480c9b3e8ed6a0bc3c41cd74cf550ab749a354f25eb3b95318568c3e5c335"
+  },
+  {
+   "pfad": "src/ui/views/employees.js",
+   "sha256": "b7291b5bd85d30e73ce12b0866a10005fa0268dd1f4c3ac01e563d256f2e8f22"
+  },
+  {
+   "pfad": "src/ui/views/journal.js",
+   "sha256": "b28560d472fe3bc28183792f5f93542a52169382e5f0ac8b4af98c874cd92bd9"
+  },
+  {
+   "pfad": "src/ui/views/kassenbuch.js",
+   "sha256": "6d6ba582e98f0ae2f148354607179edb9b6f1e8d9ad34b9f4ac9d4355f7a8b59"
+  },
+  {
+   "pfad": "src/ui/views/legal.js",
+   "sha256": "c182cccf914b7349bc100f0eba86a932093c4778042689aae6a3b5fff33aadfe"
+  },
+  {
+   "pfad": "src/ui/views/lohn.js",
+   "sha256": "9622d4fd9e0ab7ef4f0443702a866fd8b40e36f7584cf582c1ae073ca4fb1918"
+  },
+  {
+   "pfad": "src/ui/views/nachkalkulation.js",
+   "sha256": "8e9ebc1eefad74eff8bbcb94e74e4719e0856613a585581023289294a6cce449"
+  },
+  {
+   "pfad": "src/ui/views/network.js",
+   "sha256": "c1d4ae85f5aa90e9c7e722a26f5e64d61ada74b71254c975adc4bb102880dae4"
+  },
+  {
+   "pfad": "src/ui/views/orders.js",
+   "sha256": "7775de3cc8cd1a80774da1d763e3b9f4ceee3e597bff1cfa1612bf7205354f3e"
+  },
+  {
+   "pfad": "src/ui/views/payables.js",
+   "sha256": "496d727f6e886df5fceb48efe6978ef876a6be64037ff3d4d52912323caecf95"
+  },
+  {
+   "pfad": "src/ui/views/reports.js",
+   "sha256": "e039fa880cce647b4a2e7440ff459c4ceba0f05c15348a58d7da61cc71fc0664"
+  },
+  {
+   "pfad": "src/ui/views/safebox.js",
+   "sha256": "b3a98de76dea71a9110ac6c9d87041fec77cc1898e0d1e37c912b6a29025c727"
+  },
+  {
+   "pfad": "src/ui/views/sbkimsuche.js",
+   "sha256": "9e969a4a78d12350e06badc1c59405bd286a615f8dca79be348670073c7caabf"
+  },
+  {
+   "pfad": "src/ui/views/selbsttest.js",
+   "sha256": "ab3a142623f9331d5790a4a51012d6adf48f710b16b357d90d1d90447e87c5b9"
+  },
+  {
+   "pfad": "src/ui/views/shopbuchung.js",
+   "sha256": "ff34d67eae7edb9bf20162164b5e715422c41756b43e4eedb812d35006067561"
+  },
+  {
+   "pfad": "sw.js",
+   "sha256": "d7924837619aae21f7c31a0a5339b15866c8f268d2451f43ab486b3f2c18a572"
+  },
+  {
+   "pfad": "tests/daten/Testbild-versteckte-Anweisung.png",
+   "sha256": "fa3730a5b068eed9c9b2b0c003a6453bf89fe204173635abc4aa19123713ebe7"
+  },
+  {
+   "pfad": "tests/daten/Testdatei-unsichtbarer-Text.pdf",
+   "sha256": "86b5935678618c2a0be706a613809409237bca33c16201fad2c0232618737de0"
+  },
+  {
+   "pfad": "tests/gegenprobe_belege.mjs",
+   "sha256": "e5ce21cabf4abf84fa53de576538893c3442b44569b91d2aa03aa364c98cc26b"
+  },
+  {
+   "pfad": "tests/run.mjs",
+   "sha256": "79772362cc3064581704bf7029ffda89bccf31e01cdca44cc58250cc9e64d395"
+  },
+  {
+   "pfad": "tests/smoke_a5_antwortpfad.mjs",
+   "sha256": "e70e1f1bd8a010ff78263509180cf1d351f4f449023a61ec988701e15d44fd41"
+  },
+  {
+   "pfad": "tests/smoke_apps.mjs",
+   "sha256": "617f3bb17551648ce8f9ce4737ae7b736ae818dc40107dcfaba40d6fbc9458b4"
+  },
+  {
+   "pfad": "tests/smoke_belege.mjs",
+   "sha256": "91ba33bb5228fd19a14f35c539bfb5fbe70b71bcac5f9f97fcedc10af7cb45a3"
+  },
+  {
+   "pfad": "tests/smoke_belegsuche.mjs",
+   "sha256": "e05d31c72d2cf3468f312ee5fd3aca800551f2439e9b863289d7623522268077"
+  },
+  {
+   "pfad": "tests/smoke_design.mjs",
+   "sha256": "cb4bfde1a2db6409b870deab1770fe03cf7213f198233498404d2017b3ca7a18"
+  },
+  {
+   "pfad": "tests/smoke_frage.mjs",
+   "sha256": "24ba47e249937200c84c4bc10208c1567554e2c392cecac696f4624b2ee68e18"
+  },
+  {
+   "pfad": "tests/smoke_handnamen.mjs",
+   "sha256": "ffcb043ca94123509011539e2dcc7c731f74e0243735299ad20400fecdafc173"
+  },
+  {
+   "pfad": "tests/smoke_mail.mjs",
+   "sha256": "1c28db24edecd4e5a8f37da8c7b0e643ea9e96914de2184f48ec2fbfce2eb12d"
+  },
+  {
+   "pfad": "tests/smoke_mikro.mjs",
+   "sha256": "cc0de04a9676fa147eab5c10e15fb8f53a529eff2b3b960a6befe8446d6d2af9"
+  },
+  {
+   "pfad": "tests/smoke_scanner.mjs",
+   "sha256": "d727f78332908fdf159139a393cd80ab51252756b28a7ce64b4d6ec6395e388c"
+  },
+  {
+   "pfad": "tests/smoke_teilen.mjs",
+   "sha256": "132f740b212a6f4e648cf100f61450b6a42694c45edfc941ca913c3732303156"
+  },
+  {
+   "pfad": "tests/smoke_vorgang.mjs",
+   "sha256": "2ffdf4388f8f0a61f927dd99d8b191375ba3bcaf1da463115a20b44e43932884"
+  },
+  {
+   "pfad": "tests/smoke_wfpdf.mjs",
+   "sha256": "53602976032498e446ba6dbcae4b50c7e4ccfac0fd4aa195bd8b5ae90c9445ff"
+  },
+  {
+   "pfad": "tests/vendor/pdf-lib.min.js",
+   "sha256": "0f9a5cad07941f0826586c94e089d89b918c46e5c17cf2d5a3c6f666e3bc694f"
+  },
+  {
+   "pfad": "tools/apps-nachziehen.mjs",
+   "sha256": "292f5fb084541d3a035f3e8e0347a90328e3e1762b224762bf4112c5dd8c931e"
+  },
+  {
+   "pfad": "tools/apps-patch.mjs",
+   "sha256": "ef475ea36a59d575a33c5756914e9c64a07bf05d40135dfef9b0409475b6486d"
+  },
+  {
+   "pfad": "tools/mint_spore.mjs",
+   "sha256": "3de7f3e3029aa68a0fac91639e340208b3c50976525ca26d0a7d60605dbe47eb"
+  },
+  {
+   "pfad": "tools/verify_remote_spore.mjs",
+   "sha256": "86a6e43336f3b87ec0798d720e60d2bc675274d98f7c7502c61fca2adb600289"
+  },
+  {
+   "pfad": "tools/wfpdf-nachziehen.mjs",
+   "sha256": "af8b5b00de98397ffec7444c4c0f858b668b64819af30de90760d06100ac2e9e"
+  },
+  {
+   "pfad": "vendor/pdfjs/pdf.min.js",
+   "sha256": "978fd1b2d134a98e98966186a97777bebf87d8e770dadab1ece3687e21a5aa6c"
+  },
+  {
+   "pfad": "vendor/pdfjs/pdf.worker.min.js",
+   "sha256": "38cde5311957b86bc3669f93e7d2566de333a90055ed6635bef60d9bf00e96f2"
+  },
+  {
+   "pfad": "vendor/scanic/LICENSE-scanic.txt",
+   "sha256": "6a229290ec93f6d725561f6789c9226f4837f4fc515d17f6418202fa1bd49ae2"
+  },
+  {
+   "pfad": "vendor/scanic/doccornernet_lean.ort",
+   "sha256": "732eb8d02d83cc63efb3f9467f01e0c458205a89b2547de3870bc6db1a80c8b3"
+  },
+  {
+   "pfad": "vendor/scanic/ort-wasm-simd-threaded.mjs",
+   "sha256": "d6841aca121bba413020e1de9009c9e557cc8b424cc4b5d3ebfd8c5e0fec4fce"
+  },
+  {
+   "pfad": "vendor/scanic/ort-wasm-simd-threaded.wasm",
+   "sha256": "8acb4d26fe0537379e83478e52b20e681035ca70a3eca45f2a147c19e1241f87"
+  },
+  {
+   "pfad": "vendor/scanic/scanic-mlDetector.js",
+   "sha256": "d3e37f0e1b2a298f157bb221798cb15718c99fa1a854d71980f3a3652dcd71e3"
+  },
+  {
+   "pfad": "vendor/scanic/scanic-ort.wasm.min.js",
+   "sha256": "6d185727fae93105c8b91a1334c9c6767464776875a5937b48b9b5c41c348e6c"
+  },
+  {
+   "pfad": "vendor/scanic/scanic.js",
+   "sha256": "4f4f494d291d8a18daf2833e6b68ac4e8f712f150331a85c1e4b3d227ef24680"
+  },
+  {
+   "pfad": "vendor/tesseract/LICENSE-Apache-2.0.txt",
+   "sha256": "c6596eb7be8581c18be736c846fb9173b69eccf6ef94c5135893ec56bd92ba08"
+  },
+  {
+   "pfad": "vendor/tesseract/lang/deu.traineddata",
+   "sha256": "19d219bbb6672c869d20a9636c6816a81eb9a71796cb93ebe0cb1530e2cdb22d"
+  },
+  {
+   "pfad": "vendor/tesseract/lang/eng.traineddata",
+   "sha256": "7d4322bd2a7749724879683fc3912cb542f19906c83bcc1a52132556427170b2"
+  },
+  {
+   "pfad": "vendor/tesseract/lang/rus.traineddata",
+   "sha256": "e16e5e036cce1d9ec2b00063cf8b54472625b9e14d893a169e2b0dedeb4df225"
+  },
+  {
+   "pfad": "vendor/tesseract/tesseract-core-lstm.wasm.js",
+   "sha256": "eef5f8b2f8e20e150680b20adaec4a60babafee3adbe8a94583c81fee46e8680"
+  },
+  {
+   "pfad": "vendor/tesseract/tesseract-core-relaxedsimd-lstm.wasm.js",
+   "sha256": "861a536cf9ef8e63cb644d57bab39c388f37f7d6b6f60024b741c5f6b39a59b3"
+  },
+  {
+   "pfad": "vendor/tesseract/tesseract-core-simd-lstm.wasm.js",
+   "sha256": "c58b46a4c796c0b8afccf77591d5b875b6896b45d402bbce8caa6f5362447b38"
+  },
+  {
+   "pfad": "vendor/tesseract/tesseract.min.js",
+   "sha256": "000c27d9cd0def655f77b36c72a389c0ab13793aa31cb4d7aab56d09c0afbc7e"
+  },
+  {
+   "pfad": "vendor/tesseract/tesseract.min.js.LICENSE.txt",
+   "sha256": "cdf963ced7d25a0f98901a547647b4d6e2dbe0197fd78c87a059a87b0e542fe2"
+  },
+  {
+   "pfad": "vendor/tesseract/worker.min.js",
+   "sha256": "576b7df7e3393e137e51849357c9adb53fe7ac1bb69bfa06cf3d61520f182c6d"
+  },
+  {
+   "pfad": "vendor/tesseract/worker.min.js.LICENSE.txt",
+   "sha256": "45f54171aeaa1d10c0c1a66f374b7bba1f02472b1487fbe892eec04f840002ac"
+  }
+ ]
+}
