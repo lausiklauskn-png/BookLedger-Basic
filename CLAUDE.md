@@ -50,8 +50,11 @@ Beim ersten Lauf fielen 28 Zeilen der kopierten Suite: `\b` vor `bookledgerpro` 
 Knoten-Zeilen der Proben verglichen umgeschriebene Erwartungen mit unverändertem `src/sbkim/`, und `von=BookLedgerPro` wurde
 umbenannt — die Regeln kennen jetzt Lookarounds, Knoten-Zeilen und den Vertragswert.
 
+GitHub Pages war für das Repo schon eingeschaltet: der Lauf „pages build and deployment“ auf `main` (f96f2bb) ist grün —
+die Adresse `https://lausiklauskn-png.github.io/BookLedger-Basic/` liefert diesen Stand aus (CI-Befund; der Pages-Host ist aus
+dem Behälter nicht erreichbar, kein lokaler Download).
+
 **Offen (Klaus):**
-- GitHub Pages für dieses Repo einschalten (Settings → Pages → Branch `main`, Ordner `/`); erst dann gibt es die Adresse.
 - Eigene Knoten-Identität für Basic (Siegel → neu signieren, dann `sbkim/spore.json`, `SIGNAL.json`, `nodeProfile.js`
   nachziehen) — oder bewusst die des Pro-PWA weiterführen, weil die PWA ja hierher wandert.
 - Die WorkFlohs schicken „Rechnung in BLP" weiter an `…/BookLedgerPro/` (Pro-PWA-Adresse); für Basic-Nutzer bräuchten sie ein
