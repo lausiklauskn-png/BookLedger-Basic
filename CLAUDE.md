@@ -54,6 +54,11 @@ GitHub Pages war für das Repo schon eingeschaltet: der Lauf „pages build and 
 die Adresse `https://lausiklauskn-png.github.io/BookLedger-Basic/` liefert diesen Stand aus (CI-Befund; der Pages-Host ist aus
 dem Behälter nicht erreichbar, kein lokaler Download).
 
+**Im Regal (2026-10-26, Klaus' Wort):** Eintrag `eigen-bookledger-basic` in beiden Marktplätzen (family-projekt.de und PWA Toolpoint,
+dieselbe Kennung = Identität der Messreihe), Bild = `assets/icons/icon-512.png` (das `og-image.png` trägt noch den Schriftzug
+„BookLedgerPro"), ohne `sporeUrl`, solange Basic die Pro-Spore trägt. Siegel (Modul 16), Lampen (17) und Mycel-Fenster (23, mit
+der Box „Netz" für ein eigenes, privates Knotennetz) sind in der Kopie enthalten, byte-1:1 wie in Pro.
+
 **Offen (Klaus):**
 - Eigene Knoten-Identität für Basic (Siegel → neu signieren, dann `sbkim/spore.json`, `SIGNAL.json`, `nodeProfile.js`
   nachziehen) — oder bewusst die des Pro-PWA weiterführen, weil die PWA ja hierher wandert.
