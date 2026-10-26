@@ -1,0 +1,747 @@
+/* assets/app.css — Komponenten & Layout. */
+
+* { box-sizing: border-box; }
+html, body { height: 100%; }
+body {
+  margin: 0;
+  font-family: var(--font);
+  color: var(--text);
+  background: var(--bg);
+  -webkit-font-smoothing: antialiased;
+  line-height: 1.5;
+}
+
+h1 { font-size: 1.5rem; margin: 0 0 .25rem; letter-spacing: -.01em; }
+/* A5: Überschriften und Beschriftungen laufen nie über den Rand; ein einzelnes zu langes Wort bricht als letzter
+   Ausweg um (overflow-wrap). Knöpfe tragen stattdessen weiche Trennstellen in den langen Wörtern (i18n.js). */
+h1, h2, h3, .card-title, .setting-label, .kpi-label, .kpi-value, label.field > span { overflow-wrap: anywhere; min-width: 0; }
+/* Bannertext neben dem Knopf: ab einer Mindestbreite eigene Zeile statt Buchstabensalat (gemessen 320 px · 200 %). */
+.banner-text { flex: 1 1 14rem; min-width: 0; }
+.dash-head { flex-wrap: wrap; }
+.report-line { flex-wrap: wrap; }
+.report-line .badge { white-space: normal; }
+.card-title-row > * { min-width: 0; }
+/* Fließtext und Listen (z. B. Schritt-Anleitungen mit langen Adressen): nie über den Rand. */
+.content :is(p, li, dd, dt, .muted) { overflow-wrap: anywhere; min-width: 0; }
+p { margin: .35rem 0; }
+.muted { color: var(--text-muted); }
+.small { font-size: .85rem; }
+code { font-family: var(--mono); }
+
+/* ---- Marke ---------------------------------------------------------------- */
+.brand { display: flex; align-items: center; gap: .55rem; }
+.brand-name { font-weight: 700; letter-spacing: -.02em; }
+.mycel-mark { color: var(--text-muted); flex: none; }
+.mycel-divider {
+  height: 1px; margin: 1rem 0;
+  background: linear-gradient(90deg, transparent, var(--border) 20%, var(--border) 80%, transparent);
+}
+
+/* ---- Buttons — flach (Klaus 2026-10-26, Sammlung A2) -------------------------
+   Sichtbar ~30 px hoch, kein Schatten, Symbol + Name. Trefferfläche: bei Touch (pointer: coarse) legt ein
+   unsichtbares ::before 7 px über und unter den Knopf (hinter Nachbarn, kein Layoutplatz) → ≥ 44 px. */
+.btn {
+  font: inherit; font-size: .92rem; line-height: 1.25; cursor: pointer; border: 1px solid var(--border-control);
+  background: var(--surface); color: var(--text); position: relative;
+  min-height: var(--control-h); padding: .25rem .7rem; border-radius: var(--radius-sm);
+  display: inline-flex; align-items: center; justify-content: center; gap: .4rem;
+  transition: background var(--motion), border-color var(--motion), color var(--motion);
+  text-decoration: none; max-width: 100%; white-space: normal; hyphens: manual;
+}
+.btn > .ic-text, .seg > .ic-text { min-width: 0; }
+.btn:hover { border-color: var(--accent); background: var(--surface-2); }
+.btn:active { background: var(--accent-soft); }
+.btn:disabled { opacity: .5; cursor: not-allowed; }
+.btn-primary { background: var(--accent-btn); border-color: var(--accent-btn); color: var(--on-accent); font-weight: 600; }
+.btn-primary:hover { background: var(--accent-btn-hover); border-color: var(--accent-btn-hover); color: var(--on-accent); }
+.btn-ghost { background: transparent; border-color: transparent; }
+.btn-ghost:hover { background: var(--surface-2); border-color: transparent; }
+.btn-sm { padding: .15rem .55rem; font-size: .85rem; min-height: 28px; }
+/* Kompakter, dezenter Icon-Knopf (Kopfzeile). */
+.btn-icon { padding-inline: .4rem; line-height: 1; }
+.btn-icon:hover { color: var(--accent); }
+.btn-row { display: flex; gap: .5rem; flex-wrap: wrap; align-items: center; }
+@media (pointer: coarse) {
+  .btn::before, .seg::before, .nav-item::before { content: ""; position: absolute; left: 0; right: 0; top: -7px; bottom: -7px; }
+}
+
+/* ---- Strichsymbole (assets/pb-icons.svg byte-1:1 aus PBP · assets/blp-icons.svg) ---- */
+.ic { width: 20px; height: 20px; flex: none; fill: none; stroke: currentColor; stroke-width: 1.75; stroke-linecap: round; stroke-linejoin: round; vertical-align: -.3em; }
+.btn .ic, .seg .ic { width: 18px; height: 18px; }
+.ic-text { min-width: 0; }
+
+/* ---- Sperrbildschirm / Onboarding ---------------------------------------- */
+.lock-screen {
+  position: relative; overflow: hidden;
+  min-height: 100dvh; display: grid; place-items: center; padding: 1.25rem;
+  background:
+    radial-gradient(1200px 600px at 80% -10%, var(--accent-soft) 0%, transparent 55%),
+    var(--bg);
+}
+.mycel-bg { position: absolute; inset: 0; width: 100%; height: 100%; z-index: 0; pointer-events: none; }
+.lock-card {
+  position: relative; z-index: 1;
+  width: 100%; max-width: 420px; background: var(--surface);
+  border: 1px solid var(--border); border-radius: var(--radius-lg);
+  box-shadow: var(--shadow); padding: 1.75rem;
+}
+.lock-hero {
+  display: block; width: 100%; max-width: 260px; height: auto;
+  margin: .25rem auto 1rem; pointer-events: none; user-select: none;
+}
+.lock-card .brand { margin-bottom: 1.25rem; }
+.lock-form { display: flex; flex-direction: column; gap: .85rem; }
+.field { display: flex; flex-direction: column; gap: .3rem; }
+.field > span { font-size: .85rem; color: var(--text-muted); }
+input[type="password"], input[type="text"], input[type="number"], input[type="date"], select {
+  font: inherit; padding: .3rem .6rem; min-height: var(--control-h); border: 1px solid var(--border-control);
+  border-radius: var(--radius-sm); background: var(--surface); color: var(--text); max-width: 100%; min-width: 0;
+}
+/* Felder: volle Breite ihres Kastens, nie breiter als der Behälter (A5; Eingaben haben sonst eine eigene
+   Mindestbreite aus `size`, die bei 200 % Schrift aus dem Fenster läuft). */
+.field select, .form-grid select, .field > input, .form-grid input, .form-grid textarea { width: 100%; }
+.btn-row > input, .btn-row > select { flex: 1 1 10rem; min-width: 0; max-width: 100%; }
+select { text-overflow: ellipsis; }
+input:focus, select:focus { outline: 2px solid var(--accent); outline-offset: 1px; }
+.form-error { color: var(--error); min-height: 1.2em; margin: 0; font-size: .9rem; }
+
+.shares { display: flex; flex-direction: column; gap: .5rem; margin: 1rem 0; }
+.share {
+  display: flex; align-items: center; gap: .6rem; padding: .55rem .7rem;
+  background: var(--surface-2); border: 1px solid var(--border); border-radius: var(--radius-sm);
+}
+.share-no { font-weight: 700; color: var(--accent); flex: none; }
+.share-code { font-size: .72rem; word-break: break-all; color: var(--text-muted); }
+
+/* ---- Mandanten-Auswahl (M2b) --------------------------------------------- */
+.mandant-list { display: flex; flex-direction: column; gap: .5rem; margin: 1rem 0; }
+.mandant-item {
+  display: flex; align-items: center; justify-content: space-between; gap: .6rem;
+  text-align: left; width: 100%; padding: .7rem .85rem;
+}
+.mandant-item.is-active { border-color: var(--accent); }
+.mandant-name { font-weight: 600; }
+.mandant-badge {
+  flex: none; font-size: .7rem; color: var(--accent);
+  border: 1px solid var(--accent); border-radius: 999px; padding: .1rem .5rem;
+}
+.mandant-context { margin: 0 0 .25rem; }
+/* Test-Inhalt-Wahl (leer / Demo-Daten) im „Neuer Test"-Onboarding */
+.test-inhalt { display: flex; flex-direction: column; gap: .4rem; border: 1px solid var(--border); border-radius: .5rem; padding: .6rem .75rem; margin: 0; }
+.test-inhalt legend { font-size: .85rem; color: var(--text-muted); padding: 0 .3rem; }
+.test-inhalt .radio-row { display: flex; align-items: flex-start; gap: .5rem; font-size: .9rem; cursor: pointer; }
+.test-inhalt .radio-row input { margin-top: .15rem; }
+/* Mandanten-Verwaltung (M3) in den Einstellungen */
+.mandant-admin { display: flex; flex-direction: column; gap: .5rem; }
+.mandant-admin-row { display: flex; align-items: center; gap: .5rem; flex-wrap: wrap; }
+.mandant-admin-row input { flex: 1 1 12rem; min-width: 8rem; }
+.btn-link {
+  background: transparent; border-color: transparent; color: var(--accent);
+  text-decoration: underline; padding: .3rem; align-self: center;
+}
+.btn-link:hover { border-color: transparent; background: transparent; color: var(--accent-strong); }
+
+/* ---- App-Shell ------------------------------------------------------------ */
+.app { min-height: 100dvh; display: flex; flex-direction: column; }
+.app-header {
+  display: flex; align-items: center; justify-content: space-between; gap: .3rem .5rem; flex-wrap: wrap;
+  padding: .45rem .9rem; border-bottom: 1px solid var(--border); min-height: 48px;
+  background: var(--surface); position: sticky; top: 0; z-index: 10; container-type: inline-size;
+}
+.header-right { flex-wrap: wrap; justify-content: flex-end; min-width: 0; max-width: 100%; }
+/* Eng (auch bei großer Schrift, darum in rem): Lampen nur als Punkte, Sperren nur als Symbol. */
+@container (max-width: 58rem) { .fw-label { display: none; } .sperren-knopf .ic-text { display: none; } .sperren-knopf { padding-inline: .4rem; } }
+.header-right { display: flex; align-items: center; gap: .5rem; }
+/* ☰: nur im Handyformat sichtbar (siehe @media unten). */
+.nav-toggle { display: none; }
+.sperren-knopf .ic-text { white-space: nowrap; }
+/* Palette-Knopf (Klaus 2026-10-26: „etwas größer, damit er auch am Handy als Farbpalette zu erkennen ist"):
+   größeres Symbol in der Themenfarbe auf rundem farbigem Grund. */
+.thema-knopf { color: var(--accent); background: var(--accent-soft); border-radius: 50%; min-width: 36px; min-height: 36px; padding: 0; }
+.thema-knopf .ic { width: 24px; height: 24px; stroke-width: 2; }
+.thema-knopf:hover { background: var(--accent); color: var(--on-accent); }
+/* Thema-Popover unter dem Palette-Knopf */
+.thema-popover { position: absolute; right: .9rem; top: calc(100% + 4px); z-index: 30; background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); box-shadow: var(--shadow); padding: .7rem .8rem; max-width: min(92vw, 26rem); }
+.thema-wahl { display: flex; flex-direction: column; gap: .6rem; }
+.thema-wahl.kompakt .setting-label { font-size: .85rem; }
+.thema-wahl .segmented { flex-wrap: wrap; }
+.mandant {
+  display: inline-flex; align-items: center; gap: .4rem;
+  font-size: .8rem; color: var(--text-muted);
+  background: var(--surface-2); border: 1px solid var(--border);
+  padding: .2rem .5rem; border-radius: 999px; white-space: nowrap;
+}
+.mandant .ic { width: 16px; height: 16px; }
+.mandant-id { white-space: normal; overflow-wrap: anywhere; }
+.mycel-chip {
+  display: inline-flex; align-items: center; gap: .4rem; cursor: pointer;
+  font-size: .78rem; color: var(--text-muted);
+  background: var(--surface-2); border: 1px solid var(--border);
+  padding: .2rem .55rem; border-radius: 999px;
+}
+.mycel-chip:hover { border-color: var(--accent); color: var(--text); }
+.mycel-dot { width: 8px; height: 8px; border-radius: 50%; background: var(--text-muted); flex: none; transition: background .15s; }
+.mycel-chip.is-ok .mycel-dot { background: #2ecc71; box-shadow: 0 0 6px #2ecc7188; }
+.mycel-chip.is-warn .mycel-dot { background: #f1c40f; box-shadow: 0 0 6px #f1c40f88; }
+.mycel-chip.is-off .mycel-dot { background: var(--text-muted); }
+/* ── Flying Widget: schwebendes Lampen-Panel oben (LEBT · VERKEHR · FREMD · SIEGEL) ── */
+.flying-widget {
+  display: inline-flex; align-items: center; gap: .15rem;
+  background: var(--surface-2); border: 1px solid var(--border); border-radius: 999px;
+  padding: .12rem .25rem;
+}
+.fw-lamp {
+  display: inline-flex; align-items: center; gap: .3rem; cursor: pointer;
+  font-size: .7rem; letter-spacing: .02em; color: var(--text-muted);
+  background: none; border: none; border-radius: 999px; padding: .18rem .45rem;
+  transition: color .15s, background .15s;
+}
+.fw-lamp:hover { color: var(--text); background: color-mix(in srgb, var(--accent) 14%, transparent); }
+.fw-label { line-height: 1; }
+.fw-dot { width: 8px; height: 8px; border-radius: 50%; background: var(--text-muted); flex: none; transition: background .15s, box-shadow .15s; }
+/* LEBT */
+.fw-lebt.is-on .fw-dot { background: #2ecc71; box-shadow: 0 0 6px #2ecc7188; animation: fw-pulse 2.6s ease-in-out infinite; }
+.fw-lebt.is-warn .fw-dot { background: #f1c40f; box-shadow: 0 0 6px #f1c40f88; animation: none; }
+.fw-lebt.is-off .fw-dot { background: var(--text-muted); }
+/* VERKEHR */
+.fw-verkehr.is-on .fw-dot { background: #e8b923; box-shadow: 0 0 6px #e8b92388; }
+.fw-verkehr.is-pulse .fw-dot { background: #e8b923; animation: fw-blink .35s ease-in-out 2; }
+/* FREMD */
+.fw-fremd .fw-dot { background: var(--text-muted); }
+.fw-fremd.is-alert .fw-dot { background: #e74c3c; box-shadow: 0 0 7px #e74c3caa; animation: fw-breath 3.2s ease-in-out infinite; }
+.fw-fremd.is-alert { color: #e74c3c; }
+/* SIEGEL-Lampe = kleines Wappen */
+.fw-siegel { padding-left: .35rem; padding-right: .5rem; }
+.siegel-wappen { display: block; line-height: 0; }
+.siegel-wappen svg { display: block; width: 18px; height: 18px; }
+.siegel-wappen svg rect,
+.siegel-wappen svg circle[fill="#000"] { display: none; }
+.fw-siegel[data-stufe="verified-spore"] .siegel-wappen { filter: saturate(.5) brightness(.95); }
+.fw-siegel[data-stufe="verified-match"] .siegel-wappen { filter: drop-shadow(0 0 4px #e8b92366); }
+.fw-siegel.is-drift .siegel-wappen { filter: grayscale(1) opacity(.55); }
+@keyframes fw-pulse { 0%,100% { box-shadow: 0 0 4px #2ecc7166; } 50% { box-shadow: 0 0 9px #2ecc71cc; } }
+@keyframes fw-breath { 0%,100% { box-shadow: 0 0 5px #e74c3c66; } 50% { box-shadow: 0 0 10px #e74c3ccc; } }
+@keyframes fw-blink { 0%,100% { opacity: 1; } 50% { opacity: .3; } }
+
+/* Großes Wappen im Siegel-Modal: vollständig, lesbares Band. */
+.siegel-wappen-gross { display: block; margin: .25rem auto .6rem; }
+.siegel-wappen-gross svg { display: block; width: 220px; height: 220px; max-width: 68vw; max-height: 68vw; margin: 0 auto; }
+.siegel-modal { max-width: 440px; text-align: center; }
+.siegel-modal-dl { display: grid; grid-template-columns: auto 1fr; gap: .2rem .8rem; text-align: left; font-size: .82rem; margin: .5rem 0; }
+.siegel-modal-dl dt { color: var(--text-muted); }
+.siegel-modal-dl dd { margin: 0; overflow-wrap: anywhere; }
+
+/* Vollbild (Klaus 2026-10-26, A3): keine Maximalbreite mehr, der Inhalt nutzt die ganze Breite. */
+.app-body { display: flex; flex: 1; width: 100%; min-width: 0; position: relative; }
+/* ---- Seitenleiste mit Gruppen, einklappbar (A3/C1) ----------------------------------- */
+.app-nav {
+  display: flex; flex-direction: column; gap: .1rem; padding: .6rem .5rem;
+  border-right: 1px solid var(--border); width: var(--nav-w); flex: none; min-width: 0;
+  background: var(--surface);
+  position: sticky; top: 48px; max-height: calc(100dvh - 48px); overflow-y: auto; overflow-x: hidden;
+  /* Platz unten: die schwebenden Mycel-/Siegel-Leisten verdecken keinen Menüpunkt (B3). */
+  padding-bottom: var(--leisten-platz);
+  scrollbar-width: thin;
+}
+.nav-gruppe { display: flex; flex-direction: column; gap: .1rem; padding: .35rem 0; border-top: 1px solid var(--border); }
+.nav-gruppe:first-child { border-top: none; padding-top: 0; }
+.nav-gruppe-titel { font-size: .72rem; font-weight: 600; letter-spacing: .04em; text-transform: uppercase; color: var(--text-muted); padding: .25rem .6rem .15rem; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.nav-item {
+  position: relative; display: flex; align-items: center; gap: .55rem; width: 100%;
+  text-align: left; font: inherit; font-size: .92rem; line-height: 1.25; cursor: pointer; border: none; background: transparent;
+  color: var(--text-muted); min-height: var(--control-h); padding: .25rem .6rem; border-radius: var(--radius-sm);
+  transition: background var(--motion), color var(--motion);
+}
+.nav-item .ic-text { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.nav-item:hover { background: var(--surface-2); color: var(--text); }
+.nav-item.active { background: var(--accent-soft); color: var(--accent-strong); font-weight: 600; }
+.nav-klapp {
+  margin-top: auto; display: flex; align-items: center; gap: .55rem; font: inherit; font-size: .85rem; cursor: pointer;
+  border: 1px solid transparent; background: transparent; color: var(--text-muted); min-height: var(--control-h);
+  padding: .25rem .6rem; border-radius: var(--radius-sm); width: 100%; text-align: left;
+}
+.nav-klapp:hover { background: var(--surface-2); color: var(--text); }
+.nav-klapp .ic-text { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+/* Eingeklappt: nur Symbole; der Name steht im title. Im Teilbild (≤ 1024 px) automatisch, sonst von Hand. */
+.app.nav-zu .app-nav { width: var(--nav-w-zu); padding-inline: .4rem; }
+.app.nav-zu .nav-item, .app.nav-zu .nav-klapp { justify-content: center; padding-inline: 0; }
+.app.nav-zu .nav-item .ic-text, .app.nav-zu .nav-klapp .ic-text, .app.nav-zu .nav-gruppe-titel { display: none; }
+.app.nav-zu .nav-gruppe { padding: .25rem 0; }
+.nav-hintergrund { display: none; }
+
+/* min-width:0 lässt die Inhaltsspalte schrumpfen (sonst sprengt breiter Inhalt — z. B.
+   Tabellen — die zentrierte max-width-Spalte nach rechts; Flexbox-min-width:auto-Falle). */
+.content { flex: 1; padding: 1rem 1.25rem calc(1rem + var(--leisten-platz)); min-width: 0; }
+.view { display: flex; flex-direction: column; gap: 1.1rem; }
+
+.card {
+  background: var(--surface); border: 1px solid var(--border);
+  border-radius: var(--radius); padding: .9rem 1rem; box-shadow: none;
+}
+.placeholder { display: grid; place-items: center; min-height: 160px; }
+
+/* ---- Datensicherung (Schritt 3) ------------------------------------------- */
+.backup-card { display: flex; flex-direction: column; gap: .65rem; transition: border-color var(--motion), background var(--motion); }
+.backup-card-head { display: flex; flex-direction: column; gap: .15rem; }
+.backup-card.drag-over { border-color: var(--accent); background: var(--accent-soft); }
+.backup-drop-hint { margin: 0; }
+.backup-folder { display: flex; flex-direction: column; gap: .4rem; }
+
+/* ---- Einstellungen -------------------------------------------------------- */
+.setting { display: flex; flex-direction: column; gap: .45rem; }
+.setting-label { font-weight: 600; }
+.segmented {
+  display: inline-flex; flex-wrap: wrap; gap: .2rem; padding: .2rem; max-width: 100%;
+  background: var(--surface-2); border: 1px solid var(--border); border-radius: var(--radius-sm); width: fit-content;
+}
+.seg {
+  position: relative; font: inherit; font-size: .9rem; line-height: 1.25; cursor: pointer; border: 1px solid transparent; background: transparent; color: var(--text-muted);
+  min-height: 28px; padding: .15rem .65rem; border-radius: var(--radius-sm); transition: background var(--motion), color var(--motion);
+  display: inline-flex; align-items: center; gap: .35rem; max-width: 100%;
+}
+.seg .ic-text { white-space: normal; hyphens: manual; }
+.seg:hover { color: var(--text); }
+.seg.active { background: var(--surface); color: var(--accent-strong); border-color: var(--accent); font-weight: 600; }
+/* Modus-Wahl in der Einrichtung: vier gleich breite Knöpfe, die nie Wörter abschneiden. */
+.modus-wahl { display: grid; grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr)); gap: .5rem; margin: .5rem 0; }
+
+/* ---- Banner (Durabilität) ------------------------------------------------- */
+.durability-slot:empty { display: none; }
+.banner {
+  display: flex; align-items: center; gap: .5rem .75rem; justify-content: space-between; flex-wrap: wrap;
+  padding: .6rem 1rem; font-size: .9rem; border-bottom: 1px solid var(--border);
+}
+.banner-warn { background: var(--warn-bg); border-color: var(--warn-border); color: var(--warn-text); }
+.banner-info { background: var(--accent-soft); color: var(--text); border-color: var(--accent); }
+.banner-critical { background: var(--critical-bg); border-color: var(--critical-border); color: var(--critical-text); }
+/* Dauerhafter TEST-MODUS-Banner (Sandbox-Tresor aktiv) — deutlich, aber nicht alarmierend. */
+.banner-test { background: var(--accent-soft); color: var(--text); border-bottom: 1px solid var(--accent); }
+.banner-test strong { color: var(--accent-strong); letter-spacing: .02em; }
+
+/* ---- Test-Modus (Sandbox) ------------------------------------------------- */
+.test-open { flex: 1 1 12rem; min-width: 8rem; text-align: left; display: flex; align-items: center; justify-content: space-between; gap: .5rem; }
+.test-link { display: block; margin: .4rem auto 0; }
+
+/* Schlichter modaler Dialog (behalten/verwerfen beim Verlassen eines Tests). */
+.modal-overlay {
+  position: fixed; inset: 0; z-index: 100; padding: 1rem;
+  display: flex; align-items: center; justify-content: center;
+  background: rgba(16, 24, 40, .45);
+}
+.modal {
+  background: var(--surface); color: var(--text);
+  border: 1px solid var(--border); border-radius: var(--radius);
+  box-shadow: var(--shadow); padding: 1.2rem 1.4rem; max-width: 30rem; width: 100%;
+}
+.modal h2 { margin-top: 0; }
+.modal .btn-row { margin-top: 1rem; }
+
+/* Nicht-blockierende Plausibilitäts-Hinweise (Spielraum, kein Haken). */
+.hinweis { background: var(--warn-bg); border: 1px solid var(--warn-border); color: var(--warn-text); border-radius: var(--radius-sm, 8px); padding: .6rem .8rem; margin-top: .7rem; }
+.hinweis-liste { margin: .35rem 0 0; padding-left: 1.1rem; }
+.hinweis-liste li { margin: .15rem 0; }
+.pseudonym-info summary { cursor: pointer; }
+.pseudonym-preview { white-space: pre-wrap; word-break: break-word; max-height: 12rem; overflow: auto; margin: .4rem 0 0; padding: .5rem .6rem; background: var(--surface-2); border-radius: var(--radius-sm, 8px); }
+.bank-row { border-top: 1px solid var(--border); padding-top: .4rem; margin-top: .4rem; }
+.sammel-panel { margin-top: .4rem; }
+.sammel-liste { display: flex; flex-direction: column; gap: .2rem; margin: .3rem 0; }
+.sammel-zeile { display: flex; align-items: center; gap: .5rem; }
+
+/* Rechnungs-Dokument (druckbar). */
+.rechnung-doc .rech-kopf { display: flex; justify-content: space-between; gap: 1.5rem; flex-wrap: wrap; margin-bottom: 1rem; }
+.rech-adr div { line-height: 1.4; }
+.rech-summen { margin-top: .8rem; max-width: 22rem; margin-left: auto; }
+
+/* ---- Tabellen ------------------------------------------------------------- */
+/* Breite Tabellen-Karten horizontal scrollbar statt abschneiden (zeigt alle Spalten). */
+.card.no-pad { padding: 0; overflow-x: auto; }
+.pad { padding: 1.1rem; }
+.table { width: 100%; border-collapse: collapse; font-size: .92rem; }
+.table th, .table td { text-align: left; padding: .6rem .8rem; border-bottom: 1px solid var(--border); vertical-align: top; }
+.table thead th { background: var(--surface-2); color: var(--text-muted); font-weight: 600; font-size: .8rem; position: sticky; top: 0; }
+.table tbody tr:last-child td { border-bottom: none; }
+.table .num, .table th.num { text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap; }
+.mono { font-family: var(--mono); font-size: .85em; }
+.actions { text-align: right; white-space: nowrap; }
+
+/* ---- Badges --------------------------------------------------------------- */
+.badge { display: inline-block; padding: .12rem .55rem; border-radius: 999px; font-size: .75rem; font-weight: 600; border: 1px solid var(--border); white-space: nowrap; }
+.badge-entwurf { background: var(--surface-2); color: var(--text-muted); }
+.badge-warn { background: var(--warn-bg); color: var(--warn-text); border: 1px solid var(--warn-border); }
+.badge-ok { background: var(--accent-soft); color: var(--accent-strong); border-color: transparent; }
+.badge-storno { background: var(--warn-bg); color: var(--warn-text); border-color: var(--warn-border); }
+.badge-error { background: var(--critical-bg); color: var(--critical-text); border-color: var(--critical-border); }
+.badge-line { margin: .5rem 0 0; }
+.badge + .badge { margin-left: .35rem; }
+.report-lines { margin: .4rem 0; }
+
+/* ---- Buchungs-Formular ---------------------------------------------------- */
+.buchung-form { display: flex; flex-direction: column; gap: .75rem; margin-bottom: 1rem; }
+.form-title, .card-title { margin: 0; font-size: 1.05rem; }
+.form-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 11rem), 1fr)); gap: .7rem; }
+.buchung-form select { font: inherit; width: 100%; }
+/* Journal-Formular: breitere Spalten, damit Kontonamen lesbar bleiben (A5, Befund B2). */
+.buchung-form .form-grid { grid-template-columns: repeat(auto-fit, minmax(min(100%, 15rem), 1fr)); }
+
+/* ---- Auswertung ----------------------------------------------------------- */
+.report-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 16rem), 1fr)); gap: 1rem; }
+.report-line { display: flex; justify-content: space-between; gap: 1rem; padding: .3rem 0; }
+.report-line.strong { font-weight: 700; font-size: 1.05rem; }
+.report-line .num { font-variant-numeric: tabular-nums; }
+/* Nachkalkulation: Soll/Ist-Abweichung farblich (additiv — Text bleibt ohne Farbe lesbar). */
+.abw-hoch { color: var(--error); }   /* IST über SOLL → Kostenüberschreitung */
+.abw-tief { color: var(--success, var(--accent-strong)); }   /* IST unter SOLL → besser als geplant */
+.period-bar { display: flex; align-items: center; gap: .8rem; flex-wrap: wrap; margin-bottom: 1rem; }
+.inline-field { display: inline-flex; align-items: center; gap: .35rem; }
+.inline-field input { width: 120px; }
+.inline-field > span { color: var(--text-muted); font-size: .85rem; }
+
+.audit { margin-top: 1rem; }
+.audit-status { display: flex; align-items: center; gap: .55rem; font-weight: 600; }
+.audit-dot { width: 10px; height: 10px; border-radius: 50%; flex: none; }
+.audit-ok .audit-dot { background: var(--accent); }
+.audit-fail .audit-dot { background: var(--error); }
+.audit-fail { border-color: var(--critical-border); }
+.audit-errors { margin: .6rem 0 0; padding-left: 1.2rem; color: var(--critical-text); font-size: .9rem; }
+
+/* ---- Belege / KI ---------------------------------------------------------- */
+.beleg-text {
+  width: 100%; font: inherit; padding: .7rem; border: 1px solid var(--border);
+  border-radius: var(--radius-sm); background: var(--surface-2); color: var(--text);
+  resize: vertical; min-height: 90px;
+}
+.safe-dropzone {
+  border: 2px dashed var(--border); border-radius: var(--radius-sm);
+  background: var(--surface-2); color: var(--text-muted);
+  padding: 1rem; margin-bottom: .6rem; text-align: center; font-size: .9rem;
+  transition: border-color .15s, background .15s, color .15s;
+}
+.safe-dropzone.dragover { border-color: var(--accent); color: var(--text); background: var(--surface); }
+.vorschlag-slot:empty { display: none; }
+.vorschlag { margin-top: .9rem; border-color: var(--accent); }
+.vorschlag-head { display: flex; align-items: center; justify-content: space-between; gap: .5rem; margin-bottom: .35rem; }
+.vorschlag-zeilen { margin: .5rem 0; display: flex; flex-direction: column; gap: .15rem; }
+.checkbox-row { display: flex; align-items: center; gap: .5rem; }
+.checkbox-row input { width: auto; }
+.test-row { display: flex; align-items: center; gap: .6rem; margin-top: .4rem; flex-wrap: wrap; }
+.test-status.ok { color: var(--accent-strong); font-weight: 600; }
+.test-status.fail { color: var(--error); }
+.provider-link { color: var(--accent-strong); text-decoration: none; }
+.provider-link:hover { text-decoration: underline; }
+
+/* ---- Google-Vision Schlüssel-Anleitung (nummerierte Direkt-Links) --------- */
+.vision-guide { margin: .3rem 0 .2rem; }
+.vision-guide-intro { margin: 0 0 .3rem; }
+.vision-steps { margin: .2rem 0; padding-left: 1.2rem; display: grid; gap: .3rem; }
+.vision-steps li { line-height: 1.35; }
+.vision-guide-note { margin: .3rem 0 0; opacity: .85; }
+.vision-walk { margin-top: .5rem; }
+.vision-walk > summary { cursor: pointer; color: var(--accent-strong); }
+.vision-walk-steps { margin: .4rem 0; padding-left: 1.2rem; display: grid; gap: .35rem; }
+.vision-walk-steps li { line-height: 1.4; }
+
+/* ---- SBKIM-Suche (Hybrid-Match) ------------------------------------------ */
+.sbkimsuche-out { margin-top: .8rem; }
+.sbkimsuche-list { margin: .4rem 0 0; padding-left: 1.1rem; display: grid; gap: .5rem; }
+.sbkimsuche-list li { line-height: 1.35; }
+.sbkimsuche-list li p { margin: .15rem 0 0; }
+.speech-block { margin: .5rem 0 .2rem; }
+.speech-row { align-items: center; gap: .4rem; flex-wrap: wrap; }
+.speech-notice { margin: .3rem 0 0; opacity: .85; }
+
+/* ---- Auftrags-Positionen -------------------------------------------------- */
+.pos-head, .pos-row { display: grid; grid-template-columns: 2fr 1fr 1fr 1fr auto; gap: .5rem; align-items: center; }
+.pos-remove { padding: .2rem .5rem; line-height: 1; }
+.pos-head { font-size: .8rem; color: var(--text-muted); margin: .3rem 0 .1rem; }
+.pos-box { display: flex; flex-direction: column; gap: .4rem; margin-bottom: .5rem; }
+.pos-row input, .pos-row select {
+  font: inherit; padding: .45rem .55rem; border: 1px solid var(--border);
+  border-radius: var(--radius-sm); background: var(--surface-2); color: var(--text); width: 100%;
+}
+
+/* ---- Export / Recht ------------------------------------------------------- */
+.export-bar { display: flex; align-items: center; gap: .5rem; flex-wrap: wrap; }
+.btn-danger { border-color: var(--critical-border); color: var(--critical-text); }
+.btn-danger:hover { background: var(--critical-bg); border-color: var(--error); }
+.legal-card p { margin: .25rem 0; }
+.legal-card h3 { margin: .9rem 0 .25rem; }
+.legal-liste { margin: .25rem 0 .5rem; padding-left: 1.1rem; }
+.legal-liste li { margin: .2rem 0; }
+.legal-stufe { border: 1px solid var(--border); border-radius: var(--radius, 10px); padding: .6rem .8rem; margin: .5rem 0; }
+.legal-stufe h3 { margin: 0 0 .15rem; }
+.legal-stufe-aktiv { border-color: var(--accent-strong); background: var(--accent-soft); }
+.legal-card .note { padding: .45rem .7rem; border-left: 3px solid var(--accent-strong); background: var(--accent-soft); border-radius: 6px; }
+
+/* ---- Dashboard-KPIs ------------------------------------------------------- */
+.dash-head { display: flex; align-items: baseline; justify-content: space-between; gap: 1rem; }
+.kpi-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 9.5rem), 1fr)); gap: .8rem; }
+.kpi {
+  background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius);
+  padding: 1rem; box-shadow: var(--shadow-sm);
+}
+.kpi-value { font-size: 1.4rem; font-weight: 700; letter-spacing: -.02em; font-variant-numeric: tabular-nums; }
+.kpi-label { color: var(--text-muted); font-size: .82rem; margin-top: .15rem; }
+.kpi-pos .kpi-value { color: var(--accent-strong); }
+.kpi-neg .kpi-value { color: var(--error); }
+/* Hinweistext mit Warnfarbe (z. B. Liquiditäts-Unterdeckung) — additiv, nur Textfarbe. */
+.hint-error { color: var(--error); }
+/* QR-Einzelteilen (lokal erzeugt) — weißer Grund + scharfe Kanten zum Scannen. */
+.qr-img { display: block; margin-top: .6rem; background: #fff; padding: .5rem; border-radius: .4rem; image-rendering: pixelated; max-width: 100%; height: auto; }
+.small-kpi .kpi-value { font-size: 1.15rem; }
+.small-kpi .kpi { padding: .7rem .9rem; }
+
+/* ---- Barrierefreiheit ----------------------------------------------------- */
+.skip-link {
+  position: absolute; left: -9999px; top: 0; z-index: 100;
+  background: var(--accent-btn); color: var(--on-accent); padding: .5rem .9rem; border-radius: var(--radius-sm);
+}
+.skip-link:focus { left: .5rem; top: .5rem; }
+:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; border-radius: 4px; }
+.btn:focus-visible, .nav-item:focus-visible, .seg:focus-visible { outline-offset: 2px; }
+
+/* ---- Leerzustand ---------------------------------------------------------- */
+.empty-state { text-align: center; padding: 1.5rem 1rem; }
+.empty-illu { display: block; width: 100%; max-width: 220px; height: auto; margin: 0 auto .75rem; }
+
+.fatal { padding: 2rem; text-align: center; color: var(--error); }
+
+/* ---- Druck (PDF über Drucken) --------------------------------------------- */
+@media print {
+  .app-header, .app-nav, .nav-hintergrund, .thema-popover, .durability-slot, .no-print, .period-bar { display: none !important; }
+  .app-body { display: block; max-width: none; }
+  .content { padding: 0; }
+  .card { box-shadow: none; border-color: #ccc; break-inside: avoid; }
+  body { background: #fff; }
+}
+
+/* ---- Responsiv (Handyformat) ---------------------------------------------- */
+@media (max-width: 640px) {
+  /* Kopfzeile darf umbrechen, damit Mandant/Wechseln/Sperren nicht abgeschnitten werden. */
+  .app-header { flex-wrap: wrap; gap: .3rem .4rem; padding-inline: .6rem; }
+  /* Button-Beschriftungen NICHT mitten im Wort umbrechen (z. B. „Mandant wechseln"). */
+  .app-header .btn { white-space: nowrap; }
+  /* Platz sparen: die Lampen-Labels (LEBT/VERKEHR/FREMD/SIEGEL) ausblenden — nur Punkte bleiben. */
+  .fw-label { display: none; }
+  /* Sperren nur als Symbol; der Name steht im title/aria-label. */
+  .sperren-knopf .ic-text { display: none; }
+  .sperren-knopf { padding-inline: .4rem; }
+  /* ☰ sichtbar — klappt die Leiste als Schublade von links auf (Einstellungen inklusive). */
+  .nav-toggle {
+    display: inline-flex; align-items: center; justify-content: center; position: relative;
+    background: transparent; border: none; color: var(--text); cursor: pointer;
+    min-height: var(--control-h); min-width: var(--control-h); padding: .2rem; border-radius: var(--radius-sm);
+  }
+  .nav-toggle:hover { background: var(--surface-2); }
+  .app-body { flex-direction: column; }
+  .app-nav, .app.nav-zu .app-nav {
+    position: fixed; left: 0; top: 0; bottom: 0; z-index: 40; width: min(86vw, 300px); max-height: none;
+    transform: translateX(-104%); transition: transform var(--motion); box-shadow: var(--shadow);
+    border-right: 1px solid var(--border); padding: .6rem .5rem var(--leisten-platz);
+  }
+  .app.nav-open .app-nav { transform: none; }
+  .app.nav-zu .nav-item, .app.nav-zu .nav-klapp { justify-content: flex-start; padding-inline: .6rem; }
+  .app.nav-zu .nav-item .ic-text, .app.nav-zu .nav-gruppe-titel { display: block; }
+  .nav-klapp { display: none; }
+  .nav-hintergrund { display: none; position: fixed; inset: 0; z-index: 35; background: rgba(16, 24, 40, .45); }
+  .app.nav-open .nav-hintergrund { display: block; }
+  .content { padding-inline: .8rem; }
+  /* Segmentierte Schalter mit langen Optionen: als volle-Breite-Liste stapeln, jede Option eine Zeile. */
+  .segmented { width: 100%; flex-direction: column; align-items: stretch; }
+  .seg { text-align: left; justify-content: flex-start; padding: .35rem .7rem; }
+  .thema-wahl .segmented { flex-direction: row; }
+  .thema-wahl .seg { flex: 1 1 auto; justify-content: center; }
+  /* Knopfreihen: umbrechen statt abschneiden (A5: nichts darf am rechten Rand verschwinden). */
+  .btn-row > .btn { flex: 0 1 auto; }
+}
+
+/* ---- Deckblatt / Datenblatt (Intro + „Über") ----------------------------- */
+.intro-screen {
+  min-height: 100vh; display: flex; justify-content: center;
+  background:
+    radial-gradient(1100px 520px at 80% -10%, var(--accent-soft) 0%, transparent 55%),
+    var(--bg, #f6f8fa);
+  padding: 1.5rem 1rem; overflow-y: auto;
+}
+.intro-scroll { width: 100%; max-width: 760px; display: flex; flex-direction: column; gap: 1rem; }
+.intro-skip { display: flex; gap: .5rem; align-items: flex-start; font-size: .85rem; color: var(--text-muted); }
+
+.deckblatt { display: flex; flex-direction: column; gap: 1rem; }
+.deckblatt-hero {
+  text-align: center; padding: 1.6rem 1rem; border-radius: var(--radius-lg, 18px);
+  background: var(--surface); border: 1px solid var(--border); box-shadow: var(--shadow-sm);
+}
+.deckblatt-title { margin: .5rem 0 .2rem; font-size: 2rem; letter-spacing: .5px; }
+.deckblatt-tagline { margin: 0 0 .8rem; color: var(--text-muted); }
+.deckblatt-zielgruppen { display: flex; gap: .5rem; flex-wrap: wrap; justify-content: center; }
+.pill {
+  padding: .25rem .8rem; border-radius: 999px; font-size: .8rem; font-weight: 600;
+  background: var(--accent-soft); color: var(--accent-strong); border: 1px solid transparent;
+}
+
+.siegel {
+  display: flex; gap: 1rem; align-items: flex-start; padding: 1rem;
+  border-radius: var(--radius, 12px); background: var(--surface);
+  border: 1px solid var(--accent); box-shadow: var(--shadow-sm);
+}
+.siegel-badge {
+  flex: none; width: 84px; height: 84px; border-radius: 50%;
+  display: flex; flex-direction: column; align-items: center; justify-content: center;
+  background: var(--accent); color: #fff; text-align: center;
+  border: 3px solid var(--accent-strong);
+}
+.siegel-eu { font-size: 1.5rem; font-weight: 800; line-height: 1; }
+.siegel-badge-text { font-size: .6rem; font-weight: 700; margin-top: .15rem; }
+.siegel-body { flex: 1; min-width: 0; }
+.siegel-liste { margin: .4rem 0; padding-left: 1.1rem; font-size: .85rem; }
+.siegel-liste li { margin: .25rem 0; }
+.siegel-links { font-size: .8rem; margin-top: .3rem; }
+
+.datenblatt-grid { display: grid; grid-template-columns: 1fr 1fr; gap: .8rem; }
+.datenblatt-item { padding: .6rem .7rem; border-radius: var(--radius-sm, 8px); background: var(--surface-2); }
+@media (max-width: 600px) {
+  .datenblatt-grid { grid-template-columns: 1fr; }
+  .siegel { flex-direction: column; align-items: center; text-align: center; }
+}
+.deckblatt-cover { display: block; width: 100%; max-width: 520px; height: auto; margin: 0 auto .8rem; border-radius: var(--radius, 12px); box-shadow: var(--shadow); }
+.pw-row { display: flex; gap: 1rem; align-items: flex-start; }
+.pw-key { flex: none; width: 96px; height: auto; align-self: center; }
+.pw-form { flex: 1; min-width: 0; }
+@media (max-width: 600px) { .pw-row { flex-direction: column; align-items: center; } .pw-key { width: 72px; } }
+.siegel-anbieter { display: flex; align-items: center; gap: .55rem; margin-top: .5rem; }
+.siegel-iso { width: 38px; height: 38px; flex: none; border-radius: 6px; }
+/* Passwort-ändern: Felder einspaltig (klar neben dem Schlüssel), Knopf mit Abstand. */
+.pw-form .form-grid { grid-template-columns: 1fr; max-width: 340px; }
+.pw-form .btn-row { margin-top: .8rem; }
+
+/* ---- Gebrauchsanleitung --------------------------------------------------- */
+.guide-step { padding: .6rem 0; border-top: 1px solid var(--border); }
+.guide-step:first-of-type { border-top: none; }
+.guide-step-head { display: flex; align-items: center; gap: .55rem; margin-bottom: .3rem; }
+.guide-num { flex: none; width: 1.6rem; height: 1.6rem; border-radius: 50%; background: var(--accent); color: #fff; display: grid; place-items: center; font-weight: 700; font-size: .85rem; }
+.guide-list { margin: .2rem 0 .4rem; padding-left: 1.2rem; }
+.guide-list li { margin: .2rem 0; }
+.copy-block { margin: .4rem 0 .2rem; }
+.copy-text { background: var(--surface-2); border: 1px solid var(--border); border-radius: var(--radius-sm, 8px); padding: .6rem .7rem; white-space: pre-wrap; font-family: var(--mono); font-size: .82rem; margin: 0 0 .4rem; overflow-x: auto; }
+.guide-highlight { color: var(--accent-strong); font-weight: 700; }
+
+/* ── Angebote — adaptiver Baukasten (BAUPLAN Block 2 / Schritt 11b) ──────────── */
+.card-subtitle { margin: .85rem 0 .2rem; font-size: .95rem; }
+.card-title.pad { padding: .8rem 1rem .2rem; }
+.card-title-row { display: flex; align-items: center; gap: .6rem; flex-wrap: wrap; }
+
+.baukasten { margin: .2rem 0 .4rem; }
+.baukasten-palette { display: flex; flex-wrap: wrap; gap: .5rem; margin: .25rem 0 .6rem; }
+.baukasten-karte {
+  display: inline-flex; align-items: center; gap: .4rem; font: inherit;
+  padding: .5rem .8rem; cursor: pointer; border: 1px solid var(--border);
+  border-radius: var(--radius-sm); background: var(--surface-2); color: var(--text);
+}
+.baukasten-karte:hover { border-color: var(--accent); }
+.baukasten-karte.active { border-color: var(--accent); background: var(--accent-soft); color: var(--accent-strong); }
+.bk-zaehler { font-size: .75rem; font-weight: 600; color: var(--text-muted); }
+.schema-form { background: var(--surface-2); }
+
+.angebot-pos-liste { gap: .35rem; }
+.angebot-pos {
+  grid-template-columns: auto 2fr 1.4fr 1fr .6fr auto;
+  padding: .4rem .55rem; border: 1px solid var(--border);
+  border-radius: var(--radius-sm); background: var(--surface);
+}
+.angebot-pos.dragging { opacity: .5; }
+.drag-griff { cursor: grab; color: var(--text-muted); user-select: none; }
+.pos-desc { font-weight: 500; }
+
+.angebot-summen { display: flex; flex-wrap: wrap; gap: .8rem; margin: .7rem 0; }
+.angebot-summen > .card { flex: 1 1 14rem; padding: .65rem .85rem; }
+.angebot-intern { border: 1px dashed var(--border); }
+
+/* --- TEMPORÄRE Test-Marken (src/ui/testmarke.js) — beim Aufräumen mitlöschen --- */
+.test-marke {
+  display: inline-flex; align-items: center; gap: .3rem;
+  margin: .25rem 0; padding: .12rem .5rem;
+  font-size: .72rem; line-height: 1.5; font-weight: 600;
+  border-radius: 999px; cursor: pointer;
+  border: 1px solid #c9981f; color: #7a5a00; background: #fff6d8;
+}
+.test-marke.done { border-color: #2e9e5b; color: #156b39; background: #e3f6ea; }
+
+/* Prüfung und Reinigung der Belege (Klaus 2026-10-14). */
+.modal.modal-weit { max-width: 40rem; max-height: 88vh; overflow: auto; }
+.modal .btn-row { flex-wrap: wrap; }
+.pruef-leiste { padding: .6rem .8rem 0; }
+.pruef-zelle .btn-row { flex-wrap: wrap; gap: .3rem; }
+
+/* Man sieht, dass geprüft wird (Klaus 2026-10-14) — Drehkreis wie in Workflow PDF. */
+.pruef-laeuft { display: inline-flex; align-items: center; gap: .45rem; }
+.pruef-dreh { width: 12px; height: 12px; flex: 0 0 12px; border: 2px solid currentColor; border-right-color: transparent; border-radius: 50%; animation: pruefDreh .9s linear infinite; display: inline-block; }
+@keyframes pruefDreh { to { transform: rotate(360deg); } }
+@media (prefers-reduced-motion: reduce) { .pruef-dreh { animation: none; border-right-color: currentColor; opacity: .6; } }
+.pruef-stapel { display: grid; gap: .3rem; width: 100%; }
+.pruef-stapel progress { width: 100%; height: .6rem; accent-color: var(--accent); }
+.arbeits-leiste { position: fixed; left: 50%; bottom: 1rem; transform: translateX(-50%); z-index: 90; display: flex; align-items: center; gap: .55rem;
+  background: var(--surface); color: var(--text); border: 1px solid var(--border); border-radius: 999px; box-shadow: var(--shadow); padding: .55rem 1rem; font-size: .9rem; max-width: calc(100vw - 2rem); }
+
+/* ---- Installieren in der Kopfleiste (Klaus 2026-10-18) ---------------------
+   Immer da, solange die App nicht installiert ist. Als App bzw. nach `appinstalled`
+   (html.app-installiert) weg — auch der Knopf in den Einstellungen. */
+#install-kopf { color: var(--accent); font-weight: 700; margin-left: auto; }
+/* Am Handy darf die rechte Gruppe umbrechen, statt aus dem Fenster zu laufen (vorher 361 px Seite bei 320 px). */
+@media (max-width: 640px) {
+  .header-right { flex-wrap: wrap; justify-content: flex-end; max-width: 100%; gap: .4rem .35rem; }
+}
+#install-kopf[hidden] { display: none !important; }
+@media (display-mode: standalone) { #install-kopf { display: none !important; } }
+html.app-installiert #install-kopf, html.app-installiert [data-install-knopf] { display: none !important; }
+/* 641–780 px: mit dem Installieren-Knopf passte die Zeile nicht mehr (gemessen 650 px Seite bei 641). Dort wie am
+   Handy nur die Lampen-Punkte zeigen — spart ~140 px, die Kopfleiste bleibt einzeilig. */
+@media (min-width: 641px) and (max-width: 900px) { .app-header .btn { white-space: nowrap; } }
+
+/* Nach Muster verdeckte Namen unter dem Belegtext (Klaus 2026-10-26): gelb, ein Tipp nimmt den Treffer zurück. */
+.namen-verdeckt { margin-bottom: .35rem; }
+.namen-verdeckt .chip-verdeckt { background: #fde68a; border-color: #d9a700; color: #4a3800; margin: .15rem .25rem .15rem 0; }
+:root[data-theme="dark"] .namen-verdeckt .chip-verdeckt { background: #5c4a00; border-color: #d9a700; color: #fff3bf; }
+.namen-verdeckt .chip-verdeckt:hover { text-decoration: line-through; }
+
+/* 🎙 Mikrofon an jeder Texteingabe (Klaus 2026-10-26): flache 28-px-Leiste hinter dem Feld, Sprachmarke sichtbar. */
+.mikro { display: inline-flex; align-items: center; gap: .25rem; margin: .2rem 0 0; position: relative; vertical-align: middle; max-width: 100%; flex-wrap: wrap; }
+.mikro .mikro-knopf { min-width: 28px; padding-inline: .4rem; }
+.mikro .mikro-knopf.mikro-an { background: var(--warn-bg); border-color: var(--warn-border); color: var(--warn-text); }
+.mikro .mikro-sprache { font-weight: 600; letter-spacing: .02em; padding-inline: .45rem; }
+.mikro .mikro-liste { position: absolute; top: 100%; left: 0; z-index: 30; display: flex; flex-direction: column; min-width: 11rem; max-height: 14rem; overflow: auto;
+  background: var(--surface); border: 1px solid var(--border-control); border-radius: var(--radius-sm); box-shadow: 0 6px 20px rgba(0,0,0,.18); padding: .2rem; }
+.mikro .mikro-liste[hidden] { display: none; }
+.mikro .mikro-wahl { text-align: left; background: transparent; border: 0; color: inherit; font: inherit; padding: .35rem .5rem; border-radius: var(--radius-sm); cursor: pointer; min-height: 28px; }
+.mikro .mikro-wahl:hover, .mikro .mikro-wahl:focus { background: var(--accent-soft, rgba(0,0,0,.06)); outline: none; }
+.mikro .mikro-status:empty { display: none; }
+.mikro .mikro-woerter:empty { display: none; }
+.mikro .mikro-wort { font-style: italic; }
+
+/* 🔎 Suche über Belege (Klaus 2026-10-26, A1/A2) */
+.suche-karte .suche-zeile { display: flex; flex-wrap: wrap; align-items: center; gap: .5rem .8rem; margin-top: .4rem; }
+.suche-liste { list-style: none; margin: .4rem 0 0; padding: 0; }
+.suche-liste li { display: flex; flex-wrap: wrap; align-items: center; gap: .3rem .6rem; padding: .3rem 0; border-top: 1px solid var(--border-control); }
+.suche-liste .suche-typ { font-size: .8rem; color: var(--text-muted); min-width: 5rem; }
+.suche-liste .suche-stelle { flex: 1 1 14rem; overflow-wrap: anywhere; }
+tr.suche-markiert td { background: var(--accent-soft); }
+
+/* 🤖 Frage an die Belege (A3, 2026-10-26): Vorschau „Das sieht die KI“ und Antwort unter der Suchkarte */
+.frage-ziel:empty { display: none; }
+.frage-vorschau { margin-top: .6rem; padding: .7rem .8rem; }
+.frage-vorschau .pseudonym-info { margin: .4rem 0; }
+.frage-antwort { margin-top: .6rem; }
+.frage-antwort [data-frage-text] { line-height: 1.5; }
+.frage-antwort [data-frage-verweis] { margin: 0 .15rem; vertical-align: baseline; }
+.frage-vorschau .suche-zeile { margin-top: .5rem; }
+
+/* Eingebettete Apps (Workflow Calculate / Needs, Klaus 2026-10-26): Rahmen mit App-Bild, Leiste, Vollbild */
+.ic-img { stroke: none; object-fit: contain; border-radius: 5px; }
+.app-rahmen { display: flex; flex-direction: column; gap: .5rem; height: calc(100dvh - 7.5rem - var(--leisten-platz)); min-height: 420px; }
+.app-rahmen.vollbild { position: fixed; inset: 0; z-index: 60; height: auto; min-height: 0; padding: .5rem; background: var(--bg); }
+.app-leiste { display: flex; flex-wrap: wrap; align-items: center; gap: .5rem .8rem; }
+.app-bild { width: 28px; height: 28px; border-radius: 6px; flex: none; }
+.app-titel { display: flex; flex-direction: column; min-width: 0; flex: 1 1 14rem; }
+.app-titel .small { overflow-wrap: anywhere; }
+.app-knoepfe { display: flex; flex-wrap: wrap; align-items: center; gap: .4rem; }
+.app-frame-platz { flex: 1; min-height: 0; }
+#blp-app-frames .app-frame { display: none; border: 1px solid var(--border); border-radius: var(--radius-sm, 8px); background: #fff; box-sizing: border-box; }
+@media (max-width: 640px) { .app-rahmen { height: calc(100dvh - 9.5rem - var(--leisten-platz)); } .app-titel .small { display: none; } }
