@@ -10,7 +10,7 @@ import { createHash } from 'node:crypto';
 import { readFileSync, writeFileSync, mkdirSync, existsSync, unlinkSync, rmSync, readdirSync, statSync } from 'node:fs';
 import { dirname, join, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { basicUmschreiben, wirdUmgeschrieben, NICHT_KOPIEREN, BASIC_EIGEN, REGELN_FASSUNG, PRO_REPO } from './basic-regeln.mjs';
+import { basicUmschreiben, wirdUmgeschrieben, nichtKopieren, BASIC_EIGEN, REGELN_FASSUNG, PRO_REPO } from './basic-regeln.mjs';
 
 const WURZEL = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const argPro = process.argv.indexOf('--pro');
@@ -22,7 +22,7 @@ const proCommit = execFileSync('git', ['-C', PRO, 'rev-parse', 'HEAD'], { encodi
 const schmutzig = execFileSync('git', ['-C', PRO, 'status', '--porcelain'], { encoding: 'utf8' }).trim();
 if (schmutzig) console.warn('⚠ Der Pro-Klon hat ungesicherte Änderungen — der Pin zeigt auf HEAD, nicht auf den Arbeitsstand:\n' + schmutzig);
 const dateien = execFileSync('git', ['-C', PRO, 'ls-files', '-z'], { encoding: 'utf8' }).split('\0').filter(Boolean)
-  .filter((p) => !NICHT_KOPIEREN.has(p) && !BASIC_EIGEN.has(p));
+  .filter((p) => !nichtKopieren(p) && !BASIC_EIGEN.has(p));
 
 const alt = existsSync(join(WURZEL, 'HERKUNFT-PRO.json')) ? JSON.parse(readFileSync(join(WURZEL, 'HERKUNFT-PRO.json'), 'utf8')) : null;
 const liste = [];
