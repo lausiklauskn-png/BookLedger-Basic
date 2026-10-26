@@ -28,6 +28,15 @@ export const VORRAT_BASIC = 'blpb-';
 
 /** Pfade, die aus dem Pro-Repo NICHT übernommen werden (Basic hat eigene). */
 export const NICHT_KOPIEREN = new Set(['CLAUDE.md', 'README.md', 'ROADMAP.md', 'docs/PULS.md', 'docs/SESSIONS.md']);
+/** Native Teile der Pro-App (Android/Windows, Signatur, Sitzungsbriefe) gehören nicht in die PWA (Klaus 2026-10-26:
+ *  BookLedgerPro wird nativ, Basic bleibt PWA). Sie werden beim Nachziehen ausgelassen. */
+export const NICHT_KOPIEREN_PRAEFIX = ['android/', 'windows/', 'native/', 'signing/', 'tools/native/', 'tools/signing/',
+  '.github/workflows/android', '.github/workflows/signing', '.github/workflows/windows', '.github/workflows/release', 'BRIEF_'];
+export const NICHT_KOPIEREN_DATEI = new Set(['capacitor.config.json', 'package.json', 'package-lock.json']);
+/** true, wenn Pro diese Datei hat, Basic sie aber nicht übernimmt. */
+export function nichtKopieren(relpath) {
+  return NICHT_KOPIEREN.has(relpath) || NICHT_KOPIEREN_DATEI.has(relpath) || NICHT_KOPIEREN_PRAEFIX.some((v) => relpath.startsWith(v));
+}
 /** Basic-eigene Dateien — der Nachzieh-Lauf fasst sie nie an. */
 export const BASIC_EIGEN = new Set(['CLAUDE.md', 'README.md', 'HERKUNFT-PRO.json', 'tools/pro-nachziehen.mjs', 'tools/basic-regeln.mjs', 'tests/basic_gleichstand.mjs']);
 

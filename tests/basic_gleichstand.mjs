@@ -5,7 +5,7 @@ import { createHash } from 'node:crypto';
 import { readFileSync, existsSync } from 'node:fs';
 import { dirname, join, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { basicUmschreiben, wirdUmgeschrieben, REGELN_FASSUNG, DB_ENDUNG_BASIC, VORRAT_BASIC, BASIC_NAME } from '../tools/basic-regeln.mjs';
+import { basicUmschreiben, wirdUmgeschrieben, nichtKopieren, REGELN_FASSUNG, DB_ENDUNG_BASIC, VORRAT_BASIC, BASIC_NAME } from '../tools/basic-regeln.mjs';
 
 const WURZEL = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 let gruen = 0, rot = 0;
@@ -52,6 +52,12 @@ ok('Vertrag mit Workflow PDF bleibt: von=BookLedgerPro (Kopie und Probe)', lies(
 ok('Datenbank-Namen auch hinter „_" umgeschrieben (blpr_bookledgerpro → blpr_bookledgerbasic), Pfade auch als Regex', basicUmschreiben('tests/x.mjs', "x === 'blpr_a1_bookledgerpro' && /BookLedgerPro\\/main\\/x/.test(y) && z === '/BookLedgerPro/'") === "x === 'blpr_a1_bookledgerbasic' && /BookLedger-Basic\\/main\\/x/.test(y) && z === '/BookLedger-Basic/'");
 ok('Knoten-Zeilen in Proben bleiben Pro (sig.node, spore, endpoint)', basicUmschreiben('tests/x.mjs', "ok('node', sig.node === 'BookLedgerPro');\nok('x', spore.endpoint === 'https://lausiklauskn-png.github.io/BookLedgerPro/');") === "ok('node', sig.node === 'BookLedgerPro');\nok('x', spore.endpoint === 'https://lausiklauskn-png.github.io/BookLedgerPro/');");
 ok('außerhalb der Whitelist bleibt alles', basicUmschreiben('docs/x.md', 'BookLedgerPro bookledgerpro blpr-') === 'BookLedgerPro bookledgerpro blpr-');
+
+ok('Native Pro-Teile kommen nicht in die PWA (android/, native/, tools/native/, signing/, capacitor.config.json, package.json, Briefe)',
+  ['android/app/build.gradle', 'native/blp-native.js', 'tools/native/prepare-web.mjs', 'tools/signing/cli.mjs', 'signing/android-certificate.json',
+   'capacitor.config.json', 'package.json', 'package-lock.json', '.github/workflows/android.yml', 'BRIEF_SITZUNG_X.md'].every(nichtKopieren)
+  && ['index.html', 'src/main.js', 'tests/run.mjs', '.github/workflows/ci.yml', 'docs/design/X.md'].every((p) => !nichtKopieren(p)));
+ok('…und keine solche Datei steht im Pin', !H.dateien.some((d) => nichtKopieren(d.pfad)), H.dateien.filter((d) => nichtKopieren(d.pfad)).map((d) => d.pfad).join(', '));
 
 console.log(`\n${gruen} grün · ${rot} ROT`);
 process.exit(rot ? 1 : 0);
