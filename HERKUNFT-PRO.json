@@ -1,11 +1,11 @@
 {
  "pro": "lausiklauskn-png/BookLedgerPro",
- "proCommit": "73e88be65eae46cbdd5c6a80eca650cba80407c9",
+ "proCommit": "b2eb9918a29fa0711fa16a70557ccf5934ac7246",
  "nachgezogenAm": "2026-10-27",
  "regeln": 1,
  "anzahl": 553,
  "umgeschrieben": 53,
- "baumHash": "831e2d37c7ad8895460a5f088336913566b61d15ec659a4832eb0e88f9974eb2",
+ "baumHash": "778b80e1ae31ec79d81187c84eaf00232fa75c304376b825ab15c68c18d5abc2",
  "dateien": [
   {
    "pfad": ".github/workflows/ci.yml",
@@ -877,7 +877,7 @@
   },
   {
    "pfad": "docs/TRESORORDNER.md",
-   "sha256": "7030062eefc6df0f7a612ec6f2316f1bb09b86c52f0c9548c434f4703ebb5f3b"
+   "sha256": "e2bd2f3988cf1405dd5f183282fed577a2c34ffc845d29dc359940b85ebe0b84"
   },
   {
    "pfad": "docs/UEBERNAHME_SHOP.md",
@@ -909,7 +909,7 @@
   },
   {
    "pfad": "docs/design/FORSCHUNG-ANDROID-TRESORORDNER-2026-10-26.md",
-   "sha256": "e6e150a4e15b7eebbf3326b23eeeba88e819e4faeef5d762418ff207d9a9761a"
+   "sha256": "078924e27acb8015ad22f85147c80cd5e19f8f639e71e59a7e67108c67127b80"
   },
   {
    "pfad": "docs/design/PLAN-CALCULATE-NEEDS-2026-10-26.md",
