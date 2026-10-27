@@ -1,11 +1,11 @@
 {
  "pro": "lausiklauskn-png/BookLedgerPro",
- "proCommit": "c52523f99c537275b1f552f7554128bf4a9687b6",
- "nachgezogenAm": "2026-10-26",
+ "proCommit": "73e88be65eae46cbdd5c6a80eca650cba80407c9",
+ "nachgezogenAm": "2026-10-27",
  "regeln": 1,
- "anzahl": 545,
- "umgeschrieben": 49,
- "baumHash": "9c1088b05f3c4c61202bc2686042f269b73b9d620765c9210ce07b720e84c453",
+ "anzahl": 553,
+ "umgeschrieben": 53,
+ "baumHash": "831e2d37c7ad8895460a5f088336913566b61d15ec659a4832eb0e88f9974eb2",
  "dateien": [
   {
    "pfad": ".github/workflows/ci.yml",
@@ -13,7 +13,7 @@
   },
   {
    "pfad": ".gitignore",
-   "sha256": "af7e6bbddf90d3ae9e7d476e38aadc2e03a61b3b8544a4c44ada9a729800228d"
+   "sha256": "5545e5c620fd8eec8bb861d4275cdbc4d291fb67a5f8f3ae82b10132321a1525"
   },
   {
    "pfad": ".nojekyll",
@@ -569,7 +569,7 @@
   },
   {
    "pfad": "assets/blp-icons.svg",
-   "sha256": "fa6621677c25237ce082de3af7fcc0ca3f44e78fb928c7bec3426a64fd178fc3"
+   "sha256": "2fdd9ea6efd2bf2ab52f4852ef4a63906db669247c5e9d29bbcb18d9db42e733"
   },
   {
    "pfad": "assets/demo/beleg-bewirtung.jpg",
@@ -768,6 +768,10 @@
    "sha256": "de0d8f1ca81cf6903f0b67ccfa2c56d766c3598a079aa7f1ecea5d9492b8ca7d"
   },
   {
+   "pfad": "docs/ANDROID.md",
+   "sha256": "d855007f2c4d2851499f0a73004a59311d47c20a7ceea2c9ad403f0821cf6d40"
+  },
+  {
    "pfad": "docs/APPS-CALCULATE-NEEDS.md",
    "sha256": "2e74a4a31ca3f82203db09f67fb7c710e11879edd5fd23ededa6c97cecc00312"
   },
@@ -872,6 +876,10 @@
    "sha256": "7ec1cef676f1dfb6c1fb7482bec135bfb00602713f2a000615ac3bb9728bd391"
   },
   {
+   "pfad": "docs/TRESORORDNER.md",
+   "sha256": "7030062eefc6df0f7a612ec6f2316f1bb09b86c52f0c9548c434f4703ebb5f3b"
+  },
+  {
    "pfad": "docs/UEBERNAHME_SHOP.md",
    "sha256": "fa2ed2da11bdfdce93c6126ee2af11a4c7e617c137a38d5ef6c1e3b43a3f83be"
   },
@@ -898,6 +906,10 @@
   {
    "pfad": "docs/design/ELSTER-ERIC-RECHERCHE-2026-10-26.md",
    "sha256": "44a7414c5ec3d6265fa7287593c0739c6fd62e76a55cd249d65f0cc621b8c188"
+  },
+  {
+   "pfad": "docs/design/FORSCHUNG-ANDROID-TRESORORDNER-2026-10-26.md",
+   "sha256": "e6e150a4e15b7eebbf3326b23eeeba88e819e4faeef5d762418ff207d9a9761a"
   },
   {
    "pfad": "docs/design/PLAN-CALCULATE-NEEDS-2026-10-26.md",
@@ -1468,6 +1480,10 @@
    "sha256": "3c359c879d5ccf89bacf8df1c25df8f74810618a85fa895ef36ca35aeea21238"
   },
   {
+   "pfad": "src/core/tresorBelege.js",
+   "sha256": "0fd9acf23ea587001ce768d7344b6a3b0ecb106d9d16785b62a6a4ceac7780d7"
+  },
+  {
    "pfad": "src/core/vault.js",
    "sha256": "961248b6e0327463d307d0663dfc2bc8c453d22afa1f779b4979a40d35229869"
   },
@@ -1764,6 +1780,10 @@
    "sha256": "0e2ee31aa07321ab31948cd6ebb011c67caff357e96f73162077d59aaabcc5fc"
   },
   {
+   "pfad": "src/domain/tresorordner.js",
+   "sha256": "28206da1604297ed36d17bd439c5a3ec41478123ad134ee5a3a77a52dd21651a"
+  },
+  {
    "pfad": "src/domain/uebernahmeExtern.js",
    "sha256": "a6b6db2108d9e48c2af759b4fa5718fc0255658f99401b90253720bad489d4ac"
   },
@@ -1869,7 +1889,7 @@
   },
   {
    "pfad": "src/ui/i18n.js",
-   "sha256": "9b4aa9740ee504f9a8cb3a075053f80b4320896f3fb6db8b161e5aaf53118065"
+   "sha256": "5e31a054516c447c552d1ddc23683f85b190a712f79c5da6e65855fc79279c4d"
   },
   {
    "pfad": "src/ui/icons.js",
@@ -1909,7 +1929,7 @@
   },
   {
    "pfad": "src/ui/shell.js",
-   "sha256": "d51e27cc57aace76b55c9b0c788c219083ed9019892a30cd1c91edf409d4854e"
+   "sha256": "efffb40c953cffe2599e676da50a30a4033cc4bdca8081a0455823f59eb54b4a"
   },
   {
    "pfad": "src/ui/testmarke.js",
@@ -2012,8 +2032,12 @@
    "sha256": "ff34d67eae7edb9bf20162164b5e715422c41756b43e4eedb812d35006067561"
   },
   {
+   "pfad": "src/ui/views/tresorordner.js",
+   "sha256": "b6959657b301b7539e4574e62870a0af63447e09791c31e5322ced86d5a17be7"
+  },
+  {
    "pfad": "sw.js",
-   "sha256": "d7924837619aae21f7c31a0a5339b15866c8f268d2451f43ab486b3f2c18a572"
+   "sha256": "10d895923b619a76714372293475142e9680e0a1ac7719af21db7fcf868f2392"
   },
   {
    "pfad": "tests/daten/Testbild-versteckte-Anweisung.png",
@@ -2028,8 +2052,12 @@
    "sha256": "e5ce21cabf4abf84fa53de576538893c3442b44569b91d2aa03aa364c98cc26b"
   },
   {
+   "pfad": "tests/gegenprobe_tresorordner.mjs",
+   "sha256": "536284b7c01ba88430d6d4414a860d12af8071dc2caa7b706f0180fa03482d6c"
+  },
+  {
    "pfad": "tests/run.mjs",
-   "sha256": "79772362cc3064581704bf7029ffda89bccf31e01cdca44cc58250cc9e64d395"
+   "sha256": "20e8ec36a2addde815e71e805a73d33b7c3a6ba2bb27d1442d8e745daf1442c6"
   },
   {
    "pfad": "tests/smoke_a5_antwortpfad.mjs",
@@ -2074,6 +2102,10 @@
   {
    "pfad": "tests/smoke_teilen.mjs",
    "sha256": "132f740b212a6f4e648cf100f61450b6a42694c45edfc941ca913c3732303156"
+  },
+  {
+   "pfad": "tests/smoke_tresorordner.mjs",
+   "sha256": "81e3bac38df8d39967b7753b80851fcf31b9b892f2f19a58cf21a6558413180d"
   },
   {
    "pfad": "tests/smoke_vorgang.mjs",
