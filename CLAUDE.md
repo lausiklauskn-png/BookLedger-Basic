@@ -102,3 +102,10 @@ Bedeutungs-Schalter am flachen Suchfeld, Einordnen nicht beim Öffnen, Strichgra
 (Vorrat `blpb-`). Gemessen: `basic_gleichstand` 23 · `run.mjs` 2600/0 (Java-Teil übersprungen) · `smoke_belegliste` 23 · `smoke_belegsuche` 18 ·
 `smoke_design` 90 · `smoke_teilen` 26. ⚠ Nicht am Tablet.
 
+
+## Nachgezogen 2026-10-28 (Nacht): Pro `661d69c` (Umbau 4: #392)
+
+560 Dateien, 56 umgeschrieben, 0 entfernt. Für die PWA wirksam: keine Emojis in allen Ansichten (`strich.js` am `<body>`, auch title/aria-label/
+placeholder/`<option>`), „Teilen …“ sichtbar in jeder Belegzeile (Web Share, sonst Speichern mit Satz; der Tresor-Weg „An Pro-App geben …“ gilt nur in
+der App), `sw.js` v275 (Vorrat `blpb-`). Die Hintergrundaufgabe (Android-Dienst) betrifft die PWA nicht — ohne `window.ProHintergrund` läuft alles wie
+vorher. Gemessen: `basic_gleichstand` 23 · `run.mjs` 2600/0 · `smoke_umbau4` 7 (Teil A und C als PWA; der App-Teil braucht `native/`) · `smoke_belegliste` 23 · `smoke_design` 90 · `smoke_teilen` 26. ⚠ Nicht am Tablet.
