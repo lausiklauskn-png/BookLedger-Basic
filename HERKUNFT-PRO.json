@@ -1,11 +1,11 @@
 {
  "pro": "lausiklauskn-png/BookLedgerPro",
- "proCommit": "661d69c2494e206165bbd7eafc88dd97a82e5032",
+ "proCommit": "7ec9488ec68cfc31a4db89530432ceea234d48fe",
  "nachgezogenAm": "2026-10-28",
  "regeln": 1,
- "anzahl": 560,
- "umgeschrieben": 56,
- "baumHash": "fb345519cb7f6c227982fc887b0155ebf80c2f89894a756b4bf138f275fdfad2",
+ "anzahl": 562,
+ "umgeschrieben": 57,
+ "baumHash": "4b9d4b3b5e69b0fdc9e656e3f88b84e5ef114938dded5d7ac7d4d71b8d8f4a20",
  "dateien": [
   {
    "pfad": ".github/workflows/ci.yml",
@@ -45,11 +45,11 @@
   },
   {
    "pfad": "apps/blp-bruecke.js",
-   "sha256": "51ea9bed81ab3fb697ba3cffe2f0829dc0329b2abf85d94026d575f47f9df4cd"
+   "sha256": "9a83bd844da12ad1b607dd2ef1b9e420d2328b91f3c3bb791502d1aa746d94a4"
   },
   {
    "pfad": "apps/blp-thema.css",
-   "sha256": "ec70bae1f13e825d6e42ab298963f1eadff862fd6316991d4cf164b49d1a6ce1"
+   "sha256": "6850085532b449353dfdb8fc55e1b0134659cf9b4521fd5e3ac1baff27516741"
   },
   {
    "pfad": "apps/calculate/assets/app.css",
@@ -565,11 +565,11 @@
   },
   {
    "pfad": "assets/app.css",
-   "sha256": "c52b942dd6bfd45c462cd47f5fc23f9766a60ce2ae058344ee1315fd77672cfc"
+   "sha256": "a9cc342cf8c22065da8d8d3351c54134461d7cb1a26202e34d827a65b7e4be9d"
   },
   {
    "pfad": "assets/blp-icons.svg",
-   "sha256": "50c8c4360df0e39d5631d7c1052a21656385170e7f4b6810b79b4da767885c0d"
+   "sha256": "f091c4d19f08e3dbcca4f6b4daa2091bc3cf67202bc81a7a384718557547a3ef"
   },
   {
    "pfad": "assets/demo/beleg-bewirtung.jpg",
@@ -909,7 +909,7 @@
   },
   {
    "pfad": "docs/design/FORSCHUNG-ANDROID-TRESORORDNER-2026-10-26.md",
-   "sha256": "6e5d208714dbfb6492b1354d6a7449b4859bf02379c8ed5e74eaf97d9db5c2d8"
+   "sha256": "4ccdc1b3da508ff08bb5b1a59f4c540c655f045ff27340a2739e3da4f7c74537"
   },
   {
    "pfad": "docs/design/LEITFADEN-PRO-APPS-BEDIENUNG.md",
@@ -1421,7 +1421,7 @@
   },
   {
    "pfad": "src/ai/speech.js",
-   "sha256": "88e644e00d3be0bba18602fd82e91cd8061f800bdd77dce43496e7285d9cf7ce"
+   "sha256": "34844989d0f8642b6663ef1d32de897dc4dd6afdad83a299c3249b6102298659"
   },
   {
    "pfad": "src/ai/suggest.js",
@@ -1821,7 +1821,7 @@
   },
   {
    "pfad": "src/main.js",
-   "sha256": "b7ebb0ebdec9f1aacd833b7d2b2e2920a623a1a449fd1cb6ae5798d7cc136590"
+   "sha256": "4ab39cd666a265d6027f29973b3c94801bafc20b18bdf89a4436ae133877f7e4"
   },
   {
    "pfad": "src/sbkim/domainvector.js",
@@ -1829,7 +1829,7 @@
   },
   {
    "pfad": "src/sbkim/embed.js",
-   "sha256": "ce4bcea4cf880c31fccdd45a60b84932f68ceafccbf2e4c8731145ca128eac87"
+   "sha256": "bf7815a5c4dc5d5ebf8f754f2a865dc4586b8bfdc514ac61cd16e54db2c693d2"
   },
   {
    "pfad": "src/sbkim/hybridSearch.js",
@@ -1897,7 +1897,7 @@
   },
   {
    "pfad": "src/ui/i18n.js",
-   "sha256": "e57b5570023264cf3319bced0ac01f46186a98396aecf6c1d04de133837f477e"
+   "sha256": "6169b6ccf8eaefebf71389425e9139b6c1b497043b7d5609a6e59328442d3ea8"
   },
   {
    "pfad": "src/ui/icons.js",
@@ -1913,7 +1913,7 @@
   },
   {
    "pfad": "src/ui/mikro.js",
-   "sha256": "f25e746546120dcc24b4de01b6fb1a9d11fa3dde91028a692c9df744c4ee79cf"
+   "sha256": "fd979f004a419074aaa14a20e046dab798a8d32ca901d04454b7c87a41430ac8"
   },
   {
    "pfad": "src/ui/mycel.js",
@@ -1936,12 +1936,16 @@
    "sha256": "ddc512f01f128dc067627d2398d39f15f7a6ba53832ac28243248017c8550daf"
   },
   {
+   "pfad": "src/ui/schlank.js",
+   "sha256": "e2645f1dab271d28abeeb7815388eb902677202d990de4a22e6eec1953de969e"
+  },
+  {
    "pfad": "src/ui/schluesselabgleich.js",
    "sha256": "ca98b819cc7551a686241fa3a76a78b78e3a9ca17fbe1d3f792e9379be494e50"
   },
   {
    "pfad": "src/ui/shell.js",
-   "sha256": "f0c6724a364168fbee66a5df5d6845e3a0ca24ed98c50b1c9347d38c7cc1f94b"
+   "sha256": "69d7dca9e5dcbb44756412cbc069a20e1bfd36c8d9263635b9675e98c8c3e676"
   },
   {
    "pfad": "src/ui/strich.js",
@@ -1957,7 +1961,7 @@
   },
   {
    "pfad": "src/ui/views/accounts.js",
-   "sha256": "18c9a824155c02e875a1119a6a7e03aceb03e6cb9a00483747fc8ed29376ab4f"
+   "sha256": "05706c572edefeed997d581f3e0d55516ab680fa9e1bd2cf125c86457aa31ca3"
   },
   {
    "pfad": "src/ui/views/angebote.js",
@@ -1989,7 +1993,7 @@
   },
   {
    "pfad": "src/ui/views/documents.js",
-   "sha256": "70174e36162e0e16c062cc524d0695d673de55a43422658f78efe5c75f3ccac1"
+   "sha256": "fb47e2b13cecee4070f50b68fff6d41ae9cd80b9c38b693a709d99d189dd6ba9"
   },
   {
    "pfad": "src/ui/views/employees.js",
@@ -2053,7 +2057,7 @@
   },
   {
    "pfad": "sw.js",
-   "sha256": "7bdcc1ba96c6032a1db246e93cca2687a7bee78ff72fa51f7aa2051534d43b44"
+   "sha256": "5b42b86fbbb8dae20fcea7a242ac93e7d305897de7a88c48f30564bec654bbaa"
   },
   {
    "pfad": "tests/daten/Testbild-versteckte-Anweisung.png",
@@ -2081,11 +2085,15 @@
   },
   {
    "pfad": "tests/smoke_apps.mjs",
-   "sha256": "617f3bb17551648ce8f9ce4737ae7b736ae818dc40107dcfaba40d6fbc9458b4"
+   "sha256": "c7baea8fccbd68cb203b2c3658005b2a8373a643ae13692978eab2fb1295ee2a"
+  },
+  {
+   "pfad": "tests/smoke_befunde.mjs",
+   "sha256": "5d12bf65345f6ed9683f3131422676fab6c93097ae6aeece8558219e445977f4"
   },
   {
    "pfad": "tests/smoke_belege.mjs",
-   "sha256": "305ba26d134b9d0538415d576578edde4beee618e3b494494b96c050fd567af6"
+   "sha256": "05244b44ae785c8be8272f51651e2f8163cc5b7912b294233c00dd5aa8a2b75b"
   },
   {
    "pfad": "tests/smoke_belegliste.mjs",
@@ -2097,7 +2105,7 @@
   },
   {
    "pfad": "tests/smoke_design.mjs",
-   "sha256": "cb4bfde1a2db6409b870deab1770fe03cf7213f198233498404d2017b3ca7a18"
+   "sha256": "bdfc2934e709f37ac28f8f62096dcf124ada042506a516ea95be739e78df2321"
   },
   {
    "pfad": "tests/smoke_frage.mjs",
@@ -2113,7 +2121,7 @@
   },
   {
    "pfad": "tests/smoke_mikro.mjs",
-   "sha256": "cc0de04a9676fa147eab5c10e15fb8f53a529eff2b3b960a6befe8446d6d2af9"
+   "sha256": "d41b03e482580b69d212cbaa2cc0ecbe77b6b64bd621d986c67710c1aeffb60b"
   },
   {
    "pfad": "tests/smoke_ohne_web.mjs",
@@ -2121,7 +2129,7 @@
   },
   {
    "pfad": "tests/smoke_scanner.mjs",
-   "sha256": "d727f78332908fdf159139a393cd80ab51252756b28a7ce64b4d6ec6395e388c"
+   "sha256": "21a015699fcd1e6322da8627d251ba55dd6d0171fff46e586630259fb6b331e9"
   },
   {
    "pfad": "tests/smoke_teilen.mjs",
