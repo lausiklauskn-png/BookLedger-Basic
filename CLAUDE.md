@@ -124,3 +124,9 @@ Gemessen: `basic_gleichstand` 23 · `run.mjs` 2600/0 · `smoke_befunde` 40 (App-
 `window.BLPNative.plattform === 'windows'` (Windows-Hülle), die PWA sieht sie nie. `windows/` gehört nicht zur Kopie (kein Laufzeit-Teil).
 Gemessen: `basic_gleichstand` 23 · `run.mjs` 2600/0 · `smoke_design` 92 · `smoke_windows` 0/0 (braucht `native/`, ehrlich übersprungen). ⚠ Nicht am Tablet.
 
+
+## Nachgezogen 2026-10-28 (Nacht, spät): Pro `1127038` (Scanner, Updates vom eigenen Server: #400)
+
+566 Dateien, 57 umgeschrieben, 0 entfernt. Für die PWA wirksam nur `sw.js` (Vorrat `blpb-`) und die Zeile „Auf Updates prüfen“ unter „Über“, die nur mit
+`window.BLPNative.updates` erscheint (Android/Windows-App) — die PWA sieht sie nie, sie bekommt neue Stände über Pages. Scanner/Kamera und Android-Updates
+gehören nur zur App. Gemessen: `basic_gleichstand` 23 · `run.mjs` 2600/0. ⚠ Nicht am Tablet.
