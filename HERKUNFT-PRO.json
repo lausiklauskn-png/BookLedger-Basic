@@ -1,11 +1,11 @@
 {
  "pro": "lausiklauskn-png/BookLedgerPro",
- "proCommit": "eed947f9734bf78b08765d8c3de77a8ddc31c5e0",
+ "proCommit": "194d4f07b503604192a418d9f9a2163a72ae8a37",
  "nachgezogenAm": "2026-10-28",
  "regeln": 1,
  "anzahl": 558,
  "umgeschrieben": 54,
- "baumHash": "e4f1e2973ad13a14a3bda30af2b35303de9404de006fa8196f2eb02a892b08b9",
+ "baumHash": "2d7fdddcc544c7aae7fbe053b3741534cc14640c1360a3bd737bcf0b790d7536",
  "dateien": [
   {
    "pfad": ".github/workflows/ci.yml",
@@ -909,7 +909,7 @@
   },
   {
    "pfad": "docs/design/FORSCHUNG-ANDROID-TRESORORDNER-2026-10-26.md",
-   "sha256": "985e3bd3f4203f3103a2f357f6261fd0158967b2f1b313386db02ba64c445740"
+   "sha256": "19f671e50ade10b122d19731352b05cea47d8e6d0503b49d977c3998727e5fe8"
   },
   {
    "pfad": "docs/design/LEITFADEN-PRO-APPS-BEDIENUNG.md",
