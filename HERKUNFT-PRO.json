@@ -1,11 +1,11 @@
 {
  "pro": "lausiklauskn-png/BookLedgerPro",
- "proCommit": "26a25fcd0f27cf3d57ec81bad44f0cae872d23c7",
+ "proCommit": "1127038ff7d8873f56e6ee4c8f095cf0893178c8",
  "nachgezogenAm": "2026-10-28",
  "regeln": 1,
- "anzahl": 565,
+ "anzahl": 566,
  "umgeschrieben": 57,
- "baumHash": "4d2362426d20eea5c45000d638c12071ddc2630c97f51c1397e3ee5fe2db452f",
+ "baumHash": "5ccfe1ff86526704d3fdeedd101735f4c922428ab7cb17ed4bce81538db76097",
  "dateien": [
   {
    "pfad": ".github/workflows/ci.yml",
@@ -892,8 +892,12 @@
    "sha256": "f92a3cbbb7b95ee7345ce86d2677f658c0105abfb382560dc74ae7693ca47d33"
   },
   {
+   "pfad": "docs/UPDATES-EIGENER-SERVER.md",
+   "sha256": "397001baf43a568bc640e63895ecb735f97140710d172510afa5850a3c572588"
+  },
+  {
    "pfad": "docs/WINDOWS.md",
-   "sha256": "ab81210b34c0eb1c5d1572bb919aeaf06f140e06dde375dd33d649ffa790f231"
+   "sha256": "53ba703faca696316d346f44b1bc5f6987cf8e4f14c8d86dbcc36e2181b5649f"
   },
   {
    "pfad": "docs/WORKFLOH_IMPORT.md",
@@ -1905,7 +1909,7 @@
   },
   {
    "pfad": "src/ui/i18n.js",
-   "sha256": "f911bdb0853443aeef90f375157c5e9e058bef98fd30f7f09bfa7380c4ab33b6"
+   "sha256": "db6ff7c9d526d83e717bf4a2463ac59c63ef7efb73f4e7d0df332a65521c713f"
   },
   {
    "pfad": "src/ui/icons.js",
@@ -1913,7 +1917,7 @@
   },
   {
    "pfad": "src/ui/intro.js",
-   "sha256": "728c9edbba5b6536d19fe595b58fc659cdef15d3d9285304d61962c29999fe4c"
+   "sha256": "7edb5e780555114f4ae82cee2ecc7bc297d45ec062cca93e8b8ef60b16259d34"
   },
   {
    "pfad": "src/ui/lock.js",
@@ -2065,7 +2069,7 @@
   },
   {
    "pfad": "sw.js",
-   "sha256": "c3de140d5829947948244bf888dfc3b1cef763a4404a8982ae2eb68487d6764f"
+   "sha256": "ae5f9c55a207315052555f1e594faf7441eb5f96c57d5496f3bdac300d5b082f"
   },
   {
    "pfad": "tests/daten/Testbild-versteckte-Anweisung.png",
@@ -2161,7 +2165,7 @@
   },
   {
    "pfad": "tests/smoke_windows.mjs",
-   "sha256": "17a69d1f01da5387726bccd1fabde21601f35f06d8eb888dd17306ed9bd709d2"
+   "sha256": "7712c10f77b5e5d596fc9a610ae6b260093eee37386e847891e847dd7292e435"
   },
   {
    "pfad": "tests/vendor/pdf-lib.min.js",
