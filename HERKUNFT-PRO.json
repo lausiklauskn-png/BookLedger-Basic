@@ -1,11 +1,11 @@
 {
  "pro": "lausiklauskn-png/BookLedgerPro",
- "proCommit": "7ec9488ec68cfc31a4db89530432ceea234d48fe",
+ "proCommit": "26a25fcd0f27cf3d57ec81bad44f0cae872d23c7",
  "nachgezogenAm": "2026-10-28",
  "regeln": 1,
- "anzahl": 562,
+ "anzahl": 565,
  "umgeschrieben": 57,
- "baumHash": "4b9d4b3b5e69b0fdc9e656e3f88b84e5ef114938dded5d7ac7d4d71b8d8f4a20",
+ "baumHash": "4d2362426d20eea5c45000d638c12071ddc2630c97f51c1397e3ee5fe2db452f",
  "dateien": [
   {
    "pfad": ".github/workflows/ci.yml",
@@ -860,6 +860,10 @@
    "sha256": "93c0908c447cad51c5bf6065d080db197c6c99ae92e4637790264e4c97d99781"
   },
   {
+   "pfad": "docs/STUNDENNACHWEIS.md",
+   "sha256": "e348b1af94467b89d9e5639c47c6ef64bc47394383bd46ca6bf9de43eda9ec80"
+  },
+  {
    "pfad": "docs/TESTDATEN.md",
    "sha256": "fe48edddedf70164cbbc99f258ca81e4774246dd172c0d8713bb030f6bdb00bf"
   },
@@ -888,6 +892,10 @@
    "sha256": "f92a3cbbb7b95ee7345ce86d2677f658c0105abfb382560dc74ae7693ca47d33"
   },
   {
+   "pfad": "docs/WINDOWS.md",
+   "sha256": "ab81210b34c0eb1c5d1572bb919aeaf06f140e06dde375dd33d649ffa790f231"
+  },
+  {
    "pfad": "docs/WORKFLOH_IMPORT.md",
    "sha256": "a0c1c152c0fa87acb38ded6e293ace27426de146ed3268f91fefa6afec0dda9d"
   },
@@ -909,7 +917,7 @@
   },
   {
    "pfad": "docs/design/FORSCHUNG-ANDROID-TRESORORDNER-2026-10-26.md",
-   "sha256": "4ccdc1b3da508ff08bb5b1a59f4c540c655f045ff27340a2739e3da4f7c74537"
+   "sha256": "7a88b0e1a7104e5324f60bd87f77b21fe0fd87ca7c1913f57638827d8f496de2"
   },
   {
    "pfad": "docs/design/LEITFADEN-PRO-APPS-BEDIENUNG.md",
@@ -1897,7 +1905,7 @@
   },
   {
    "pfad": "src/ui/i18n.js",
-   "sha256": "6169b6ccf8eaefebf71389425e9139b6c1b497043b7d5609a6e59328442d3ea8"
+   "sha256": "f911bdb0853443aeef90f375157c5e9e058bef98fd30f7f09bfa7380c4ab33b6"
   },
   {
    "pfad": "src/ui/icons.js",
@@ -2057,7 +2065,7 @@
   },
   {
    "pfad": "sw.js",
-   "sha256": "5b42b86fbbb8dae20fcea7a242ac93e7d305897de7a88c48f30564bec654bbaa"
+   "sha256": "c3de140d5829947948244bf888dfc3b1cef763a4404a8982ae2eb68487d6764f"
   },
   {
    "pfad": "tests/daten/Testbild-versteckte-Anweisung.png",
@@ -2150,6 +2158,10 @@
   {
    "pfad": "tests/smoke_wfpdf.mjs",
    "sha256": "53602976032498e446ba6dbcae4b50c7e4ccfac0fd4aa195bd8b5ae90c9445ff"
+  },
+  {
+   "pfad": "tests/smoke_windows.mjs",
+   "sha256": "17a69d1f01da5387726bccd1fabde21601f35f06d8eb888dd17306ed9bd709d2"
   },
   {
    "pfad": "tests/vendor/pdf-lib.min.js",
