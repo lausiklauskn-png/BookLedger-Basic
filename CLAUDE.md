@@ -81,3 +81,8 @@ Private Brain Pro betrifft die PWA nicht. Gemessen: `basic_gleichstand` 23 grün
 
 553 Dateien, 53 umgeschrieben, 0 entfernt. Für die PWA wirksam: englische Rechnungen (Subtotal/VAT/Amount paid keine Positionen,
 `src/domain/belegPositionen.js`), `sw.js` v272 (Vorrat `blpb-`). #381 und der Sperren-Fix betreffen nur die Android-App.
+
+## Nachgezogen 2026-10-28 (Nachmittag): Pro `de92064` (Umbau 1: #385, nur Doku/App)
+
+554 Dateien, 53 umgeschrieben, 0 entfernt. Für die PWA nichts wirksam: neu sind der Leitfaden der Pro-Apps und die Forschung § 11
+(die gemeinsame Bedien-Datei `native/pro-bedienung.*` gehört nur zur App). Gemessen: `basic_gleichstand` 23 grün · `run.mjs` 2582/0.

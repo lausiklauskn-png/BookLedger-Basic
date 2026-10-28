@@ -1,11 +1,11 @@
 {
  "pro": "lausiklauskn-png/BookLedgerPro",
- "proCommit": "decf1ebf8351081424824e1cae2af78043c04651",
+ "proCommit": "de92064ad37a0254a0c6867233f01f40af77e3c5",
  "nachgezogenAm": "2026-10-28",
  "regeln": 1,
- "anzahl": 553,
+ "anzahl": 554,
  "umgeschrieben": 53,
- "baumHash": "dde060928fa6b5435f408ff558e8938ce348da2de929b10790d446f68ece9c99",
+ "baumHash": "9cad7c528b4f9a561f5fe4fb4a7f8ddcfe276eda4ee94ad8600c17f11f0eb44f",
  "dateien": [
   {
    "pfad": ".github/workflows/ci.yml",
@@ -909,7 +909,11 @@
   },
   {
    "pfad": "docs/design/FORSCHUNG-ANDROID-TRESORORDNER-2026-10-26.md",
-   "sha256": "bd8b093276f5387449d57977a7d1ad717a7036becb89e11fd8de6ae2736f91e0"
+   "sha256": "4de27b306ee360b4afa7c6f16893a3e14c5bc69343e11cbd66507f737d43e426"
+  },
+  {
+   "pfad": "docs/design/LEITFADEN-PRO-APPS-BEDIENUNG.md",
+   "sha256": "a0fd6d95daebfa1fb32fd5f9873cb07c74259ea68968b4c0c6dfeafcf7e636b6"
   },
   {
    "pfad": "docs/design/PLAN-CALCULATE-NEEDS-2026-10-26.md",
