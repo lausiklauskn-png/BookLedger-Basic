@@ -1,11 +1,11 @@
 {
  "pro": "lausiklauskn-png/BookLedgerPro",
- "proCommit": "b2eb9918a29fa0711fa16a70557ccf5934ac7246",
- "nachgezogenAm": "2026-10-27",
+ "proCommit": "decf1ebf8351081424824e1cae2af78043c04651",
+ "nachgezogenAm": "2026-10-28",
  "regeln": 1,
  "anzahl": 553,
  "umgeschrieben": 53,
- "baumHash": "778b80e1ae31ec79d81187c84eaf00232fa75c304376b825ab15c68c18d5abc2",
+ "baumHash": "dde060928fa6b5435f408ff558e8938ce348da2de929b10790d446f68ece9c99",
  "dateien": [
   {
    "pfad": ".github/workflows/ci.yml",
@@ -769,7 +769,7 @@
   },
   {
    "pfad": "docs/ANDROID.md",
-   "sha256": "d855007f2c4d2851499f0a73004a59311d47c20a7ceea2c9ad403f0821cf6d40"
+   "sha256": "484bb1f927df3f50520f33ad99ccce5dc8ae113d016c2cd6a58fb9cd40cf110d"
   },
   {
    "pfad": "docs/APPS-CALCULATE-NEEDS.md",
@@ -909,7 +909,7 @@
   },
   {
    "pfad": "docs/design/FORSCHUNG-ANDROID-TRESORORDNER-2026-10-26.md",
-   "sha256": "078924e27acb8015ad22f85147c80cd5e19f8f639e71e59a7e67108c67127b80"
+   "sha256": "bd8b093276f5387449d57977a7d1ad717a7036becb89e11fd8de6ae2736f91e0"
   },
   {
    "pfad": "docs/design/PLAN-CALCULATE-NEEDS-2026-10-26.md",
@@ -1549,7 +1549,7 @@
   },
   {
    "pfad": "src/domain/belegPositionen.js",
-   "sha256": "59f1f312942456afe1bb6e1b55b6bfd24a9f9a883419694c1007066ba119e771"
+   "sha256": "7e449d51fb0edc0395c488f53f4d979ed750257d3447ae5cebb00158f2fde4f6"
   },
   {
    "pfad": "src/domain/belegPruefung.js",
@@ -2037,7 +2037,7 @@
   },
   {
    "pfad": "sw.js",
-   "sha256": "10d895923b619a76714372293475142e9680e0a1ac7719af21db7fcf868f2392"
+   "sha256": "4be35d6602e20cf3e7edf5a65fdc73e936786a87d92f25dad7aeccb559847574"
   },
   {
    "pfad": "tests/daten/Testbild-versteckte-Anweisung.png",
@@ -2057,7 +2057,7 @@
   },
   {
    "pfad": "tests/run.mjs",
-   "sha256": "20e8ec36a2addde815e71e805a73d33b7c3a6ba2bb27d1442d8e745daf1442c6"
+   "sha256": "eb6b3508474342dd48f87ead81c2615bf4c3729660100f11591105ca9851937b"
   },
   {
    "pfad": "tests/smoke_a5_antwortpfad.mjs",

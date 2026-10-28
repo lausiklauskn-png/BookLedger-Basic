@@ -76,3 +76,8 @@ der Box „Netz" für ein eigenes, privates Knotennetz) sind in der Kopie enthal
 
 553 Dateien, 53 umgeschrieben, 0 entfernt. Geändert nur `docs/TRESORORDNER.md` und die Forschung (§ 9). Der Einzug von Workflow PDF Pro und
 Private Brain Pro betrifft die PWA nicht. Gemessen: `basic_gleichstand` 23 grün · `run.mjs` 2580/0.
+
+## Nachgezogen 2026-10-28: Pro `decf1eb` (Schritt E: #381, #382)
+
+553 Dateien, 53 umgeschrieben, 0 entfernt. Für die PWA wirksam: englische Rechnungen (Subtotal/VAT/Amount paid keine Positionen,
+`src/domain/belegPositionen.js`), `sw.js` v272 (Vorrat `blpb-`). #381 und der Sperren-Fix betreffen nur die Android-App.
