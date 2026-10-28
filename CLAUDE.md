@@ -109,3 +109,11 @@ Bedeutungs-Schalter am flachen Suchfeld, Einordnen nicht beim Öffnen, Strichgra
 placeholder/`<option>`), „Teilen …“ sichtbar in jeder Belegzeile (Web Share, sonst Speichern mit Satz; der Tresor-Weg „An Pro-App geben …“ gilt nur in
 der App), `sw.js` v275 (Vorrat `blpb-`). Die Hintergrundaufgabe (Android-Dienst) betrifft die PWA nicht — ohne `window.ProHintergrund` läuft alles wie
 vorher. Gemessen: `basic_gleichstand` 23 · `run.mjs` 2600/0 · `smoke_umbau4` 7 (Teil A und C als PWA; der App-Teil braucht `native/`) · `smoke_belegliste` 23 · `smoke_design` 90 · `smoke_teilen` 26. ⚠ Nicht am Tablet.
+
+## Nachgezogen 2026-10-28 (Nacht, später): Pro `7ec9488` (Tablet-Befunde: #394)
+
+562 Dateien, 57 umgeschrieben, 0 entfernt. Für die PWA wirksam: Mikrofon nur an Suche und Freitext (Strich-Mikrofon wie Private Brain Pro), schlanker
+(Felder 30 px, Stift/Papierkorb, Erklärsätze hinter ⓘ, Belegzeile einzeilig), Modell-Laden mit Balken/Prozent/MB, Prüfen über Auswahl, Angebotsplaner/
+Bedarfsanalyse schlank in BLP-Farben ohne Emojis, `sw.js` v276 (Vorrat `blpb-`). Kamera, Sprachfenster und Workflow-PDF-Pro-Start gelten nur in der App.
+Gemessen: `basic_gleichstand` 23 · `run.mjs` 2600/0 · `smoke_befunde` 40 (App-Teile übersprungen) · `smoke_design` 92 · `smoke_mikro` 19 · `smoke_apps` 22 ·
+`smoke_belegliste` 23. ⚠ Nicht am Tablet.
