@@ -86,3 +86,11 @@ Private Brain Pro betrifft die PWA nicht. Gemessen: `basic_gleichstand` 23 grün
 
 554 Dateien, 53 umgeschrieben, 0 entfernt. Für die PWA nichts wirksam: neu sind der Leitfaden der Pro-Apps und die Forschung § 11
 (die gemeinsame Bedien-Datei `native/pro-bedienung.*` gehört nur zur App). Gemessen: `basic_gleichstand` 23 grün · `run.mjs` 2582/0.
+
+## Nachgezogen 2026-10-28 (Abend): Pro `f6633c8` (Umbau 2: #386, #387)
+
+555 Dateien, 54 umgeschrieben, 0 entfernt. Für die PWA wirksam: Startseite „Übersicht“ ohne „Willkommen“/Werbesatz, „Geschäftsjahr“ in der
+Kopfleiste, `sw.js` v273 (Vorrat `blpb-`). „Tresor & Ablage“, App-Texte statt Browser-Sätzen, Version unter „Über“ und die Tresorordner-Ansicht
+gelten nur in der Android-App (`window.BLPNative`) — hier bleiben die Browser-Sätze, dort stimmen sie. Gemessen: `basic_gleichstand` 23 ·
+`run.mjs` 2590/0 (Java-Teil übersprungen, kein `android/`) · `smoke_design` 90 · `smoke_teilen` 26 · `smoke_ohne_web` 2 und `smoke_tresorordner` 2
+(nur Teil A, Rest braucht `native/`). ⚠ Nicht am Tablet.

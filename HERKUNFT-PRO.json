@@ -1,11 +1,11 @@
 {
  "pro": "lausiklauskn-png/BookLedgerPro",
- "proCommit": "de92064ad37a0254a0c6867233f01f40af77e3c5",
+ "proCommit": "f6633c886c91be676238c6b3bbac52b2b83cd73e",
  "nachgezogenAm": "2026-10-28",
  "regeln": 1,
- "anzahl": 554,
- "umgeschrieben": 53,
- "baumHash": "9cad7c528b4f9a561f5fe4fb4a7f8ddcfe276eda4ee94ad8600c17f11f0eb44f",
+ "anzahl": 555,
+ "umgeschrieben": 54,
+ "baumHash": "a9a90420f6082209639e2659d066d984b5f250fcdc86975c82b8b2390f61017a",
  "dateien": [
   {
    "pfad": ".github/workflows/ci.yml",
@@ -565,7 +565,7 @@
   },
   {
    "pfad": "assets/app.css",
-   "sha256": "a54452052e53baeb81fa07b2ad93cf0be6029ae715e7354e7533d051f6b809c9"
+   "sha256": "aed3d62f9934ee4f48a0fe99be5d6933a9691cfd66d713d574286e69f88ded2b"
   },
   {
    "pfad": "assets/blp-icons.svg",
@@ -909,7 +909,7 @@
   },
   {
    "pfad": "docs/design/FORSCHUNG-ANDROID-TRESORORDNER-2026-10-26.md",
-   "sha256": "4de27b306ee360b4afa7c6f16893a3e14c5bc69343e11cbd66507f737d43e426"
+   "sha256": "2746aa80742a298bab921d51dfea1140e9c7692e1ee3a44283467d51e11c7de8"
   },
   {
    "pfad": "docs/design/LEITFADEN-PRO-APPS-BEDIENUNG.md",
@@ -1785,7 +1785,7 @@
   },
   {
    "pfad": "src/domain/tresorordner.js",
-   "sha256": "28206da1604297ed36d17bd439c5a3ec41478123ad134ee5a3a77a52dd21651a"
+   "sha256": "db5abb9ccaae9d5bd6eff5c45bd3a6a86eb558c479a960eb517f00b241aecce6"
   },
   {
    "pfad": "src/domain/uebernahmeExtern.js",
@@ -1893,7 +1893,7 @@
   },
   {
    "pfad": "src/ui/i18n.js",
-   "sha256": "5e31a054516c447c552d1ddc23683f85b190a712f79c5da6e65855fc79279c4d"
+   "sha256": "a3809e075640f4621a799bdc2bfe508d63bc61d14838f26ea02adb134a53e97d"
   },
   {
    "pfad": "src/ui/icons.js",
@@ -1901,7 +1901,7 @@
   },
   {
    "pfad": "src/ui/intro.js",
-   "sha256": "b937fc18894e680ea2e831fc44c25f4c0ad153b35648f6ee335ebacbff13099d"
+   "sha256": "728c9edbba5b6536d19fe595b58fc659cdef15d3d9285304d61962c29999fe4c"
   },
   {
    "pfad": "src/ui/lock.js",
@@ -1933,7 +1933,7 @@
   },
   {
    "pfad": "src/ui/shell.js",
-   "sha256": "efffb40c953cffe2599e676da50a30a4033cc4bdca8081a0455823f59eb54b4a"
+   "sha256": "f4904165e208a34260564765ad534736695d730e3b58f89deadbb3d038429fc0"
   },
   {
    "pfad": "src/ui/testmarke.js",
@@ -1957,7 +1957,7 @@
   },
   {
    "pfad": "src/ui/views/anleitung.js",
-   "sha256": "0b43165b1243dd3208068eb42dccbd15e863a9e6fdedc9f76a07672fcf7b352f"
+   "sha256": "db75f150fa9fb156ca72a00593bc08674554e6a166c6c5aa2113005270807a72"
   },
   {
    "pfad": "src/ui/views/apps.js",
@@ -1973,11 +1973,11 @@
   },
   {
    "pfad": "src/ui/views/dashboard.js",
-   "sha256": "0b05768597aed613d505c373e8157b607df426fae47c4084150ef5d9f2b8d584"
+   "sha256": "82caede545ecff878c8ed9c3b690475aaa43e0d60bd7eea20ce4fd876d25318d"
   },
   {
    "pfad": "src/ui/views/documents.js",
-   "sha256": "ee2480c9b3e8ed6a0bc3c41cd74cf550ab749a354f25eb3b95318568c3e5c335"
+   "sha256": "e7d0e8169f950ddb43b75f93e73f9808bd53d098e4a1d4dbef338aad05ad5a2d"
   },
   {
    "pfad": "src/ui/views/employees.js",
@@ -1993,7 +1993,7 @@
   },
   {
    "pfad": "src/ui/views/legal.js",
-   "sha256": "c182cccf914b7349bc100f0eba86a932093c4778042689aae6a3b5fff33aadfe"
+   "sha256": "4356ea4cfad5e72e69c1063185129a451380fec4f9263321abda5f353753fa44"
   },
   {
    "pfad": "src/ui/views/lohn.js",
@@ -2037,11 +2037,11 @@
   },
   {
    "pfad": "src/ui/views/tresorordner.js",
-   "sha256": "b6959657b301b7539e4574e62870a0af63447e09791c31e5322ced86d5a17be7"
+   "sha256": "26f1582f0cc1a209bff2f5c0dc5bf29fabc189841d909dc60748efb40ea3dce5"
   },
   {
    "pfad": "sw.js",
-   "sha256": "4be35d6602e20cf3e7edf5a65fdc73e936786a87d92f25dad7aeccb559847574"
+   "sha256": "8d47f3fed2fc05a93e9fc54bddbf58c19fee43521dd88c22ec50f75d6871095a"
   },
   {
    "pfad": "tests/daten/Testbild-versteckte-Anweisung.png",
@@ -2061,7 +2061,7 @@
   },
   {
    "pfad": "tests/run.mjs",
-   "sha256": "eb6b3508474342dd48f87ead81c2615bf4c3729660100f11591105ca9851937b"
+   "sha256": "761fb364a7dbcaa71c154878feb48242a326b04dd256d93fa3fca0e4049f3ce5"
   },
   {
    "pfad": "tests/smoke_a5_antwortpfad.mjs",
@@ -2098,6 +2098,10 @@
   {
    "pfad": "tests/smoke_mikro.mjs",
    "sha256": "cc0de04a9676fa147eab5c10e15fb8f53a529eff2b3b960a6befe8446d6d2af9"
+  },
+  {
+   "pfad": "tests/smoke_ohne_web.mjs",
+   "sha256": "ab7cf493bb5f01b1c4b03f8b1d11bbac1fb89f43ba68dc2b7dd365f8f080bbc1"
   },
   {
    "pfad": "tests/smoke_scanner.mjs",
