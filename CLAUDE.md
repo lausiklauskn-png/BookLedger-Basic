@@ -117,3 +117,10 @@ vorher. Gemessen: `basic_gleichstand` 23 · `run.mjs` 2600/0 · `smoke_umbau4` 7
 Bedarfsanalyse schlank in BLP-Farben ohne Emojis, `sw.js` v276 (Vorrat `blpb-`). Kamera, Sprachfenster und Workflow-PDF-Pro-Start gelten nur in der App.
 Gemessen: `basic_gleichstand` 23 · `run.mjs` 2600/0 · `smoke_befunde` 40 (App-Teile übersprungen) · `smoke_design` 92 · `smoke_mikro` 19 · `smoke_apps` 22 ·
 `smoke_belegliste` 23. ⚠ Nicht am Tablet.
+
+## Nachgezogen 2026-10-28 (Nacht, später): Pro `26a25fc` (Windows-Fassung: #399)
+
+565 Dateien, 57 umgeschrieben, 0 entfernt. Für die PWA wirksam nur `sw.js` v277 (Vorrat `blpb-`); die Windows-Sätze in `i18n.js` gelten nur mit
+`window.BLPNative.plattform === 'windows'` (Windows-Hülle), die PWA sieht sie nie. `windows/` gehört nicht zur Kopie (kein Laufzeit-Teil).
+Gemessen: `basic_gleichstand` 23 · `run.mjs` 2600/0 · `smoke_design` 92 · `smoke_windows` 0/0 (braucht `native/`, ehrlich übersprungen). ⚠ Nicht am Tablet.
+
