@@ -94,3 +94,11 @@ Kopfleiste, `sw.js` v273 (Vorrat `blpb-`). „Tresor & Ablage“, App-Texte stat
 gelten nur in der Android-App (`window.BLPNative`) — hier bleiben die Browser-Sätze, dort stimmen sie. Gemessen: `basic_gleichstand` 23 ·
 `run.mjs` 2590/0 (Java-Teil übersprungen, kein `android/`) · `smoke_design` 90 · `smoke_teilen` 26 · `smoke_ohne_web` 2 und `smoke_tresorordner` 2
 (nur Teil A, Rest braucht `native/`). ⚠ Nicht am Tablet.
+
+## Nachgezogen 2026-10-28 (spät): Pro `194d4f0` (Umbau 3: #389)
+
+558 Dateien, 54 umgeschrieben, 0 entfernt. Für die PWA wirksam: Belegliste für Hunderte (flache Zeilen, Mail → Anhänge aufklappbar, ⋯-Menü),
+Bedeutungs-Schalter am flachen Suchfeld, Einordnen nicht beim Öffnen, Strichgrafiken statt Emojis auf der Belegseite, Leistengriff mittig, `sw.js` v274
+(Vorrat `blpb-`). Gemessen: `basic_gleichstand` 23 · `run.mjs` 2600/0 (Java-Teil übersprungen) · `smoke_belegliste` 23 · `smoke_belegsuche` 18 ·
+`smoke_design` 90 · `smoke_teilen` 26. ⚠ Nicht am Tablet.
+

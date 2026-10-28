@@ -1,11 +1,11 @@
 {
  "pro": "lausiklauskn-png/BookLedgerPro",
- "proCommit": "f6633c886c91be676238c6b3bbac52b2b83cd73e",
+ "proCommit": "194d4f07b503604192a418d9f9a2163a72ae8a37",
  "nachgezogenAm": "2026-10-28",
  "regeln": 1,
- "anzahl": 555,
+ "anzahl": 558,
  "umgeschrieben": 54,
- "baumHash": "a9a90420f6082209639e2659d066d984b5f250fcdc86975c82b8b2390f61017a",
+ "baumHash": "2d7fdddcc544c7aae7fbe053b3741534cc14640c1360a3bd737bcf0b790d7536",
  "dateien": [
   {
    "pfad": ".github/workflows/ci.yml",
@@ -565,11 +565,11 @@
   },
   {
    "pfad": "assets/app.css",
-   "sha256": "aed3d62f9934ee4f48a0fe99be5d6933a9691cfd66d713d574286e69f88ded2b"
+   "sha256": "9c8c0aa3f8b0ca7c15b582f2ec4cc3f0db5eb532f67669a50b195f0a95020935"
   },
   {
    "pfad": "assets/blp-icons.svg",
-   "sha256": "2fdd9ea6efd2bf2ab52f4852ef4a63906db669247c5e9d29bbcb18d9db42e733"
+   "sha256": "399fe10005f7a246ea170422b1d6546f6eff93d3354ddeedd0e704f7a7bf5f34"
   },
   {
    "pfad": "assets/demo/beleg-bewirtung.jpg",
@@ -909,7 +909,7 @@
   },
   {
    "pfad": "docs/design/FORSCHUNG-ANDROID-TRESORORDNER-2026-10-26.md",
-   "sha256": "2746aa80742a298bab921d51dfea1140e9c7692e1ee3a44283467d51e11c7de8"
+   "sha256": "19f671e50ade10b122d19731352b05cea47d8e6d0503b49d977c3998727e5fe8"
   },
   {
    "pfad": "docs/design/LEITFADEN-PRO-APPS-BEDIENUNG.md",
@@ -1552,6 +1552,10 @@
    "sha256": "70859808c6fadbc761fb99fa7b1f21f106b6f7b71e6848855fdb41387edbbf49"
   },
   {
+   "pfad": "src/domain/belegListe.js",
+   "sha256": "ee9a3b06509e2bc2e458e52c3c57dcd51c9ab822af3a088b3f4a962743a13b23"
+  },
+  {
    "pfad": "src/domain/belegPositionen.js",
    "sha256": "7e449d51fb0edc0395c488f53f4d979ed750257d3447ae5cebb00158f2fde4f6"
   },
@@ -1893,7 +1897,7 @@
   },
   {
    "pfad": "src/ui/i18n.js",
-   "sha256": "a3809e075640f4621a799bdc2bfe508d63bc61d14838f26ea02adb134a53e97d"
+   "sha256": "433dcdcb885e6698ae1a56c8fdf9f0c3aeba4b292bab9e96955c5449683ac0bf"
   },
   {
    "pfad": "src/ui/icons.js",
@@ -1934,6 +1938,10 @@
   {
    "pfad": "src/ui/shell.js",
    "sha256": "f4904165e208a34260564765ad534736695d730e3b58f89deadbb3d038429fc0"
+  },
+  {
+   "pfad": "src/ui/strich.js",
+   "sha256": "bf5cedad2646c7b7307d9682d98fb5dfdc21fbedca9b4b3081d4b63f05f6bbbf"
   },
   {
    "pfad": "src/ui/testmarke.js",
@@ -1977,7 +1985,7 @@
   },
   {
    "pfad": "src/ui/views/documents.js",
-   "sha256": "e7d0e8169f950ddb43b75f93e73f9808bd53d098e4a1d4dbef338aad05ad5a2d"
+   "sha256": "5876b52079f8be66e96fdeecd812fb2e0274c91c5498fe3981ff2eb0234f2202"
   },
   {
    "pfad": "src/ui/views/employees.js",
@@ -2041,7 +2049,7 @@
   },
   {
    "pfad": "sw.js",
-   "sha256": "8d47f3fed2fc05a93e9fc54bddbf58c19fee43521dd88c22ec50f75d6871095a"
+   "sha256": "8aad9b38b89d75c30696dce0145c29dd1a2eb573e0465597ff058d2a59803610"
   },
   {
    "pfad": "tests/daten/Testbild-versteckte-Anweisung.png",
@@ -2061,7 +2069,7 @@
   },
   {
    "pfad": "tests/run.mjs",
-   "sha256": "761fb364a7dbcaa71c154878feb48242a326b04dd256d93fa3fca0e4049f3ce5"
+   "sha256": "774f2efd81ac89767b45e584084f6c603179e75acffbf39b6e0f3263ab2cf62f"
   },
   {
    "pfad": "tests/smoke_a5_antwortpfad.mjs",
@@ -2073,11 +2081,15 @@
   },
   {
    "pfad": "tests/smoke_belege.mjs",
-   "sha256": "91ba33bb5228fd19a14f35c539bfb5fbe70b71bcac5f9f97fcedc10af7cb45a3"
+   "sha256": "305ba26d134b9d0538415d576578edde4beee618e3b494494b96c050fd567af6"
+  },
+  {
+   "pfad": "tests/smoke_belegliste.mjs",
+   "sha256": "1ffbd7b47f122030b1123d85f26c2bfabb45c264cda0823b4605873b6b661988"
   },
   {
    "pfad": "tests/smoke_belegsuche.mjs",
-   "sha256": "e05d31c72d2cf3468f312ee5fd3aca800551f2439e9b863289d7623522268077"
+   "sha256": "67631e5ad1b72466cecf9f076a8465208e72a4fc0ca6e1dd5a325a19bcc35dbb"
   },
   {
    "pfad": "tests/smoke_design.mjs",
