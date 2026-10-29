@@ -140,3 +140,8 @@ Gemessen: `basic_gleichstand` 23.
 566 Dateien, 57 umgeschrieben, 0 entfernt. Für die PWA nichts wirksam: „Mit Workflow PDF scannen“ ruft den Intent `de.familyprojekt.workflowpdf.pro.SCANNEN`
 nur in der Android-App (`window.BLPNative.tresor.scanStarten`); die PWA behält den Link `?scan=1&von=BookLedgerPro`. `sw.js` unverändert (Pro hat ihn nicht
 erhöht, weil sich für die PWA nichts ändert). Gemessen: `basic_gleichstand` 23 · `run.mjs` 2600/0 · `smoke_befunde` (App-Teile übersprungen) grün. ⚠ Nicht am Tablet.
+
+## Nachgezogen 2026-10-29 (später): Pro `4705222` (Umbau 6 Endstand: #403–#409)
+
+566 Dateien, 57 umgeschrieben, 0 entfernt. Für die PWA nichts wirksam: Android-Version 0.1.2, Release-Probe der App (`android/`, `tools/native/` gehören nicht
+zur Kopie), `.gitignore` (`__pycache__/`), Doku (Forschung § 20, Stundennachweis). Gemessen: `basic_gleichstand` 23 · `run.mjs` 2600/0. ⚠ Nicht am Tablet.
