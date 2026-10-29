@@ -161,3 +161,10 @@ verdeckt), `sw.js` v280 (Vorrat `blpb-`). Gemessen: `basic_gleichstand` 23 · `r
 ## Nachgezogen 2026-10-29 (Pro-Umbau 7, Abschluss): Pro `e466d83` (#412, nur Doku)
 
 568 Dateien, 58 umgeschrieben, 0 entfernt. Geändert nur `docs/STUNDENNACHWEIS.md`. Für die PWA nichts wirksam. Gemessen: `basic_gleichstand` 23.
+
+## Nachgezogen 2026-10-29 (Abend): Pro `0b5b586` (#413, #414)
+
+571 Dateien, 59 umgeschrieben, 0 entfernt. Für die PWA wirksam: Sicherung als kleiner farbiger Knopf oben in der linken Leiste statt Balken
+(grün „Gesichert · Uhrzeit“, rot „Jetzt sichern“ bei Änderungen nach 10 min, ohne Sicherung, zu alt oder knappem Speicher; am Handy nur im
+roten Fall ein kleiner Knopf im Kopf), aus #413 Belege mit Knöpfen oben, Ablagefläche, neuer Beleg markiert, Seitentitel im Kopf,
+Schriftgröße A··A, `sw.js` v283 (Vorrat `blpb-`). Absturz-Schutz der Anzeige und Teilen-Rücksprung betreffen nur die Android-App.

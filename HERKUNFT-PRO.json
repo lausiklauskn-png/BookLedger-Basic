@@ -1,11 +1,11 @@
 {
  "pro": "lausiklauskn-png/BookLedgerPro",
- "proCommit": "2fe06d93181241eabba043f2abd90b7e66cc0360",
+ "proCommit": "0b5b5869330b65ea3177df2ece9ed6ea9b23af64",
  "nachgezogenAm": "2026-10-29",
  "regeln": 1,
- "anzahl": 570,
+ "anzahl": 571,
  "umgeschrieben": 59,
- "baumHash": "5e4c3aea90c7cb7dafd827496e681b25332908d7c219e7d7b0d0010deea33ef3",
+ "baumHash": "b02850c528e60b76c02055b8e1b430e2d8cb8fbc7c303707fea562fbc9eb97f6",
  "dateien": [
   {
    "pfad": ".github/workflows/ci.yml",
@@ -565,7 +565,7 @@
   },
   {
    "pfad": "assets/app.css",
-   "sha256": "1f5302a65018da3a87f8253d9504ed5fe6e59a328253f45e99c92292769492c4"
+   "sha256": "9cc5eb2e512e7ba1d58ec3b19a3c360db59354399d23e8acbc19ad237545a0eb"
   },
   {
    "pfad": "assets/blp-icons.svg",
@@ -861,7 +861,7 @@
   },
   {
    "pfad": "docs/STUNDENNACHWEIS.md",
-   "sha256": "976451a5f481a60fef343bafe001fbc30268a0e3c133711d2616fd7eff881d39"
+   "sha256": "250403190487b968e91c532638271001926db48333b56aabfcc27c03c54ba6d6"
   },
   {
    "pfad": "docs/TESTDATEN.md",
@@ -921,7 +921,7 @@
   },
   {
    "pfad": "docs/design/FORSCHUNG-ANDROID-TRESORORDNER-2026-10-26.md",
-   "sha256": "adf9545a582d489f7c73ac6712eb150f25c60e60388c06675ead84dff8f7fdba"
+   "sha256": "faa9ddb8191d65d07fdf70bfaac3d64359b1133b7f8e024e333557cbb495efce"
   },
   {
    "pfad": "docs/design/LEITFADEN-PRO-APPS-BEDIENUNG.md",
@@ -1461,7 +1461,7 @@
   },
   {
    "pfad": "src/core/db.js",
-   "sha256": "a8e6941e443e8ff4e904e15c8e53ed61aecfb1c0f7188f1288fa3c8dc24f41aa"
+   "sha256": "1b6612a6713b42e0346200567e2db25867be04cca32564b400450d3eba1457d8"
   },
   {
    "pfad": "src/core/durability.js",
@@ -1780,6 +1780,10 @@
    "sha256": "2914f6f659b1aae3ac7cae46cfaf0c0e9fd4e7d4aef8bb1cc707da3025b89d5a"
   },
   {
+   "pfad": "src/domain/sicherungAnzeige.js",
+   "sha256": "6396fb0c33f73db87db5a67008de9640e55f4aa4f8a35de46c3d8ffd234cf631"
+  },
+  {
    "pfad": "src/domain/skonto.js",
    "sha256": "83e235b5f56843b13bca0a71eb818d6ae656273c409d71204fd09705a1b3d8f2"
   },
@@ -1913,7 +1917,7 @@
   },
   {
    "pfad": "src/ui/i18n.js",
-   "sha256": "f203f2603d2ed41ea13c5e898d4a7fbf9ff77f8bbb9828701280d80ff8ed4acb"
+   "sha256": "f76162ef9a84d495a7d3dcd6e912d43960eb6276033882b200e9c3fc9237b229"
   },
   {
    "pfad": "src/ui/icons.js",
@@ -1965,7 +1969,7 @@
   },
   {
    "pfad": "src/ui/shell.js",
-   "sha256": "652f32da941530e76c9a79b3ba3fa89c7c305d088b2080c2b1caea023bceaefe"
+   "sha256": "74559c60479aafdbf30c7e906d95179cb49ab8efee5cbc0575462129490e8ac9"
   },
   {
    "pfad": "src/ui/strich.js",
@@ -2077,7 +2081,7 @@
   },
   {
    "pfad": "sw.js",
-   "sha256": "f64ca1485571a9b6dab21d2b92c103202a47c7656a02a9cdfb3a782f75deaa69"
+   "sha256": "424c198cf1872b6716ee89ed7aba7a8d1525630b64efbdbc63fad45de243ecea"
   },
   {
    "pfad": "tests/daten/Testbild-versteckte-Anweisung.png",
@@ -2097,7 +2101,7 @@
   },
   {
    "pfad": "tests/run.mjs",
-   "sha256": "3de028d77581543dee7104af5cb7a5b92e88b5a32461e4ad2b8b40ea6a445278"
+   "sha256": "b98a382e377a55738c4a52c37a9728554265a71743c8c400583003da543e5d1d"
   },
   {
    "pfad": "tests/smoke_a5_antwortpfad.mjs",
@@ -2113,7 +2117,7 @@
   },
   {
    "pfad": "tests/smoke_befunde7.mjs",
-   "sha256": "ecfbfde318ab80da2cb8b0325930cafb6435a95e74c475f9596595234822e0c7"
+   "sha256": "e2f37a32aeca3f8e2caa39b3375ad39e8f8a66aec66a6118532d46d05dcd6e8b"
   },
   {
    "pfad": "tests/smoke_befunde8.mjs",
