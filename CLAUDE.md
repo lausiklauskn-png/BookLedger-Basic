@@ -168,3 +168,13 @@ verdeckt), `sw.js` v280 (Vorrat `blpb-`). Gemessen: `basic_gleichstand` 23 · `r
 (grün „Gesichert · Uhrzeit“, rot „Jetzt sichern“ bei Änderungen nach 10 min, ohne Sicherung, zu alt oder knappem Speicher; am Handy nur im
 roten Fall ein kleiner Knopf im Kopf), aus #413 Belege mit Knöpfen oben, Ablagefläche, neuer Beleg markiert, Seitentitel im Kopf,
 Schriftgröße A··A, `sw.js` v283 (Vorrat `blpb-`). Absturz-Schutz der Anzeige und Teilen-Rücksprung betreffen nur die Android-App.
+
+## Nachgezogen 2026-10-29 (spät, Pro-Umbau 9): Pro `02ec023` (#418, noch nicht auf Pro-main) + eigenes Logo
+
+567 Dateien, 60 umgeschrieben, 0 entfernt. **Regeln Fassung 2:** Basic hat ein **eigenes Logo** (Klaus: „BLP Basic sollte auch an dem Logo zu
+erkennen sein … ein weißer Hintergrund“): `assets/icons/*.png` sind Basic-eigen (`BASIC_LOGO` in `tools/basic-regeln.mjs`), umgefärbt aus den
+Pro-Symbolen mit `tools/basic-logo.py` (weißes Feld, Innenleben dunkelgrün, feiner grüner Rand). Das Nachziehen löscht Basic-eigene Dateien nie
+(beim ersten Lauf tat es das — jetzt ausgeschlossen). Für die PWA wirksam: ⓘ hinter der Beschriftung statt eigener Zeile, Mikrofon und „DE“ im Feld,
+Kästchen links, Knöpfe bleiben bei größerer Schrift gleich hoch, Eingang fest Petrol hell, `sw.js` v284 (Vorrat `blpb-`). Version im Kopf und Updates
+gelten nur in der App. Gemessen: `basic_gleichstand` 25 · `run.mjs` 2608/0 · `smoke_befunde9` 48 (App-Teil übersprungen) · `befunde8` 70 · `befunde` 40 ·
+`design` 92. ⚠ Pin zeigt auf den Zweig-Stand von Pro #418; nach dessen Merge noch einmal nachziehen (nur der Pin ändert sich). ⚠ Nicht am Tablet.

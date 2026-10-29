@@ -1,11 +1,11 @@
 {
  "pro": "lausiklauskn-png/BookLedgerPro",
- "proCommit": "0b5b5869330b65ea3177df2ece9ed6ea9b23af64",
+ "proCommit": "02ec023331b5d4e57df3a8237203fa99ce0c04aa",
  "nachgezogenAm": "2026-10-29",
- "regeln": 1,
- "anzahl": 571,
- "umgeschrieben": 59,
- "baumHash": "b02850c528e60b76c02055b8e1b430e2d8cb8fbc7c303707fea562fbc9eb97f6",
+ "regeln": 2,
+ "anzahl": 567,
+ "umgeschrieben": 60,
+ "baumHash": "2ca1934540785169aa70b4867d6891cee638670c643e827734b3d3ba11275e08",
  "dateien": [
   {
    "pfad": ".github/workflows/ci.yml",
@@ -565,7 +565,7 @@
   },
   {
    "pfad": "assets/app.css",
-   "sha256": "9cc5eb2e512e7ba1d58ec3b19a3c360db59354399d23e8acbc19ad237545a0eb"
+   "sha256": "a18a3d3fa68e9b4e007a9f8105fe3ef5c6557b6dfaeaf7f7de8e746896de5ddc"
   },
   {
    "pfad": "assets/blp-icons.svg",
@@ -602,26 +602,6 @@
   {
    "pfad": "assets/icon.svg",
    "sha256": "f5ad0db15f2b5c2f5045218a35230df6bea1a3cf89178f086830aed67999bd67"
-  },
-  {
-   "pfad": "assets/icons/apple-touch-icon.png",
-   "sha256": "a2dbc44f581d481244c3105d68b7e6522a321f156ff1f40c56f1a54aa950d3f3"
-  },
-  {
-   "pfad": "assets/icons/favicon-32.png",
-   "sha256": "b887bacb261c983e3505598e668882f0b661d3311617cb0e0a0d6b50040af70a"
-  },
-  {
-   "pfad": "assets/icons/icon-192.png",
-   "sha256": "86a111acdad76c428609a3afba0ab3313a1101155b720288b2279f8f586c891e"
-  },
-  {
-   "pfad": "assets/icons/icon-512.png",
-   "sha256": "e05a5979de002727794fa08432bb14a899a6fcc0fdd8dd4042e67d52e0d20975"
-  },
-  {
-   "pfad": "assets/icons/maskable-512.png",
-   "sha256": "ac1e64785d37c5f0a8562b3fcfa6e09add1a34f241ddf2e81fae2ea8b19cded0"
   },
   {
    "pfad": "assets/img/cover-640.webp",
@@ -1917,7 +1897,7 @@
   },
   {
    "pfad": "src/ui/i18n.js",
-   "sha256": "f76162ef9a84d495a7d3dcd6e912d43960eb6276033882b200e9c3fc9237b229"
+   "sha256": "9b7aa9113d4abed2626387d8732efea9bd694d552a768f02e981c1b1de5dce69"
   },
   {
    "pfad": "src/ui/icons.js",
@@ -1925,11 +1905,11 @@
   },
   {
    "pfad": "src/ui/intro.js",
-   "sha256": "1128123f88efc61df90ffdc783cf492bef81200657767dc85194140411cb9f1c"
+   "sha256": "4478ea6a6911b5864bf74615b5650a19ea44b8b0549c3378b598b80f7b3654a9"
   },
   {
    "pfad": "src/ui/kopfTitel.js",
-   "sha256": "00679867cd6266b347c2f458623a8574e473fe069bb91cbed48d3cf75202b1c0"
+   "sha256": "4452730fa1e6c2256d44c6509306acffff6fdfd5f98be7dbc3f4f31c9af40c84"
   },
   {
    "pfad": "src/ui/lock.js",
@@ -1937,7 +1917,7 @@
   },
   {
    "pfad": "src/ui/mikro.js",
-   "sha256": "fd979f004a419074aaa14a20e046dab798a8d32ca901d04454b7c87a41430ac8"
+   "sha256": "0e48cd11291dbfa42cedee428058b6e74463f7dcf0487df746f391861bbe7967"
   },
   {
    "pfad": "src/ui/mycel.js",
@@ -1961,7 +1941,7 @@
   },
   {
    "pfad": "src/ui/schlank.js",
-   "sha256": "eb7ab16dc99bc886108ce28fd9281ff6878ba8152fdcea7283dc1c2b7f0d918e"
+   "sha256": "8eaa3e57da06d57c204e57b6da16cca3fae83ade2599a4f41c8cf44d50aabab2"
   },
   {
    "pfad": "src/ui/schluesselabgleich.js",
@@ -1969,7 +1949,7 @@
   },
   {
    "pfad": "src/ui/shell.js",
-   "sha256": "74559c60479aafdbf30c7e906d95179cb49ab8efee5cbc0575462129490e8ac9"
+   "sha256": "8ddb9a8d46d914c0b94ad002854c5c3497339d952fe20566bda9781745145414"
   },
   {
    "pfad": "src/ui/strich.js",
@@ -2081,7 +2061,7 @@
   },
   {
    "pfad": "sw.js",
-   "sha256": "424c198cf1872b6716ee89ed7aba7a8d1525630b64efbdbc63fad45de243ecea"
+   "sha256": "820b9075965bf48691fc94610a0ae1f2774c0d3307fb22849a043405ce3ede7f"
   },
   {
    "pfad": "tests/daten/Testbild-versteckte-Anweisung.png",
@@ -2113,7 +2093,7 @@
   },
   {
    "pfad": "tests/smoke_befunde.mjs",
-   "sha256": "f3ed192e717ad258d6fb5b1766a52305a77046b95ffd64c9ec6570239808a71f"
+   "sha256": "5a83aae66a5a344a944defd3ab27091e53231bbdbb0f4d784d1d5e52e5800ced"
   },
   {
    "pfad": "tests/smoke_befunde7.mjs",
@@ -2122,6 +2102,10 @@
   {
    "pfad": "tests/smoke_befunde8.mjs",
    "sha256": "1096d9c69863baa47a6b0499ae2a7b6843ce0e5980530707bc38ea6e5a513c8e"
+  },
+  {
+   "pfad": "tests/smoke_befunde9.mjs",
+   "sha256": "9203e3ec9964fe376f08e68b080cb9a3d9ba2b5e2d3500f42c9e666c4f14e59f"
   },
   {
    "pfad": "tests/smoke_belege.mjs",

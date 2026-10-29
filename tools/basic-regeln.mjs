@@ -17,7 +17,7 @@
 //
 // Fassung der Regeln: steht in HERKUNFT-PRO.json (`regeln`). Wer eine Regel ändert, erhöht REGELN_FASSUNG.
 
-export const REGELN_FASSUNG = 1;
+export const REGELN_FASSUNG = 2;
 export const PRO_REPO = 'lausiklauskn-png/BookLedgerPro';
 export const BASIC_NAME = 'BookLedger Basic';
 export const BASIC_KURZ = 'BL Basic';
@@ -37,8 +37,12 @@ export const NICHT_KOPIEREN_DATEI = new Set(['capacitor.config.json', 'package.j
 export function nichtKopieren(relpath) {
   return NICHT_KOPIEREN.has(relpath) || NICHT_KOPIEREN_DATEI.has(relpath) || NICHT_KOPIEREN_PRAEFIX.some((v) => relpath.startsWith(v));
 }
+export const BASIC_LOGO = ['assets/icons/icon-192.png', 'assets/icons/icon-512.png', 'assets/icons/maskable-512.png', 'assets/icons/apple-touch-icon.png', 'assets/icons/favicon-32.png'];
 /** Basic-eigene Dateien — der Nachzieh-Lauf fasst sie nie an. */
-export const BASIC_EIGEN = new Set(['CLAUDE.md', 'README.md', 'HERKUNFT-PRO.json', 'tools/pro-nachziehen.mjs', 'tools/basic-regeln.mjs', 'tests/basic_gleichstand.mjs']);
+export const BASIC_EIGEN = new Set(['CLAUDE.md', 'README.md', 'HERKUNFT-PRO.json', 'tools/pro-nachziehen.mjs', 'tools/basic-regeln.mjs', 'tests/basic_gleichstand.mjs',
+  // Fassung 2 (Klaus 2026-10-29 spät): „BLP Basic sollte auch an dem Logo zu erkennen sein … ein weißer Hintergrund“ — eigene Symbole,
+  // umgefärbt aus denen von Pro mit tools/basic-logo.py (weißes Feld, Innenleben dunkelgrün, feiner grüner Rand).
+  'tools/basic-logo.py', ...BASIC_LOGO]);
 
 /** Nur hier wird umgeschrieben; alles andere bleibt byte-1:1. */
 export function wirdUmgeschrieben(relpath) {
