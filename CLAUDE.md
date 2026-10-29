@@ -181,3 +181,9 @@ gelten nur in der App. Gemessen: `basic_gleichstand` 25 · `run.mjs` 2608/0 · `
 
 **Pin auf Pro-main `805f8b1` (#418 gemergt):** Inhalt gleich, dazu `.github/workflows/ci.yml` aus Pro (Push nur auf `main`, sonst über den PR, alte Läufe
 werden abgebrochen). Gemessen: `basic_gleichstand` 25.
+
+## Nachgezogen 2026-10-29 (Pro-Umbau 10): Pro `7a4eb61` (#419 Doku, #421 Windows vorbereitet)
+
+568 Dateien, 60 umgeschrieben, 0 entfernt. Für die PWA nichts wirksam: `smoke_befunde9` prüft in Pro zusätzlich den Windows-Modus (hier ohne
+`native/` ehrlich ausgelassen), Windows-Version 0.1.4 und `docs/WINDOWS-TESTANLEITUNG.md` gehören zur App. Gemessen: `basic_gleichstand` 25 ·
+`run.mjs` 2608/0 · `befunde9` 48. ⚠ Nicht am Tablet.
