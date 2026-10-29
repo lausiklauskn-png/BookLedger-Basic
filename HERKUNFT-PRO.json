@@ -1,11 +1,11 @@
 {
  "pro": "lausiklauskn-png/BookLedgerPro",
- "proCommit": "1127038ff7d8873f56e6ee4c8f095cf0893178c8",
- "nachgezogenAm": "2026-10-28",
+ "proCommit": "3c5fbc38a3a22f72cd71d8788c7a50943f2b7909",
+ "nachgezogenAm": "2026-10-29",
  "regeln": 1,
  "anzahl": 566,
  "umgeschrieben": 57,
- "baumHash": "5ccfe1ff86526704d3fdeedd101735f4c922428ab7cb17ed4bce81538db76097",
+ "baumHash": "773266843126c091e03d32458ea419984009300fc5749500fc4652a4aaacd43b",
  "dateien": [
   {
    "pfad": ".github/workflows/ci.yml",
@@ -861,7 +861,7 @@
   },
   {
    "pfad": "docs/STUNDENNACHWEIS.md",
-   "sha256": "e348b1af94467b89d9e5639c47c6ef64bc47394383bd46ca6bf9de43eda9ec80"
+   "sha256": "4855ba6dcebb61298297ace870a40eff5e471b624e3dbed0c7ac8c8a295ac90a"
   },
   {
    "pfad": "docs/TESTDATEN.md",
@@ -921,7 +921,7 @@
   },
   {
    "pfad": "docs/design/FORSCHUNG-ANDROID-TRESORORDNER-2026-10-26.md",
-   "sha256": "7a88b0e1a7104e5324f60bd87f77b21fe0fd87ca7c1913f57638827d8f496de2"
+   "sha256": "a7a7a90506916b80db22676e875f7c3afe4cb935f846ab40fc67babf7974f982"
   },
   {
    "pfad": "docs/design/LEITFADEN-PRO-APPS-BEDIENUNG.md",
