@@ -177,4 +177,7 @@ Pro-Symbolen mit `tools/basic-logo.py` (weißes Feld, Innenleben dunkelgrün, fe
 (beim ersten Lauf tat es das — jetzt ausgeschlossen). Für die PWA wirksam: ⓘ hinter der Beschriftung statt eigener Zeile, Mikrofon und „DE“ im Feld,
 Kästchen links, Knöpfe bleiben bei größerer Schrift gleich hoch, Eingang fest Petrol hell, `sw.js` v284 (Vorrat `blpb-`). Version im Kopf und Updates
 gelten nur in der App. Gemessen: `basic_gleichstand` 25 · `run.mjs` 2608/0 · `smoke_befunde9` 48 (App-Teil übersprungen) · `befunde8` 70 · `befunde` 40 ·
-`design` 92. ⚠ Pin zeigt auf den Zweig-Stand von Pro #418; nach dessen Merge noch einmal nachziehen (nur der Pin ändert sich). ⚠ Nicht am Tablet.
+`design` 92. ⚠ Nicht am Tablet.
+
+**Pin auf Pro-main `805f8b1` (#418 gemergt):** Inhalt gleich, dazu `.github/workflows/ci.yml` aus Pro (Push nur auf `main`, sonst über den PR, alte Läufe
+werden abgebrochen). Gemessen: `basic_gleichstand` 25.
