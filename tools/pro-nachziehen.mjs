@@ -40,7 +40,7 @@ for (const p of dateien) {
 let entfernt = 0;
 if (alt && Array.isArray(alt.dateien)) {
   const jetzt = new Set(dateien);
-  for (const d of alt.dateien) if (!jetzt.has(d.pfad) && existsSync(join(WURZEL, d.pfad))) { unlinkSync(join(WURZEL, d.pfad)); entfernt++; }
+  for (const d of alt.dateien) if (!jetzt.has(d.pfad) && !BASIC_EIGEN.has(d.pfad) && existsSync(join(WURZEL, d.pfad))) { unlinkSync(join(WURZEL, d.pfad)); entfernt++; }
 }
 // leere Ordner wegräumen
 (function leereOrdner(dir) {

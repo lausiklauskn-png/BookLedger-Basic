@@ -5,7 +5,7 @@ import { createHash } from 'node:crypto';
 import { readFileSync, existsSync } from 'node:fs';
 import { dirname, join, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { basicUmschreiben, wirdUmgeschrieben, nichtKopieren, REGELN_FASSUNG, DB_ENDUNG_BASIC, VORRAT_BASIC, BASIC_NAME } from '../tools/basic-regeln.mjs';
+import { BASIC_LOGO, BASIC_EIGEN, basicUmschreiben, wirdUmgeschrieben, nichtKopieren, REGELN_FASSUNG, DB_ENDUNG_BASIC, VORRAT_BASIC, BASIC_NAME } from '../tools/basic-regeln.mjs';
 
 const WURZEL = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 let gruen = 0, rot = 0;
@@ -58,6 +58,10 @@ ok('Native Pro-Teile kommen nicht in die PWA (android/, native/, tools/native/, 
    'capacitor.config.json', 'package.json', 'package-lock.json', '.github/workflows/android.yml', 'BRIEF_SITZUNG_X.md'].every(nichtKopieren)
   && ['index.html', 'src/main.js', 'tests/run.mjs', '.github/workflows/ci.yml', 'docs/design/X.md'].every((p) => !nichtKopieren(p)));
 ok('…und keine solche Datei steht im Pin', !H.dateien.some((d) => nichtKopieren(d.pfad)), H.dateien.filter((d) => nichtKopieren(d.pfad)).map((d) => d.pfad).join(', '));
+// Fassung 2: eigenes Logo (weißes Feld) — Basic-eigen, nicht im Pin, nicht aus Pro überschrieben.
+ok('Basic-Logo: alle Symbole Basic-eigen und nicht im Pin', BASIC_LOGO.every((p) => BASIC_EIGEN.has(p) && existsSync(join(WURZEL, p))) && !H.dateien.some((d) => BASIC_LOGO.includes(d.pfad)));
+{ const png = readFileSync(join(WURZEL, 'assets/icons/maskable-512.png'));
+  ok('Basic-Logo ist das weiße (nicht die grüne Pro-Kachel): maskable-512 als PNG, ≠ Pro-Vorlage', png.slice(1, 4).toString() === 'PNG' && createHash('sha256').update(png).digest('hex') !== 'ac1e64785d37c5f0a8562b3fcfa6e09add1a34f241ddf2e81fae2ea8b19cded0'); }
 
 console.log(`\n${gruen} grün · ${rot} ROT`);
 process.exit(rot ? 1 : 0);
