@@ -145,3 +145,10 @@ erhöht, weil sich für die PWA nichts ändert). Gemessen: `basic_gleichstand` 2
 
 566 Dateien, 57 umgeschrieben, 0 entfernt. Für die PWA nichts wirksam: Android-Version 0.1.2, Release-Probe der App (`android/`, `tools/native/` gehören nicht
 zur Kopie), `.gitignore` (`__pycache__/`), Doku (Forschung § 20, Stundennachweis). Gemessen: `basic_gleichstand` 23 · `run.mjs` 2600/0. ⚠ Nicht am Tablet.
+
+## Nachgezogen 2026-10-29 (Pro-Umbau 7): Pro `023b531` (Tablet-Befunde: #410)
+
+568 Dateien, 58 umgeschrieben, 0 entfernt. Für die PWA wirksam: Belegliste passt in jede Breite (⋯ sichtbar, Datum nicht überschrieben),
+Tipp auf den Namen zeigt das Dokument (PDF-Seiten, Bild) mit „Teilen …“ und Löschen, Bilder/PDFs in die Schnellerfassung einfügen oder
+hineinziehen, `sw.js` v279 (Vorrat `blpb-`). Das Teilen ohne zweites Fenster betrifft nur die Android-App. Gemessen: `basic_gleichstand` 23 ·
+`run.mjs` 2600/0 · `smoke_befunde7` 19 (App-Teil übersprungen) · `smoke_design` 92. ⚠ Nicht am Tablet.
