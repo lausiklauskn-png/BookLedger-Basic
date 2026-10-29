@@ -1,11 +1,11 @@
 {
  "pro": "lausiklauskn-png/BookLedgerPro",
- "proCommit": "805f8b13dd20651a362200d01d1114ce2e7545dd",
+ "proCommit": "7a4eb616d74aa3b376b5732f894a6abc8650158e",
  "nachgezogenAm": "2026-10-29",
  "regeln": 2,
- "anzahl": 567,
+ "anzahl": 568,
  "umgeschrieben": 60,
- "baumHash": "4b7388ad5a58b24e8fba32feaee2a1421ae579d27a52cfa79b242a7476324c70",
+ "baumHash": "9a07ebb9564847fafec6e33b6d3acf996b5e6fca798899a4446436ed571bf1f5",
  "dateien": [
   {
    "pfad": ".github/workflows/ci.yml",
@@ -841,7 +841,7 @@
   },
   {
    "pfad": "docs/STUNDENNACHWEIS.md",
-   "sha256": "250403190487b968e91c532638271001926db48333b56aabfcc27c03c54ba6d6"
+   "sha256": "9b6311be5af3eb759da1f4018cf26eec58ea783e2d9eb7746c7897a4ce494eca"
   },
   {
    "pfad": "docs/TESTDATEN.md",
@@ -876,8 +876,12 @@
    "sha256": "397001baf43a568bc640e63895ecb735f97140710d172510afa5850a3c572588"
   },
   {
+   "pfad": "docs/WINDOWS-TESTANLEITUNG.md",
+   "sha256": "a2abfe3281a8c8a7849585a14f71c7b08434286fb59b46fa77d7f6f6bf84515b"
+  },
+  {
    "pfad": "docs/WINDOWS.md",
-   "sha256": "53ba703faca696316d346f44b1bc5f6987cf8e4f14c8d86dbcc36e2181b5649f"
+   "sha256": "4fbaf3f923c597409c289905461026005cc8b0d3c7fa07b124811aca258096fc"
   },
   {
    "pfad": "docs/WORKFLOH_IMPORT.md",
@@ -901,7 +905,7 @@
   },
   {
    "pfad": "docs/design/FORSCHUNG-ANDROID-TRESORORDNER-2026-10-26.md",
-   "sha256": "faa9ddb8191d65d07fdf70bfaac3d64359b1133b7f8e024e333557cbb495efce"
+   "sha256": "ac3a2dee4127857ef03b6780a545af4028eecd2b0ecaafc2491e5b536f577386"
   },
   {
    "pfad": "docs/design/LEITFADEN-PRO-APPS-BEDIENUNG.md",
@@ -2105,7 +2109,7 @@
   },
   {
    "pfad": "tests/smoke_befunde9.mjs",
-   "sha256": "9203e3ec9964fe376f08e68b080cb9a3d9ba2b5e2d3500f42c9e666c4f14e59f"
+   "sha256": "4781843211eb1c33284b606d09fd6b9cd91b4e9a1200a53dce436b5859e3f4ac"
   },
   {
    "pfad": "tests/smoke_belege.mjs",
