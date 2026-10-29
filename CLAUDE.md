@@ -130,3 +130,8 @@ Gemessen: `basic_gleichstand` 23 · `run.mjs` 2600/0 · `smoke_design` 92 · `sm
 566 Dateien, 57 umgeschrieben, 0 entfernt. Für die PWA wirksam nur `sw.js` (Vorrat `blpb-`) und die Zeile „Auf Updates prüfen“ unter „Über“, die nur mit
 `window.BLPNative.updates` erscheint (Android/Windows-App) — die PWA sieht sie nie, sie bekommt neue Stände über Pages. Scanner/Kamera und Android-Updates
 gehören nur zur App. Gemessen: `basic_gleichstand` 23 · `run.mjs` 2600/0. ⚠ Nicht am Tablet.
+
+## Nachgezogen 2026-10-29: Pro `3c5fbc3` (#401, nur Doku)
+
+566 Dateien, 57 umgeschrieben, 0 entfernt. Geändert nur `docs/STUNDENNACHWEIS.md` und die Forschung (§ 18–19). Für die PWA nichts wirksam.
+Gemessen: `basic_gleichstand` 23.
