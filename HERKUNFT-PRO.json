@@ -1,11 +1,11 @@
 {
  "pro": "lausiklauskn-png/BookLedgerPro",
- "proCommit": "47052226b7fe7651b8a30ef855c6224716372a52",
+ "proCommit": "023b5317e740460b6624b376845c5db07eff2426",
  "nachgezogenAm": "2026-10-29",
  "regeln": 1,
- "anzahl": 566,
- "umgeschrieben": 57,
- "baumHash": "4237ec4dc1bcea9e98b38f1dd07ee1db181b97017488cf49933102754f3a3c3b",
+ "anzahl": 568,
+ "umgeschrieben": 58,
+ "baumHash": "aaf06f48433432de1573d3c4196c329c8b30ffb97f0cfabf1f9ffac225b0f04c",
  "dateien": [
   {
    "pfad": ".github/workflows/ci.yml",
@@ -565,7 +565,7 @@
   },
   {
    "pfad": "assets/app.css",
-   "sha256": "a9cc342cf8c22065da8d8d3351c54134461d7cb1a26202e34d827a65b7e4be9d"
+   "sha256": "876c8f07588e8dd65fe1644de4059277fc0a98f99a3c3bbead857c85ded262c9"
   },
   {
    "pfad": "assets/blp-icons.svg",
@@ -1401,7 +1401,7 @@
   },
   {
    "pfad": "src/ai/kiVorbereitung.js",
-   "sha256": "5fd3d1ef3838b859c568861aa7111d48d1b57acc1d3c707d8acbc330ae18ec07"
+   "sha256": "f52990afd156822cdc71d70c91e514db3cdb37a0c5958df94ca649def29c91f0"
   },
   {
    "pfad": "src/ai/mistral.js",
@@ -1892,6 +1892,10 @@
    "sha256": "15a90563698b5a006b66ba25a8062593210f04783c396406e8124bbf7aeb12cf"
   },
   {
+   "pfad": "src/ui/belegVorschau.js",
+   "sha256": "a3613c8a4906ca1a858abef5fb3e65afdfa87a8bc557c8ad3f2438b2a732ece3"
+  },
+  {
    "pfad": "src/ui/datensicherung.js",
    "sha256": "8d34fbf8abc8b670c92cec76dd830f7dca900425f7748333f17ec82e8f5ee582"
   },
@@ -1909,7 +1913,7 @@
   },
   {
    "pfad": "src/ui/i18n.js",
-   "sha256": "1f40680c3fc8bd030bf2bc5353ab4af18b5163e4ba608527f4776781f0ebda49"
+   "sha256": "90cc3e8b2af847e30ba6c899908e488bc5f8af6a61e14fad979a1889726847c9"
   },
   {
    "pfad": "src/ui/icons.js",
@@ -1941,7 +1945,7 @@
   },
   {
    "pfad": "src/ui/proAppGeben.js",
-   "sha256": "a47e529919baafc4437df5e9efed36b409c80f0c5d18ab0687bb75680a9c956b"
+   "sha256": "58e94ffcacf4981420b1c276ba234d37eb33bff1458321ae1b757744c69023e7"
   },
   {
    "pfad": "src/ui/scanner.js",
@@ -2005,7 +2009,7 @@
   },
   {
    "pfad": "src/ui/views/documents.js",
-   "sha256": "df74dc074c9f90cc52fe201da3f5fda16ee9bfa0b01222a27ed3fc5629e714dc"
+   "sha256": "b23d91b3856e7652b4a2d60861fc55b5fc19b8ddb1b645bf61b89509f323c41c"
   },
   {
    "pfad": "src/ui/views/employees.js",
@@ -2069,7 +2073,7 @@
   },
   {
    "pfad": "sw.js",
-   "sha256": "ae5f9c55a207315052555f1e594faf7441eb5f96c57d5496f3bdac300d5b082f"
+   "sha256": "4f069eab911b06b2cfdef600aa05fde04f0addf505c927cb43e03c119baf5882"
   },
   {
    "pfad": "tests/daten/Testbild-versteckte-Anweisung.png",
@@ -2102,6 +2106,10 @@
   {
    "pfad": "tests/smoke_befunde.mjs",
    "sha256": "f3ed192e717ad258d6fb5b1766a52305a77046b95ffd64c9ec6570239808a71f"
+  },
+  {
+   "pfad": "tests/smoke_befunde7.mjs",
+   "sha256": "53d3b0ec151f08eb6251bbf28babe1ed0f820b2b78cf6e1895baa8ab612f7899"
   },
   {
    "pfad": "tests/smoke_belege.mjs",
