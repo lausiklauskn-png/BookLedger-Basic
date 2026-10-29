@@ -157,3 +157,7 @@ hineinziehen, `sw.js` v279 (Vorrat `blpb-`). Das Teilen ohne zweites Fenster bet
 
 568 Dateien, 58 umgeschrieben, 0 entfernt. Für die PWA wirksam: das Deckblatt hat unten Platz für die schwebende SBKIM-Leiste („Zur Anmeldung“ nie
 verdeckt), `sw.js` v280 (Vorrat `blpb-`). Gemessen: `basic_gleichstand` 23 · `run.mjs` 2600/0. ⚠ Nicht am Tablet.
+
+## Nachgezogen 2026-10-29 (Pro-Umbau 7, Abschluss): Pro `e466d83` (#412, nur Doku)
+
+568 Dateien, 58 umgeschrieben, 0 entfernt. Geändert nur `docs/STUNDENNACHWEIS.md`. Für die PWA nichts wirksam. Gemessen: `basic_gleichstand` 23.
