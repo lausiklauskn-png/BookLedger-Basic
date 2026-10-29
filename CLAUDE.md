@@ -152,3 +152,8 @@ zur Kopie), `.gitignore` (`__pycache__/`), Doku (Forschung § 20, Stundennachwei
 Tipp auf den Namen zeigt das Dokument (PDF-Seiten, Bild) mit „Teilen …“ und Löschen, Bilder/PDFs in die Schnellerfassung einfügen oder
 hineinziehen, `sw.js` v279 (Vorrat `blpb-`). Das Teilen ohne zweites Fenster betrifft nur die Android-App. Gemessen: `basic_gleichstand` 23 ·
 `run.mjs` 2600/0 · `smoke_befunde7` 19 (App-Teil übersprungen) · `smoke_design` 92. ⚠ Nicht am Tablet.
+
+## Nachgezogen 2026-10-29 (Pro-Umbau 7, später): Pro `a64315b` (#411)
+
+568 Dateien, 58 umgeschrieben, 0 entfernt. Für die PWA wirksam: das Deckblatt hat unten Platz für die schwebende SBKIM-Leiste („Zur Anmeldung“ nie
+verdeckt), `sw.js` v280 (Vorrat `blpb-`). Gemessen: `basic_gleichstand` 23 · `run.mjs` 2600/0. ⚠ Nicht am Tablet.
