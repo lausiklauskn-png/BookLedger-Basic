@@ -1,11 +1,11 @@
 {
  "pro": "lausiklauskn-png/BookLedgerPro",
- "proCommit": "e466d831f1406a545b8da8a8e0e6621dd347f990",
+ "proCommit": "2fe06d93181241eabba043f2abd90b7e66cc0360",
  "nachgezogenAm": "2026-10-29",
  "regeln": 1,
- "anzahl": 568,
- "umgeschrieben": 58,
- "baumHash": "3376c9e6669589423834f5bd91b958aee261637bd966b0d0f12dd496133a9060",
+ "anzahl": 570,
+ "umgeschrieben": 59,
+ "baumHash": "5e4c3aea90c7cb7dafd827496e681b25332908d7c219e7d7b0d0010deea33ef3",
  "dateien": [
   {
    "pfad": ".github/workflows/ci.yml",
@@ -565,7 +565,7 @@
   },
   {
    "pfad": "assets/app.css",
-   "sha256": "1f87af8bb58000b1f6592b1140259b13807b96080d46126ad5b9dfefd35dbea5"
+   "sha256": "1f5302a65018da3a87f8253d9504ed5fe6e59a328253f45e99c92292769492c4"
   },
   {
    "pfad": "assets/blp-icons.svg",
@@ -925,7 +925,7 @@
   },
   {
    "pfad": "docs/design/LEITFADEN-PRO-APPS-BEDIENUNG.md",
-   "sha256": "a0fd6d95daebfa1fb32fd5f9873cb07c74259ea68968b4c0c6dfeafcf7e636b6"
+   "sha256": "e4156b9191c6d3d55fa7de524264aae88b3363793385de82c19ef02853562b9f"
   },
   {
    "pfad": "docs/design/PLAN-CALCULATE-NEEDS-2026-10-26.md",
@@ -1233,7 +1233,7 @@
   },
   {
    "pfad": "index.html",
-   "sha256": "9d2535f8f9c2f2917169e1984b4e55318b9cf6e54a3024b1cd5e318720adf5b9"
+   "sha256": "b8fd0aef39085ad35244d20fa5706c1c8d6ba23d3ed184193b0c2c7c05560c5c"
   },
   {
    "pfad": "manifest.webmanifest",
@@ -1833,7 +1833,7 @@
   },
   {
    "pfad": "src/main.js",
-   "sha256": "4ab39cd666a265d6027f29973b3c94801bafc20b18bdf89a4436ae133877f7e4"
+   "sha256": "859c714814853dc7a54232bab44c6e12a95a48dc4619f3fc77e29426102ba6ba"
   },
   {
    "pfad": "src/sbkim/domainvector.js",
@@ -1885,7 +1885,7 @@
   },
   {
    "pfad": "src/state.js",
-   "sha256": "d6f3f5ff23aff40b8b2e2c416865c2b4a87038fabd7d1ae1ee229259bd8c2151"
+   "sha256": "fa2cd75aa94ba7eda3065035d7469e86a2efdb811624f8bb8751e0171bb9de96"
   },
   {
    "pfad": "src/ui/belegDialoge.js",
@@ -1893,7 +1893,7 @@
   },
   {
    "pfad": "src/ui/belegVorschau.js",
-   "sha256": "a3613c8a4906ca1a858abef5fb3e65afdfa87a8bc557c8ad3f2438b2a732ece3"
+   "sha256": "7a4a5f7f06515c304abe7a3c1b4c094c86626a4717f0a6abfd157555d5a00b97"
   },
   {
    "pfad": "src/ui/datensicherung.js",
@@ -1913,7 +1913,7 @@
   },
   {
    "pfad": "src/ui/i18n.js",
-   "sha256": "90cc3e8b2af847e30ba6c899908e488bc5f8af6a61e14fad979a1889726847c9"
+   "sha256": "f203f2603d2ed41ea13c5e898d4a7fbf9ff77f8bbb9828701280d80ff8ed4acb"
   },
   {
    "pfad": "src/ui/icons.js",
@@ -1921,7 +1921,11 @@
   },
   {
    "pfad": "src/ui/intro.js",
-   "sha256": "7edb5e780555114f4ae82cee2ecc7bc297d45ec062cca93e8b8ef60b16259d34"
+   "sha256": "1128123f88efc61df90ffdc783cf492bef81200657767dc85194140411cb9f1c"
+  },
+  {
+   "pfad": "src/ui/kopfTitel.js",
+   "sha256": "00679867cd6266b347c2f458623a8574e473fe069bb91cbed48d3cf75202b1c0"
   },
   {
    "pfad": "src/ui/lock.js",
@@ -1953,7 +1957,7 @@
   },
   {
    "pfad": "src/ui/schlank.js",
-   "sha256": "e2645f1dab271d28abeeb7815388eb902677202d990de4a22e6eec1953de969e"
+   "sha256": "eb7ab16dc99bc886108ce28fd9281ff6878ba8152fdcea7283dc1c2b7f0d918e"
   },
   {
    "pfad": "src/ui/schluesselabgleich.js",
@@ -1961,7 +1965,7 @@
   },
   {
    "pfad": "src/ui/shell.js",
-   "sha256": "69d7dca9e5dcbb44756412cbc069a20e1bfd36c8d9263635b9675e98c8c3e676"
+   "sha256": "652f32da941530e76c9a79b3ba3fa89c7c305d088b2080c2b1caea023bceaefe"
   },
   {
    "pfad": "src/ui/strich.js",
@@ -1973,7 +1977,7 @@
   },
   {
    "pfad": "src/ui/theme.js",
-   "sha256": "5f62961f71924501477e6a3b2aa0b286822f736afcf7701d89e57d01918bb68b"
+   "sha256": "28cc1d2d915a3bc0330b27bf019ec08890c464409b67ab9389d1ecf77630fb27"
   },
   {
    "pfad": "src/ui/views/accounts.js",
@@ -2009,7 +2013,7 @@
   },
   {
    "pfad": "src/ui/views/documents.js",
-   "sha256": "b23d91b3856e7652b4a2d60861fc55b5fc19b8ddb1b645bf61b89509f323c41c"
+   "sha256": "1e7d6a7c364aaaa0a55d096b7e6e8bca5d4bf4f2c578f11e54b7e21d1de1a95a"
   },
   {
    "pfad": "src/ui/views/employees.js",
@@ -2073,7 +2077,7 @@
   },
   {
    "pfad": "sw.js",
-   "sha256": "06b7ec94ceff0dc383a365f677a8390c03020aacf6df7852962540919eff6af0"
+   "sha256": "f64ca1485571a9b6dab21d2b92c103202a47c7656a02a9cdfb3a782f75deaa69"
   },
   {
    "pfad": "tests/daten/Testbild-versteckte-Anweisung.png",
@@ -2109,11 +2113,15 @@
   },
   {
    "pfad": "tests/smoke_befunde7.mjs",
-   "sha256": "53d3b0ec151f08eb6251bbf28babe1ed0f820b2b78cf6e1895baa8ab612f7899"
+   "sha256": "ecfbfde318ab80da2cb8b0325930cafb6435a95e74c475f9596595234822e0c7"
+  },
+  {
+   "pfad": "tests/smoke_befunde8.mjs",
+   "sha256": "1096d9c69863baa47a6b0499ae2a7b6843ce0e5980530707bc38ea6e5a513c8e"
   },
   {
    "pfad": "tests/smoke_belege.mjs",
-   "sha256": "05244b44ae785c8be8272f51651e2f8163cc5b7912b294233c00dd5aa8a2b75b"
+   "sha256": "9f192935ff3ac119bff4191c46cd8d6b36011baed2c0df2c3550176e60deea4c"
   },
   {
    "pfad": "tests/smoke_belegliste.mjs",
@@ -2133,7 +2141,7 @@
   },
   {
    "pfad": "tests/smoke_handnamen.mjs",
-   "sha256": "ffcb043ca94123509011539e2dcc7c731f74e0243735299ad20400fecdafc173"
+   "sha256": "0d550f8572f0974842513d16daf33ddac9bfedb96a37d60b7be52b5746e8ed79"
   },
   {
    "pfad": "tests/smoke_mail.mjs",
@@ -2141,7 +2149,7 @@
   },
   {
    "pfad": "tests/smoke_mikro.mjs",
-   "sha256": "d41b03e482580b69d212cbaa2cc0ecbe77b6b64bd621d986c67710c1aeffb60b"
+   "sha256": "227f0d424c9ecdef3ccd38753ceefccf2cd54ecd121e44950854e0f24809c3bc"
   },
   {
    "pfad": "tests/smoke_ohne_web.mjs",
