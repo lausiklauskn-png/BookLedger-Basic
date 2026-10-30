@@ -201,3 +201,10 @@ SBKIM-Suche mit Mikrofon und Sprache im Feld, Anleitung „Bedienung in Kürze�
 auf Haken das Netz; Tresorordner nur in der App), „Passendes Konto finden“ in Neue Buchung und bei den Konten, Mycel als einfacher Kasten mit „Anderen
 antworten“ (nur Titel · Datum · Betrag), Siegel unten in der Leiste, Siegel/Mycel-Fenster in App-Farben (`assets/sbkim-blp.css`), `sw.js` v286 (Vorrat
 `blpb-`). Gemessen: `basic_gleichstand` 25 · `run.mjs` 2622/0 · `smoke_umbau11` 49 (App-Teile ohne `native/` ausgelassen). ⚠ Nicht am Tablet.
+
+## Nachgezogen 2026-10-30 (Pro-Umbau 13): Pro `b022266` (Chefcode, gemeinsamer Kasten „Überall suchen“)
+
+575 Dateien, 65 umgeschrieben, 0 entfernt. Für die PWA wirksam: „Anderen antworten“ gibt die Vektoren jetzt als `Float32Array` (vorher blieb jede Antwort
+still leer), Mycel-Seite mit Schalter „Mit Ausschnitt antworten“ (nur im eigenen Netz frei — in der PWA über das Mycel-Fenster „Netz“, ohne Chefcode-Kasten),
+`sw.js` v287 (Vorrat `blpb-`). Chefcode-Kasten und gemeinsamer Kasten „Überall suchen“ gehören zur App (`native/`), die PWA behält ihre Fassung.
+Gemessen: `basic_gleichstand` 25 · `run.mjs` 2634/0 · `smoke_umbau11` 49 (PWA-Teile) · `smoke_umbau13` ohne `native/` ehrlich ausgelassen. ⚠ Nicht am Tablet.
