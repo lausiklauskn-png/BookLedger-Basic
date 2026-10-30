@@ -187,3 +187,10 @@ werden abgebrochen). Gemessen: `basic_gleichstand` 25.
 568 Dateien, 60 umgeschrieben, 0 entfernt. Für die PWA nichts wirksam: `smoke_befunde9` prüft in Pro zusätzlich den Windows-Modus (hier ohne
 `native/` ehrlich ausgelassen), Windows-Version 0.1.4 und `docs/WINDOWS-TESTANLEITUNG.md` gehören zur App. Gemessen: `basic_gleichstand` 25 ·
 `run.mjs` 2608/0 · `befunde9` 48. ⚠ Nicht am Tablet.
+
+## Nachgezogen 2026-10-30 (Pro-Umbau 10): Pro `d7d1d8e` (#422)
+
+569 Dateien, 61 umgeschrieben, 0 entfernt. Für die PWA wirksam: kein Seitentitel oben (auch nicht im Kopf), ein ⓘ je Kasten (ein Tipp öffnet alle
+Erklärungen; der Satz unter der Seitenüberschrift zieht in den ersten Kasten), ⓘ bei „Neue Buchung“ wirkt (§13b-Hinweis nicht mehr dahinter),
+SBKIM-Suche mit Mikrofon und Sprache im Feld, Anleitung „Bedienung in Kürze“, `sw.js` v285 (Vorrat `blpb-`). Gemessen: `basic_gleichstand` 25 ·
+`run.mjs` 2608/0 · `befunde10` 18 (App-Teile ohne `native/` ausgelassen) · `befunde9` 48 · `befunde8` 72 · `design` 92. ⚠ Nicht am Tablet.
