@@ -1,11 +1,11 @@
 {
  "pro": "lausiklauskn-png/BookLedgerPro",
- "proCommit": "d7d1d8ef2aa2227d9abad6b3c6c549155991b502",
+ "proCommit": "34ed66f6f15b014eee5906470600138a96962232",
  "nachgezogenAm": "2026-10-30",
  "regeln": 2,
- "anzahl": 569,
- "umgeschrieben": 61,
- "baumHash": "65ce86debd0e89856d1a6358c8ecbae07c5f8ba45afc45a2e27900a9477a8780",
+ "anzahl": 574,
+ "umgeschrieben": 64,
+ "baumHash": "6d90c813c1f9c01e2e379745c750491adc90d90631fe9e2a6d3d3a63cd6d5d0f",
  "dateien": [
   {
    "pfad": ".github/workflows/ci.yml",
@@ -565,7 +565,7 @@
   },
   {
    "pfad": "assets/app.css",
-   "sha256": "e66125948b75f48480e402a9d8f92ea7423e71ad2793da55c81c18cbb51e7e88"
+   "sha256": "a6eefb4e30be943c0252ea7c62c93cf1e6390c66016fea413d801e227409f8c2"
   },
   {
    "pfad": "assets/blp-icons.svg",
@@ -686,6 +686,10 @@
   {
    "pfad": "assets/reinigung.js",
    "sha256": "c3420fb57875db193096b13bd586387d41b383bd9625b54145dece8c4b65ac0e"
+  },
+  {
+   "pfad": "assets/sbkim-blp.css",
+   "sha256": "c827651a30f85cbf6d410832e188322e1a76279af9bdeafc6665e8ce70191063"
   },
   {
    "pfad": "assets/tokens.css",
@@ -841,7 +845,7 @@
   },
   {
    "pfad": "docs/STUNDENNACHWEIS.md",
-   "sha256": "9b6311be5af3eb759da1f4018cf26eec58ea783e2d9eb7746c7897a4ce494eca"
+   "sha256": "5b2be0314df8e2e17bd1e87b5df3b10dd1e50e79916d85b50377df09976e6f30"
   },
   {
    "pfad": "docs/TESTDATEN.md",
@@ -877,7 +881,7 @@
   },
   {
    "pfad": "docs/WINDOWS-TESTANLEITUNG.md",
-   "sha256": "eea05a7e964cd3ac52f4fdb023d30c101383d1a88f0232c1e461b51c01f74f4d"
+   "sha256": "ad158413fb0618e8a1d38f4d132976664cd7c43de4d90b56ed6ee1939211036f"
   },
   {
    "pfad": "docs/WINDOWS.md",
@@ -905,7 +909,7 @@
   },
   {
    "pfad": "docs/design/FORSCHUNG-ANDROID-TRESORORDNER-2026-10-26.md",
-   "sha256": "ac3a2dee4127857ef03b6780a545af4028eecd2b0ecaafc2491e5b536f577386"
+   "sha256": "64452c2be2a147ed756d062d35ad5703b2055322c15f4d99d9424239343a02aa"
   },
   {
    "pfad": "docs/design/LEITFADEN-PRO-APPS-BEDIENUNG.md",
@@ -1217,7 +1221,7 @@
   },
   {
    "pfad": "index.html",
-   "sha256": "b8fd0aef39085ad35244d20fa5706c1c8d6ba23d3ed184193b0c2c7c05560c5c"
+   "sha256": "f468ef4afe99bba8e07a7fb2ed5e773657493bec30596c8dd4ad46b0e6f49988"
   },
   {
    "pfad": "manifest.webmanifest",
@@ -1792,6 +1796,10 @@
    "sha256": "db5abb9ccaae9d5bd6eff5c45bd3a6a86eb558c479a960eb517f00b241aecce6"
   },
   {
+   "pfad": "src/domain/ueberall.js",
+   "sha256": "c60918e6e73c42de3c201b9306b1639be85bd0af8798d8b6bd2cd11a5496a972"
+  },
+  {
    "pfad": "src/domain/uebernahmeExtern.js",
    "sha256": "a6b6db2108d9e48c2af759b4fa5718fc0255658f99401b90253720bad489d4ac"
   },
@@ -1848,6 +1856,10 @@
    "sha256": "c1cd3aa9699d89dd83118942695a811bc4feee070990b4814afb00067b49068d"
   },
   {
+   "pfad": "src/sbkim/netz.js",
+   "sha256": "1f5b8a431b943ad3499ea354e1281fbcb346f7d5a2c05bb8c23120d0111d9fad"
+  },
+  {
    "pfad": "src/sbkim/nodeProfile.js",
    "sha256": "0260ab104a8f88540dee99b7bd68ed9c17095bc3c6273c05ce678f4fdd8c7721"
   },
@@ -1901,7 +1913,7 @@
   },
   {
    "pfad": "src/ui/i18n.js",
-   "sha256": "9b7aa9113d4abed2626387d8732efea9bd694d552a768f02e981c1b1de5dce69"
+   "sha256": "54e4a713923347acefaa958edfa0e49e7ae5cde8b82d8fd12a6af6332d61644f"
   },
   {
    "pfad": "src/ui/icons.js",
@@ -1910,6 +1922,10 @@
   {
    "pfad": "src/ui/intro.js",
    "sha256": "4478ea6a6911b5864bf74615b5650a19ea44b8b0549c3378b598b80f7b3654a9"
+  },
+  {
+   "pfad": "src/ui/kontoFinden.js",
+   "sha256": "319a513d7c1129caa0adcc18bd33151ac45a21b470c019398549e68e5ea7ff9e"
   },
   {
    "pfad": "src/ui/kopfTitel.js",
@@ -1953,7 +1969,7 @@
   },
   {
    "pfad": "src/ui/shell.js",
-   "sha256": "e359bed54b9d20c89a9d39bb7c3c87ba2f2acf0f5e01b7c4545805feb5da2cc1"
+   "sha256": "66b6c9619ab1ede78bf2d3aa36dcb98e3a61b62d98c49e1c515c6ea9456a9b70"
   },
   {
    "pfad": "src/ui/strich.js",
@@ -1969,7 +1985,7 @@
   },
   {
    "pfad": "src/ui/views/accounts.js",
-   "sha256": "05706c572edefeed997d581f3e0d55516ab680fa9e1bd2cf125c86457aa31ca3"
+   "sha256": "32afb9d2348836d241ad9740cf6f7b4953291c2cb0e23b818778aede34c8b081"
   },
   {
    "pfad": "src/ui/views/angebote.js",
@@ -1981,7 +1997,7 @@
   },
   {
    "pfad": "src/ui/views/anleitung.js",
-   "sha256": "350f66611f7f76e013bcd3ace95b80e11962ddde5c1dc98fda38206c57773989"
+   "sha256": "098ab1dacc6c7779f6bed71bcd6a9dde59fdfb746b002600c43cfaedaa1bacf0"
   },
   {
    "pfad": "src/ui/views/apps.js",
@@ -2009,7 +2025,7 @@
   },
   {
    "pfad": "src/ui/views/journal.js",
-   "sha256": "b28560d472fe3bc28183792f5f93542a52169382e5f0ac8b4af98c874cd92bd9"
+   "sha256": "485d0e3f2ad31a6650c6964e2207d319cd4ebcaa9c0e347a4bb78ebc7da471dc"
   },
   {
    "pfad": "src/ui/views/kassenbuch.js",
@@ -2029,7 +2045,7 @@
   },
   {
    "pfad": "src/ui/views/network.js",
-   "sha256": "c1d4ae85f5aa90e9c7e722a26f5e64d61ada74b71254c975adc4bb102880dae4"
+   "sha256": "1607a661248ed16577c2fb40e9e598265870152535bbd6391039ca2c605989b2"
   },
   {
    "pfad": "src/ui/views/orders.js",
@@ -2049,7 +2065,7 @@
   },
   {
    "pfad": "src/ui/views/sbkimsuche.js",
-   "sha256": "ac325b6cd48b1bc9d0c742a7dd4884016f885c09c5996f8ae811a9b91fc3855d"
+   "sha256": "41dbaf377329adf0286d9ab5e22ffadaa5deed3ffa3ad958d19aea2da7bbb7f9"
   },
   {
    "pfad": "src/ui/views/selbsttest.js",
@@ -2065,7 +2081,7 @@
   },
   {
    "pfad": "sw.js",
-   "sha256": "6996580a48b3342d590ed531ffc8bbd478bb314367b7032afe593aa4aa0aabd5"
+   "sha256": "935cae16d6c695f8768f81ffc894146a12d09c8a1d849f061f407cc9609fef7d"
   },
   {
    "pfad": "tests/daten/Testbild-versteckte-Anweisung.png",
@@ -2085,7 +2101,7 @@
   },
   {
    "pfad": "tests/run.mjs",
-   "sha256": "e57531df4d0b61e207e21f964b3f24cb937e124c4732a7a3f8da0e551381b4c7"
+   "sha256": "5536e6fc831b2215832c319230aa9e4c90a94c8ed0aad0f13009fa1cf50f7d0f"
   },
   {
    "pfad": "tests/smoke_a5_antwortpfad.mjs",
@@ -2162,6 +2178,10 @@
   {
    "pfad": "tests/smoke_tresorordner.mjs",
    "sha256": "81e3bac38df8d39967b7753b80851fcf31b9b892f2f19a58cf21a6558413180d"
+  },
+  {
+   "pfad": "tests/smoke_umbau11.mjs",
+   "sha256": "55281be8faf05e9396fe80abc858a841291f91f0ccb598f72929ee7f8d8c5336"
   },
   {
    "pfad": "tests/smoke_umbau4.mjs",
