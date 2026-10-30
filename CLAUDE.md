@@ -197,7 +197,7 @@ SBKIM-Suche mit Mikrofon und Sprache im Feld, Anleitung „Bedienung in Kürze�
 
 ## Nachgezogen 2026-10-30 (Pro-Umbau 11): Pro `34ed66f` (#427, #428)
 
-575 Dateien nachgezogen. Für die PWA wirksam: „Überall suchen“ statt SBKIM-Suche (Belege, Buchungen, Kunden, Aufträge, Angebotsplaner/Bedarfsanalyse,
+574 Dateien, 64 umgeschrieben, 0 entfernt. Für die PWA wirksam: „Überall suchen“ statt SBKIM-Suche (Belege, Buchungen, Kunden, Aufträge, Angebotsplaner/Bedarfsanalyse,
 auf Haken das Netz; Tresorordner nur in der App), „Passendes Konto finden“ in Neue Buchung und bei den Konten, Mycel als einfacher Kasten mit „Anderen
 antworten“ (nur Titel · Datum · Betrag), Siegel unten in der Leiste, Siegel/Mycel-Fenster in App-Farben (`assets/sbkim-blp.css`), `sw.js` v286 (Vorrat
 `blpb-`). Gemessen: `basic_gleichstand` 25 · `run.mjs` 2622/0 · `smoke_umbau11` 49 (App-Teile ohne `native/` ausgelassen). ⚠ Nicht am Tablet.
