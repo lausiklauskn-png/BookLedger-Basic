@@ -1,11 +1,11 @@
 {
  "pro": "lausiklauskn-png/BookLedgerPro",
- "proCommit": "7a4eb616d74aa3b376b5732f894a6abc8650158e",
- "nachgezogenAm": "2026-10-29",
+ "proCommit": "d7d1d8ef2aa2227d9abad6b3c6c549155991b502",
+ "nachgezogenAm": "2026-10-30",
  "regeln": 2,
- "anzahl": 568,
- "umgeschrieben": 60,
- "baumHash": "9a07ebb9564847fafec6e33b6d3acf996b5e6fca798899a4446436ed571bf1f5",
+ "anzahl": 569,
+ "umgeschrieben": 61,
+ "baumHash": "65ce86debd0e89856d1a6358c8ecbae07c5f8ba45afc45a2e27900a9477a8780",
  "dateien": [
   {
    "pfad": ".github/workflows/ci.yml",
@@ -565,7 +565,7 @@
   },
   {
    "pfad": "assets/app.css",
-   "sha256": "a18a3d3fa68e9b4e007a9f8105fe3ef5c6557b6dfaeaf7f7de8e746896de5ddc"
+   "sha256": "e66125948b75f48480e402a9d8f92ea7423e71ad2793da55c81c18cbb51e7e88"
   },
   {
    "pfad": "assets/blp-icons.svg",
@@ -877,11 +877,11 @@
   },
   {
    "pfad": "docs/WINDOWS-TESTANLEITUNG.md",
-   "sha256": "a2abfe3281a8c8a7849585a14f71c7b08434286fb59b46fa77d7f6f6bf84515b"
+   "sha256": "eea05a7e964cd3ac52f4fdb023d30c101383d1a88f0232c1e461b51c01f74f4d"
   },
   {
    "pfad": "docs/WINDOWS.md",
-   "sha256": "4fbaf3f923c597409c289905461026005cc8b0d3c7fa07b124811aca258096fc"
+   "sha256": "0f441b29cbbc1d32424b3855aeec4fa429b7a3dc95d072195e3087a0c43946ce"
   },
   {
    "pfad": "docs/WORKFLOH_IMPORT.md",
@@ -1913,7 +1913,7 @@
   },
   {
    "pfad": "src/ui/kopfTitel.js",
-   "sha256": "4452730fa1e6c2256d44c6509306acffff6fdfd5f98be7dbc3f4f31c9af40c84"
+   "sha256": "8a6af91f02dee14594cbc8c06c5ced7219f6b66350520203429a7abbfe197a07"
   },
   {
    "pfad": "src/ui/lock.js",
@@ -1945,7 +1945,7 @@
   },
   {
    "pfad": "src/ui/schlank.js",
-   "sha256": "8eaa3e57da06d57c204e57b6da16cca3fae83ade2599a4f41c8cf44d50aabab2"
+   "sha256": "2f66b9be0137ada76f084af9477eb5d3b5a8731d35cab58f2e8240d093540cc1"
   },
   {
    "pfad": "src/ui/schluesselabgleich.js",
@@ -1953,7 +1953,7 @@
   },
   {
    "pfad": "src/ui/shell.js",
-   "sha256": "8ddb9a8d46d914c0b94ad002854c5c3497339d952fe20566bda9781745145414"
+   "sha256": "e359bed54b9d20c89a9d39bb7c3c87ba2f2acf0f5e01b7c4545805feb5da2cc1"
   },
   {
    "pfad": "src/ui/strich.js",
@@ -1981,7 +1981,7 @@
   },
   {
    "pfad": "src/ui/views/anleitung.js",
-   "sha256": "db75f150fa9fb156ca72a00593bc08674554e6a166c6c5aa2113005270807a72"
+   "sha256": "350f66611f7f76e013bcd3ace95b80e11962ddde5c1dc98fda38206c57773989"
   },
   {
    "pfad": "src/ui/views/apps.js",
@@ -2049,7 +2049,7 @@
   },
   {
    "pfad": "src/ui/views/sbkimsuche.js",
-   "sha256": "9e969a4a78d12350e06badc1c59405bd286a615f8dca79be348670073c7caabf"
+   "sha256": "ac325b6cd48b1bc9d0c742a7dd4884016f885c09c5996f8ae811a9b91fc3855d"
   },
   {
    "pfad": "src/ui/views/selbsttest.js",
@@ -2065,7 +2065,7 @@
   },
   {
    "pfad": "sw.js",
-   "sha256": "820b9075965bf48691fc94610a0ae1f2774c0d3307fb22849a043405ce3ede7f"
+   "sha256": "6996580a48b3342d590ed531ffc8bbd478bb314367b7032afe593aa4aa0aabd5"
   },
   {
    "pfad": "tests/daten/Testbild-versteckte-Anweisung.png",
@@ -2085,7 +2085,7 @@
   },
   {
    "pfad": "tests/run.mjs",
-   "sha256": "b98a382e377a55738c4a52c37a9728554265a71743c8c400583003da543e5d1d"
+   "sha256": "e57531df4d0b61e207e21f964b3f24cb937e124c4732a7a3f8da0e551381b4c7"
   },
   {
    "pfad": "tests/smoke_a5_antwortpfad.mjs",
@@ -2100,16 +2100,20 @@
    "sha256": "5a83aae66a5a344a944defd3ab27091e53231bbdbb0f4d784d1d5e52e5800ced"
   },
   {
+   "pfad": "tests/smoke_befunde10.mjs",
+   "sha256": "4f1db3b77a3653d7b1336822f3c47b3fcc27bcfff98f2c03b31395d2d2119472"
+  },
+  {
    "pfad": "tests/smoke_befunde7.mjs",
    "sha256": "e2f37a32aeca3f8e2caa39b3375ad39e8f8a66aec66a6118532d46d05dcd6e8b"
   },
   {
    "pfad": "tests/smoke_befunde8.mjs",
-   "sha256": "1096d9c69863baa47a6b0499ae2a7b6843ce0e5980530707bc38ea6e5a513c8e"
+   "sha256": "530a5efa1cee364bf972d3c40f445342ef55067ed855bb2001dcb5b21b32b0dc"
   },
   {
    "pfad": "tests/smoke_befunde9.mjs",
-   "sha256": "4781843211eb1c33284b606d09fd6b9cd91b4e9a1200a53dce436b5859e3f4ac"
+   "sha256": "e5705c5dba09077746251ad6d5a3bf3db7e4cf2bf13de722fcac3124588f0222"
   },
   {
    "pfad": "tests/smoke_belege.mjs",
