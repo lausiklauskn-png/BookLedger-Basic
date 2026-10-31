@@ -1,11 +1,11 @@
 {
  "pro": "lausiklauskn-png/BookLedgerPro",
- "proCommit": "8e6aacadc590f8d3bbcda19c6c13c07af8027cdc",
+ "proCommit": "e00ef28762f20c9435d825b631103d08fde0fb79",
  "nachgezogenAm": "2026-10-31",
  "regeln": 2,
  "anzahl": 576,
  "umgeschrieben": 65,
- "baumHash": "1da00b0757a07c7eb3332c2192626aa81b5787b9effd414d892129d578b86a37",
+ "baumHash": "673592efbbadd253349096dbe2b14077eb25c132bab8fd2ade4455fdd1f35f06",
  "dateien": [
   {
    "pfad": ".github/workflows/ci.yml",
@@ -845,7 +845,7 @@
   },
   {
    "pfad": "docs/STUNDENNACHWEIS.md",
-   "sha256": "b61fb95027be9c30f8dd66fa32d7f5ba574024872825f652c0c84f7a48e5ccd9"
+   "sha256": "2377657da384dc390ccbbdcd5be6db7f22df75aa564db8ebef9f24a5667701c2"
   },
   {
    "pfad": "docs/TESTDATEN.md",
@@ -2101,7 +2101,7 @@
   },
   {
    "pfad": "tests/run.mjs",
-   "sha256": "c33a9aa3ec8e52795e1a78a47a0ca4f7e243473fffe55cf02c7bf4805c1c0ea5"
+   "sha256": "cad96b7b2780c171619985d9638c701ce970291ccd2d8aa2a6b1abea0a54cdfc"
   },
   {
    "pfad": "tests/smoke_a5_antwortpfad.mjs",
@@ -2189,7 +2189,7 @@
   },
   {
    "pfad": "tests/smoke_umbau13.mjs",
-   "sha256": "c70864519821c365329cf70cae4212cb999e934fb5d7a69823530a018e0fb99e"
+   "sha256": "92c4334df44b7cc51ea5babddd53be5dd30bf38e30a21c6cbcf629f79d109443"
   },
   {
    "pfad": "tests/smoke_umbau4.mjs",

@@ -217,3 +217,9 @@ Gemessen: `basic_gleichstand` 25 · `run.mjs` 2634/0 · `smoke_umbau11` 49 (PWA-
 „Netz“) vergleicht jetzt den ganzen Belegtext in Abschnitten (Briefende immer dabei), eine Antwortzeile je Beleg; der Antwort-Korpus baut sich bei neuen
 oder geänderten Belegen von selbst neu (ohne Aus/An). Öffentlich weiter nur Titel · Datum · Betrag. Gemessen: `basic_gleichstand` 25 · `run.mjs` 2641/0 ·
 `smoke_netzbrief` 11. ⚠ Nicht am Tablet, kein echtes Relais.
+
+## Nachgezogen 2026-10-31 (Pro-Umbau 14 A): Pro `e00ef28` (BLP #433, Chef getrennt)
+
+576 Dateien, 65 umgeschrieben, 0 entfernt. Für die PWA nichts wirksam: Chef-PIN und Beitritts-Zettel gehören zum Chefcode-Kasten der App (`native/`),
+den die PWA nicht hat; mitgekommen sind nur die Probe `smoke_umbau13` (ohne `native/` ehrlich ausgelassen), die Versionsprobe 0.1.8 (ohne `android/`
+übersprungen) und der Stundennachweis. Gemessen: `basic_gleichstand` 25 · `run.mjs` 2641/0. ⚠ Nicht am Tablet.
