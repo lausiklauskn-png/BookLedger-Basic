@@ -210,3 +210,10 @@ antworten“ (nur Titel · Datum · Betrag), Siegel unten in der Leiste, Siegel/
 still leer), Mycel-Seite mit Schalter „Mit Ausschnitt antworten“ (nur im eigenen Netz frei — in der PWA über das Mycel-Fenster „Netz“, ohne Chefcode-Kasten),
 `sw.js` v287 (Vorrat `blpb-`). Chefcode-Kasten und gemeinsamer Kasten „Überall suchen“ gehören zur App (`native/`), die PWA behält ihre Fassung.
 Gemessen: `basic_gleichstand` 25 · `run.mjs` 2634/0 · `smoke_umbau11` 49 (PWA-Teile) · `smoke_umbau13` ohne `native/` ehrlich ausgelassen. ⚠ Nicht am Tablet.
+
+## Nachgezogen 2026-10-31 (Pro-Umbau 14 A2): Pro `6ab1d39` (#434 Doku, #436 Netz liest den ganzen Brief)
+
+577 Dateien, 65 umgeschrieben, 0 entfernt. Für die PWA wirksam: „Mit Ausschnitt antworten“ (nur im eigenen Netz, in der PWA über das Mycel-Fenster
+„Netz“) vergleicht jetzt den ganzen Belegtext in Abschnitten (Briefende immer dabei), eine Antwortzeile je Beleg; der Antwort-Korpus baut sich bei neuen
+oder geänderten Belegen von selbst neu (ohne Aus/An). Öffentlich weiter nur Titel · Datum · Betrag. Gemessen: `basic_gleichstand` 25 · `run.mjs` 2641/0 ·
+`smoke_netzbrief` 11. ⚠ Nicht am Tablet, kein echtes Relais.

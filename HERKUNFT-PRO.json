@@ -1,11 +1,11 @@
 {
  "pro": "lausiklauskn-png/BookLedgerPro",
- "proCommit": "6f294b2509c4509b9f675ba93e01bf5a28594699",
+ "proCommit": "6ab1d39ef4b2a2bc023cde2bc08dd970b58c8aff",
  "nachgezogenAm": "2026-10-31",
  "regeln": 2,
- "anzahl": 575,
+ "anzahl": 577,
  "umgeschrieben": 65,
- "baumHash": "2cec09231d13bc82ee0afa3a060194c52633e9854f076037f27964c00dcb0fd2",
+ "baumHash": "9fdbb0b3dc4978122d27a05b7eefef7f4370ac8891e306e79ff268c91dd4463b",
  "dateien": [
   {
    "pfad": ".github/workflows/ci.yml",
@@ -1437,7 +1437,7 @@
   },
   {
    "pfad": "src/core/backup.js",
-   "sha256": "472f94c570c3659eae62916d42ca52b855de91d501015511de2e6f4ea7dc0237"
+   "sha256": "1ee07a1116a44629137fd352a072eacc5a34bf7b2fe20442105c3a9d36cac079"
   },
   {
    "pfad": "src/core/backupOrdner.js",
@@ -1609,7 +1609,7 @@
   },
   {
    "pfad": "src/domain/documents.js",
-   "sha256": "6a460cc4a49c90c5151d34edbcd9b6be103ae51d0867f4fa1861b8fc052a4509"
+   "sha256": "61b4aea4d8fd55dd3ccab581b7b6c43b82a249c3f8126fdf898bb10a6bc59fcd"
   },
   {
    "pfad": "src/domain/eingangsverzug.js",
@@ -1797,7 +1797,7 @@
   },
   {
    "pfad": "src/domain/ueberall.js",
-   "sha256": "96c691060798c4ea8305e3a54d1d596940159e3b8dc39b2cd25bcc0354570761"
+   "sha256": "260c0216757138ff53df18deb368a02ab9adb46f4922bc8e8c0102076df9417c"
   },
   {
    "pfad": "src/domain/uebernahmeExtern.js",
@@ -1857,7 +1857,7 @@
   },
   {
    "pfad": "src/sbkim/netz.js",
-   "sha256": "3c71b1d03c011aca844a2ed5a8db475065d012ce6fe7dbf999f76372724f49c6"
+   "sha256": "a4fb6bbca5fd7c872a263489f2fde6bcf2a2094bb05c5ede966f337cf92e0667"
   },
   {
    "pfad": "src/sbkim/nodeProfile.js",
@@ -1913,7 +1913,7 @@
   },
   {
    "pfad": "src/ui/i18n.js",
-   "sha256": "e135280205947a6c4a7ca0be629e11c1bc9084777200040eaef50c508af07548"
+   "sha256": "567e0b0d80ee7ce8ac2945a84ddf93820c21585db3efeb597a16549b46bc9418"
   },
   {
    "pfad": "src/ui/icons.js",
@@ -2045,7 +2045,7 @@
   },
   {
    "pfad": "src/ui/views/network.js",
-   "sha256": "871d03035028a028514d8ab03ce9d00f5648f337832abec74f7e8aa8135d52ea"
+   "sha256": "63c5cd8d733053df09a3328b3b98da4cebe1f2fdd96df68e7e120e98e9ce085b"
   },
   {
    "pfad": "src/ui/views/orders.js",
@@ -2096,12 +2096,16 @@
    "sha256": "e5ce21cabf4abf84fa53de576538893c3442b44569b91d2aa03aa364c98cc26b"
   },
   {
+   "pfad": "tests/gegenprobe_netzbrief.mjs",
+   "sha256": "455c44e45d7d9094bbeb396773cfeacc4ec6e6cdd1fbb469cebed687117c2180"
+  },
+  {
    "pfad": "tests/gegenprobe_tresorordner.mjs",
    "sha256": "536284b7c01ba88430d6d4414a860d12af8071dc2caa7b706f0180fa03482d6c"
   },
   {
    "pfad": "tests/run.mjs",
-   "sha256": "56d71f41373ef0bdd7860189c9f473e81e77648d78ac018784c83ad1cf0d7169"
+   "sha256": "c33a9aa3ec8e52795e1a78a47a0ca4f7e243473fffe55cf02c7bf4805c1c0ea5"
   },
   {
    "pfad": "tests/smoke_a5_antwortpfad.mjs",
@@ -2162,6 +2166,10 @@
   {
    "pfad": "tests/smoke_mikro.mjs",
    "sha256": "227f0d424c9ecdef3ccd38753ceefccf2cd54ecd121e44950854e0f24809c3bc"
+  },
+  {
+   "pfad": "tests/smoke_netzbrief.mjs",
+   "sha256": "7e7652be8f3f90e093af52457476eb43f2887ec8455e55727e6d58263976a3ae"
   },
   {
    "pfad": "tests/smoke_ohne_web.mjs",
