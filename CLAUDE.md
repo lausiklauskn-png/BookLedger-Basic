@@ -1,3 +1,5 @@
+**🔬 Regel: Forschung nur in Kimhub (Klaus 2026-10-31):** Forschungseinträge kommen nach Kimhub `forschung/messungen/`; die kopierte `docs/design/FORSCHUNG-…` ist nur noch ein Verweis.
+
 # BookLedger Basic — Sitzungs-Anker
 
 **Was das hier ist (Klaus 2026-10-26):** die **PWA-Fassung** von BookLedgerPro. Klaus: „wenn wir mit diesem BookLedgerPro
