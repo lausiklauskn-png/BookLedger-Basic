@@ -227,3 +227,8 @@ den die PWA nicht hat; mitgekommen sind nur die Probe `smoke_umbau13` (ohne `nat
 ## Nachgezogen 2026-10-31 (nach A2): Pro `e9b4d94` (#439, nur Doku)
 
 576 Dateien, 65 umgeschrieben, 0 entfernt. Geändert nur `docs/STUNDENNACHWEIS.md`. Für die PWA nichts wirksam. Gemessen: `basic_gleichstand` 25.
+
+## Nachgezogen 2026-10-31 (A3 Teil 1): Pro `43f8a15` (#440)
+
+576 Dateien, 65 umgeschrieben, 0 entfernt. Für die PWA nichts wirksam: Tresor-Paket (acht Fächer) und Bedien-Bausteine Fassung 7 gehören zur App
+(`android/`, `native/`), mitgekommen ist nur `docs/STUNDENNACHWEIS.md`. Gemessen: `basic_gleichstand` 25.
