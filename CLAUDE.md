@@ -232,3 +232,8 @@ den die PWA nicht hat; mitgekommen sind nur die Probe `smoke_umbau13` (ohne `nat
 
 576 Dateien, 65 umgeschrieben, 0 entfernt. Für die PWA nichts wirksam: Tresor-Paket mit acht Fächern und Bedien-Bausteine Fassung 7 gehören zur App
 (`native/`, `android/`); mitgekommen ist nur der Stundennachweis. Gemessen: `basic_gleichstand` 25 · `run.mjs` 2641/0.
+
+## Nachgezogen 2026-10-31 (A3 Rest): Pro `8ad35e1` (#441 Tresor-Paket Umzug-Kern, #442 nur Doku)
+
+576 Dateien, 65 umgeschrieben, 0 entfernt. Für die PWA nichts wirksam (Tresor-Paket ist App-Teil); mitgekommen ist nur `docs/STUNDENNACHWEIS.md`.
+Gemessen: `basic_gleichstand` 25.
