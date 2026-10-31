@@ -237,3 +237,8 @@ den die PWA nicht hat; mitgekommen sind nur die Probe `smoke_umbau13` (ohne `nat
 
 576 Dateien, 65 umgeschrieben, 0 entfernt. Für die PWA nichts wirksam (Tresor-Paket ist App-Teil); mitgekommen ist nur `docs/STUNDENNACHWEIS.md`.
 Gemessen: `basic_gleichstand` 25.
+
+## Nachgezogen 2026-10-31 (A3 Teil 1, Abschluss): Pro `a47f0d0` (#441 Tresor-Paket mit Umzug, #443 Doku)
+
+576 Dateien, 65 umgeschrieben, 0 entfernt. Für die PWA nichts wirksam: `Umzug.java` gehört zur App (`android/`); mitgekommen ist nur der Stundennachweis.
+Gemessen: `basic_gleichstand` 25.
