@@ -223,3 +223,7 @@ oder geänderten Belegen von selbst neu (ohne Aus/An). Öffentlich weiter nur Ti
 576 Dateien, 65 umgeschrieben, 0 entfernt. Für die PWA nichts wirksam: Chef-PIN und Beitritts-Zettel gehören zum Chefcode-Kasten der App (`native/`),
 den die PWA nicht hat; mitgekommen sind nur die Probe `smoke_umbau13` (ohne `native/` ehrlich ausgelassen), die Versionsprobe 0.1.8 (ohne `android/`
 übersprungen) und der Stundennachweis. Gemessen: `basic_gleichstand` 25 · `run.mjs` 2641/0. ⚠ Nicht am Tablet.
+
+## Nachgezogen 2026-10-31 (nach A2): Pro `e9b4d94` (#439, nur Doku)
+
+576 Dateien, 65 umgeschrieben, 0 entfernt. Geändert nur `docs/STUNDENNACHWEIS.md`. Für die PWA nichts wirksam. Gemessen: `basic_gleichstand` 25.
