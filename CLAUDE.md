@@ -1,4 +1,4 @@
-**🔬 Regel: Forschung nur in Kimhub (Klaus 2026-10-31):** Forschungseinträge kommen nach Kimhub `forschung/messungen/`; die kopierte `docs/design/FORSCHUNG-…` ist nur noch ein Verweis.
+**🔬 Regel: Forschung nur in Kimhub (Klaus 2026-10-31):** jeder Forschungseintrag (Sitzungs-Befunde, Messungen, Stunden-Auswertungen, Forschungsnotizen) kommt nach Kimhub `forschung/messungen/`; in diesem Repo werden keine Forschungseinträge geführt und keine Forschungsdateien angelegt. Öffentliche Forschungsaufgaben stehen in Sage-Protokol.
 
 # BookLedger Basic — Sitzungs-Anker
 

@@ -1,11 +1,11 @@
 {
  "pro": "lausiklauskn-png/BookLedgerPro",
- "proCommit": "6ab1d39ef4b2a2bc023cde2bc08dd970b58c8aff",
+ "proCommit": "8e6aacadc590f8d3bbcda19c6c13c07af8027cdc",
  "nachgezogenAm": "2026-10-31",
  "regeln": 2,
- "anzahl": 577,
+ "anzahl": 576,
  "umgeschrieben": 65,
- "baumHash": "9fdbb0b3dc4978122d27a05b7eefef7f4370ac8891e306e79ff268c91dd4463b",
+ "baumHash": "1da00b0757a07c7eb3332c2192626aa81b5787b9effd414d892129d578b86a37",
  "dateien": [
   {
    "pfad": ".github/workflows/ci.yml",
@@ -845,7 +845,7 @@
   },
   {
    "pfad": "docs/STUNDENNACHWEIS.md",
-   "sha256": "81bab5f55c40ffc8cdcbb79e035f092e06994e6ae374f202448a6de4a9b09fc7"
+   "sha256": "b61fb95027be9c30f8dd66fa32d7f5ba574024872825f652c0c84f7a48e5ccd9"
   },
   {
    "pfad": "docs/TESTDATEN.md",
@@ -865,7 +865,7 @@
   },
   {
    "pfad": "docs/TRESORORDNER.md",
-   "sha256": "e2bd2f3988cf1405dd5f183282fed577a2c34ffc845d29dc359940b85ebe0b84"
+   "sha256": "209dcd31645741e4c38edeea4f46e919f51bfdd027eed6cf134857ba055bfe5b"
   },
   {
    "pfad": "docs/UEBERNAHME_SHOP.md",
@@ -906,10 +906,6 @@
   {
    "pfad": "docs/design/ELSTER-ERIC-RECHERCHE-2026-10-26.md",
    "sha256": "44a7414c5ec3d6265fa7287593c0739c6fd62e76a55cd249d65f0cc621b8c188"
-  },
-  {
-   "pfad": "docs/design/FORSCHUNG-ANDROID-TRESORORDNER-2026-10-26.md",
-   "sha256": "3bcf16009f0572c1cfb63e150c02fa35c796c812d1e5864ee817b64368aaa33b"
   },
   {
    "pfad": "docs/design/LEITFADEN-PRO-APPS-BEDIENUNG.md",
