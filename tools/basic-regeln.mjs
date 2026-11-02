@@ -17,7 +17,7 @@
 //
 // Fassung der Regeln: steht in HERKUNFT-PRO.json (`regeln`). Wer eine Regel ändert, erhöht REGELN_FASSUNG.
 
-export const REGELN_FASSUNG = 2;
+export const REGELN_FASSUNG = 3;
 export const PRO_REPO = 'lausiklauskn-png/BookLedgerPro';
 export const BASIC_NAME = 'BookLedger Basic';
 export const BASIC_KURZ = 'BL Basic';
@@ -62,7 +62,7 @@ const URL_REGELN = [
 
 /** Zeilen, in denen die kleingeschriebene Endung ein Vertrag oder der Knoten ist — dort bleibt `bookledgerpro`. */
 function endungBleibt(zeile) {
-  return /quelle|VORGANG_QUELLE|austausch|AUSTAUSCH|sbkim/i.test(zeile);
+  return /quelle|VORGANG_QUELLE|austausch|AUSTAUSCH|sbkim|\bAPPS\b|\bschreiber\b|\bziel\b/i.test(zeile);
 }
 /** Proben-Zeilen zum SBKIM-Knoten vergleichen mit src/sbkim/ und sbkim/ — die bleiben Pro, also auch die Erwartung. */
 function knotenZeile(relpath, zeile) {
@@ -87,6 +87,9 @@ export function basicUmschreiben(relpath, text) {
     if (!knoten) for (const [re, zu] of URL_REGELN) z = z.replace(re, zu);
     // 2. Datenbank-Endung (auch hinter „_", z. B. blpr_bookledgerpro), mit Ausnahmen
     if (!endungBleibt(z)) z = z.replace(/(?<![A-Za-z0-9-])bookledgerpro(?![A-Za-z0-9])/g, DB_ENDUNG_BASIC);
+    // Explizite Datenbankwechsel können auch Namen mit Bindestrich verwenden.
+    // Tresorfächer wie eingang-bookledgerpro bleiben Vertragswerte.
+    z = z.replace(/(setActiveDbName\(\s*['"][^'"]*[-_])bookledgerpro(?=['"])/g, '$1' + DB_ENDUNG_BASIC);
     // 3. Vorrat des Service-Workers (nur als Präfix in Anführungszeichen/Backticks)
     z = z.replace(/(['"`])blpr-/g, '$1' + VORRAT_BASIC);
     // 4. Name (nach den Adressen — die tragen kein „BookLedgerPro" mehr; nicht in Knoten-Zeilen der Proben)

@@ -237,3 +237,15 @@ den die PWA nicht hat; mitgekommen sind nur die Probe `smoke_umbau13` (ohne `nat
 
 576 Dateien, 65 umgeschrieben, 0 entfernt. Für die PWA nichts wirksam (Tresor-Paket ist App-Teil); mitgekommen ist nur `docs/STUNDENNACHWEIS.md`.
 Gemessen: `basic_gleichstand` 25.
+
+## Nachgezogen 2026-11-02: Pro-Verbund, Pro `10f3992` (#445)
+
+580 Dateien aus dem geprüften Pro-Main, 64 umgeschrieben, keine entfernt; `sw.js` v288.
+Die PWA übernimmt die verlässlichen Datenbankschreibvorgänge, den Schutz vor
+Mandantenwechsel beim Import und die wiederholbaren Belegkennungen. Native
+Tresorbefehle bleiben Bestandteil der installierten Pro-App.
+Übernahmeregeln Fassung 3 erhalten App-/Ziel-/Schreiberkennungen des gemeinsamen
+Übergabevertrags; explizite Datenbankwechsel verwenden weiterhin Basic-eigene Namen.
+Geprüft: Herkunft 27/0, Logik 2641/0 und 9 Browserfälle mit echter IndexedDB/AES-GCM,
+einschließlich Transaktionsabbruch, Wiederholung und Mandantenwechsel.
+Kein physischer Tablet-Test; kein neues Windows-/Android-Paket in diesem PWA-Repo.
