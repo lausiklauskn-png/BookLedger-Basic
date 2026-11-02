@@ -2,6 +2,10 @@
 
 # BookLedger Basic — Sitzungs-Anker
 
+**Nachzug 2026-11-02:** Pro `3ca7bb9` (#446 Gegenprobenbericht der anderen Sitzung).
+Geändert sind nur Stundennachweis und Herkunftspin; 580 Dateien, 64 Umschreibungen.
+`basic_gleichstand`: 27 grün; kopierte Logik: 2641 bestanden, 0 fehlgeschlagen.
+
 **Was das hier ist (Klaus 2026-10-26):** die **PWA-Fassung** von BookLedgerPro. Klaus: „wenn wir mit diesem BookLedgerPro
 hier fertig sind, dann kopieren wir das einmal komplett rüber in BookLedger-Basic und dann wandeln wir das hier um als die
 Pro-Version Nativ-App inklusive Windows-Version." Das Pro-Repo (`lausiklauskn-png/BookLedgerPro`) wird die native App

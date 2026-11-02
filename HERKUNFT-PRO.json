@@ -1,11 +1,11 @@
 {
  "pro": "lausiklauskn-png/BookLedgerPro",
- "proCommit": "10f399213ac73e0847ddfd64cf5e6fc00a12357b",
+ "proCommit": "3ca7bb919245bb0ff7a293fe93beee92fbd28f61",
  "nachgezogenAm": "2026-11-02",
  "regeln": 3,
  "anzahl": 580,
  "umgeschrieben": 64,
- "baumHash": "1398cc68cccdfb71c74f657a6902974afdad5406406765e3d3402132a09a4c08",
+ "baumHash": "585d5574ead03d7bbae6958c666f2a5a39eac87ebe944a7661ddecbd5be1dfa0",
  "dateien": [
   {
    "pfad": ".github/workflows/ci.yml",
@@ -845,7 +845,7 @@
   },
   {
    "pfad": "docs/STUNDENNACHWEIS.md",
-   "sha256": "b72e1550bdb2f68d13f04a590ba45fe3269ff170060511974ebbea3911111a34"
+   "sha256": "abf8086a902322b2d73a3c1be0c682d29688a2f5ad5a5bb1d3525e91304e1534"
   },
   {
    "pfad": "docs/TESTDATEN.md",
