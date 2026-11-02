@@ -45,6 +45,8 @@ ok('sbkim/ und src/sbkim/ werden nicht umgeschrieben (eigene Identität, bis Kla
 ok('apps/ und assets/wfpdf/ bleiben byte-1:1 (nicht umgeschrieben)', !wirdUmgeschrieben('apps/blp-bruecke.js') && !wirdUmgeschrieben('assets/wfpdf/scanner.js'));
 
 console.log('— Regeln selbst (rein)');
+ok('Pro-Verbund behält seine Appkennungen und Schreiberbestätigung', basicUmschreiben('src/x.js', "const APPS = ['familienakte', 'bookledgerpro'];\nif (e.schreiber !== 'bookledgerpro' || m.ziel !== 'bookledgerpro') throw Error();") === "const APPS = ['familienakte', 'bookledgerpro'];\nif (e.schreiber !== 'bookledgerpro' || m.ziel !== 'bookledgerpro') throw Error();");
+ok('Mandantenprobe wechselt auch bei Bindestrich in die Basic-Datenbank', basicUmschreiben('tests/x.mjs', "db.setActiveDbName('anderer-bookledgerpro');") === "db.setActiveDbName('anderer-bookledgerbasic');");
 const probe = basicUmschreiben('src/x.js', "const DB_SUFFIX = 'bookledgerpro';\nexport const VORGANG_QUELLE = 'bookledgerpro';\nconst q = { quelle: 'bookledgerpro' };\nconst c = 'blpr-geteilt';\nconst u = 'https://lausiklauskn-png.github.io/BookLedgerPro/?x';\nconst n = 'BookLedgerPro';\n");
 ok('Regeln: Endung, Vertrag bleibt, Vorrat, Adresse, Name', probe === "const DB_SUFFIX = 'bookledgerbasic';\nexport const VORGANG_QUELLE = 'bookledgerpro';\nconst q = { quelle: 'bookledgerpro' };\nconst c = 'blpb-geteilt';\nconst u = 'https://lausiklauskn-png.github.io/BookLedger-Basic/?x';\nconst n = 'BookLedger Basic';\n", probe);
 ok('Regeln sind idempotent (zweimal = einmal)', basicUmschreiben('src/x.js', probe) === probe);

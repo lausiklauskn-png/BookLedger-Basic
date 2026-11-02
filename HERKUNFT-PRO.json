@@ -1,11 +1,11 @@
 {
  "pro": "lausiklauskn-png/BookLedgerPro",
- "proCommit": "8ad35e1ad138a114626fe81622e234bb3597efd0",
- "nachgezogenAm": "2026-10-31",
- "regeln": 2,
- "anzahl": 576,
- "umgeschrieben": 65,
- "baumHash": "84a608beef74ff6d0510beccdbe7363691b6f82268a2a429a571b89e9879eb95",
+ "proCommit": "10f399213ac73e0847ddfd64cf5e6fc00a12357b",
+ "nachgezogenAm": "2026-11-02",
+ "regeln": 3,
+ "anzahl": 580,
+ "umgeschrieben": 64,
+ "baumHash": "1398cc68cccdfb71c74f657a6902974afdad5406406765e3d3402132a09a4c08",
  "dateien": [
   {
    "pfad": ".github/workflows/ci.yml",
@@ -845,7 +845,7 @@
   },
   {
    "pfad": "docs/STUNDENNACHWEIS.md",
-   "sha256": "9fd9171cb8fe5cae201bdfbb6d12768164a29591cc1cf77bc71dfa182e947f14"
+   "sha256": "b72e1550bdb2f68d13f04a590ba45fe3269ff170060511974ebbea3911111a34"
   },
   {
    "pfad": "docs/TESTDATEN.md",
@@ -1445,7 +1445,7 @@
   },
   {
    "pfad": "src/core/db.js",
-   "sha256": "1b6612a6713b42e0346200567e2db25867be04cca32564b400450d3eba1457d8"
+   "sha256": "f77d3b0c39eb653ba4ce7bebadccb2760bc478368ee94b6ddbb215882c5854c0"
   },
   {
    "pfad": "src/core/durability.js",
@@ -1458,6 +1458,10 @@
   {
    "pfad": "src/core/mandantenStore.js",
    "sha256": "e56f9ba64970ebf467047b57573c33883d43ed7f0709f791115dcd97b7f92310"
+  },
+  {
+   "pfad": "src/core/proVerbund.js",
+   "sha256": "1e08107dd965cf1ab297d4c869f112460fd3a1066daeca33941a462550de13b4"
   },
   {
    "pfad": "src/core/qr.js",
@@ -1605,7 +1609,7 @@
   },
   {
    "pfad": "src/domain/documents.js",
-   "sha256": "61b4aea4d8fd55dd3ccab581b7b6c43b82a249c3f8126fdf898bb10a6bc59fcd"
+   "sha256": "0bdccd7943530cd64fbd58d8ea67c3826ef1a88c702b92f5cfd24a48ca5b8c29"
   },
   {
    "pfad": "src/domain/eingangsverzug.js",
@@ -1736,6 +1740,10 @@
    "sha256": "341d153fe4012da1e506ae0e6f20ea375b360cd1012057a99f5dbec0fbc1d1cb"
   },
   {
+   "pfad": "src/domain/proUebergabe.js",
+   "sha256": "3388ff4d3f3c1f0b0434c98d4661ca657fe4f102a6df2f1a9687cae2f56c564e"
+  },
+  {
    "pfad": "src/domain/produktschemata.js",
    "sha256": "cb5404b7af20f0dc4d7d4a5b50fcc94e9aa1121ac682e5a9966318e05d6b0908"
   },
@@ -1789,7 +1797,7 @@
   },
   {
    "pfad": "src/domain/tresorordner.js",
-   "sha256": "db5abb9ccaae9d5bd6eff5c45bd3a6a86eb558c479a960eb517f00b241aecce6"
+   "sha256": "d4f4c799afd65eced717610cbd382ac84c7e9620748f95ccee18d21daa3409a5"
   },
   {
    "pfad": "src/domain/ueberall.js",
@@ -1949,7 +1957,7 @@
   },
   {
    "pfad": "src/ui/proAppGeben.js",
-   "sha256": "58e94ffcacf4981420b1c276ba234d37eb33bff1458321ae1b757744c69023e7"
+   "sha256": "3546cca00c8096d904347da6162d8edfa9bb063017937f86042c97cd2fad1eea"
   },
   {
    "pfad": "src/ui/scanner.js",
@@ -2013,7 +2021,7 @@
   },
   {
    "pfad": "src/ui/views/documents.js",
-   "sha256": "1e7d6a7c364aaaa0a55d096b7e6e8bca5d4bf4f2c578f11e54b7e21d1de1a95a"
+   "sha256": "b476a3dc624b040f2419831e69e4ee566a019db10e9c39009c2432623be7d29c"
   },
   {
    "pfad": "src/ui/views/employees.js",
@@ -2073,11 +2081,11 @@
   },
   {
    "pfad": "src/ui/views/tresorordner.js",
-   "sha256": "26f1582f0cc1a209bff2f5c0dc5bf29fabc189841d909dc60748efb40ea3dce5"
+   "sha256": "e3b94dd04454380b799de7db0c4a940a638b3bb33be471c965c457c73624895a"
   },
   {
    "pfad": "sw.js",
-   "sha256": "24f735d4b71878aa44c92db0d068ad0ea4bd96dae422ae7f6d1640aa2ad1a843"
+   "sha256": "67303b0b26211554d3f54497bf6b78307ecee2735fa6e556c27914e1315d05bc"
   },
   {
    "pfad": "tests/daten/Testbild-versteckte-Anweisung.png",
@@ -2096,12 +2104,20 @@
    "sha256": "455c44e45d7d9094bbeb396773cfeacc4ec6e6cdd1fbb469cebed687117c2180"
   },
   {
+   "pfad": "tests/gegenprobe_pro_uebergabe.mjs",
+   "sha256": "79ffb5c19ffca6cad9325e4888df0910c7fde647b6da6e3829d5857519096577"
+  },
+  {
    "pfad": "tests/gegenprobe_tresorordner.mjs",
    "sha256": "536284b7c01ba88430d6d4414a860d12af8071dc2caa7b706f0180fa03482d6c"
   },
   {
+   "pfad": "tests/pro_uebergabe.mjs",
+   "sha256": "bc7b292737f7c4e699a58b989b8e66d2f301a746a7673d38e970c68cff68ab7e"
+  },
+  {
    "pfad": "tests/run.mjs",
-   "sha256": "cad96b7b2780c171619985d9638c701ce970291ccd2d8aa2a6b1abea0a54cdfc"
+   "sha256": "37dea3f9d5daf85d9621003eec9157f7e0e1a605b4e94d254c158d6da86056ff"
   },
   {
    "pfad": "tests/smoke_a5_antwortpfad.mjs",
@@ -2113,23 +2129,23 @@
   },
   {
    "pfad": "tests/smoke_befunde.mjs",
-   "sha256": "5a83aae66a5a344a944defd3ab27091e53231bbdbb0f4d784d1d5e52e5800ced"
+   "sha256": "67c6a2da359a086e751f74be5ea46a8d6038eaf6430f570b2ae1c7d3e9c165be"
   },
   {
    "pfad": "tests/smoke_befunde10.mjs",
-   "sha256": "4f1db3b77a3653d7b1336822f3c47b3fcc27bcfff98f2c03b31395d2d2119472"
+   "sha256": "726aeb8f8ddf1127f40cb3b6600924cd33f33593d009369064fc35f062306f6e"
   },
   {
    "pfad": "tests/smoke_befunde7.mjs",
-   "sha256": "e2f37a32aeca3f8e2caa39b3375ad39e8f8a66aec66a6118532d46d05dcd6e8b"
+   "sha256": "e92aff056a073e0520dfb0a80a62d7552b35186a808642efbf4f8c3ec6d2b3d2"
   },
   {
    "pfad": "tests/smoke_befunde8.mjs",
-   "sha256": "530a5efa1cee364bf972d3c40f445342ef55067ed855bb2001dcb5b21b32b0dc"
+   "sha256": "babd2f9765c3c6062c992e78c651487407c2a895a40917dc5b3a7086b45c656f"
   },
   {
    "pfad": "tests/smoke_befunde9.mjs",
-   "sha256": "e5705c5dba09077746251ad6d5a3bf3db7e4cf2bf13de722fcac3124588f0222"
+   "sha256": "53a4c5b649b10013faaa6ae17be9fc7ef2437db7c20f5df85f6a68704dcf7de1"
   },
   {
    "pfad": "tests/smoke_belege.mjs",
@@ -2169,7 +2185,7 @@
   },
   {
    "pfad": "tests/smoke_ohne_web.mjs",
-   "sha256": "ab7cf493bb5f01b1c4b03f8b1d11bbac1fb89f43ba68dc2b7dd365f8f080bbc1"
+   "sha256": "47db1f1b65ebeb8276c196f098f12ca183bff8ef068f16d11328a7d0d8986e0d"
   },
   {
    "pfad": "tests/smoke_scanner.mjs",
@@ -2181,19 +2197,19 @@
   },
   {
    "pfad": "tests/smoke_tresorordner.mjs",
-   "sha256": "81e3bac38df8d39967b7753b80851fcf31b9b892f2f19a58cf21a6558413180d"
+   "sha256": "6249eef2fdc910947b66e7b15572b1348e18f81d196d5642758888e17b1ea2e0"
   },
   {
    "pfad": "tests/smoke_umbau11.mjs",
-   "sha256": "a54bbc67c3ed8a65ccce9d50b6fcb949666990f8499eaec3d0cb39c37789f0f7"
+   "sha256": "480a72678f86b56650c0d93d50b2229b74d6c3fbaa88d3c6388cb5dad5583c5a"
   },
   {
    "pfad": "tests/smoke_umbau13.mjs",
-   "sha256": "92c4334df44b7cc51ea5babddd53be5dd30bf38e30a21c6cbcf629f79d109443"
+   "sha256": "106fd842d4b7706df48a64a5648423161f9ef960708f80a4d8f19f39276ad7de"
   },
   {
    "pfad": "tests/smoke_umbau4.mjs",
-   "sha256": "022d75a6804f5cb3b0d5e1db54f933e6fbf82e6363fcc27d44240313aa625ce8"
+   "sha256": "a15733e599cc57442f603d0baccab713906edcf484b982074f788795c610f260"
   },
   {
    "pfad": "tests/smoke_vorgang.mjs",
