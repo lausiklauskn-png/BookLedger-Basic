@@ -253,3 +253,9 @@ Tresorbefehle bleiben Bestandteil der installierten Pro-App.
 Geprüft: Herkunft 27/0, Logik 2641/0 und 9 Browserfälle mit echter IndexedDB/AES-GCM,
 einschließlich Transaktionsabbruch, Wiederholung und Mandantenwechsel.
 Kein physischer Tablet-Test; kein neues Windows-/Android-Paket in diesem PWA-Repo.
+
+## Nachgezogen 2026-11-05: Pro `9d65da7` (#449 Tresor-Plan, 0.1.9, #453/#454 Tresor in einem Schritt)
+
+583 Dateien, 66 umgeschrieben, 0 entfernt; `sw.js` v290 (Vorrat `blpb-`). Für die PWA wirksam: „Original speichern …“ mit echtem Namen in der
+Beleg-Vorschau. „Tresor & Ablage“, „Wo liegt was?“ und „Tresor einrichten – nur Speicher wählen“ gelten nur in der App (`window.BLPNative`).
+Gemessen: `basic_gleichstand` 27 · `run.mjs` 2650/0 · `smoke_design` 92 · `smoke_tresorplan` ohne `native/` ehrlich ausgelassen. ⚠ Nicht am Tablet.

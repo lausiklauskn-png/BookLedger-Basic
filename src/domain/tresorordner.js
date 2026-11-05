@@ -100,6 +100,22 @@ export function eintraegeSuchen(faecher, frage) {
 /** Für die Bedeutungssuche: ein Text je Eintrag (Name + Auszug), normalisiert gekürzt. */
 export function bedeutungsText(e) { return normalisieren(eintragSuchtext(e)).slice(0, 600); }
 
+/** Alle neun Fach-Ordner des gemeinsamen Tresors (Fach.java im Paket de.familyprojekt.tresor, Stand 01.11.2026). */
+export const FACH_ORDNER = Object.freeze(['Private Brain', 'Workflow PDF Pro', 'BookLedger Basic', 'Familienakte', 'Private Brain V3',
+  'Eingang-BookLedger Basic', 'Eingang-WorkflowPDF', 'Eingang-Familienakte', 'Eingang-Private-Brain']);
+/** Der Verwaltungsordner im Tresor (Schlüsselplätze, Verzeichnis, Marken) — nie selbst wählen. */
+export const VERWALTUNG_ORDNER = 'Tresorordner';
+
+/** Falsch gewählter Ordner (gemeinsamer Plan 2026-11-03)? Nach dem letzten Teil des Pfads:
+ *  'verwaltung' (der Unterordner „Tresorordner“), 'fach' (ein App-/Eingangsordner im Tresor), sonst ''. */
+export function ordnerArt(pfad) {
+  const name = String(pfad || '').split('/').filter(Boolean).pop() || '';
+  const n = name.trim().toLowerCase();
+  if (!n) return '';
+  if (n === VERWALTUNG_ORDNER.toLowerCase()) return 'verwaltung';
+  return FACH_ORDNER.some((f) => f.toLowerCase() === n) ? 'fach' : '';
+}
+
 /** Klartext für Fehlercodes der Brücke. */
 export function fehlerText(code) {
   const c = String(code && code.message || code || '');
@@ -117,6 +133,10 @@ const FEHLER = {
   TRESOR_PASSWORT_KURZ: 'Das Passwort braucht mindestens 10 Zeichen.',
   TRESOR_PASSWORT_UNGLEICH: 'Die beiden Passwörter sind nicht gleich.',
   TRESOR_DA: 'In diesem Ordner liegt schon ein Tresorordner. Bitte entsperren statt neu anlegen.',
+  TRESOR_ORDNER_UNTERORDNER: 'Das ist ein Ordner im Tresor (ein Fach, ein Eingang oder „Tresorordner“). Bitte den Speicher (SD-Karte, Gerät) wählen. Es wurde nichts verändert.',
+  TRESOR_ORDNER_MEHRERE: 'In diesem Speicher liegen mehrere Tresore. Bitte direkt den gewünschten Tresor-Ordner wählen. Es wurde nichts verändert.',
+  TRESOR_NAME_UNGUELTIG: 'Dieser Ordnername geht nicht (keine Zeichen wie / \\ : * ? " < > |, nicht der Name eines Fachs). Es wurde nichts angelegt.',
+  TRESOR_NAME_BELEGT: 'Ein Ordner mit diesem Namen liegt dort schon und hat Inhalt. Bitte einen anderen Namen wählen.',
   TRESOR_ORDNER_IST_FACH: 'Das ist der Ordner einer App (z. B. „Private Brain“). Bitte den Ordner darüber wählen.',
   TRESOR_KEIN_ORDNER: 'Noch kein Ordner gewählt.',
   TRESOR_GESPERRT: 'Der Tresorordner ist gesperrt.',

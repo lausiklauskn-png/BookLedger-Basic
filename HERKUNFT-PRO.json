@@ -1,11 +1,11 @@
 {
  "pro": "lausiklauskn-png/BookLedgerPro",
- "proCommit": "3ca7bb919245bb0ff7a293fe93beee92fbd28f61",
- "nachgezogenAm": "2026-11-02",
+ "proCommit": "9d65da71ba2a3557daa54cbcab98f7dd15b3c47f",
+ "nachgezogenAm": "2026-11-05",
  "regeln": 3,
- "anzahl": 580,
- "umgeschrieben": 64,
- "baumHash": "585d5574ead03d7bbae6958c666f2a5a39eac87ebe944a7661ddecbd5be1dfa0",
+ "anzahl": 583,
+ "umgeschrieben": 66,
+ "baumHash": "336216f892545cfef87e5aee23e03b7a5d76064aefd45db581db7b490df3c3fd",
  "dateien": [
   {
    "pfad": ".github/workflows/ci.yml",
@@ -820,6 +820,10 @@
    "sha256": "8e0c336ce80d938d9c757472626531aa3667e957db7b2ccb13a5ae11ad062824"
   },
   {
+   "pfad": "docs/PRO-VERBUND-VEROEFFENTLICHUNG-0.1.8.json",
+   "sha256": "57bf81902ea7b829c7c42b929e419228a369cd13b7bfe91b1a222a0f322589a3"
+  },
+  {
    "pfad": "docs/SAGE_ANDOCK_BRIEF.md",
    "sha256": "587c8d8ab0455f7f79d1121008e96b301945bc675d8fa1b5661dd02470efd42e"
   },
@@ -845,7 +849,7 @@
   },
   {
    "pfad": "docs/STUNDENNACHWEIS.md",
-   "sha256": "abf8086a902322b2d73a3c1be0c682d29688a2f5ad5a5bb1d3525e91304e1534"
+   "sha256": "7d738a025c66e91b08e219aac718ca9107908c80aa182a67a7af814953accf9f"
   },
   {
    "pfad": "docs/TESTDATEN.md",
@@ -1797,7 +1801,7 @@
   },
   {
    "pfad": "src/domain/tresorordner.js",
-   "sha256": "d4f4c799afd65eced717610cbd382ac84c7e9620748f95ccee18d21daa3409a5"
+   "sha256": "81cf6e88aa747cdfdd6f183e2b51fb4926f64c21c1d0decc30557f5dd732e79f"
   },
   {
    "pfad": "src/domain/ueberall.js",
@@ -1917,7 +1921,7 @@
   },
   {
    "pfad": "src/ui/i18n.js",
-   "sha256": "567e0b0d80ee7ce8ac2945a84ddf93820c21585db3efeb597a16549b46bc9418"
+   "sha256": "e297cc4d3d9c445ef50442b0651205402a2a9c6f1eb2e39c0eb95878ff223eec"
   },
   {
    "pfad": "src/ui/icons.js",
@@ -1973,7 +1977,7 @@
   },
   {
    "pfad": "src/ui/shell.js",
-   "sha256": "66b6c9619ab1ede78bf2d3aa36dcb98e3a61b62d98c49e1c515c6ea9456a9b70"
+   "sha256": "89c78f336c50c9c74c182e1f0c9a3fd0c294343a09f92e0faa0a13bb0b6c9c29"
   },
   {
    "pfad": "src/ui/strich.js",
@@ -2021,7 +2025,7 @@
   },
   {
    "pfad": "src/ui/views/documents.js",
-   "sha256": "b476a3dc624b040f2419831e69e4ee566a019db10e9c39009c2432623be7d29c"
+   "sha256": "82d86f8a759e383a7a7cbed1e25ddac6f25b9906601552246dcbc6a54b3fb755"
   },
   {
    "pfad": "src/ui/views/employees.js",
@@ -2081,11 +2085,15 @@
   },
   {
    "pfad": "src/ui/views/tresorordner.js",
-   "sha256": "e3b94dd04454380b799de7db0c4a940a638b3bb33be471c965c457c73624895a"
+   "sha256": "45b920a14b88dff7092640daeb944a5368e8266e254c3256b84bb13f718cb7b4"
+  },
+  {
+   "pfad": "src/ui/woLiegtWas.js",
+   "sha256": "bf3d37e95a5ec4c0aa5e543ff2a4739af6bf043a5eef5a2c1ca045b3ddad21e4"
   },
   {
    "pfad": "sw.js",
-   "sha256": "67303b0b26211554d3f54497bf6b78307ecee2735fa6e556c27914e1315d05bc"
+   "sha256": "c71b407778d1c302ddb5da625652e55cc2dec525490b811223e335689d8edc9e"
   },
   {
    "pfad": "tests/daten/Testbild-versteckte-Anweisung.png",
@@ -2117,7 +2125,7 @@
   },
   {
    "pfad": "tests/run.mjs",
-   "sha256": "37dea3f9d5daf85d9621003eec9157f7e0e1a605b4e94d254c158d6da86056ff"
+   "sha256": "ff5f28cd7e3c1517d574472f07651327a7ffa37f103beffedbcb0bae94316eeb"
   },
   {
    "pfad": "tests/smoke_a5_antwortpfad.mjs",
@@ -2197,7 +2205,11 @@
   },
   {
    "pfad": "tests/smoke_tresorordner.mjs",
-   "sha256": "6249eef2fdc910947b66e7b15572b1348e18f81d196d5642758888e17b1ea2e0"
+   "sha256": "d3e212bbab23ac31db1ecc94475411227c5c98e806ba177aa08fa5247d6c5c2b"
+  },
+  {
+   "pfad": "tests/smoke_tresorplan.mjs",
+   "sha256": "7b02c2e24c332f24fe5627ee23e508e3da4083f584b5ed10ece0e78886d67664"
   },
   {
    "pfad": "tests/smoke_umbau11.mjs",

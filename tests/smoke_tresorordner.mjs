@@ -43,6 +43,7 @@ window.__log = [];
     ordnerWaehlen: async () => { log('ordnerWaehlen'); z.gewaehlt = true; z.ordner = 'SD-Karte'; return zustand(); },
     anlegen: async (a) => { log('anlegen', a); z.vorhanden = true; z.offen = true; z.gemerkt = !!a.merken; return zustand(); },
     entsperren: async (a) => { log('entsperren', a); z.offen = true; return zustand(); },
+    ...(window.__einrichtenProbe ? { tresorEinrichten: async (a) => { log('tresorEinrichten', a); return { ...zustand(), angelegt: true }; } } : {}),
     sperren: async (a) => { log('sperren', a); z.offen = false; return zustand(); },
     passwortAendern: async () => (log('passwortAendern'), { geaendert: true }),
     ersatzErstellen: async () => { log('ersatzErstellen'); z.ersatz = Date.now(); return { teile: [1, 2, 3, 4, 5].map((i) => 'FPT1-PROBE-' + i), n: 5, k: 3 }; },
@@ -134,14 +135,25 @@ const page = await ctx.newPage();
 page.setDefaultTimeout(15000);
 const fehler = [];
 page.on('pageerror', (e) => fehler.push(String(e.message || e)));
-page.on('dialog', (d) => d.accept());
+let dialogeAblehnen = 0;   // Rückfrage „neuer, leerer Tresor?“ (Plan 2026-11-03): die ersten N Fragen mit „Abbrechen“ beantworten
+page.on('dialog', (d) => (dialogeAblehnen > 0 ? (dialogeAblehnen--, d.dismiss()) : d.accept()));
 await page.goto(BASIS + '/__mit.html'); await page.waitForFunction(() => window.__probeBereit === true);
 ok('mit Brücke verfügbar', await page.evaluate(() => window.__probe.tresorordnerVerfuegbar()));
 await page.evaluate(() => window.__probe.neu());
 await warte(page, '[data-tresor-waehlen]');
 await page.click('[data-tresor-waehlen]');
-await warte(page, '[data-tresor-anlegen]');
-ok('nach der Ordnerwahl: „anlegen“ mit Ordnername', await page.evaluate(() => /SD-Karte/.test(document.querySelector('[data-tresor-status]').textContent)));
+await warte(page, '[data-tresor-kein-tresor]');
+ok('nach der Ordnerwahl: Ordnername und „kein Tresor – wähle den Ordner mit tresorordner.json“ (Plan 2026-11-03)', await page.evaluate(() => /SD-Karte/.test(document.querySelector('[data-tresor-status]').textContent)
+  && /tresorordner\.json/.test(document.querySelector('[data-tresor-kein-tresor]').textContent)));
+ok('… „neu anlegen“ ist zugeklappt, der Hauptknopf wählt einen anderen Ordner', await page.evaluate(() => !document.querySelector('[data-tresor-neu-anlegen]').open
+  && document.querySelector('[data-tresor-status] .btn-primary')?.hasAttribute('data-tresor-waehlen')));
+await page.click('[data-tresor-neu-anlegen] > summary');
+await page.check('[data-tresor-merken]');
+dialogeAblehnen = 1;
+await page.click('[data-tresor-anlegen]');
+await page.waitForTimeout(300);
+ok('… Rückfrage mit „Abbrechen“ beantwortet: kein neuer Tresor', await page.evaluate(() => !window.__log.some((x) => x[0] === 'anlegen')));
+if (!(await page.evaluate(() => document.querySelector('[data-tresor-neu-anlegen]')?.open))) await page.click('[data-tresor-neu-anlegen] > summary');
 await page.check('[data-tresor-merken]');
 await page.click('[data-tresor-anlegen]');
 await warte(page, '[data-tresor-offen]');
@@ -256,5 +268,28 @@ ok('gesperrt: keine Fächer mehr sichtbar, „Entsperren“ und „Passwort verg
 ok('keine Fehler auf der Seite', fehler.length === 0, fehler.join(' | '));
 const alle = await page.evaluate(() => JSON.stringify(window.__log));
 ok('kein Aufruf an die Brücke trägt ein Passwort', !/pass|kennwort/i.test(alle));
+
+console.log('— F. Ein-Schritt-Weg „Tresor einrichten – nur Speicher wählen“ (Klaus 2026-11-04) —');
+{
+  const c2 = await browser.newContext(); const p2 = await c2.newPage(); p2.setDefaultTimeout(15000);
+  // Neue Hülle: die Brücke kennt tresorEinrichten. Gestellt: Speicher gewählt, Tresor „Family-Projekt“ angelegt und offen.
+  await p2.addInitScript(() => { window.__einrichtenProbe = true; });
+  await p2.goto(BASIS + '/__mit.html'); await p2.waitForFunction(() => window.__probeBereit === true);
+  const hatBruecke = await p2.evaluate(() => typeof window.BLPNative?.tresor?.einrichten);
+  ok('neue Hülle: die Brücke bietet einrichten an', hatBruecke === 'function', hatBruecke);
+  await p2.evaluate(() => window.__probe.neu());
+  await warte(p2, '[data-tresor-status]');
+  ok('ohne gewählten Ordner ist „Tresor einrichten – nur Speicher wählen …“ der Hauptknopf, kein „Ordner wählen“', await p2.evaluate(() => {
+    const k = document.querySelector('[data-tresor-status] .btn-primary');
+    return !!k && k.hasAttribute('data-tresor-einrichten') && /nur Speicher wählen/.test(k.textContent) && !document.querySelector('[data-tresor-waehlen]')
+      && /Family-Projekt/.test(document.querySelector('[data-tresor-waehlen-hinweis]').textContent);
+  }));
+  await p2.click('[data-tresor-einrichten]');
+  await p2.waitForFunction(() => window.__log.some((x) => x[0] === 'tresorEinrichten'));
+  ok('ein Tipp ruft genau tresorEinrichten, ohne Passwort im Aufruf', await p2.evaluate(() => {
+    const r = window.__log.filter((x) => x[0] === 'tresorEinrichten'); return r.length === 1 && !/pass|kennwort/i.test(JSON.stringify(r));
+  }));
+  await c2.close();
+}
 
 await schluss();
