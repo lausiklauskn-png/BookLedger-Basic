@@ -1,8 +1,9 @@
 # Stundennachweis (Klaus' Arbeitszeit an den Pro-Apps)
 
-**2. November 2026, Familienakte-Pro-Verbund:** Umsetzung und Prüfungen laufen über die Familienakte-Sitzung weiter.
-Klaus' persönliche Arbeitszeit ist aus dieser Sitzung nicht messbar; deshalb noch keine zusätzliche Stundenzahl angesetzt.
-Die lokalen Prüfläufe und folgenden Commits belegen nur technische Arbeit, keine durchgehende Anwesenheit von Klaus.
+**2. November 2026, Familienakte-Pro-Verbund:** Android und Windows 0.1.8 veröffentlicht.
+Die Abschlussaufzeichnung mit den gemeinsamen Zeitfenstern steht am Ende dieser Datei.
+Klaus' persönliche Arbeitszeit und die aktive Agentenzeit sind nicht gemessen; die Zeitfenster
+werden als Obergrenzen einschließlich CI geführt und nicht je Repository doppelt addiert.
 
 Klaus 2026-10-28: *„Ich habe das Gefühl, ihr schreibt meine Arbeitsstunden nicht auf bei GitHub."* — **Das stimmt.** Einen Stundennachweis gab es bisher nur
 in den Abschlussberichten des Workflow-PDF-Kerns, zuletzt am 2026-10-11. In BookLedgerPro, Private Brain Pro, Workflow PDF Pro und BookLedger Basic
@@ -71,4 +72,21 @@ Klaus' Korrekturen werden hier eingetragen und gehen vor.
 
 | Pro-Umbau 14 A3 Teil 1, Fortsetzung (2026-10-31 15:30 → ≈ 16:25, Uhr des Behälters) | Merges PB #121/BLP #440 (von Klaus), Basic #35 15:31, WPP Bausteine 7 15:33, Kimhub-Forschung 15:36, Umzug-Kern WPP 15:45–15:53 (JUnit, Gegenprobe), Merge WPP #50 15:54, Nachziehen BLP #441/PB #122 15:55, PB Windows einmal neu gestartet (Lizenzprobe), Merges bis 16:21 | ≈ 0.9 h (davon CI-Wartezeit ≈ 0.4 h) | 0.9 h | 6 (Basic 1, WPP 1, Kimhub 1, BLP 2, PB 1) | Basic · WPP · Kimhub · BLP · PB |
 | Gegenproben Pro-Umbau 14 Parallel-Teil (2026-11-02 ≈ 11:31 → ≈ 11:52, Uhr des Behälters) | erste Spur ≈ 11:31 (Repos frisch von main, Brief), `npm install` 11:33, erster `npm test` an fehlender Browser-Fassung gescheitert (Behälter: Chromium 1243 statt 1194, nur im Behälter verlinkt), zweiter Lauf 11:35–11:44 grün, Einzel- und Gegenproben bis ≈ 11:50, Brief ≈ 11:52 | ≈ 0.4 h (ein Block, Wartezeit auf `npm test` ≈ 0.15 h) | 0.4 h | 1 (BLP 1) | BLP (Workflow-PDF, Basic, Sage nur gelesen und geprüft) |
+| Felder/Schrift Workflow PDF 1.1.9, Pro 1.0.12, Familienakte, WorkFlohs, Tresor-Karte (2026-11-03, Uhr des Behälters) | erste Commit-Spur 11:34 (Workflow-PDF 1.1.9; Bau davor ungemessen), Pro-Kern 12:12, CI-Nachbesserung bis 12:41, Releases Android/Windows 1.0.12, Familienakte 17:21, Teilen-Rücksprung an Codex übergeben, WorkFlohs 18:02/18:03, Tresor-Karte und Brief bis ≈ 18:10 | ≈ 6.6 h ab erster Spur (davon CI- und Release-Wartezeit ≈ 2 h); Beginn davor nicht messbar | 6.6 h | 9 (Workflow-PDF 3, WPP 2, FA 1, Mein-WorkFloh 1, Tomys-Hub 1, BLP 1) | Workflow-PDF · WPP · FA · Mein-WorkFloh · Tomys-Hub · BLP |
 Dazu Klaus' Zeit in Termux (Server und Schlüssel einrichten, zweimal) und am Bildschirm — ohne Commit, hier nicht messbar. Klaus' eigene Angabe geht vor.
+
+
+## Familienakte-Pro-Verbund — Abschlussaufzeichnung 2. November 2026
+
+Gemeinsame, belegte Zeitfenster der repoübergreifenden Sitzung: 1. November 2026
+14:09:02–16:32:52 Uhr MEZ (13:09:02–15:32:52 UTC); 2. November 2026 ab 08:06:21 Uhr
+MEZ (07:06:21 UTC) bis zur Aufzeichnung 22:28:23 Uhr MEZ (21:28:23 UTC).
+Das sind Obergrenzen einschließlich Bau-, CI- und Wartezeit, keine gemessenen aktiven
+Arbeitsstunden und keine Messung von Klaus' Anwesenheit. Die Nachtpause bleibt ausgenommen.
+Überlappende Zeiten von Familienakte, Workflow PDF Pro, Private Brain Pro und BookLedger
+werden nicht addiert. Der gemeinsame endgültige Eintrag wird in Kimhub geführt.
+
+| Arbeit | Einordnung |
+| --- | --- |
+| Pro-Verbund in BookLedgerPro und veröffentlichte 0.1.8-Pakete | Teil desselben gemeinsamen Sitzungsfensters; keine zusätzlichen, parallel addierbaren Stunden. Aktive Arbeitszeit nicht gemessen. |
+| Tresor-Plan in vier Pro-Apps, Android-Testfassungen (03.11. 20:04 – 04.11. ≈ 01:30 UTC) | Fenster ≈ 5 h 25 min inkl. Warten auf Klaus und CI; aktive Zeit nicht gemessen. `BRIEF_ABSCHLUSS_2026-11-04_TRESOR-PLAN.md` |
