@@ -1,11 +1,11 @@
 {
  "pro": "lausiklauskn-png/BookLedgerPro",
- "proCommit": "9d65da71ba2a3557daa54cbcab98f7dd15b3c47f",
- "nachgezogenAm": "2026-11-05",
+ "proCommit": "005c1c55f096c0de7c2d3d696c2fba1c1e0ebf56",
+ "nachgezogenAm": "2026-11-09",
  "regeln": 3,
- "anzahl": 583,
- "umgeschrieben": 66,
- "baumHash": "336216f892545cfef87e5aee23e03b7a5d76064aefd45db581db7b490df3c3fd",
+ "anzahl": 639,
+ "umgeschrieben": 68,
+ "baumHash": "f1cfed23917f7e711d448f0e7237d052d8d93500847b50d5832499a2bd69db2f",
  "dateien": [
   {
    "pfad": ".github/workflows/ci.yml",
@@ -565,7 +565,7 @@
   },
   {
    "pfad": "assets/app.css",
-   "sha256": "a6eefb4e30be943c0252ea7c62c93cf1e6390c66016fea413d801e227409f8c2"
+   "sha256": "958a646ccdd585a81399c190c1e087057609e4a6c74e279de22ced26b2465d40"
   },
   {
    "pfad": "assets/blp-icons.svg",
@@ -849,7 +849,7 @@
   },
   {
    "pfad": "docs/STUNDENNACHWEIS.md",
-   "sha256": "7d738a025c66e91b08e219aac718ca9107908c80aa182a67a7af814953accf9f"
+   "sha256": "1b43bd410c0af851c2a3cf39be200a015fc4a25de135acb3a34abaca5efe6633"
   },
   {
    "pfad": "docs/TESTDATEN.md",
@@ -904,6 +904,202 @@
    "sha256": "b939ae1d58fe3dd8c206cb76263ec3cad1e35a68c0cdd7a62b7d6997b979b218"
   },
   {
+   "pfad": "docs/archiv/briefe/BRIEF_ABSCHLUSS_2026-10-26_ANDROID-SCHRITT-A.md",
+   "sha256": "fc4abeeda872a322028d56e958d159c1e1431980511a97710b5116e17980be65"
+  },
+  {
+   "pfad": "docs/archiv/briefe/BRIEF_ABSCHLUSS_2026-10-26_BAU-SITZUNG.md",
+   "sha256": "b8b44605975ab6f35a1862e9d401d19228c44dcc806931c2fd398d9d137e3dec"
+  },
+  {
+   "pfad": "docs/archiv/briefe/BRIEF_ABSCHLUSS_2026-10-27_TRESORORDNER-B-C.md",
+   "sha256": "65175fda9a2026503d1a859b6fceba5ff29512265dde31dae17ea0485eed2d7d"
+  },
+  {
+   "pfad": "docs/archiv/briefe/BRIEF_ABSCHLUSS_2026-10-27_TRESORORDNER-D.md",
+   "sha256": "50efb0c199f4ddb120d6d92b46f0e43d66e202d50c2d9ce9812e79bdccd593a6"
+  },
+  {
+   "pfad": "docs/archiv/briefe/BRIEF_ABSCHLUSS_2026-10-28_PRO-UMBAU-1.md",
+   "sha256": "22349c800414e0277064f077d9c7eb2590da393340444ddb0d26fb9831e63a23"
+  },
+  {
+   "pfad": "docs/archiv/briefe/BRIEF_ABSCHLUSS_2026-10-28_PRO-UMBAU-2.md",
+   "sha256": "2df07ba8ece1f7dc2a8fad70db447d00e405f5788a7e181a5798f16b313ceaef"
+  },
+  {
+   "pfad": "docs/archiv/briefe/BRIEF_ABSCHLUSS_2026-10-28_PRO-UMBAU-3.md",
+   "sha256": "95d7a59cce98fad0791eca84f37674aaf1e2fd1cf3f881a1543395abee141486"
+  },
+  {
+   "pfad": "docs/archiv/briefe/BRIEF_ABSCHLUSS_2026-10-28_PRO-UMBAU-4.md",
+   "sha256": "92f1ac96583d660fa5d8d62b94f46122411c6ff9f8f0c2272158c93e3d71f04f"
+  },
+  {
+   "pfad": "docs/archiv/briefe/BRIEF_ABSCHLUSS_2026-10-28_PRO-UMBAU-5.md",
+   "sha256": "04f885dd4987c9effe3ab482a8d6184a446c71e11132ac35426ac6720d97e79f"
+  },
+  {
+   "pfad": "docs/archiv/briefe/BRIEF_ABSCHLUSS_2026-10-28_TRESORORDNER-E.md",
+   "sha256": "72a39458fe7bbf0672efda404aae0037220687253debee294e4c760f2ea8d7af"
+  },
+  {
+   "pfad": "docs/archiv/briefe/BRIEF_ABSCHLUSS_2026-10-29_PRO-UMBAU-6.md",
+   "sha256": "ce75b551c0383ad09315fa649662de3ccd845b21cfc01be7f060a58a989a2742"
+  },
+  {
+   "pfad": "docs/archiv/briefe/BRIEF_ABSCHLUSS_2026-10-29_PRO-UMBAU-7.md",
+   "sha256": "b7c4614b5d50f6ada34ad06d1fcc9513df6c7ab1560dc66e9d6c3130e5df940d"
+  },
+  {
+   "pfad": "docs/archiv/briefe/BRIEF_ABSCHLUSS_2026-10-29_PRO-UMBAU-8.md",
+   "sha256": "e17b58a5bc46efd015e31a4edd02028a0465e68ce31742a5e94860e3824b7d53"
+  },
+  {
+   "pfad": "docs/archiv/briefe/BRIEF_ABSCHLUSS_2026-10-29_PRO-UMBAU-9.md",
+   "sha256": "e97a5d38809f4282612f97a8455b5016f82404f392ddadbc993db1ec1fb10a2e"
+  },
+  {
+   "pfad": "docs/archiv/briefe/BRIEF_ABSCHLUSS_2026-10-30_PRO-UMBAU-10.md",
+   "sha256": "d8c9f4fdc6e3c66fa478e66a738cb1da8879c1cd313c7525ed9ca220a72e2eca"
+  },
+  {
+   "pfad": "docs/archiv/briefe/BRIEF_ABSCHLUSS_2026-10-30_PRO-UMBAU-11.md",
+   "sha256": "a00233766b59bc41da4158697b608a8355293dd3d976f6704e891e0680530dd0"
+  },
+  {
+   "pfad": "docs/archiv/briefe/BRIEF_ABSCHLUSS_2026-10-30_PRO-UMBAU-12.md",
+   "sha256": "a9c3d91b9ea5f15d2a713a3cf1589d420c24004f01902eb079358dbb640fb874"
+  },
+  {
+   "pfad": "docs/archiv/briefe/BRIEF_ABSCHLUSS_2026-10-30_PRO-UMBAU-13.md",
+   "sha256": "06bb04acc0b5b051fbf9e45fc9e4e30b9f0081d9ce1949859b7867a82e8e5d11"
+  },
+  {
+   "pfad": "docs/archiv/briefe/BRIEF_ABSCHLUSS_2026-10-31_PRO-UMBAU-14-C-D.md",
+   "sha256": "aebdde53849d1e06769e7a97d1d8875167bc1e9975d05a7e9a8fc37c8e107175"
+  },
+  {
+   "pfad": "docs/archiv/briefe/BRIEF_ABSCHLUSS_2026-10-31_PRO-UMBAU-14A.md",
+   "sha256": "b1d01fdb1141f1a229395659015f48744acd1091826f3bef2a320f11b618ac05"
+  },
+  {
+   "pfad": "docs/archiv/briefe/BRIEF_ABSCHLUSS_2026-10-31_PRO-UMBAU-14A2.md",
+   "sha256": "f62fab5c29dbc9dcd202919752cc8046a375d8f449a461da587720effc5b70ee"
+  },
+  {
+   "pfad": "docs/archiv/briefe/BRIEF_ABSCHLUSS_2026-10-31_PRO-UMBAU-14A3.md",
+   "sha256": "a9816111a51f16cfa9cd517cd7eaf96bcb8d421653d9232a3a954f41c3e83557"
+  },
+  {
+   "pfad": "docs/archiv/briefe/BRIEF_ABSCHLUSS_2026-11-02_FAMILIENAKTE-PRO-VERBUND.md",
+   "sha256": "071204821bbb33baf05c8def391a6ce8eb7aee5a0298f17063a2bdd27ccb2225"
+  },
+  {
+   "pfad": "docs/archiv/briefe/BRIEF_ABSCHLUSS_2026-11-02_GEGENPROBEN-14-PARALLEL.md",
+   "sha256": "5ee0f70892e22c64ae9ec075a6cfbfd159be0b18ec60cf2fe0365ea7f84f4e6a"
+  },
+  {
+   "pfad": "docs/archiv/briefe/BRIEF_ABSCHLUSS_2026-11-04_TRESOR-PLAN.md",
+   "sha256": "48d9e2028daffaee73a263f8923213775b2808f177f1320811b8fc2a402e513b"
+  },
+  {
+   "pfad": "docs/archiv/briefe/BRIEF_SITZUNG_2026-11-02_NACH-PRO-VERBUND.md",
+   "sha256": "a7f486500e502d2cce116a2badf18a095b81594a148c8a9a22db6bf74144e353"
+  },
+  {
+   "pfad": "docs/archiv/briefe/BRIEF_SITZUNG_2026-11-03_TRESOR-UEBERSICHT.md",
+   "sha256": "4d9a9591f9f22d70fc00ad9b906b51b0d815be2e472692dc1f1aff5454f4c113"
+  },
+  {
+   "pfad": "docs/archiv/briefe/BRIEF_SITZUNG_ANDROID-TRESORORDNER.md",
+   "sha256": "9f37b39c71a22ff365a8386f6a674027c8cf15546223dbace31979d329003c23"
+  },
+  {
+   "pfad": "docs/archiv/briefe/BRIEF_SITZUNG_PRO-UMBAU-10.md",
+   "sha256": "38faaea141328c4d4e791c32e25c01dbaed34973e8130dc6eed383188956e213"
+  },
+  {
+   "pfad": "docs/archiv/briefe/BRIEF_SITZUNG_PRO-UMBAU-11.md",
+   "sha256": "486eb707dfa54140c9b7969882b4a6a4e1e061322ca56f23f0fb20ae3e6ec4ed"
+  },
+  {
+   "pfad": "docs/archiv/briefe/BRIEF_SITZUNG_PRO-UMBAU-12.md",
+   "sha256": "c21a7090f77ae45950993e56537d3acdf9b3d436f5d3e2635b89b953c2a3a5d4"
+  },
+  {
+   "pfad": "docs/archiv/briefe/BRIEF_SITZUNG_PRO-UMBAU-13.md",
+   "sha256": "4af5fd386201d0e0738d2f417e5f1db931cf6104592d440dcbc9a31327c896f8"
+  },
+  {
+   "pfad": "docs/archiv/briefe/BRIEF_SITZUNG_PRO-UMBAU-14-A3-REST.md",
+   "sha256": "95d10c43af0943a3e6ba67e6bee9567e3bb32b68ed2eb2dbfbf0c6c67c439eb3"
+  },
+  {
+   "pfad": "docs/archiv/briefe/BRIEF_SITZUNG_PRO-UMBAU-14-NACH-A2.md",
+   "sha256": "435c9ea5209bf86a46eabba7ebe988814fd770497e4010078502826154ff25d0"
+  },
+  {
+   "pfad": "docs/archiv/briefe/BRIEF_SITZUNG_PRO-UMBAU-14.md",
+   "sha256": "8381ead4e9a85616de6a314d4b3a7b6eb61e1d0e0312a7f2b76e5929b75c02ca"
+  },
+  {
+   "pfad": "docs/archiv/briefe/BRIEF_SITZUNG_PRO-UMBAU-14B.md",
+   "sha256": "b2ad2a7b67a684a16d99195fc28ba4a3e7a5a603fe877ff10c4662f2710e84b9"
+  },
+  {
+   "pfad": "docs/archiv/briefe/BRIEF_SITZUNG_PRO-UMBAU-2.md",
+   "sha256": "638f7e18ad8f86b454ef04298ae304302e30bf2170af685e1029ef03866ffb47"
+  },
+  {
+   "pfad": "docs/archiv/briefe/BRIEF_SITZUNG_PRO-UMBAU-3.md",
+   "sha256": "e225c1b94ad4cadc8634e07b7b49d0423cdbfe1a876db5bda5bb2329736c6082"
+  },
+  {
+   "pfad": "docs/archiv/briefe/BRIEF_SITZUNG_PRO-UMBAU-4.md",
+   "sha256": "9fa3da7b9985212547ca5ec0b0566f880f6820d279b9e8c22d5940320aad7fbf"
+  },
+  {
+   "pfad": "docs/archiv/briefe/BRIEF_SITZUNG_PRO-UMBAU-5.md",
+   "sha256": "196b5083e1f17766a908bd2d1f6ba0c9a65e59bddcf12579c8c9ab43fd0516ba"
+  },
+  {
+   "pfad": "docs/archiv/briefe/BRIEF_SITZUNG_PRO-UMBAU-6.md",
+   "sha256": "4459ae5be1940c24869a10c9208e91ce0cdcf16cede001ddcc7e438981f60032"
+  },
+  {
+   "pfad": "docs/archiv/briefe/BRIEF_SITZUNG_PRO-UMBAU-7.md",
+   "sha256": "f303dd44682d18097363d011e1a71a19bc7a5c0d0e0b6b0033fb5bb152ef744a"
+  },
+  {
+   "pfad": "docs/archiv/briefe/BRIEF_SITZUNG_PRO-UMBAU-8.md",
+   "sha256": "c728d15444f9c559fd54b6b9d2b61fa52c880c34f29716ae2013805168e85cd6"
+  },
+  {
+   "pfad": "docs/archiv/briefe/BRIEF_SITZUNG_PRO-UMBAU-9.md",
+   "sha256": "6c52be01b94ee8a52f8ce1678695e5a0816b606bb292e68555d32fca847bf020"
+  },
+  {
+   "pfad": "docs/archiv/briefe/BRIEF_SITZUNG_PRO-UMBAU-NACH-PROBE-E.md",
+   "sha256": "8087982fee7592ccee32f599ba68f53a3873dd5441a5985f82ad096969b205eb"
+  },
+  {
+   "pfad": "docs/archiv/briefe/BRIEF_SITZUNG_TRESORORDNER-SCHRITT-B.md",
+   "sha256": "8c1c93a3b4b0d12ab56a14e0d27ee1203eb2445c4ace2a57abb41fc7e9742516"
+  },
+  {
+   "pfad": "docs/archiv/briefe/BRIEF_SITZUNG_TRESORORDNER-SCHRITT-D.md",
+   "sha256": "887ad87c3d6bac462f671b948b7b613ee4b4df69931c32ecfa31dd8cbf79adf9"
+  },
+  {
+   "pfad": "docs/archiv/briefe/BRIEF_SITZUNG_TRESORORDNER-SCHRITT-E.md",
+   "sha256": "ca670190a5cff8bf729e95f5228c9b93456bdaac82f699d8b16bbc2cc3187abf"
+  },
+  {
+   "pfad": "docs/design/BAUPLAN-NEUAUSRICHTUNG-2026-11-09.md",
+   "sha256": "a65ce4b81caa5e2494fb86fcad09593fb738e1ee4dc0f678c30b0f7ff48708e6"
+  },
+  {
    "pfad": "docs/design/BEFUND-OFFLINE-UEBERSETZUNG-2026-10-26.md",
    "sha256": "3e73824a78124d77b752dbc8e8ef3438ee592fe7d329ddc802753cd5a7e8af30"
   },
@@ -942,6 +1138,10 @@
   {
    "pfad": "docs/design/WORKFLOW-PDF-EINBINDUNG-PLAN-2026-10-26.md",
    "sha256": "0297bad4a4f2da90bbce90b99336eca8b612d80283f0a39d5a8218841b2a264c"
+  },
+  {
+   "pfad": "docs/design/abhaken-2026-11-09.html",
+   "sha256": "f6222ca3062ba03f435269c8f54fd8b5501b589189e95efadf5ef38970fee37e"
   },
   {
    "pfad": "docs/design/ist-2026-10-26/phone-startseite.png",
@@ -1729,7 +1929,7 @@
   },
   {
    "pfad": "src/domain/nutzungsmodus.js",
-   "sha256": "5b2cf2f4e075b46515a5eb356433f574eaa8157260766217f5147fe9ab7565eb"
+   "sha256": "97270445a2198f44112828500eecf3ff581ce6e47b0187bb5aeaa6232f94c2c8"
   },
   {
    "pfad": "src/domain/orders.js",
@@ -1792,6 +1992,14 @@
    "sha256": "ae87b45fd0fbd6fab5a5b34d3815ec211379987ce6a2e2c022ecef914144f1d6"
   },
   {
+   "pfad": "src/domain/tagesabschluss-store.js",
+   "sha256": "1a4a625a2a65501fc090c1f147bb247bb8e6f301055997b85e4420996dd024fd"
+  },
+  {
+   "pfad": "src/domain/tagesabschluss.js",
+   "sha256": "32e5f8826ef04a8348355a1e43aa71a573e92a7e02eac424a2525c8ee2af94b5"
+  },
+  {
    "pfad": "src/domain/taxes.js",
    "sha256": "e9a6443c207741770f2282affa2986404c6b83a4a0c877c0312db1c6f35c79ed"
   },
@@ -1801,7 +2009,7 @@
   },
   {
    "pfad": "src/domain/tresorordner.js",
-   "sha256": "81cf6e88aa747cdfdd6f183e2b51fb4926f64c21c1d0decc30557f5dd732e79f"
+   "sha256": "e4e17785f92adf434657ce1aa2c0eee75d59d2ce80f4c824562981f158624850"
   },
   {
    "pfad": "src/domain/ueberall.js",
@@ -1901,7 +2109,7 @@
   },
   {
    "pfad": "src/ui/belegVorschau.js",
-   "sha256": "7a4a5f7f06515c304abe7a3c1b4c094c86626a4717f0a6abfd157555d5a00b97"
+   "sha256": "beb79eef5b722cc47bd7763fedd81e2bcbbc565f22fef92ce099efb74ecf29e4"
   },
   {
    "pfad": "src/ui/datensicherung.js",
@@ -1921,7 +2129,7 @@
   },
   {
    "pfad": "src/ui/i18n.js",
-   "sha256": "e297cc4d3d9c445ef50442b0651205402a2a9c6f1eb2e39c0eb95878ff223eec"
+   "sha256": "27277a90f2ea0e53c2f47a98afa609031df44569b11f33f6d6d1fed2ae7b2eb1"
   },
   {
    "pfad": "src/ui/icons.js",
@@ -1977,7 +2185,7 @@
   },
   {
    "pfad": "src/ui/shell.js",
-   "sha256": "89c78f336c50c9c74c182e1f0c9a3fd0c294343a09f92e0faa0a13bb0b6c9c29"
+   "sha256": "09832d3796ce56020d6bc61fcca72baf5e1c2db1473f8bc009ec68c561cf69b1"
   },
   {
    "pfad": "src/ui/strich.js",
@@ -1990,6 +2198,10 @@
   {
    "pfad": "src/ui/theme.js",
    "sha256": "28cc1d2d915a3bc0330b27bf019ec08890c464409b67ab9389d1ecf77630fb27"
+  },
+  {
+   "pfad": "src/ui/tresorFund.js",
+   "sha256": "4591c310dd519f22b5cd8c9cd59c192ce0b30ed6a49d688c0039d9d491789622"
   },
   {
    "pfad": "src/ui/views/accounts.js",
@@ -2037,7 +2249,7 @@
   },
   {
    "pfad": "src/ui/views/kassenbuch.js",
-   "sha256": "6d6ba582e98f0ae2f148354607179edb9b6f1e8d9ad34b9f4ac9d4355f7a8b59"
+   "sha256": "9afc846e0a53d588e32a29a0c46748637c33186d00f35d1c12a379f8b99b028d"
   },
   {
    "pfad": "src/ui/views/legal.js",
@@ -2073,7 +2285,7 @@
   },
   {
    "pfad": "src/ui/views/sbkimsuche.js",
-   "sha256": "b43dcd9395a57e80696459866ab774d6afe23629b846ff735f688ea40db3ecf5"
+   "sha256": "0340b57b9fca4408cb069fbd1cbec8ca0e4101e0f046fe8251df5ac04947f6c1"
   },
   {
    "pfad": "src/ui/views/selbsttest.js",
@@ -2082,6 +2294,10 @@
   {
    "pfad": "src/ui/views/shopbuchung.js",
    "sha256": "ff34d67eae7edb9bf20162164b5e715422c41756b43e4eedb812d35006067561"
+  },
+  {
+   "pfad": "src/ui/views/tagesabschluss.js",
+   "sha256": "1ea8b8ffee08148da6ea1c95dcdeae88ad3de6d08caf1a0e32797769be503a41"
   },
   {
    "pfad": "src/ui/views/tresorordner.js",
@@ -2093,7 +2309,7 @@
   },
   {
    "pfad": "sw.js",
-   "sha256": "c71b407778d1c302ddb5da625652e55cc2dec525490b811223e335689d8edc9e"
+   "sha256": "c113bfe30f893e5d6bc95eafbc19cd3d09047253e7b42321935fb588b250bd55"
   },
   {
    "pfad": "tests/daten/Testbild-versteckte-Anweisung.png",
@@ -2125,7 +2341,7 @@
   },
   {
    "pfad": "tests/run.mjs",
-   "sha256": "ff5f28cd7e3c1517d574472f07651327a7ffa37f103beffedbcb0bae94316eeb"
+   "sha256": "1f2f8d6f71f667a42e4fd02edf7b962c49bd29a4f744a1f4feb14029663a2b7d"
   },
   {
    "pfad": "tests/smoke_a5_antwortpfad.mjs",
@@ -2169,7 +2385,7 @@
   },
   {
    "pfad": "tests/smoke_design.mjs",
-   "sha256": "bdfc2934e709f37ac28f8f62096dcf124ada042506a516ea95be739e78df2321"
+   "sha256": "085a597f95edbe8b7ef16de6ee64eea72131ccce6614c5921a193ef7375c3ed8"
   },
   {
    "pfad": "tests/smoke_frage.mjs",
@@ -2200,8 +2416,16 @@
    "sha256": "21a015699fcd1e6322da8627d251ba55dd6d0171fff46e586630259fb6b331e9"
   },
   {
+   "pfad": "tests/smoke_tagesabschluss.mjs",
+   "sha256": "c4f5289a515e68ca6da886a91f1d118e223aae25faffafa73540ccb113e37a94"
+  },
+  {
    "pfad": "tests/smoke_teilen.mjs",
    "sha256": "132f740b212a6f4e648cf100f61450b6a42694c45edfc941ca913c3732303156"
+  },
+  {
+   "pfad": "tests/smoke_tresorfund.mjs",
+   "sha256": "ea9caf6f4b6d67c60248c9e26308ba4cfa002c89e392c9c3f348a30d9209c289"
   },
   {
    "pfad": "tests/smoke_tresorordner.mjs",
