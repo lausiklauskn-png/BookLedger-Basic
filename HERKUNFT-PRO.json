@@ -1,11 +1,11 @@
 {
  "pro": "lausiklauskn-png/BookLedgerPro",
- "proCommit": "c7cfb4cf69b1f9a52b8d188246d8c3f6a6510491",
+ "proCommit": "bc47aad214e3d77f75605d01a4c61d4c1990ca41",
  "nachgezogenAm": "2026-11-09",
  "regeln": 3,
  "anzahl": 588,
- "umgeschrieben": 66,
- "baumHash": "a5995c85452254693a012547329f1cec2c938abc76ddf04b705b431e8647cfab",
+ "umgeschrieben": 67,
+ "baumHash": "4448206d45ebb46c23b7e54046fd62bfe5b62bf1a5f03adeb8a991be8bdd792e",
  "dateien": [
   {
    "pfad": ".github/workflows/ci.yml",
@@ -1797,11 +1797,11 @@
   },
   {
    "pfad": "src/domain/tagesabschluss-store.js",
-   "sha256": "058f974c727e0f0bcac080c42dabd2a80551e9ebe3df3ffbe6b7ca6301baf5c6"
+   "sha256": "de5a7f3feb314594bbcd70dc7e7415d3b61d5545b3c3fe94d4f8e6f52a989d36"
   },
   {
    "pfad": "src/domain/tagesabschluss.js",
-   "sha256": "d820733d7fbb278fd5b1a48aefafad31f5a083f81a651815de51931ced21b95c"
+   "sha256": "32e5f8826ef04a8348355a1e43aa71a573e92a7e02eac424a2525c8ee2af94b5"
   },
   {
    "pfad": "src/domain/taxes.js",
@@ -1933,7 +1933,7 @@
   },
   {
    "pfad": "src/ui/i18n.js",
-   "sha256": "56038f4cf28f43ce80d1bcf6710d9418e0cb9d3406a79678a08adc682fe12023"
+   "sha256": "ebe9e511d2f1fdaecbb1b5eb34ba0200963b5c1e9d039eba4fbbfc8877edbaa9"
   },
   {
    "pfad": "src/ui/icons.js",
@@ -2049,7 +2049,7 @@
   },
   {
    "pfad": "src/ui/views/kassenbuch.js",
-   "sha256": "107cbf6a265eaecf6863188b95793152b78d96830580340efcc17fe43e711889"
+   "sha256": "9afc846e0a53d588e32a29a0c46748637c33186d00f35d1c12a379f8b99b028d"
   },
   {
    "pfad": "src/ui/views/legal.js",
@@ -2097,7 +2097,7 @@
   },
   {
    "pfad": "src/ui/views/tagesabschluss.js",
-   "sha256": "9b58d3e342404197f660be06c5398ce2c2285956ee17e73e6eca704ca1439d19"
+   "sha256": "55f65bf5c7eb0a1d7b026853a7b5f3e9295ba260ce920f0f6c9cc44609461e0c"
   },
   {
    "pfad": "src/ui/views/tresorordner.js",
@@ -2141,7 +2141,7 @@
   },
   {
    "pfad": "tests/run.mjs",
-   "sha256": "86a3783e5172abb78f4853de4e8294609ecf46464b7f8704ab8e60421731099f"
+   "sha256": "8e973e6a1d8e9a2644793a7c847caaa341b3386d3df59eb706fc9e8d63cbc295"
   },
   {
    "pfad": "tests/smoke_a5_antwortpfad.mjs",
@@ -2217,7 +2217,7 @@
   },
   {
    "pfad": "tests/smoke_tagesabschluss.mjs",
-   "sha256": "1a5948633dd7c9c81746ae9b18ff692e9d8b8de4292f08aacc307ca5021f016a"
+   "sha256": "703f1f97628cb02f28c733c92d6a6be960fc929e653bf9f76043c3547b404f8d"
   },
   {
    "pfad": "tests/smoke_teilen.mjs",

@@ -260,10 +260,11 @@ Kein physischer Tablet-Test; kein neues Windows-/Android-Paket in diesem PWA-Rep
 Beleg-Vorschau. „Tresor & Ablage“, „Wo liegt was?“ und „Tresor einrichten – nur Speicher wählen“ gelten nur in der App (`window.BLPNative`).
 Gemessen: `basic_gleichstand` 27 · `run.mjs` 2650/0 · `smoke_design` 92 · `smoke_tresorplan` ohne `native/` ehrlich ausgelassen. ⚠ Nicht am Tablet.
 
-## Nachgezogen 2026-11-09: Pro `c7cfb4c` (Kasse & Tagesabschluss, Branch `ccr-928a2344-tri4zq`, noch nicht auf Pro-main)
+## Nachgezogen 2026-11-09: Pro `bc47aad` (Kasse & Tagesabschluss mit Quittungen und Nachfrage, Branch `ccr-928a2344-tri4zq`, noch nicht auf Pro-main)
 
 588 Dateien, 66 umgeschrieben, 0 entfernt; `sw.js` v291 (Vorrat `blpb-`). Für die PWA wirksam: „Kassenbuch“ heißt „Kasse & Shop“ mit
 Tagesabschluss der offenen Ladenkasse (gezählter Bestand → Tageseinnahme zurückgerechnet, USt heraus, Foto, festgeschrieben, fehlende Tage,
-Eingabe per Sprache) und Quittungsvorlage. Gemessen: `basic_gleichstand` 27 · `run.mjs` 2680/0 · `smoke_tagesabschluss` 30 · `smoke_design` 92.
+Eingabe per Sprache, Nachfrage bei auffällig hoher Einnahme) und Quittungsvorlage (Kopie als Beleg, Durchschläge am Abschluss).
+Gemessen: `basic_gleichstand` 27 · `run.mjs` 2690/0 · `smoke_tagesabschluss` 43 · `smoke_design` 92.
 ⚠ Pin zeigt auf den Pro-Branch; nach dem Merge in Pro auf Pro-main neu pinnen. Nicht am Tablet.
 
