@@ -1,11 +1,11 @@
 {
  "pro": "lausiklauskn-png/BookLedgerPro",
- "proCommit": "8e1113a55e8dfd18f44d33fd2281284e463b6e4b",
+ "proCommit": "d6dcacdc54a6141efdd969bf8ac3e62a182840bc",
  "nachgezogenAm": "2026-11-09",
  "regeln": 3,
- "anzahl": 643,
- "umgeschrieben": 70,
- "baumHash": "9133799fcf64ee5a693247333d371765a28ac42529019704ef544f03de5ac762",
+ "anzahl": 648,
+ "umgeschrieben": 71,
+ "baumHash": "17545168f38af9f9b18f6cc93301b976c80265e2daa70e0c005f934aad97d0a9",
  "dateien": [
   {
    "pfad": ".github/workflows/ci.yml",
@@ -565,7 +565,7 @@
   },
   {
    "pfad": "assets/app.css",
-   "sha256": "9799976c15c535d2b71bad4464704e003c8c090ac6be1598fa9aaf0fc6da6a68"
+   "sha256": "6840ac549ee915e0414fc4857457baffe894f59f9a372a22d115102655a94f52"
   },
   {
    "pfad": "assets/blp-icons.svg",
@@ -670,6 +670,14 @@
   {
    "pfad": "assets/pb-icons.svg",
    "sha256": "a75e7c8fbef3f015d6686b1f2b8eb1c2ae9f2935167a7c49a9773efcfc8eea2e"
+  },
+  {
+   "pfad": "assets/pro-verbund.herkunft.json",
+   "sha256": "35c8a43e1a5e85b63110e3d041be79f6b0862ef667766f8e09a2a8b1b7036423"
+  },
+  {
+   "pfad": "assets/pro-verbund.html",
+   "sha256": "3cbe20f19bf82a72591eded54679c5338b2d4e6a29034c01a46728a68853220d"
   },
   {
    "pfad": "assets/pruefer-anhang.js",
@@ -2133,7 +2141,7 @@
   },
   {
    "pfad": "src/ui/i18n.js",
-   "sha256": "963276ed546859e5b3c7d5f2e808e3bf98f494f1af3a36a886ae14d52d52f1d8"
+   "sha256": "c7c48d985bb8396bc168952d3fe6aeab8d5a5a5d6664bcd25b391815ff573da2"
   },
   {
    "pfad": "src/ui/icons.js",
@@ -2189,7 +2197,7 @@
   },
   {
    "pfad": "src/ui/shell.js",
-   "sha256": "0e8c2a533529452ae1d365270a26b035ee80c5a40ab4a2facbc0722c42510651"
+   "sha256": "dd7e54a2ce535875dd5b013c2161a35d76ebc35e945f584b699d5cdd6ae7c14c"
   },
   {
    "pfad": "src/ui/strich.js",
@@ -2208,6 +2216,10 @@
    "sha256": "4591c310dd519f22b5cd8c9cd59c192ce0b30ed6a49d688c0039d9d491789622"
   },
   {
+   "pfad": "src/ui/verbundKarte.js",
+   "sha256": "2dac09a57708b10d2dbbcaa6ddb9ba1cb279cc7f9e16fc59f2f53286aa35c036"
+  },
+  {
    "pfad": "src/ui/views/accounts.js",
    "sha256": "32afb9d2348836d241ad9740cf6f7b4953291c2cb0e23b818778aede34c8b081"
   },
@@ -2221,7 +2233,7 @@
   },
   {
    "pfad": "src/ui/views/anleitung.js",
-   "sha256": "098ab1dacc6c7779f6bed71bcd6a9dde59fdfb746b002600c43cfaedaa1bacf0"
+   "sha256": "9dfe9f107fefedf50a05280aa80f4e069129c43aa0f4c319b62ce2f22fee0318"
   },
   {
    "pfad": "src/ui/views/apps.js",
@@ -2313,7 +2325,7 @@
   },
   {
    "pfad": "sw.js",
-   "sha256": "63d64eca6a88704f9e8827e0d37c638172593bc26491c75a2b843a4b1973b6a0"
+   "sha256": "ff65eb56e5dcf5bea0717912b60bf62accd411e0cb5edde13b64cbe77d6e6027"
   },
   {
    "pfad": "tests/daten/Testbild-versteckte-Anweisung.png",
@@ -2345,7 +2357,7 @@
   },
   {
    "pfad": "tests/run.mjs",
-   "sha256": "86e25a6adcca9942b90190ea587cf78196d5e56c2b2ee70bd84fc2f5e6a69454"
+   "sha256": "b30ec63c41f9faa9d8c1f89c218d20f9331e0a748750371282f0970c4d0ee27b"
   },
   {
    "pfad": "tests/smoke_a5_antwortpfad.mjs",
@@ -2464,6 +2476,10 @@
    "sha256": "a15733e599cc57442f603d0baccab713906edcf484b982074f788795c610f260"
   },
   {
+   "pfad": "tests/smoke_verbund.mjs",
+   "sha256": "ad1abb2b2c106792467c98d67ed983fe9f9d13f41d0776a0b78d9d4a1bc31944"
+  },
+  {
    "pfad": "tests/smoke_vorgang.mjs",
    "sha256": "2ffdf4388f8f0a61f927dd99d8b191375ba3bcaf1da463115a20b44e43932884"
   },
@@ -2490,6 +2506,10 @@
   {
    "pfad": "tools/mint_spore.mjs",
    "sha256": "3de7f3e3029aa68a0fac91639e340208b3c50976525ca26d0a7d60605dbe47eb"
+  },
+  {
+   "pfad": "tools/verbund-nachziehen.mjs",
+   "sha256": "6ff98fab3fc9ad2cb1e4615d1430de27e306291fdf78461b9373e78a8b77d8e1"
   },
   {
    "pfad": "tools/verify_remote_spore.mjs",

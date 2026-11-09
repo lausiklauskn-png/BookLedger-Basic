@@ -288,3 +288,9 @@ Gemessen: `basic_gleichstand` 27 · `run.mjs` 2697/0 · `smoke_buchhaltungen` 9.
 643 Dateien, 70 umgeschrieben, 0 entfernt; `sw.js` v294 (Vorrat `blpb-`). Für die PWA wirksam: drei Kacheln oben auf der Übersicht (Umsatzsteuer
 mit Fälligkeit, Rücklage für Steuern, Kasse heute; nicht im Modus Privat). Das Übernehmen aus dem Tresor-Eingang gilt nur in der App (`native/`).
 Gemessen: `basic_gleichstand` 27 · `run.mjs` 2707/0 · `smoke_startseite` 9 · `smoke_buchhaltungen` 9. ⚠ Nicht am Tablet.
+
+## Nachgezogen 2026-11-09 (Abend): Pro `d6dcacd` (#459–#461: Verbund-Karte als Vorschau-Hilfe)
+
+648 Dateien, 71 umgeschrieben, 0 entfernt; `sw.js` v295 (Vorrat `blpb-`). Für die PWA wirksam: Kasten „Pro-App-Verbund (Vorschau)“ in der Anleitung
+und unter „Über“; die Karte (`assets/pro-verbund.html`, byte-gleich aus Pro) öffnet im Vollbild-Rahmen, Basic-Varianten darin ab Werk verdeckt.
+Gemessen: `basic_gleichstand` 27 · `run.mjs` 2716/0 · `smoke_verbund` 17. ⚠ Nicht am Tablet.
