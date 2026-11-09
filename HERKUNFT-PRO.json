@@ -1,11 +1,11 @@
 {
  "pro": "lausiklauskn-png/BookLedgerPro",
- "proCommit": "9d65da71ba2a3557daa54cbcab98f7dd15b3c47f",
- "nachgezogenAm": "2026-11-05",
+ "proCommit": "c7cfb4cf69b1f9a52b8d188246d8c3f6a6510491",
+ "nachgezogenAm": "2026-11-09",
  "regeln": 3,
- "anzahl": 583,
+ "anzahl": 588,
  "umgeschrieben": 66,
- "baumHash": "336216f892545cfef87e5aee23e03b7a5d76064aefd45db581db7b490df3c3fd",
+ "baumHash": "a5995c85452254693a012547329f1cec2c938abc76ddf04b705b431e8647cfab",
  "dateien": [
   {
    "pfad": ".github/workflows/ci.yml",
@@ -565,7 +565,7 @@
   },
   {
    "pfad": "assets/app.css",
-   "sha256": "a6eefb4e30be943c0252ea7c62c93cf1e6390c66016fea413d801e227409f8c2"
+   "sha256": "958a646ccdd585a81399c190c1e087057609e4a6c74e279de22ced26b2465d40"
   },
   {
    "pfad": "assets/blp-icons.svg",
@@ -849,7 +849,7 @@
   },
   {
    "pfad": "docs/STUNDENNACHWEIS.md",
-   "sha256": "7d738a025c66e91b08e219aac718ca9107908c80aa182a67a7af814953accf9f"
+   "sha256": "1b43bd410c0af851c2a3cf39be200a015fc4a25de135acb3a34abaca5efe6633"
   },
   {
    "pfad": "docs/TESTDATEN.md",
@@ -902,6 +902,10 @@
   {
    "pfad": "docs/archiv/CLAUDE-2026-08-22.md",
    "sha256": "b939ae1d58fe3dd8c206cb76263ec3cad1e35a68c0cdd7a62b7d6997b979b218"
+  },
+  {
+   "pfad": "docs/design/BAUPLAN-NEUAUSRICHTUNG-2026-11-09.md",
+   "sha256": "b604a6e5eb0453cc58429219c77e441397bdfbdabf02482f93f14903515457cc"
   },
   {
    "pfad": "docs/design/BEFUND-OFFLINE-UEBERSETZUNG-2026-10-26.md",
@@ -1792,6 +1796,14 @@
    "sha256": "ae87b45fd0fbd6fab5a5b34d3815ec211379987ce6a2e2c022ecef914144f1d6"
   },
   {
+   "pfad": "src/domain/tagesabschluss-store.js",
+   "sha256": "058f974c727e0f0bcac080c42dabd2a80551e9ebe3df3ffbe6b7ca6301baf5c6"
+  },
+  {
+   "pfad": "src/domain/tagesabschluss.js",
+   "sha256": "d820733d7fbb278fd5b1a48aefafad31f5a083f81a651815de51931ced21b95c"
+  },
+  {
    "pfad": "src/domain/taxes.js",
    "sha256": "e9a6443c207741770f2282affa2986404c6b83a4a0c877c0312db1c6f35c79ed"
   },
@@ -1921,7 +1933,7 @@
   },
   {
    "pfad": "src/ui/i18n.js",
-   "sha256": "e297cc4d3d9c445ef50442b0651205402a2a9c6f1eb2e39c0eb95878ff223eec"
+   "sha256": "56038f4cf28f43ce80d1bcf6710d9418e0cb9d3406a79678a08adc682fe12023"
   },
   {
    "pfad": "src/ui/icons.js",
@@ -2037,7 +2049,7 @@
   },
   {
    "pfad": "src/ui/views/kassenbuch.js",
-   "sha256": "6d6ba582e98f0ae2f148354607179edb9b6f1e8d9ad34b9f4ac9d4355f7a8b59"
+   "sha256": "107cbf6a265eaecf6863188b95793152b78d96830580340efcc17fe43e711889"
   },
   {
    "pfad": "src/ui/views/legal.js",
@@ -2084,6 +2096,10 @@
    "sha256": "ff34d67eae7edb9bf20162164b5e715422c41756b43e4eedb812d35006067561"
   },
   {
+   "pfad": "src/ui/views/tagesabschluss.js",
+   "sha256": "9b58d3e342404197f660be06c5398ce2c2285956ee17e73e6eca704ca1439d19"
+  },
+  {
    "pfad": "src/ui/views/tresorordner.js",
    "sha256": "45b920a14b88dff7092640daeb944a5368e8266e254c3256b84bb13f718cb7b4"
   },
@@ -2093,7 +2109,7 @@
   },
   {
    "pfad": "sw.js",
-   "sha256": "c71b407778d1c302ddb5da625652e55cc2dec525490b811223e335689d8edc9e"
+   "sha256": "6134f6e439783523083c8b451fa221388a7c1042fc3f860c8efc564022c71246"
   },
   {
    "pfad": "tests/daten/Testbild-versteckte-Anweisung.png",
@@ -2125,7 +2141,7 @@
   },
   {
    "pfad": "tests/run.mjs",
-   "sha256": "ff5f28cd7e3c1517d574472f07651327a7ffa37f103beffedbcb0bae94316eeb"
+   "sha256": "86a3783e5172abb78f4853de4e8294609ecf46464b7f8704ab8e60421731099f"
   },
   {
    "pfad": "tests/smoke_a5_antwortpfad.mjs",
@@ -2198,6 +2214,10 @@
   {
    "pfad": "tests/smoke_scanner.mjs",
    "sha256": "21a015699fcd1e6322da8627d251ba55dd6d0171fff46e586630259fb6b331e9"
+  },
+  {
+   "pfad": "tests/smoke_tagesabschluss.mjs",
+   "sha256": "1a5948633dd7c9c81746ae9b18ff692e9d8b8de4292f08aacc307ca5021f016a"
   },
   {
    "pfad": "tests/smoke_teilen.mjs",
