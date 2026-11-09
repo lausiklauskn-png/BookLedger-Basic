@@ -5180,8 +5180,11 @@ await section('Modus: NAV-Ansichten-Gating', () => {
     'payables', 'orders', 'angebote', 'calculate', 'needs', 'shopbuchung', 'nachkalkulation', 'customers', 'employees', 'lohn', 'reports', 'berichte',
     'network', 'sbkimsuche', 'safebox', 'legal', 'anleitung', 'selbsttest', 'about', 'settings'];
   ok('Berater: alle Ansichten sichtbar (alte BLP-Angebote nur mit angeboteAlt, Klaus 2026-10-26)', sichtbareAnsichten({ nutzungsmodus: 'berater', angeboteAlt: true }, NAV_KEYS).length === NAV_KEYS.length && sichtbareAnsichten({ nutzungsmodus: 'berater' }, NAV_KEYS).length === NAV_KEYS.length - 1);
-  ok('Selbstständig: alle Ansichten sichtbar', NAV_KEYS.every((k) => zeigeAnsicht({ nutzungsmodus: 'selbststaendig', angeboteAlt: true }, k)));
-  ok('Default (kein Modus) = voller Umfang', sichtbareAnsichten({ angeboteAlt: true }, NAV_KEYS).length === NAV_KEYS.length);
+  // Ausmisten (Klaus 2026-11-09, J3): Lohn/Mitarbeiter/Nachkalkulation nur mit „Profi-Funktionen“ (Berater immer).
+  ok('Selbstständig mit Profi: alle Ansichten sichtbar', NAV_KEYS.every((k) => zeigeAnsicht({ nutzungsmodus: 'selbststaendig', angeboteAlt: true, profiFunktionen: true }, k)));
+  ok('Selbstständig ohne Profi: Lohn, Mitarbeiter, Nachkalkulation weg, sonst alles', NAV_KEYS.every((k) => zeigeAnsicht({ nutzungsmodus: 'selbststaendig', angeboteAlt: true }, k) === !['employees', 'lohn', 'nachkalkulation'].includes(k)));
+  ok('Default (kein Modus) mit Profi = voller Umfang', sichtbareAnsichten({ angeboteAlt: true, profiFunktionen: true }, NAV_KEYS).length === NAV_KEYS.length);
+  ok('Profi aus: Kasse & Shop, Belege, Rechnungen bleiben', ['kassenbuch', 'documents', 'orders', 'shopbuchung', 'customers', 'reports'].every((k) => zeigeAnsicht({ nutzungsmodus: 'selbststaendig' }, k)));
   const klein = sichtbareAnsichten({ nutzungsmodus: 'kleinunternehmer' }, NAV_KEYS);
   ok('Kleinunternehmer: ohne Mitarbeiter/Lohn', !klein.includes('employees') && !klein.includes('lohn'));
   ok('Kleinunternehmer: Belege, Journal, Aufträge, Kunden, Auswertung bleiben', ['documents', 'journal', 'orders', 'customers', 'reports', 'calculate', 'needs'].every((k) => klein.includes(k)));
@@ -5202,7 +5205,9 @@ await section('Modus: NAV-Ansichten-Gating', () => {
 await section('Modus: fachliche Feature-Gates und Einstellungs-Abschnitte', () => {
   ok('FEATURE_LISTE vollständig', FEATURE_LISTE.length === 10 && FEATURE_LISTE.includes(FEATURE.MANDANTEN) && FEATURE_LISTE.includes(FEATURE.JOURNAL));
   ok('Berater: alle Features', FEATURE_LISTE.every((f) => zeigeFeature({ nutzungsmodus: 'berater' }, f)));
-  ok('Selbstständig: alles außer Berater-Export/Mandanten', FEATURE_LISTE.every((f) => zeigeFeature({ nutzungsmodus: 'selbststaendig' }, f) === (f !== FEATURE.BERATER_EXPORT && f !== FEATURE.MANDANTEN)));
+  ok('Selbstständig mit Profi: alles außer Berater-Export/Mandanten', FEATURE_LISTE.every((f) => zeigeFeature({ nutzungsmodus: 'selbststaendig', profiFunktionen: true }, f) === (f !== FEATURE.BERATER_EXPORT && f !== FEATURE.MANDANTEN)));
+  ok('Selbstständig ohne Profi: auch ohne Mitarbeiter und Kostenstellen', !zeigeFeature({ nutzungsmodus: 'selbststaendig' }, FEATURE.MITARBEITER) && !zeigeFeature({ nutzungsmodus: 'selbststaendig' }, FEATURE.KOSTENSTELLEN) && zeigeFeature({ nutzungsmodus: 'selbststaendig' }, FEATURE.UMSATZSTEUER));
+  ok('Bilanz-Wahl: nur mit Profi, außer man bilanziert schon', !zeigeEinstellung({ nutzungsmodus: 'selbststaendig' }, EINSTELLUNG.GEWINNERMITTLUNG) && zeigeEinstellung({ nutzungsmodus: 'selbststaendig', gewinnermittlung: 'bilanz' }, EINSTELLUNG.GEWINNERMITTLUNG) && zeigeEinstellung({ nutzungsmodus: 'selbststaendig', profiFunktionen: true }, EINSTELLUNG.GEWINNERMITTLUNG));
   ok('Kleinunternehmer: keine USt, keine Mitarbeiter/Kostenstellen', !zeigeFeature({ nutzungsmodus: 'kleinunternehmer' }, FEATURE.UMSATZSTEUER) &&
     !zeigeFeature({ nutzungsmodus: 'kleinunternehmer' }, FEATURE.MITARBEITER) && !zeigeFeature({ nutzungsmodus: 'kleinunternehmer' }, FEATURE.KOSTENSTELLEN) &&
     zeigeFeature({ nutzungsmodus: 'kleinunternehmer' }, FEATURE.RECHNUNGEN) && zeigeFeature({ nutzungsmodus: 'kleinunternehmer' }, FEATURE.JOURNAL));
@@ -7175,7 +7180,7 @@ await section('Tresorordner (Schritt C/C2, Klaus 2026-10-27): Sicherung, Fällig
   ok('Ohne Suchwort: alles, neueste zuerst', to.eintraegeSuchen(faecher, '').map((x) => x.eintrag.id).join() === 'm,1');
   ok('Öffnen nur im gemeinsamen Format; Sicherung nur aus „Sicherung/“', to.oeffenbar(faecher[0].eintraege[0]) && !to.oeffenbar(faecher[1].eintraege[0]) && to.istSicherung({ verschluesselung: 'fpt1', verweis: 'Sicherung/a.fpt' }) && !to.istSicherung({ verschluesselung: 'fpt1', verweis: 'Belege/a.fpt' }));
   ok('Fehlertexte: falsches Passwort sagt „nichts verändert“, Unbekanntes nennt den Code', /nichts verändert/.test(to.fehlerText(new Error('TRESOR_PASSWORT_FALSCH'))) && /XYZ/.test(to.fehlerText('XYZ')));
-  ok('Fächer: fünf, eigenes und Eingang zuerst', to.FAECHER.length === 5 && to.FAECHER[0].eigen && to.FAECHER[1].eingang);
+  ok('Fächer: alle neun (auch Familienakte), eigenes und Eingang zuerst, jede mit App-Namen', to.FAECHER.length === 9 && to.FAECHER[0].eigen && to.FAECHER[1].eingang && to.FAECHER.some((f) => f.fach === 'familienakte' && f.app === 'Meine Familienakte') && to.FAECHER.every((f) => f.app));
   const sh = _readSpore(new URL('../src/ui/shell.js', import.meta.url), 'utf8');
   ok('Shell: Ansicht nur mit Brücke sichtbar (PWA ohne window.BLPNative.tresor zeigt sie nicht), Route verdrahtet', /k !== 'tresorordner' \|\| tresorordnerVerfuegbar\(\)/.test(sh) && /route === 'tresorordner'\) return void mountTresorordner\(content\)/.test(sh));
   const sw = _readSpore(new URL('../sw.js', import.meta.url), 'utf8');
@@ -7359,7 +7364,7 @@ await section('Pro-Umbau 13 (Klaus 2026-10-30): Chefcode-Ausschnitt nur im eigen
     ok('App-Paket lädt pro-ueberall.css/.js und pro-chefcode.js', ['pro-ueberall.js', 'pro-ueberall.css', 'pro-chefcode.js'].every((n) => pw.includes("'" + n + "'")));
     const gr = _readSpore(new URL('../android/app/build.gradle', import.meta.url), 'utf8');
     const tc = JSON.parse(_readSpore(new URL('../windows/src-tauri/tauri.conf.json', import.meta.url), 'utf8'));
-    ok('Version 0.1.9 · Code 10 (Android), Windows gleich', /versionCode 10\b/.test(gr) && /versionName "0\.1\.9"/.test(gr) && tc.version === '0.1.9');
+    ok('Version 0.1.10 · Code 11 (Android), Windows gleich', /versionCode 11\b/.test(gr) && /versionName "0\.1\.10"/.test(gr) && tc.version === '0.1.10');
   }
   const i18 = _readSpore(new URL('../src/ui/i18n.js', import.meta.url), 'utf8');
   const keys = [...new Set([...nw.matchAll(/t\('(net\.ausschnitt[A-Za-z]*)'\)/g)].map((x) => x[1]))];
@@ -7458,6 +7463,10 @@ await section('Tagesabschluss offene Ladenkasse (Klaus 2026-11-09, Weg c)', asyn
   ok('Store: ohne Bestätigung kein Abschluss bei auffälliger Einnahme', /if \(auff\.auffaellig && !opt\.auffaelligBestaetigt\)/.test(stq));
   ok('Store: Quittungen werden verknüpft, nicht gebucht (kein saveEntwurf für Quittungen)', /linkBeleg\(bid, einnahmeId\)/.test(stq) && !/quittung[^\n]*saveEntwurf/.test(stq));
   ok('Ansicht: gedruckte Quittung wird als Beleg abgelegt', /quittungAblegen\(q, bytes\)/.test(tvq));
+  // Abschluss stornieren (K2) und Ruhetage (K3)
+  const stS = _readSpore(new URL('../src/domain/tagesabschluss-store.js', import.meta.url), 'utf8');
+  ok('Storno: Gegenbuchung über store.storno, Abschluss archiviert (nicht gelöscht ohne Kopie)', /await storno\(bid\)/.test(stS) && stS.indexOf("type: 'tagesabschluss-storniert'") > 0 && stS.indexOf('await encPut(archiv)') < stS.indexOf('await encDel(rec.id)'));
+  ok('Ruhetage: Montag zusätzlich frei', !T.fehlendeTage(['2026-11-02'], { bis: '2026-11-09', ruhetage: [0, 1] }).includes('2026-11-09') && T.fehlendeTage(['2026-11-02'], { bis: '2026-11-09', ruhetage: [] }).includes('2026-11-08'));
   // Verdrahtung
   const kv = _readSpore(new URL('../src/ui/views/kassenbuch.js', import.meta.url), 'utf8');
   ok('Kasse & Shop zeigt Tagesabschluss, Quittung und den Weg zur Shop-Übernahme', /tagesabschlussKarte\(/.test(kv) && /quittungKarte\(/.test(kv) && /navigate\('shopbuchung'\)/.test(kv));

@@ -260,6 +260,14 @@ Kein physischer Tablet-Test; kein neues Windows-/Android-Paket in diesem PWA-Rep
 Beleg-Vorschau. „Tresor & Ablage“, „Wo liegt was?“ und „Tresor einrichten – nur Speicher wählen“ gelten nur in der App (`window.BLPNative`).
 Gemessen: `basic_gleichstand` 27 · `run.mjs` 2650/0 · `smoke_design` 92 · `smoke_tresorplan` ohne `native/` ehrlich ausgelassen. ⚠ Nicht am Tablet.
 
+## Nachgezogen 2026-11-09: Pro-main `005c1c5` (#456: Kasse & Shop, Ausmisten, Brücken, 0.1.10)
+
+639 Dateien, 68 umgeschrieben, 0 entfernt; `sw.js` v292 (Vorrat `blpb-`). Für die PWA wirksam: „Kasse & Shop“ mit Tagesabschluss (zählen,
+Sprache, Foto, Quittungen, Nachfrage bei auffällig hoher Einnahme, Stornieren, Ruhetage) und Quittungsvorlage; Schalter „Profi-Funktionen“
+(Lohn/Mitarbeiter, Nachkalkulation, Kostenstellen, Bilanz-Wahl ab Werk aus). Die Suche in den Tresor-Fächern der anderen Pro-Apps gilt nur in
+der App (`native/`). Neu mitgekommen: 48 archivierte Pro-Briefe unter `docs/archiv/briefe/`. Gemessen: `basic_gleichstand` 27 · `run.mjs` 2696/0 ·
+`smoke_tagesabschluss` 48 · `smoke_design` 92 · `smoke_tresorfund` ohne `native/` ehrlich ausgelassen. ⚠ Nicht am Tablet.
+
 ## Nachgezogen 2026-11-09: Pro `bc47aad` (Kasse & Tagesabschluss mit Quittungen und Nachfrage, Branch `ccr-928a2344-tri4zq`, noch nicht auf Pro-main)
 
 588 Dateien, 66 umgeschrieben, 0 entfernt; `sw.js` v291 (Vorrat `blpb-`). Für die PWA wirksam: „Kassenbuch“ heißt „Kasse & Shop“ mit
