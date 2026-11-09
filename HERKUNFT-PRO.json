@@ -1,11 +1,11 @@
 {
  "pro": "lausiklauskn-png/BookLedgerPro",
- "proCommit": "511cefc4cf8f736ba85c121c30a88d61ff685ea8",
+ "proCommit": "8e1113a55e8dfd18f44d33fd2281284e463b6e4b",
  "nachgezogenAm": "2026-11-09",
  "regeln": 3,
- "anzahl": 640,
- "umgeschrieben": 68,
- "baumHash": "10e017eebb0f01315f94b47a07eba3808759e9241e8af49a9ce3f73d589fdbfd",
+ "anzahl": 643,
+ "umgeschrieben": 70,
+ "baumHash": "9133799fcf64ee5a693247333d371765a28ac42529019704ef544f03de5ac762",
  "dateien": [
   {
    "pfad": ".github/workflows/ci.yml",
@@ -565,7 +565,7 @@
   },
   {
    "pfad": "assets/app.css",
-   "sha256": "958a646ccdd585a81399c190c1e087057609e4a6c74e279de22ced26b2465d40"
+   "sha256": "9799976c15c535d2b71bad4464704e003c8c090ac6be1598fa9aaf0fc6da6a68"
   },
   {
    "pfad": "assets/blp-icons.svg",
@@ -1984,6 +1984,10 @@
    "sha256": "83e235b5f56843b13bca0a71eb818d6ae656273c409d71204fd09705a1b3d8f2"
   },
   {
+   "pfad": "src/domain/startKacheln.js",
+   "sha256": "9f6339078f653f5f94ebadaa918397b227bad2d4add6613771ef420bfcd9648a"
+  },
+  {
    "pfad": "src/domain/store.js",
    "sha256": "911563a383f525c0eb9691c36e25ec4d98f6d2358274d973ff86b61f36aae7cb"
   },
@@ -2101,7 +2105,7 @@
   },
   {
    "pfad": "src/state.js",
-   "sha256": "fa2cd75aa94ba7eda3065035d7469e86a2efdb811624f8bb8751e0171bb9de96"
+   "sha256": "ded369357c71c11a511cf68c70d5d9266020f68a8163000cb7649af6f40cb054"
   },
   {
    "pfad": "src/ui/belegDialoge.js",
@@ -2129,7 +2133,7 @@
   },
   {
    "pfad": "src/ui/i18n.js",
-   "sha256": "62962b34efa899bdafe68cc8e92c9db71b0fc872c827966daedb3d06058dde1b"
+   "sha256": "963276ed546859e5b3c7d5f2e808e3bf98f494f1af3a36a886ae14d52d52f1d8"
   },
   {
    "pfad": "src/ui/icons.js",
@@ -2185,7 +2189,7 @@
   },
   {
    "pfad": "src/ui/shell.js",
-   "sha256": "d42af5597dcc5b0bd96a221126e30bde4f9f5cd2341e419ad67905a396df86ca"
+   "sha256": "0e8c2a533529452ae1d365270a26b035ee80c5a40ab4a2facbc0722c42510651"
   },
   {
    "pfad": "src/ui/strich.js",
@@ -2233,11 +2237,11 @@
   },
   {
    "pfad": "src/ui/views/dashboard.js",
-   "sha256": "82caede545ecff878c8ed9c3b690475aaa43e0d60bd7eea20ce4fd876d25318d"
+   "sha256": "ffbcf8db194e1c1ffa53d0b2f785b860ec6b0f7e285e5320910353057359737b"
   },
   {
    "pfad": "src/ui/views/documents.js",
-   "sha256": "82d86f8a759e383a7a7cbed1e25ddac6f25b9906601552246dcbc6a54b3fb755"
+   "sha256": "0647004972346312b7bf321c6bfe6106224d7cd393a117d802dded8cbc266f2c"
   },
   {
    "pfad": "src/ui/views/employees.js",
@@ -2301,7 +2305,7 @@
   },
   {
    "pfad": "src/ui/views/tresorordner.js",
-   "sha256": "45b920a14b88dff7092640daeb944a5368e8266e254c3256b84bb13f718cb7b4"
+   "sha256": "046559d3629ee844a1f1d9687dce7c3ad466bd5580f4ee8b0a252f927c9c81ab"
   },
   {
    "pfad": "src/ui/woLiegtWas.js",
@@ -2309,7 +2313,7 @@
   },
   {
    "pfad": "sw.js",
-   "sha256": "b5e6088783757f18641889f5975f9074058a2603850deabdf8461e8b2d6d70c7"
+   "sha256": "63d64eca6a88704f9e8827e0d37c638172593bc26491c75a2b843a4b1973b6a0"
   },
   {
    "pfad": "tests/daten/Testbild-versteckte-Anweisung.png",
@@ -2341,7 +2345,7 @@
   },
   {
    "pfad": "tests/run.mjs",
-   "sha256": "661f831fbe87d4346440afb288739550f22be8287344a323d07287d9aadb43d4"
+   "sha256": "86e25a6adcca9942b90190ea587cf78196d5e56c2b2ee70bd84fc2f5e6a69454"
   },
   {
    "pfad": "tests/smoke_a5_antwortpfad.mjs",
@@ -2392,6 +2396,10 @@
    "sha256": "085a597f95edbe8b7ef16de6ee64eea72131ccce6614c5921a193ef7375c3ed8"
   },
   {
+   "pfad": "tests/smoke_eingang.mjs",
+   "sha256": "956131bc7280a79a38eaa79402ec0dcd5445e63ea849692a0066169dd2a6cb31"
+  },
+  {
    "pfad": "tests/smoke_frage.mjs",
    "sha256": "24ba47e249937200c84c4bc10208c1567554e2c392cecac696f4624b2ee68e18"
   },
@@ -2413,11 +2421,15 @@
   },
   {
    "pfad": "tests/smoke_ohne_web.mjs",
-   "sha256": "47db1f1b65ebeb8276c196f098f12ca183bff8ef068f16d11328a7d0d8986e0d"
+   "sha256": "2aafe972dcf0230887035926186f34248b17b9247dc9582cccd7fec91fe00ee5"
   },
   {
    "pfad": "tests/smoke_scanner.mjs",
    "sha256": "21a015699fcd1e6322da8627d251ba55dd6d0171fff46e586630259fb6b331e9"
+  },
+  {
+   "pfad": "tests/smoke_startseite.mjs",
+   "sha256": "523c034d90bdc9dfc4705c23ba0421117c4689d3609f868635baf5093a0ff68a"
   },
   {
    "pfad": "tests/smoke_tagesabschluss.mjs",
