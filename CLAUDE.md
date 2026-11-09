@@ -276,3 +276,9 @@ Eingabe per Sprache, Nachfrage bei auffällig hoher Einnahme) und Quittungsvorla
 Gemessen: `basic_gleichstand` 27 · `run.mjs` 2690/0 · `smoke_tagesabschluss` 43 · `smoke_design` 92.
 ⚠ Pin zeigt auf den Pro-Branch; nach dem Merge in Pro auf Pro-main neu pinnen. Nicht am Tablet.
 
+
+## Nachgezogen 2026-11-09 (spät): Pro `511cefc` (#457: Buchhaltung statt Mandant, 0.1.11)
+
+640 Dateien, 68 umgeschrieben, 0 entfernt; `sw.js` v293 (Vorrat `blpb-`). Für die PWA wirksam: das Startbild zeigt kein „+ Neuer Mandant“ mehr,
+sichtbar heißt es „Buchhaltung“ (Laden, zweiter Laden, Haushalt); weitere Buchhaltung in den Einstellungen „Buchhaltungen auf diesem Gerät“, in jedem Modus.
+Gemessen: `basic_gleichstand` 27 · `run.mjs` 2697/0 · `smoke_buchhaltungen` 9. ⚠ Nicht am Tablet.
