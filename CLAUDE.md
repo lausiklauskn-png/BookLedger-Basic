@@ -282,3 +282,9 @@ Gemessen: `basic_gleichstand` 27 · `run.mjs` 2690/0 · `smoke_tagesabschluss` 4
 640 Dateien, 68 umgeschrieben, 0 entfernt; `sw.js` v293 (Vorrat `blpb-`). Für die PWA wirksam: das Startbild zeigt kein „+ Neuer Mandant“ mehr,
 sichtbar heißt es „Buchhaltung“ (Laden, zweiter Laden, Haushalt); weitere Buchhaltung in den Einstellungen „Buchhaltungen auf diesem Gerät“, in jedem Modus.
 Gemessen: `basic_gleichstand` 27 · `run.mjs` 2697/0 · `smoke_buchhaltungen` 9. ⚠ Nicht am Tablet.
+
+## Nachgezogen 2026-11-09 (Abend): Pro `8e1113a` (#458: Startseite für Betriebe, Eingang übernehmen, 0.1.12)
+
+643 Dateien, 70 umgeschrieben, 0 entfernt; `sw.js` v294 (Vorrat `blpb-`). Für die PWA wirksam: drei Kacheln oben auf der Übersicht (Umsatzsteuer
+mit Fälligkeit, Rücklage für Steuern, Kasse heute; nicht im Modus Privat). Das Übernehmen aus dem Tresor-Eingang gilt nur in der App (`native/`).
+Gemessen: `basic_gleichstand` 27 · `run.mjs` 2707/0 · `smoke_startseite` 9 · `smoke_buchhaltungen` 9. ⚠ Nicht am Tablet.
