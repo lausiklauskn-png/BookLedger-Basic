@@ -1,11 +1,11 @@
 {
  "pro": "lausiklauskn-png/BookLedgerPro",
- "proCommit": "d6dcacdc54a6141efdd969bf8ac3e62a182840bc",
- "nachgezogenAm": "2026-11-09",
+ "proCommit": "a705ed5a618a756d193f958472a6ccca04cc780e",
+ "nachgezogenAm": "2026-11-11",
  "regeln": 3,
  "anzahl": 648,
  "umgeschrieben": 71,
- "baumHash": "17545168f38af9f9b18f6cc93301b976c80265e2daa70e0c005f934aad97d0a9",
+ "baumHash": "e658a1a574b4744c4e6138c057e77b5d3c931bb1cd49ca90dc539bfdb718c1f7",
  "dateien": [
   {
    "pfad": ".github/workflows/ci.yml",
@@ -673,11 +673,11 @@
   },
   {
    "pfad": "assets/pro-verbund.herkunft.json",
-   "sha256": "35c8a43e1a5e85b63110e3d041be79f6b0862ef667766f8e09a2a8b1b7036423"
+   "sha256": "c2ecd6dfab455712e76939fe94b96ef9f395454378e6a7e2db49c3cde15ebe96"
   },
   {
    "pfad": "assets/pro-verbund.html",
-   "sha256": "3cbe20f19bf82a72591eded54679c5338b2d4e6a29034c01a46728a68853220d"
+   "sha256": "eb857a6a5bd7143183d1bb5e98d9b78f8340b43685a52c89671f0796762b6cc0"
   },
   {
    "pfad": "assets/pruefer-anhang.js",
@@ -857,7 +857,7 @@
   },
   {
    "pfad": "docs/STUNDENNACHWEIS.md",
-   "sha256": "1b43bd410c0af851c2a3cf39be200a015fc4a25de135acb3a34abaca5efe6633"
+   "sha256": "9a68f74357153e7a70f1c849c4b19809d890d617e6eb5ff449aa26ea7fa95829"
   },
   {
    "pfad": "docs/TESTDATEN.md",
@@ -2325,7 +2325,7 @@
   },
   {
    "pfad": "sw.js",
-   "sha256": "ff65eb56e5dcf5bea0717912b60bf62accd411e0cb5edde13b64cbe77d6e6027"
+   "sha256": "a75a018faf3376ea023f4768c32ff8112595c15ec297063b7778cd7fd308829e"
   },
   {
    "pfad": "tests/daten/Testbild-versteckte-Anweisung.png",
@@ -2357,7 +2357,7 @@
   },
   {
    "pfad": "tests/run.mjs",
-   "sha256": "b30ec63c41f9faa9d8c1f89c218d20f9331e0a748750371282f0970c4d0ee27b"
+   "sha256": "2c35ba270ab9266a4b5caf26708a8bedb8d5481a208cf391c74d8fba93943be6"
   },
   {
    "pfad": "tests/smoke_a5_antwortpfad.mjs",
@@ -2509,7 +2509,7 @@
   },
   {
    "pfad": "tools/verbund-nachziehen.mjs",
-   "sha256": "6ff98fab3fc9ad2cb1e4615d1430de27e306291fdf78461b9373e78a8b77d8e1"
+   "sha256": "bfcebcc7be2a4c292d20e80a4a5e9aaf3df665f938d900b288d6831739b88c07"
   },
   {
    "pfad": "tools/verify_remote_spore.mjs",

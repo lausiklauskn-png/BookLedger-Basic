@@ -2,6 +2,10 @@
 
 # BookLedger Basic — Sitzungs-Anker
 
+**Nachzug 2026-11-11:** Pro `a705ed5` (#464, Pro-Verbund-Karte ohne Orange, BookLedgerPro 0.1.14).
+648 Dateien, 71 Umschreibungen; Karte jetzt byte-gleich mit der Familienakte (`eb857a6…`). `basic_gleichstand` 27 grün,
+`run.mjs` 2716 bestanden, 0 fehlgeschlagen.
+
 **Nachzug 2026-11-02:** Pro `3ca7bb9` (#446 Gegenprobenbericht der anderen Sitzung).
 Geändert sind nur Stundennachweis und Herkunftspin; 580 Dateien, 64 Umschreibungen.
 `basic_gleichstand`: 27 grün; kopierte Logik: 2641 bestanden, 0 fehlgeschlagen.
