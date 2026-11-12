@@ -2,6 +2,9 @@
 
 # BookLedger Basic — Sitzungs-Anker
 
+**Nachzug 2026-11-12 (abends):** Pro `1887e25` (#466, Belegleser: Datum mit Monatsnamen und Wertung, Steuersatz mit zwei Sätzen/steuerfrei).
+648 Dateien, 72 Umschreibungen; `sw.js` v298 (Vorrat `blpb-`). `basic_gleichstand` 27 grün · `run.mjs` 2775 bestanden, 0 fehlgeschlagen. ⚠ Nicht am Tablet.
+
 **Nachzug 2026-11-12:** Pro `942e781` (#465, Kontierung trainiert: rund 30 Belegarten, Firmenname im Briefkopf erkennt Ausgangsrechnungen).
 648 Dateien, 72 Umschreibungen; `sw.js` v297 (Vorrat `blpb-`). Für die PWA wirksam: der Kontovorschlag ohne KI.
 `basic_gleichstand` 27 grün · `run.mjs` 2744 bestanden, 0 fehlgeschlagen. ⚠ Nicht am Tablet.
