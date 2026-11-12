@@ -2,6 +2,10 @@
 
 # BookLedger Basic — Sitzungs-Anker
 
+**Nachzug 2026-11-12:** Pro `942e781` (#465, Kontierung trainiert: rund 30 Belegarten, Firmenname im Briefkopf erkennt Ausgangsrechnungen).
+648 Dateien, 72 Umschreibungen; `sw.js` v297 (Vorrat `blpb-`). Für die PWA wirksam: der Kontovorschlag ohne KI.
+`basic_gleichstand` 27 grün · `run.mjs` 2744 bestanden, 0 fehlgeschlagen. ⚠ Nicht am Tablet.
+
 **Nachzug 2026-11-11:** Pro `a705ed5` (#464, Pro-Verbund-Karte ohne Orange, BookLedgerPro 0.1.14).
 648 Dateien, 71 Umschreibungen; Karte jetzt byte-gleich mit der Familienakte (`eb857a6…`). `basic_gleichstand` 27 grün,
 `run.mjs` 2716 bestanden, 0 fehlgeschlagen.

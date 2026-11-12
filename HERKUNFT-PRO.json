@@ -1,11 +1,11 @@
 {
  "pro": "lausiklauskn-png/BookLedgerPro",
- "proCommit": "a705ed5a618a756d193f958472a6ccca04cc780e",
- "nachgezogenAm": "2026-11-11",
+ "proCommit": "942e781e091e410e0ef5be6a636cbef673394c35",
+ "nachgezogenAm": "2026-11-12",
  "regeln": 3,
  "anzahl": 648,
- "umgeschrieben": 71,
- "baumHash": "e658a1a574b4744c4e6138c057e77b5d3c931bb1cd49ca90dc539bfdb718c1f7",
+ "umgeschrieben": 72,
+ "baumHash": "4ba687692cc73f178569c69b9246b44bc5d01bd8dcd123087839d7dbbb81acbd",
  "dateien": [
   {
    "pfad": ".github/workflows/ci.yml",
@@ -857,7 +857,7 @@
   },
   {
    "pfad": "docs/STUNDENNACHWEIS.md",
-   "sha256": "9a68f74357153e7a70f1c849c4b19809d890d617e6eb5ff449aa26ea7fa95829"
+   "sha256": "e2ebe27ea79e75c8aa5b6bd3ee7bbfb277f4b39f1e9908aa18b3bff879ab036a"
   },
   {
    "pfad": "docs/TESTDATEN.md",
@@ -1589,7 +1589,7 @@
   },
   {
    "pfad": "src/ai/categorize.js",
-   "sha256": "7b1f9ee2d5d61e299c9d5c679d87ca6d6d76ff6ba6cd4dc927dba65b28c7965a"
+   "sha256": "81b8df8aa38a3cab165ceae1b1a12290f80a5efb4587664beacc60c4b68ec129"
   },
   {
    "pfad": "src/ai/extract.js",
@@ -1601,7 +1601,7 @@
   },
   {
    "pfad": "src/ai/mistral.js",
-   "sha256": "146f89af2dfc034ec2aab5e3ebd2ee7af7aeb176c99400d7d1645971e4630408"
+   "sha256": "ec2fa9d2b4d2a54346d47cba8068eaa7560659757282722a2f53d67035fe3588"
   },
   {
    "pfad": "src/ai/mistralOcr.js",
@@ -2253,7 +2253,7 @@
   },
   {
    "pfad": "src/ui/views/documents.js",
-   "sha256": "0647004972346312b7bf321c6bfe6106224d7cd393a117d802dded8cbc266f2c"
+   "sha256": "6f47a345f5f8f5983c8da389b84d25c6d1caa0700939bfb73ba762893082a7df"
   },
   {
    "pfad": "src/ui/views/employees.js",
@@ -2325,7 +2325,7 @@
   },
   {
    "pfad": "sw.js",
-   "sha256": "a75a018faf3376ea023f4768c32ff8112595c15ec297063b7778cd7fd308829e"
+   "sha256": "25860e2aafe3b0510a1ed2822a35a7ed6c1db008ff57766533958383e0ab3000"
   },
   {
    "pfad": "tests/daten/Testbild-versteckte-Anweisung.png",
@@ -2357,7 +2357,7 @@
   },
   {
    "pfad": "tests/run.mjs",
-   "sha256": "2c35ba270ab9266a4b5caf26708a8bedb8d5481a208cf391c74d8fba93943be6"
+   "sha256": "7925d0e08fc0928c681ace3515f1a599a90541d27455bb08c0299935e15c7045"
   },
   {
    "pfad": "tests/smoke_a5_antwortpfad.mjs",
