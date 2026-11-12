@@ -1,11 +1,11 @@
 {
  "pro": "lausiklauskn-png/BookLedgerPro",
- "proCommit": "942e781e091e410e0ef5be6a636cbef673394c35",
+ "proCommit": "1887e25b7ae460d62cc2d5da864528bc31e3b17f",
  "nachgezogenAm": "2026-11-12",
  "regeln": 3,
  "anzahl": 648,
  "umgeschrieben": 72,
- "baumHash": "4ba687692cc73f178569c69b9246b44bc5d01bd8dcd123087839d7dbbb81acbd",
+ "baumHash": "9ee2c4ec107f8fd54112f03eba2b265fe63f0326f8e2dc33ccd20d4ffad1b053",
  "dateien": [
   {
    "pfad": ".github/workflows/ci.yml",
@@ -1593,7 +1593,7 @@
   },
   {
    "pfad": "src/ai/extract.js",
-   "sha256": "127779c68d91bc49db9ab4d1434edb1632a4b81972c9dd609265af1071af6e5d"
+   "sha256": "d9796aaa7d86f8254155517165e1acc80e60c7f9c6c4c470b54cfbe8e1d4c40e"
   },
   {
    "pfad": "src/ai/kiVorbereitung.js",
@@ -2325,7 +2325,7 @@
   },
   {
    "pfad": "sw.js",
-   "sha256": "25860e2aafe3b0510a1ed2822a35a7ed6c1db008ff57766533958383e0ab3000"
+   "sha256": "8aa6d1095e0864eb09f09069a69377cf44e27752d2e871b122e40e735de5fd8d"
   },
   {
    "pfad": "tests/daten/Testbild-versteckte-Anweisung.png",
@@ -2357,7 +2357,7 @@
   },
   {
    "pfad": "tests/run.mjs",
-   "sha256": "7925d0e08fc0928c681ace3515f1a599a90541d27455bb08c0299935e15c7045"
+   "sha256": "bd5129b580885d933bba0dce36d385c5f8f82b66159ee3656d343868611bd870"
   },
   {
    "pfad": "tests/smoke_a5_antwortpfad.mjs",
