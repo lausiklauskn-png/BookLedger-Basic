@@ -1,11 +1,11 @@
 {
  "pro": "lausiklauskn-png/BookLedgerPro",
- "proCommit": "1887e25b7ae460d62cc2d5da864528bc31e3b17f",
+ "proCommit": "2a3d65303e320e6c0bb17867d490cf657dddca78",
  "nachgezogenAm": "2026-11-12",
  "regeln": 3,
- "anzahl": 648,
+ "anzahl": 650,
  "umgeschrieben": 72,
- "baumHash": "9ee2c4ec107f8fd54112f03eba2b265fe63f0326f8e2dc33ccd20d4ffad1b053",
+ "baumHash": "a724153eb6f461ef755daf77015eed2413ca26930514a84f469342421e37ebd5",
  "dateien": [
   {
    "pfad": ".github/workflows/ci.yml",
@@ -1600,8 +1600,16 @@
    "sha256": "f52990afd156822cdc71d70c91e514db3cdb37a0c5958df94ca649def29c91f0"
   },
   {
+   "pfad": "src/ai/kontoModell.js",
+   "sha256": "495610d3037ddaaedebcea8321d96da86046259b296e786b352c80711065d6eb"
+  },
+  {
+   "pfad": "src/ai/kontoModellDaten.js",
+   "sha256": "5cae848b41156b99e0ce8c69c53e4c1e08bd59e58be3da5b8b6568e42d22901f"
+  },
+  {
    "pfad": "src/ai/mistral.js",
-   "sha256": "ec2fa9d2b4d2a54346d47cba8068eaa7560659757282722a2f53d67035fe3588"
+   "sha256": "336d253bdd510089612de971d744cf92f841e1b00488e285936a55cf3bebad32"
   },
   {
    "pfad": "src/ai/mistralOcr.js",
@@ -2325,7 +2333,7 @@
   },
   {
    "pfad": "sw.js",
-   "sha256": "8aa6d1095e0864eb09f09069a69377cf44e27752d2e871b122e40e735de5fd8d"
+   "sha256": "3fdfa92846339cd19f306c623bb18d95a7742fa4f3a38de3f15aae2ad230f12a"
   },
   {
    "pfad": "tests/daten/Testbild-versteckte-Anweisung.png",
@@ -2357,7 +2365,7 @@
   },
   {
    "pfad": "tests/run.mjs",
-   "sha256": "bd5129b580885d933bba0dce36d385c5f8f82b66159ee3656d343868611bd870"
+   "sha256": "8cd94a36cc556277c62c49a4f3b15fd2007c601dde0f454f2caa9df864184a16"
   },
   {
    "pfad": "tests/smoke_a5_antwortpfad.mjs",

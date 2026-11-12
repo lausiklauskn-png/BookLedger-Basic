@@ -2,6 +2,9 @@
 
 # BookLedger Basic — Sitzungs-Anker
 
+**Nachzug 2026-11-12 (nachts):** Pro `2a3d653` (#467, Kontovorschlag: gelerntes Wortmodell neben den Regeln, rechnet auf dem Gerät, kein Sprachmodell).
+650 Dateien, 72 Umschreibungen; `sw.js` v299 (Vorrat `blpb-`). `basic_gleichstand` 27 grün · `run.mjs` 2801 bestanden, 0 fehlgeschlagen. ⚠ Nicht am Tablet.
+
 **Nachzug 2026-11-12 (abends):** Pro `1887e25` (#466, Belegleser: Datum mit Monatsnamen und Wertung, Steuersatz mit zwei Sätzen/steuerfrei).
 648 Dateien, 72 Umschreibungen; `sw.js` v298 (Vorrat `blpb-`). `basic_gleichstand` 27 grün · `run.mjs` 2775 bestanden, 0 fehlgeschlagen. ⚠ Nicht am Tablet.
 
