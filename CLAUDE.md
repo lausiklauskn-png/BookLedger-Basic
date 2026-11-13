@@ -2,6 +2,9 @@
 
 # BookLedger Basic — Sitzungs-Anker
 
+**Nachzug 2026-11-13 (spät):** Pro `65c0615` (#471, 0.1.17: Rechnungsnummer im Belegleser ab Werk an – mit drei Einordnern 2 % falsch).
+658 Dateien, 72 Umschreibungen; `sw.js` v301 (Vorrat `blpb-`). `basic_gleichstand` 27 grün · `run.mjs` 2872 bestanden, 0 fehlgeschlagen. ⚠ Nicht am Tablet.
+
 **Nachzug 2026-11-13:** Pro `d08c071` (#468/#469, Version 0.1.15 der App und Nachweis; nur Versionsprobe und Stundennachweis).
 650 Dateien, 72 Umschreibungen; für die PWA nichts wirksam. `basic_gleichstand` 27 grün · `run.mjs` 2801 bestanden, 0 fehlgeschlagen.
 
