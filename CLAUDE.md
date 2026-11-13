@@ -2,6 +2,9 @@
 
 # BookLedger Basic — Sitzungs-Anker
 
+**Nachzug 2026-11-13 (Abend):** Pro `9b76370` (#472, 0.1.18: Update-Fähnchen – fragt still `version.json` neben der Seite, ein Tipp lädt die neue Fassung).
+661 Dateien, 72 Umschreibungen; `sw.js` v302 (Vorrat `blpb-`). `basic_gleichstand` 27 grün · `run.mjs` 2891/0 · `smoke_updatefahne` 34 grün. ⚠ Nicht am Tablet.
+
 **Nachzug 2026-11-13 (spät):** Pro `65c0615` (#471, 0.1.17: Rechnungsnummer im Belegleser ab Werk an – mit drei Einordnern 2 % falsch).
 658 Dateien, 72 Umschreibungen; `sw.js` v301 (Vorrat `blpb-`). `basic_gleichstand` 27 grün · `run.mjs` 2872 bestanden, 0 fehlgeschlagen. ⚠ Nicht am Tablet.
 

@@ -1,11 +1,11 @@
 {
  "pro": "lausiklauskn-png/BookLedgerPro",
- "proCommit": "65c06151043e52dae4e52e32deb68dcc60e6bcbe",
+ "proCommit": "9b763708e5b5dad622e533b738efa7402fe8dc73",
  "nachgezogenAm": "2026-11-13",
  "regeln": 3,
- "anzahl": 658,
+ "anzahl": 661,
  "umgeschrieben": 72,
- "baumHash": "683fa270cd0ffb93ffdb6e4757c694c296a7ea71a9677e828fa0ed34109864d9",
+ "baumHash": "1533a877ae2249f088af30816ae66d1efe0a699664dd417f60dd7fe23d82ba5d",
  "dateien": [
   {
    "pfad": ".github/workflows/ci.yml",
@@ -565,7 +565,7 @@
   },
   {
    "pfad": "assets/app.css",
-   "sha256": "6840ac549ee915e0414fc4857457baffe894f59f9a372a22d115102655a94f52"
+   "sha256": "c6913945ac3b34089f1369e22f1062a86db899481c8bc4fd126bccd29f1032b5"
   },
   {
    "pfad": "assets/blp-icons.svg",
@@ -889,7 +889,7 @@
   },
   {
    "pfad": "docs/UPDATES-EIGENER-SERVER.md",
-   "sha256": "397001baf43a568bc640e63895ecb735f97140710d172510afa5850a3c572588"
+   "sha256": "92bc4494d300356e0db53f009fd4da7714442ad8ae85aa9fe8f32a625c659036"
   },
   {
    "pfad": "docs/WINDOWS-TESTANLEITUNG.md",
@@ -2157,7 +2157,7 @@
   },
   {
    "pfad": "src/ui/i18n.js",
-   "sha256": "c7c48d985bb8396bc168952d3fe6aeab8d5a5a5d6664bcd25b391815ff573da2"
+   "sha256": "e6f3136c8f9bbf6b1b8e09eb2de52e2db286809200dbbbd6a0b9fdd08800e471"
   },
   {
    "pfad": "src/ui/icons.js",
@@ -2165,7 +2165,7 @@
   },
   {
    "pfad": "src/ui/intro.js",
-   "sha256": "4478ea6a6911b5864bf74615b5650a19ea44b8b0549c3378b598b80f7b3654a9"
+   "sha256": "f54bbc1c5c447ea39c121b6e0f2847b5dba01dd2313edf4c076a99c1006444db"
   },
   {
    "pfad": "src/ui/kontoFinden.js",
@@ -2213,7 +2213,7 @@
   },
   {
    "pfad": "src/ui/shell.js",
-   "sha256": "dd7e54a2ce535875dd5b013c2161a35d76ebc35e945f584b699d5cdd6ae7c14c"
+   "sha256": "709bb78330fbe2f8ac8a03d17744a396f86ddff8801e9bdd41307006349d3469"
   },
   {
    "pfad": "src/ui/strich.js",
@@ -2230,6 +2230,10 @@
   {
    "pfad": "src/ui/tresorFund.js",
    "sha256": "4591c310dd519f22b5cd8c9cd59c192ce0b30ed6a49d688c0039d9d491789622"
+  },
+  {
+   "pfad": "src/ui/updateFahne.js",
+   "sha256": "8186392bbeef295115620ecb624f36e063de754a40f99618abfe37dd667f959d"
   },
   {
    "pfad": "src/ui/verbundKarte.js",
@@ -2353,7 +2357,7 @@
   },
   {
    "pfad": "sw.js",
-   "sha256": "d023c382a6a1f550e48ce3bedf99c210d19fc3876cdd139138ffab89b656121f"
+   "sha256": "b02583ca13fd47ee08dc1b996b50cd82307da63decdf1ae5fb03aeb60f50f2b4"
   },
   {
    "pfad": "tests/daten/Testbild-versteckte-Anweisung.png",
@@ -2385,7 +2389,7 @@
   },
   {
    "pfad": "tests/run.mjs",
-   "sha256": "1f77e791dcc5029dafc2b58d6007cc0509f77935fc295f54553770d8b7e5941e"
+   "sha256": "f7863ae1fce740a22a6968e9e29cfda988804898af92ed9e087d6f6e9b67d82d"
   },
   {
    "pfad": "tests/smoke_a5_antwortpfad.mjs",
@@ -2502,6 +2506,10 @@
   {
    "pfad": "tests/smoke_umbau4.mjs",
    "sha256": "a15733e599cc57442f603d0baccab713906edcf484b982074f788795c610f260"
+  },
+  {
+   "pfad": "tests/smoke_updatefahne.mjs",
+   "sha256": "9701a87dfa36a737a8b82185855b6740ff944e47a3fca1b3f411a0b7bcfed928"
   },
   {
    "pfad": "tests/smoke_verbund.mjs",
@@ -2638,6 +2646,10 @@
   {
    "pfad": "vendor/tesseract/worker.min.js.LICENSE.txt",
    "sha256": "45f54171aeaa1d10c0c1a66f374b7bba1f02472b1487fbe892eec04f840002ac"
+  },
+  {
+   "pfad": "version.json",
+   "sha256": "ac801acad22bf8d2e848e730ac0b1e6040e9463bfb4e37ec616f6381b6990765"
   }
  ]
 }
