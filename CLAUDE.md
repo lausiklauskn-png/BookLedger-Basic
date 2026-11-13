@@ -2,6 +2,9 @@
 
 # BookLedger Basic — Sitzungs-Anker
 
+**Nachzug 2026-11-13:** Pro `d08c071` (#468/#469, Version 0.1.15 der App und Nachweis; nur Versionsprobe und Stundennachweis).
+650 Dateien, 72 Umschreibungen; für die PWA nichts wirksam. `basic_gleichstand` 27 grün · `run.mjs` 2801 bestanden, 0 fehlgeschlagen.
+
 **Nachzug 2026-11-12 (nachts):** Pro `2a3d653` (#467, Kontovorschlag: gelerntes Wortmodell neben den Regeln, rechnet auf dem Gerät, kein Sprachmodell).
 650 Dateien, 72 Umschreibungen; `sw.js` v299 (Vorrat `blpb-`). `basic_gleichstand` 27 grün · `run.mjs` 2801 bestanden, 0 fehlgeschlagen. ⚠ Nicht am Tablet.
 
