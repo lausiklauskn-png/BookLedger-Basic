@@ -1,11 +1,11 @@
 {
  "pro": "lausiklauskn-png/BookLedgerPro",
- "proCommit": "a178b1bb2599a5597d591c9e99d0f7e1629a2a09",
+ "proCommit": "65c06151043e52dae4e52e32deb68dcc60e6bcbe",
  "nachgezogenAm": "2026-11-13",
  "regeln": 3,
  "anzahl": 658,
  "umgeschrieben": 72,
- "baumHash": "49174ff3cc4cea0f84b32d1129fdace6142eb60a7a98e0eeda2ec08815bf0695",
+ "baumHash": "683fa270cd0ffb93ffdb6e4757c694c296a7ea71a9677e828fa0ed34109864d9",
  "dateien": [
   {
    "pfad": ".github/workflows/ci.yml",
@@ -1593,7 +1593,7 @@
   },
   {
    "pfad": "src/ai/extract.js",
-   "sha256": "5856b32c58d1504c033b5c6e010b3643c99b688fad8c806a6a48beea2d4beea9"
+   "sha256": "d831ba9572281dcfaf2cdaf04b2ede09245c0f2116a8cb969f162f29c3a562a7"
   },
   {
    "pfad": "src/ai/kiVorbereitung.js",
@@ -2053,7 +2053,7 @@
   },
   {
    "pfad": "src/domain/vorschau.js",
-   "sha256": "031cb446db0f79aa2421143516e5859e51417e2d9997a7e594c84e5644e2c187"
+   "sha256": "8b216f50e88cd012f9493b47d3ed3df62af80a9a054ce74ec1a2e11eb93f7baf"
   },
   {
    "pfad": "src/domain/workflowPdf.js",
@@ -2353,7 +2353,7 @@
   },
   {
    "pfad": "sw.js",
-   "sha256": "75fba997e28bb0146881e4f5c0d68aa6516436e7b86519aaeee5e832f943deab"
+   "sha256": "d023c382a6a1f550e48ce3bedf99c210d19fc3876cdd139138ffab89b656121f"
   },
   {
    "pfad": "tests/daten/Testbild-versteckte-Anweisung.png",
@@ -2385,7 +2385,7 @@
   },
   {
    "pfad": "tests/run.mjs",
-   "sha256": "3331cc51343cac08ce7f412e8b8a2ace6e8a5fdc4a5941b7fcffd382f91c7fe5"
+   "sha256": "1f77e791dcc5029dafc2b58d6007cc0509f77935fc295f54553770d8b7e5941e"
   },
   {
    "pfad": "tests/smoke_a5_antwortpfad.mjs",
