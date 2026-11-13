@@ -1,11 +1,11 @@
 {
  "pro": "lausiklauskn-png/BookLedgerPro",
- "proCommit": "d08c0711b80e5af5fd4dc45ccd683e4210926b38",
+ "proCommit": "a178b1bb2599a5597d591c9e99d0f7e1629a2a09",
  "nachgezogenAm": "2026-11-13",
  "regeln": 3,
- "anzahl": 650,
+ "anzahl": 658,
  "umgeschrieben": 72,
- "baumHash": "4ad4a41f81d42b07347fa34f3281d4db6d1325fe96b5d4b849ad4307c72b752d",
+ "baumHash": "49174ff3cc4cea0f84b32d1129fdace6142eb60a7a98e0eeda2ec08815bf0695",
  "dateien": [
   {
    "pfad": ".github/workflows/ci.yml",
@@ -1593,7 +1593,7 @@
   },
   {
    "pfad": "src/ai/extract.js",
-   "sha256": "d9796aaa7d86f8254155517165e1acc80e60c7f9c6c4c470b54cfbe8e1d4c40e"
+   "sha256": "5856b32c58d1504c033b5c6e010b3643c99b688fad8c806a6a48beea2d4beea9"
   },
   {
    "pfad": "src/ai/kiVorbereitung.js",
@@ -1641,7 +1641,7 @@
   },
   {
    "pfad": "src/ai/suggest.js",
-   "sha256": "e0df4668c95fa4a78617ff2a5e7ea8135678fe6bc7d665f6ccbcee3147506c63"
+   "sha256": "16fd94b3bff19bd5f8b1f7b8a3aafb1d367c1adca5c0395fa8b3122893186143"
   },
   {
    "pfad": "src/ai/taxAssist.js",
@@ -1756,16 +1756,20 @@
    "sha256": "461b3c7cf41f8adc551ce4db363efaa0128119a61d933905d583ee5c726cc8a4"
   },
   {
+   "pfad": "src/domain/auszugText.js",
+   "sha256": "0dfdc5d0b36b963f3c56b1efd012f5b2cdd14a05d77da40d6341108063d1801a"
+  },
+  {
    "pfad": "src/domain/backupStrategie.js",
    "sha256": "7e98992448d6df18537d628bd0fe2faa72bda8b6eb9cfaf8e39ebc5c38fa095a"
   },
   {
    "pfad": "src/domain/bankimport.js",
-   "sha256": "8a79dc9a8cba2de68d87ed56d92e3207888e4ca18e0466184f8d9d1253b5f46f"
+   "sha256": "e95848d166ee508b372595791ad0f0c38bbfecf0fe1c25e0240b3455c0bedd64"
   },
   {
    "pfad": "src/domain/bankschema.js",
-   "sha256": "3f1f1b62a282df584ea6753fedf596f556f68884eff1d98c1d0d51b3df80aa6c"
+   "sha256": "9122f1ea41fda42cf619d866f356f7cc4488bc09f5c335bc6c308ea87559b504"
   },
   {
    "pfad": "src/domain/baukasten.js",
@@ -1957,7 +1961,7 @@
   },
   {
    "pfad": "src/domain/payables.js",
-   "sha256": "341d153fe4012da1e506ae0e6f20ea375b360cd1012057a99f5dbec0fbc1d1cb"
+   "sha256": "d74a609d5bc2cf234d842d92e528352e1a4548341e1b418ec45bbe551abb3416"
   },
   {
    "pfad": "src/domain/proUebergabe.js",
@@ -2046,6 +2050,10 @@
   {
    "pfad": "src/domain/vorgang.js",
    "sha256": "12c0bceb73a47199f75f7831877229dedc55e5bbfbe8719c121c3e988e449cf5"
+  },
+  {
+   "pfad": "src/domain/vorschau.js",
+   "sha256": "031cb446db0f79aa2421143516e5859e51417e2d9997a7e594c84e5644e2c187"
   },
   {
    "pfad": "src/domain/workflowPdf.js",
@@ -2332,8 +2340,20 @@
    "sha256": "bf3d37e95a5ec4c0aa5e543ff2a4739af6bf043a5eef5a2c1ca045b3ddad21e4"
   },
   {
+   "pfad": "src/vendor/sortierkern/HERKUNFT.json",
+   "sha256": "ae794dff6c3fb9a5fdd0de6230ecbe20855113f39ed649b6b9e46aaf6bac7b5e"
+  },
+  {
+   "pfad": "src/vendor/sortierkern/erkennen.js",
+   "sha256": "c969b01a11346013230f346b99f6aa0960d0f2a027038b301aa9caf33d99e08c"
+  },
+  {
+   "pfad": "src/vendor/sortierkern/kategorien.js",
+   "sha256": "0f22e721b36a3241e49ce485a0d639e1ac72159e449f7b0fed3d7d0dc983efd1"
+  },
+  {
    "pfad": "sw.js",
-   "sha256": "3fdfa92846339cd19f306c623bb18d95a7742fa4f3a38de3f15aae2ad230f12a"
+   "sha256": "75fba997e28bb0146881e4f5c0d68aa6516436e7b86519aaeee5e832f943deab"
   },
   {
    "pfad": "tests/daten/Testbild-versteckte-Anweisung.png",
@@ -2365,7 +2385,7 @@
   },
   {
    "pfad": "tests/run.mjs",
-   "sha256": "87af8789d9d68671a6ed8bf645a88e2b5a5dfb905a723a1f5c66cef8fc3c8a6c"
+   "sha256": "3331cc51343cac08ce7f412e8b8a2ace6e8a5fdc4a5941b7fcffd382f91c7fe5"
   },
   {
    "pfad": "tests/smoke_a5_antwortpfad.mjs",
@@ -2512,8 +2532,20 @@
    "sha256": "ef475ea36a59d575a33c5756914e9c64a07bf05d40135dfef9b0409475b6486d"
   },
   {
+   "pfad": "tools/messen-auszugtext.mjs",
+   "sha256": "71fd4534f2f771871ac610fccc5753c31b83909d361baf532d2b2e1513c21199"
+  },
+  {
+   "pfad": "tools/messen-rechnungsnummer.mjs",
+   "sha256": "83c5dfe061e4831edeccc9fd7f420926593cba2cfcdcbaebec6a5ba424bdbe72"
+  },
+  {
    "pfad": "tools/mint_spore.mjs",
    "sha256": "3de7f3e3029aa68a0fac91639e340208b3c50976525ca26d0a7d60605dbe47eb"
+  },
+  {
+   "pfad": "tools/sortierkern-nachziehen.mjs",
+   "sha256": "aa5226604dc7c9e123d4d172f9c0c181c87d93bf2f3dd421259fc391f7304f5a"
   },
   {
    "pfad": "tools/verbund-nachziehen.mjs",
