@@ -1,11 +1,11 @@
 {
  "pro": "lausiklauskn-png/BookLedgerPro",
- "proCommit": "9b763708e5b5dad622e533b738efa7402fe8dc73",
- "nachgezogenAm": "2026-11-13",
+ "proCommit": "01dd9ca13d64f8cbeefbbf0ac871f4f75098f39a",
+ "nachgezogenAm": "2026-11-14",
  "regeln": 3,
  "anzahl": 661,
  "umgeschrieben": 72,
- "baumHash": "1533a877ae2249f088af30816ae66d1efe0a699664dd417f60dd7fe23d82ba5d",
+ "baumHash": "97d8ff0bf03a703a71986561349a3639b23eaa1a613d8741bc7f538320d47b3e",
  "dateien": [
   {
    "pfad": ".github/workflows/ci.yml",
@@ -2233,7 +2233,7 @@
   },
   {
    "pfad": "src/ui/updateFahne.js",
-   "sha256": "8186392bbeef295115620ecb624f36e063de754a40f99618abfe37dd667f959d"
+   "sha256": "6869d5358d123e1a09402119ffcc043f97793bc1c4269a30ad0d518b0a926d9b"
   },
   {
    "pfad": "src/ui/verbundKarte.js",
@@ -2345,11 +2345,11 @@
   },
   {
    "pfad": "src/vendor/sortierkern/HERKUNFT.json",
-   "sha256": "ae794dff6c3fb9a5fdd0de6230ecbe20855113f39ed649b6b9e46aaf6bac7b5e"
+   "sha256": "f8a74c7d9011a0f501ab0fb1f516dd352732405c9821dd00b57546f4861bbf72"
   },
   {
    "pfad": "src/vendor/sortierkern/erkennen.js",
-   "sha256": "c969b01a11346013230f346b99f6aa0960d0f2a027038b301aa9caf33d99e08c"
+   "sha256": "1fd3bb1943adf62b555599758c4cb182dcfb82bede1afc4cd938d42d5cf05387"
   },
   {
    "pfad": "src/vendor/sortierkern/kategorien.js",
@@ -2357,7 +2357,7 @@
   },
   {
    "pfad": "sw.js",
-   "sha256": "b02583ca13fd47ee08dc1b996b50cd82307da63decdf1ae5fb03aeb60f50f2b4"
+   "sha256": "6307acef316397c4da57888cd434b64b4cb1ec8501eabc69bdfd2069ad5a0bc1"
   },
   {
    "pfad": "tests/daten/Testbild-versteckte-Anweisung.png",
@@ -2649,7 +2649,7 @@
   },
   {
    "pfad": "version.json",
-   "sha256": "ac801acad22bf8d2e848e730ac0b1e6040e9463bfb4e37ec616f6381b6990765"
+   "sha256": "7355719b1bba7fc1c75396338a616974e7a5e487921136136b79e6e77983ab7f"
   }
  ]
 }
