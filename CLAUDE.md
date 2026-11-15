@@ -2,11 +2,11 @@
 
 # BookLedger Basic — Sitzungs-Anker
 
-**Nachzug 2026-11-15 (Discovery):** Pro `267d315` – **Pro-Zweig `claude/discovery-hilfe` (Pro #478, Entwurf, noch nicht auf Pro-main); nach dem Merge in Pro
+**Nachzug 2026-11-15 (Discovery, Endstand):** Pro `0cec721` (zuvor `267d315`; Seite jetzt auf dem Endstand des Datei-Organizers `5497e25`) – **Pro-Zweig `claude/discovery-hilfe` (Pro #478, Entwurf, noch nicht auf Pro-main); nach dem Merge in Pro
 auf Pro-main neu pinnen.** Enthält auch Pro-main #476/#477 (apps-nachziehen, Pins Needs/Calculate). Für die PWA wirksam: Kasten „Discovery“ in der Anleitung
 und unter „Über“ direkt nach der Verbund-Karte – öffnet die Seite „so lernte der Sortier-Kern“ des Datei-Organizers (`assets/discovery/`, byte-gleich wie in Pro,
-17 Dateien, 6,2 MB) im Vollbild-Rahmen; Film und Ton nicht im Pflicht-Vorrat, eigener Vorrat `blpb-discovery-c251510`, gefüllt beim Abruf.
-698 Dateien, 72 Umschreibungen; `sw.js` v305 (Vorrat `blpb-`). `basic_gleichstand` 27 grün · `run.mjs` 2904/0 · `smoke_discovery` 42 · `smoke_verbund` 17 ·
+17 Dateien, 6,2 MB) im Vollbild-Rahmen; Film und Ton nicht im Pflicht-Vorrat, eigener Vorrat `blpb-discovery-5497e25`, gefüllt beim Abruf.
+698 Dateien, 72 Umschreibungen; `sw.js` v306 (Vorrat `blpb-`). `basic_gleichstand` 27 grün · `run.mjs` 2904/0 · `smoke_discovery` 42 · `smoke_verbund` 17 ·
 `smoke_design` 92 grün. ⚠ Nicht am Tablet.
 
 **Nachzug 2026-11-15:** Pro `8fed459` (#474 Sortier-Kern @ 079dd6d, #475 Workflow Needs nachgezogen @ ed096b1: 20 Beispiele an/aus, Rahmen, offene Fragen „geklärt“).

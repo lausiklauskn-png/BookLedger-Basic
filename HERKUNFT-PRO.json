@@ -1,11 +1,11 @@
 {
  "pro": "lausiklauskn-png/BookLedgerPro",
- "proCommit": "267d3157738484cb41ebf48aa4b662072ef4b294",
+ "proCommit": "0cec7215b19cc5f8204634925b79669979c5626d",
  "nachgezogenAm": "2026-11-15",
  "regeln": 3,
  "anzahl": 698,
  "umgeschrieben": 72,
- "baumHash": "7fd23bdb10797fa3922778b9506cf47f82bb151524b1805b810028abf0fe289d",
+ "baumHash": "ed017fe2f9a4d4bbcde2d54a018334cad1cac3ba7400f891684239708980e5e5",
  "dateien": [
   {
    "pfad": ".github/workflows/ci.yml",
@@ -661,7 +661,7 @@
   },
   {
    "pfad": "assets/discovery/HERKUNFT.json",
-   "sha256": "fa8e8be02b0b497432e850da81d7fabeb0ddfe4a030d116ef74b3186703ff5fa"
+   "sha256": "4c699c072bddba8b944a35cab70d02047794e8c2603331a0f8983f4d5aa9c98d"
   },
   {
    "pfad": "assets/discovery/discovery-kreislauf.jpg",
@@ -729,7 +729,7 @@
   },
   {
    "pfad": "assets/discovery/discovery.html",
-   "sha256": "7f76c06ad0172e16cd10b5c5fde1a92daf547d0e0978854e36bf0bdef32a7591"
+   "sha256": "831562ff1659a7806564b160484292462e2c844ea67330f80e2e71685a3ede01"
   },
   {
    "pfad": "assets/eingang.js",
@@ -2373,7 +2373,7 @@
   },
   {
    "pfad": "src/ui/updateFahne.js",
-   "sha256": "62fbd22276785e807bce7226f07c51e5f101b78e01411d3dfafea3a3d964602a"
+   "sha256": "739397c2793dec03e4ab8f91f97edd5a0b644b66bfa7aa2bccbe053cdb0b6281"
   },
   {
    "pfad": "src/ui/verbundKarte.js",
@@ -2497,7 +2497,7 @@
   },
   {
    "pfad": "sw.js",
-   "sha256": "1e44e2ee8042d8dcabd2b9e7222953c6bfef372b38c6e0891fed5cba21aec89b"
+   "sha256": "ca87df416be6c4551624203b5585c5e4e59961764215193fd2cf28ceb8f26b96"
   },
   {
    "pfad": "tests/daten/Testbild-versteckte-Anweisung.png",
@@ -2685,7 +2685,7 @@
   },
   {
    "pfad": "tools/discovery-nachziehen.mjs",
-   "sha256": "eecea6ba2336c602d6b0acc962fff2db30be67c64da76645699a47b9677f8672"
+   "sha256": "c4223e94d474dee277a142cdda42381145efb3b9867115e98aea2d6330230920"
   },
   {
    "pfad": "tools/messen-auszugtext.mjs",
@@ -2797,7 +2797,7 @@
   },
   {
    "pfad": "version.json",
-   "sha256": "9b959504da7d4f7c8887ba45e663fcb37b551a03913a4895abfe50366efc0471"
+   "sha256": "1064a414389928ff5995060b987fbe48f4062af92bc3bdb4bfec6acee8ecfa9e"
   }
  ]
 }
