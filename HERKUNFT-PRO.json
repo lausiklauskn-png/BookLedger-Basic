@@ -1,11 +1,11 @@
 {
  "pro": "lausiklauskn-png/BookLedgerPro",
- "proCommit": "01dd9ca13d64f8cbeefbbf0ac871f4f75098f39a",
- "nachgezogenAm": "2026-11-14",
+ "proCommit": "8fed4597634cb854802e2f7ea982f2be309b8341",
+ "nachgezogenAm": "2026-11-15",
  "regeln": 3,
- "anzahl": 661,
+ "anzahl": 677,
  "umgeschrieben": 72,
- "baumHash": "97d8ff0bf03a703a71986561349a3639b23eaa1a613d8741bc7f538320d47b3e",
+ "baumHash": "8552a5fd2f3624618dabe53c748ab4b723ef2e558080312bbf2e65d657718d08",
  "dateien": [
   {
    "pfad": ".github/workflows/ci.yml",
@@ -41,7 +41,7 @@
   },
   {
    "pfad": "apps/HERKUNFT.json",
-   "sha256": "3f1251b0374567af4166be06c2a6e389f3f1222a49100584e2745981ed9c1feb"
+   "sha256": "3c54ee1a2b9dfed4cadb9778cf19e48cc2574c0b861173edec602b926ea268bf"
   },
   {
    "pfad": "apps/blp-bruecke.js",
@@ -309,7 +309,7 @@
   },
   {
    "pfad": "apps/needs/assets/app.js",
-   "sha256": "d6ee1505c3ee352c6d18086d39027f9766307cdf738e766e6db84779ecdfdbd5"
+   "sha256": "bc250b8a449d9fff1c7d21f029530efd388aad5c29001468272869d1081ed63d"
   },
   {
    "pfad": "apps/needs/assets/bild-prisma.webp",
@@ -317,19 +317,67 @@
   },
   {
    "pfad": "apps/needs/assets/daten/bausteine.js",
-   "sha256": "3af21ab672614f6ce80edd33591eecddd397269d466b879821a4c77ccddceeb7"
+   "sha256": "06e5c018f36c4172262910ec0925de72188e22bf929ea3fae2e599d6254adc34"
   },
   {
    "pfad": "apps/needs/assets/daten/beispiel-alis.js",
    "sha256": "40721e1933f87ea8f8a8870a2a7bb32dd7b2eda527c6f727118d370c568d4489"
   },
   {
+   "pfad": "apps/needs/assets/daten/beispiel-bookledgerpro.js",
+   "sha256": "626f33a7d060ade2d4769286f48dda6a363926be84b3d1f023662440c42e66d5"
+  },
+  {
+   "pfad": "apps/needs/assets/daten/beispiel-calculate.js",
+   "sha256": "0df6270e0bafda3fd8c476e229d740c77f57bfdc176cb87c4b7bfe2ff3c44b4e"
+  },
+  {
+   "pfad": "apps/needs/assets/daten/beispiel-dateiorganizer.js",
+   "sha256": "fc8060db6ba2002098b80bab60fc51f22dbddc415c7c53c63db62eafa70b9e5a"
+  },
+  {
    "pfad": "apps/needs/assets/daten/beispiel-eigene.js",
    "sha256": "5e835779a3775bd6fd75782c6f52b734dc6dd2f327668a9456028f343000ea01"
   },
   {
+   "pfad": "apps/needs/assets/daten/beispiel-familienakte.js",
+   "sha256": "b9e114f979495e1d07f720002e2c359d4612df88eb6efd200eac2f907505b634"
+  },
+  {
+   "pfad": "apps/needs/assets/daten/beispiel-kimsync.js",
+   "sha256": "25fb6b7e80366f2ed775de782ab0c5697ff117510d37c8d88eae883402d99706"
+  },
+  {
+   "pfad": "apps/needs/assets/daten/beispiel-mixarium.js",
+   "sha256": "f0b8a6d787f4bb2fecef9dc2ee4175a9c07f66c8afd8837ed5fef38764f4e237"
+  },
+  {
+   "pfad": "apps/needs/assets/daten/beispiel-mixariumpage.js",
+   "sha256": "1ff8e69b62376b964329e88f236e02b20d52c6d58dde362b10873167bb62de57"
+  },
+  {
+   "pfad": "apps/needs/assets/daten/beispiel-needs.js",
+   "sha256": "26a3cf76153cb4d6d01d9d87e458f96e9a40557c5aab76ac4b8968c989c399c9"
+  },
+  {
+   "pfad": "apps/needs/assets/daten/beispiel-privatebrainpro.js",
+   "sha256": "9338266502ea92fe88714d27b1f9a2cc92273881dddeb09a462f0aefc4f899e3"
+  },
+  {
+   "pfad": "apps/needs/assets/daten/beispiel-proverbund.js",
+   "sha256": "2254a0b7d3b2a996ea8b29711066a3029f158847fc7c4a789afd84b9c0768061"
+  },
+  {
    "pfad": "apps/needs/assets/daten/beispiel-psb.js",
    "sha256": "b4ffba202822e59f2abaa8a68b57e2da8090b9f170a0bda51489a763bf3843a3"
+  },
+  {
+   "pfad": "apps/needs/assets/daten/beispiel-rahmen.js",
+   "sha256": "1d9ed17c911c5b940ad5332443508b619c2f0620c158a91226fc721e9e92be21"
+  },
+  {
+   "pfad": "apps/needs/assets/daten/beispiel-rezeptbuch.js",
+   "sha256": "d11613c346201e5b6aea2fda3f69e1a2bed758164cb121a88b589cf86f63d98f"
   },
   {
    "pfad": "apps/needs/assets/daten/beispiel-tomys-gesamt.js",
@@ -340,12 +388,24 @@
    "sha256": "1601d7a760e66e15ae23c01bd195d0435e54e6d261ed92c5f6172337690b16a6"
   },
   {
+   "pfad": "apps/needs/assets/daten/beispiel-toolpoint.js",
+   "sha256": "c3eab524497c6522582ed7555f28395b243f48f189dfe299d4e5172acc5d4cf0"
+  },
+  {
    "pfad": "apps/needs/assets/daten/beispiel-unterschriften.js",
    "sha256": "7e0f01c806d4392ad1df6e67d646d92c0ee3c0d571f0b6133045a7722025e636"
   },
   {
+   "pfad": "apps/needs/assets/daten/beispiel-workflohpage.js",
+   "sha256": "e3edde1a7495eb35972afc7049773159cc8a8fc1a6bdfc53e123b5126c75274e"
+  },
+  {
+   "pfad": "apps/needs/assets/daten/beispiel-workflowpdfpro.js",
+   "sha256": "71f03ed216420c5b24bfb6788b80a11a662ba4ae5ef00f72a6c208902e7c39c1"
+  },
+  {
    "pfad": "apps/needs/assets/daten/beispiel.js",
-   "sha256": "89b197af32bb3b06827c214cda61a871e1c347545b03837a2e33b1456787eaa8"
+   "sha256": "c0fc077895e0d769e638551211a0038a45a5148d843c1554c3c2e8abfe4f1a8f"
   },
   {
    "pfad": "apps/needs/assets/daten/markt.js",
@@ -357,11 +417,11 @@
   },
   {
    "pfad": "apps/needs/assets/kern/aussen.js",
-   "sha256": "0af5cffd6e63ab4bcb8444d56cdcbf4dae9c223a49e685ed95bb0c6564b02959"
+   "sha256": "239840005744aa5f73d5be6b82db85d96f2640531460b294814e0c5847fc105a"
   },
   {
    "pfad": "apps/needs/assets/kern/bauauftrag.js",
-   "sha256": "7f629781b339347b2e6a78bafaabb52ca27ca14acb6d07e18ece2ae58e57b30d"
+   "sha256": "a0cbfd341ab5bfd17ff8d5391b6366615bb80b583bb68498a59fdefcd180e8a3"
   },
   {
    "pfad": "apps/needs/assets/kern/bedarf.js",
@@ -369,7 +429,7 @@
   },
   {
    "pfad": "apps/needs/assets/kern/fassungen.js",
-   "sha256": "57e86b5ab785ddb53f26f874d09cd639ffdb13cd841137d251e15f6f3e9a4d4a"
+   "sha256": "71268d68824b77aba9f2563659674a9d758e661285923bdf2ba9fb615bcbf953"
   },
   {
    "pfad": "apps/needs/assets/kern/geld.js",
@@ -378,6 +438,10 @@
   {
    "pfad": "apps/needs/assets/kern/mail.js",
    "sha256": "84fe7a98567594a6d8a2a3996960be139efee9a346bf3628041c9c8b2cda4253"
+  },
+  {
+   "pfad": "apps/needs/assets/kern/rahmen.js",
+   "sha256": "3183339a9d577d4653b0ffd5d51637c7e5513da1f07892518217515711ea21c7"
   },
   {
    "pfad": "apps/needs/assets/kern/rechnen.js",
@@ -409,7 +473,7 @@
   },
   {
    "pfad": "apps/needs/assets/texte.js",
-   "sha256": "d0b465fd1c6e8d72a092ba1c59a692f37336ae8bffb85aeda1122fc1e9d40722"
+   "sha256": "4a8ba0f4220ed94cd71d004a1bceb1e37e16b50d819f58980d72d42c6bf310f8"
   },
   {
    "pfad": "apps/needs/beispiele/tomys-gesamt/Ablauf-Motiv-bis-Rechnung.pdf",
@@ -485,7 +549,7 @@
   },
   {
    "pfad": "apps/needs/index.html",
-   "sha256": "a5f9001571027f222917a62be45acb4c5879685b80307c629a97d9d3ef3164e2"
+   "sha256": "8f2c594b7cc3ed3de5e08d69276f63af4891571888c2600b3f5e0e6913c33301"
   },
   {
    "pfad": "apps/needs/manifest.json",
@@ -2233,7 +2297,7 @@
   },
   {
    "pfad": "src/ui/updateFahne.js",
-   "sha256": "6869d5358d123e1a09402119ffcc043f97793bc1c4269a30ad0d518b0a926d9b"
+   "sha256": "957ce26199e4466245b32585736a612ba0e6bef61843306ea92737cfb2f81814"
   },
   {
    "pfad": "src/ui/verbundKarte.js",
@@ -2357,7 +2421,7 @@
   },
   {
    "pfad": "sw.js",
-   "sha256": "6307acef316397c4da57888cd434b64b4cb1ec8501eabc69bdfd2069ad5a0bc1"
+   "sha256": "2cc683d21f4b3813530e0ef701fff2a775eccc894ff50ebd7dc43d22ff91fb6a"
   },
   {
    "pfad": "tests/daten/Testbild-versteckte-Anweisung.png",
@@ -2397,7 +2461,7 @@
   },
   {
    "pfad": "tests/smoke_apps.mjs",
-   "sha256": "c7baea8fccbd68cb203b2c3658005b2a8373a643ae13692978eab2fb1295ee2a"
+   "sha256": "23e4c92ec242f8598ef1f316b3c3c592da140321f1a7dd90d5d387940c4ccd1e"
   },
   {
    "pfad": "tests/smoke_befunde.mjs",
@@ -2649,7 +2713,7 @@
   },
   {
    "pfad": "version.json",
-   "sha256": "7355719b1bba7fc1c75396338a616974e7a5e487921136136b79e6e77983ab7f"
+   "sha256": "feceb8351d71da13ebdfef9219dd47b7257dac164e916568dba59caf74211eb4"
   }
  ]
 }

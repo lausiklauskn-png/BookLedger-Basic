@@ -2,6 +2,9 @@
 
 # BookLedger Basic — Sitzungs-Anker
 
+**Nachzug 2026-11-15:** Pro `8fed459` (#474 Sortier-Kern @ 079dd6d, #475 Workflow Needs nachgezogen @ ed096b1: 20 Beispiele an/aus, Rahmen, offene Fragen „geklärt“).
+677 Dateien, 72 Umschreibungen; `sw.js` v304 (Vorrat `blpb-`). `basic_gleichstand` 27 grün · `run.mjs` 2891/0 · `smoke_apps` 22 grün. ⚠ Nicht am Tablet.
+
 **Nachzug 2026-11-13 (Abend):** Pro `9b76370` (#472, 0.1.18: Update-Fähnchen – fragt still `version.json` neben der Seite, ein Tipp lädt die neue Fassung).
 661 Dateien, 72 Umschreibungen; `sw.js` v302 (Vorrat `blpb-`). `basic_gleichstand` 27 grün · `run.mjs` 2891/0 · `smoke_updatefahne` 34 grün. ⚠ Nicht am Tablet.
 
