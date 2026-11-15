@@ -1,11 +1,11 @@
 {
  "pro": "lausiklauskn-png/BookLedgerPro",
- "proCommit": "8fed4597634cb854802e2f7ea982f2be309b8341",
+ "proCommit": "267d3157738484cb41ebf48aa4b662072ef4b294",
  "nachgezogenAm": "2026-11-15",
  "regeln": 3,
- "anzahl": 677,
+ "anzahl": 698,
  "umgeschrieben": 72,
- "baumHash": "8552a5fd2f3624618dabe53c748ab4b723ef2e558080312bbf2e65d657718d08",
+ "baumHash": "7fd23bdb10797fa3922778b9506cf47f82bb151524b1805b810028abf0fe289d",
  "dateien": [
   {
    "pfad": ".github/workflows/ci.yml",
@@ -41,7 +41,7 @@
   },
   {
    "pfad": "apps/HERKUNFT.json",
-   "sha256": "3c54ee1a2b9dfed4cadb9778cf19e48cc2574c0b861173edec602b926ea268bf"
+   "sha256": "c027602461399da24242d2dd4c6d87ffa48e8701ca7792c35c706f2b5e65f851"
   },
   {
    "pfad": "apps/blp-bruecke.js",
@@ -658,6 +658,78 @@
   {
    "pfad": "assets/demo/beleg-tank.jpg",
    "sha256": "6019552c5b2879c9a4aa858f90cc5111513be6656854f84151647b0c8aac34c4"
+  },
+  {
+   "pfad": "assets/discovery/HERKUNFT.json",
+   "sha256": "fa8e8be02b0b497432e850da81d7fabeb0ddfe4a030d116ef74b3186703ff5fa"
+  },
+  {
+   "pfad": "assets/discovery/discovery-kreislauf.jpg",
+   "sha256": "a1cada634b0a9c21f506e83a1bda99af5bec37ca88a03aca974e28630296ae70"
+  },
+  {
+   "pfad": "assets/discovery/discovery-kreislauf.mp4",
+   "sha256": "7894c2ffb02044e4f358d900e2212bc108dd6379aade3498a8720f023f1ee1a0"
+  },
+  {
+   "pfad": "assets/discovery/discovery-three.min.js",
+   "sha256": "9274bbcec8d96168626c732b5d31c775aa8cfb7eaa0599bec0c175908a2c1ce2"
+  },
+  {
+   "pfad": "assets/discovery/discovery-ton/begruessung.mp3",
+   "sha256": "719f07877a9fd495ef34f8973025c56e362f9bd326eb23725f0de8601d1a8483"
+  },
+  {
+   "pfad": "assets/discovery/discovery-ton/film_brieftraeger.mp3",
+   "sha256": "0222f4ae8b9949692e26b180d1f384413f58be547736be211096bbf456abd752"
+  },
+  {
+   "pfad": "assets/discovery/discovery-ton/film_kern_raet.mp3",
+   "sha256": "e63efccab883f98dccc723c9c13f04fa516de2e6f056f4f1a3d93e7e5b0595ef"
+  },
+  {
+   "pfad": "assets/discovery/discovery-ton/film_strafzettel.mp3",
+   "sha256": "38fc8544e08b3713081b320eadb168a253b661cec326980ff14f8aa434f214c2"
+  },
+  {
+   "pfad": "assets/discovery/discovery-ton/kreis_einfrieren.mp3",
+   "sha256": "3654815b0aab83b57527784e02d09ac926135ab4faefc5a73851a13de0312afa"
+  },
+  {
+   "pfad": "assets/discovery/discovery-ton/kreis_lernen.mp3",
+   "sha256": "97cd6fa260a4aa05b469ea078e7835f5417cc6eb1121d8103cad8ead347ce81f"
+  },
+  {
+   "pfad": "assets/discovery/discovery-ton/kreis_messen.mp3",
+   "sha256": "39e52903ad07f8237a192b7e5b12fa5023abdb1eda7c6fdb86efd6f351ceffd7"
+  },
+  {
+   "pfad": "assets/discovery/discovery-ton/kreis_raten.mp3",
+   "sha256": "07ea0fa3a938f736c59bf6efeee8e26661cf4273bf8800865221dd93e350ec94"
+  },
+  {
+   "pfad": "assets/discovery/discovery-ton/kreis_reihum.mp3",
+   "sha256": "683cd3dc447ccbc3b9f91ec44c8e4d6201fbb5067a4c91345742243578c00342"
+  },
+  {
+   "pfad": "assets/discovery/discovery-ton/kreis_soll.mp3",
+   "sha256": "8adc0f6ae7ac8e27dad7506ff25a4c6e1f3c4ec34de0a67c184705d5c746228c"
+  },
+  {
+   "pfad": "assets/discovery/discovery-ton/recherche.mp3",
+   "sha256": "05730a1f331a722e6ec31a6616936aaa8ba4785315135dcbb0e53aa59d95e9a4"
+  },
+  {
+   "pfad": "assets/discovery/discovery-ton/schluss.mp3",
+   "sha256": "f37cbde329e5e95824e6521501742e30f4abdf8166b8f0343ef47fe21326d068"
+  },
+  {
+   "pfad": "assets/discovery/discovery-ton/welten.mp3",
+   "sha256": "19d1f43127b2ff293910292df3999598bad6f3879921f3d0679bd1ff37acd129"
+  },
+  {
+   "pfad": "assets/discovery/discovery.html",
+   "sha256": "7f76c06ad0172e16cd10b5c5fde1a92daf547d0e0978854e36bf0bdef32a7591"
   },
   {
    "pfad": "assets/eingang.js",
@@ -2208,6 +2280,10 @@
    "sha256": "8d34fbf8abc8b670c92cec76dd830f7dca900425f7748333f17ec82e8f5ee582"
   },
   {
+   "pfad": "src/ui/discoveryKarte.js",
+   "sha256": "35b96e245ff0d29c7450674834dbeb838a5ab8497d5dbec0c3e242881ecda8c9"
+  },
+  {
    "pfad": "src/ui/dom.js",
    "sha256": "eab49dd28b0fc06874eca7b5c7f878077d80b3f931afc04f71f7a03c77ec8182"
   },
@@ -2221,7 +2297,7 @@
   },
   {
    "pfad": "src/ui/i18n.js",
-   "sha256": "e6f3136c8f9bbf6b1b8e09eb2de52e2db286809200dbbbd6a0b9fdd08800e471"
+   "sha256": "0e80e5fa8aa76b573c79c637035451ff0889dd6bad574ea60b1f09eb3a15d953"
   },
   {
    "pfad": "src/ui/icons.js",
@@ -2277,7 +2353,7 @@
   },
   {
    "pfad": "src/ui/shell.js",
-   "sha256": "709bb78330fbe2f8ac8a03d17744a396f86ddff8801e9bdd41307006349d3469"
+   "sha256": "36f1e80e70d8b70ffad8366483abb688fb7be3c70cb783f7455bfccef7b68b71"
   },
   {
    "pfad": "src/ui/strich.js",
@@ -2297,7 +2373,7 @@
   },
   {
    "pfad": "src/ui/updateFahne.js",
-   "sha256": "957ce26199e4466245b32585736a612ba0e6bef61843306ea92737cfb2f81814"
+   "sha256": "62fbd22276785e807bce7226f07c51e5f101b78e01411d3dfafea3a3d964602a"
   },
   {
    "pfad": "src/ui/verbundKarte.js",
@@ -2317,7 +2393,7 @@
   },
   {
    "pfad": "src/ui/views/anleitung.js",
-   "sha256": "9dfe9f107fefedf50a05280aa80f4e069129c43aa0f4c319b62ce2f22fee0318"
+   "sha256": "cd1a2cf6eed71f59b84493487c6baf4cbdd85be61f6bd58df3ab55ab1bd5d63e"
   },
   {
    "pfad": "src/ui/views/apps.js",
@@ -2421,7 +2497,7 @@
   },
   {
    "pfad": "sw.js",
-   "sha256": "2cc683d21f4b3813530e0ef701fff2a775eccc894ff50ebd7dc43d22ff91fb6a"
+   "sha256": "1e44e2ee8042d8dcabd2b9e7222953c6bfef372b38c6e0891fed5cba21aec89b"
   },
   {
    "pfad": "tests/daten/Testbild-versteckte-Anweisung.png",
@@ -2453,7 +2529,7 @@
   },
   {
    "pfad": "tests/run.mjs",
-   "sha256": "f7863ae1fce740a22a6968e9e29cfda988804898af92ed9e087d6f6e9b67d82d"
+   "sha256": "d66ba24e09eab019e879a39c88978acd4ac566e1c98717383f5083f9d9925490"
   },
   {
    "pfad": "tests/smoke_a5_antwortpfad.mjs",
@@ -2504,6 +2580,10 @@
    "sha256": "085a597f95edbe8b7ef16de6ee64eea72131ccce6614c5921a193ef7375c3ed8"
   },
   {
+   "pfad": "tests/smoke_discovery.mjs",
+   "sha256": "d613e2c0c364d07520bf31875058e20646142c5d5e6771188c29715a8c57d361"
+  },
+  {
    "pfad": "tests/smoke_eingang.mjs",
    "sha256": "956131bc7280a79a38eaa79402ec0dcd5445e63ea849692a0066169dd2a6cb31"
   },
@@ -2545,7 +2625,7 @@
   },
   {
    "pfad": "tests/smoke_teilen.mjs",
-   "sha256": "132f740b212a6f4e648cf100f61450b6a42694c45edfc941ca913c3732303156"
+   "sha256": "7560e7984c6e5f15c098a8518db13a30eef764b09a87dc0f66de9939cf3fef47"
   },
   {
    "pfad": "tests/smoke_tresorfund.mjs",
@@ -2597,11 +2677,15 @@
   },
   {
    "pfad": "tools/apps-nachziehen.mjs",
-   "sha256": "292f5fb084541d3a035f3e8e0347a90328e3e1762b224762bf4112c5dd8c931e"
+   "sha256": "9d1cd5c58b31bb814688163c9bd32bc951dd2389bc8135b1a29c9a5017c6f8a5"
   },
   {
    "pfad": "tools/apps-patch.mjs",
    "sha256": "ef475ea36a59d575a33c5756914e9c64a07bf05d40135dfef9b0409475b6486d"
+  },
+  {
+   "pfad": "tools/discovery-nachziehen.mjs",
+   "sha256": "eecea6ba2336c602d6b0acc962fff2db30be67c64da76645699a47b9677f8672"
   },
   {
    "pfad": "tools/messen-auszugtext.mjs",
@@ -2713,7 +2797,7 @@
   },
   {
    "pfad": "version.json",
-   "sha256": "feceb8351d71da13ebdfef9219dd47b7257dac164e916568dba59caf74211eb4"
+   "sha256": "9b959504da7d4f7c8887ba45e663fcb37b551a03913a4895abfe50366efc0471"
   }
  ]
 }
