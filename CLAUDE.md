@@ -2,6 +2,12 @@
 
 # BookLedger Basic — Sitzungs-Anker
 
+**Nachzug 2026-11-16 (Discovery, Stand nach Datei-Organizer 0.4.10):** Pro `9791d63` – **Pro-Zweig `claude/discovery-hilfe` (Pro #478, Entwurf, noch nicht auf
+Pro-main; nach dem Merge in Pro auf Pro-main neu pinnen).** Für die PWA wirksam: Discovery auf dem Stand `213c81b` des Datei-Organizers (43 Dateien, rund 59 MB:
+„Führung starten“ spielt den Film, neue Kiosk-Szene, Untertitel, Zugabe-Murmel, ruhige Musik, kein Klingeln mehr), dazu das Fernrohr in der Kopfleiste;
+eigener Vorrat `blpb-discovery-213c81b`, gefüllt beim Abruf. 724 Dateien, 72 Umschreibungen. `basic_gleichstand` 27 grün · `run.mjs` 2907/0 ·
+`smoke_discovery` grün. ⚠ Nicht am Tablet.
+
 **Nachzug 2026-11-15 (Discovery, Endstand):** Pro `0cec721` (zuvor `267d315`; Seite jetzt auf dem Endstand des Datei-Organizers `5497e25`) – **Pro-Zweig `claude/discovery-hilfe` (Pro #478, Entwurf, noch nicht auf Pro-main); nach dem Merge in Pro
 auf Pro-main neu pinnen.** Enthält auch Pro-main #476/#477 (apps-nachziehen, Pins Needs/Calculate). Für die PWA wirksam: Kasten „Discovery“ in der Anleitung
 und unter „Über“ direkt nach der Verbund-Karte – öffnet die Seite „so lernte der Sortier-Kern“ des Datei-Organizers (`assets/discovery/`, byte-gleich wie in Pro,
