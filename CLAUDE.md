@@ -2,8 +2,7 @@
 
 # BookLedger Basic — Sitzungs-Anker
 
-**Nachzug 2026-11-16 (Discovery, Stand nach Datei-Organizer 0.4.10):** Pro `9791d63` – **Pro-Zweig `claude/discovery-hilfe` (Pro #478, Entwurf, noch nicht auf
-Pro-main; nach dem Merge in Pro auf Pro-main neu pinnen).** Für die PWA wirksam: Discovery auf dem Stand `213c81b` des Datei-Organizers (43 Dateien, rund 59 MB:
+**Nachzug 2026-11-16 (Discovery, Stand nach Datei-Organizer 0.4.10):** Pro-main `c4309cd` (#478 zusammengeführt; Inhalt gleich dem Zweigstand `9791d63`). Für die PWA wirksam: Discovery auf dem Stand `213c81b` des Datei-Organizers (43 Dateien, rund 59 MB:
 „Führung starten“ spielt den Film, neue Kiosk-Szene, Untertitel, Zugabe-Murmel, ruhige Musik, kein Klingeln mehr), dazu das Fernrohr in der Kopfleiste;
 eigener Vorrat `blpb-discovery-213c81b`, gefüllt beim Abruf. 724 Dateien, 72 Umschreibungen. `basic_gleichstand` 27 grün · `run.mjs` 2907/0 ·
 `smoke_discovery` grün. ⚠ Nicht am Tablet.
