@@ -2,6 +2,10 @@
 
 # BookLedger Basic — Sitzungs-Anker
 
+**Nachzug 2026-11-16 (Discovery, Stand Datei-Organizer 0.4.12):** Pro-main `9df9bee` (#479). Für die PWA wirksam: Discovery auf dem Stand `b3517cc`
+(Leiste des Intro-Videos antippbar, Übersicht behält das Baum-Bild, Knopf „Intro“, Start immer mit der Übersicht); eigener Vorrat
+`blpb-discovery-b3517cc`, `sw.js` v308. 724 Dateien, 72 Umschreibungen. `basic_gleichstand` 27 grün · `run.mjs` 2907/0. ⚠ Nicht am Tablet.
+
 **Nachzug 2026-11-16 (Discovery, Stand nach Datei-Organizer 0.4.10):** Pro-main `c4309cd` (#478 zusammengeführt; Inhalt gleich dem Zweigstand `9791d63`). Für die PWA wirksam: Discovery auf dem Stand `213c81b` des Datei-Organizers (43 Dateien, rund 59 MB:
 „Führung starten“ spielt den Film, neue Kiosk-Szene, Untertitel, Zugabe-Murmel, ruhige Musik, kein Klingeln mehr), dazu das Fernrohr in der Kopfleiste;
 eigener Vorrat `blpb-discovery-213c81b`, gefüllt beim Abruf. 724 Dateien, 72 Umschreibungen. `basic_gleichstand` 27 grün · `run.mjs` 2907/0 ·

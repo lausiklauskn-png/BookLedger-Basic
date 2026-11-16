@@ -1,11 +1,11 @@
 {
  "pro": "lausiklauskn-png/BookLedgerPro",
- "proCommit": "c4309cdd84f7419391a5f32ea933663b274cc3b2",
+ "proCommit": "9df9beee73f339af634d0770509a501dc7d4dd91",
  "nachgezogenAm": "2026-11-16",
  "regeln": 3,
  "anzahl": 724,
  "umgeschrieben": 72,
- "baumHash": "0ab8f898a24e946644f22d63eaea4ce1d723493211097a746e668849f931476f",
+ "baumHash": "04181e76141cc3d9d17923b9f9a45852d8a364d5104c1991f50e69c7a84853ec",
  "dateien": [
   {
    "pfad": ".github/workflows/ci.yml",
@@ -661,7 +661,7 @@
   },
   {
    "pfad": "assets/discovery/HERKUNFT.json",
-   "sha256": "db1587be733bf319292b16f934bd1445834d31e0008553698ed904c1285b0ddc"
+   "sha256": "0830f65a45430bab9a13f4fd6430aa70bf08bce0ad3a76776e90e637d8722d55"
   },
   {
    "pfad": "assets/discovery/discovery-film-brieftraeger.jpg",
@@ -833,7 +833,7 @@
   },
   {
    "pfad": "assets/discovery/discovery.html",
-   "sha256": "e43f2561ef6650c1e755ea17413705a0543a2036b207bdca4efa54a2350d177c"
+   "sha256": "4448ebab2c161ec2310edf3fd032aba84599fbe84eb3c7555cc0444afcc078ec"
   },
   {
    "pfad": "assets/eingang.js",
@@ -2477,7 +2477,7 @@
   },
   {
    "pfad": "src/ui/updateFahne.js",
-   "sha256": "f36e267e7f7aa9361778807b8aa614774ead410a03ae0568428fd23b9764f6e8"
+   "sha256": "157bcbf1f07c26b1a615c816ba0ddaf7f25a076a450e651e29eaca0ea7554415"
   },
   {
    "pfad": "src/ui/verbundKarte.js",
@@ -2601,7 +2601,7 @@
   },
   {
    "pfad": "sw.js",
-   "sha256": "3448ba8a8e669837bfdd15ebd97d2e9ba6ffb2b116b58c49c9c2c1a6568879da"
+   "sha256": "c9931530aa16303c9fecafca21b9d8b6c60db45a21c9037251fd286fc7541995"
   },
   {
    "pfad": "tests/daten/Testbild-versteckte-Anweisung.png",
@@ -2901,7 +2901,7 @@
   },
   {
    "pfad": "version.json",
-   "sha256": "7ba92ef57eec3dc3472aca2fbf9db720fbd5341037288d1e57ce96e24aefce05"
+   "sha256": "8477a8d7d38a0acd404791019804e31e63811389e78d1a4b5485b109d9967768"
   }
  ]
 }
