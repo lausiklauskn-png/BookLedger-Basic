@@ -2,6 +2,10 @@
 
 # BookLedger Basic — Sitzungs-Anker
 
+**Nachzug 2026-11-18 (Bank-CSV, Excel, Portemonnaie-Monat):** Pro-main `5f7424c` (#481). Für die PWA wirksam: „Bankauszug einlesen“ nimmt auch CSV
+(Spalten geraten, berichtigt, je Kopfzeile gemerkt), .xlsx und die Monatsdatei aus dem Portemonnaie der Privaten Akte; `sw.js` v309. 728 Dateien, 74 Umschreibungen.
+`basic_gleichstand` 27 grün · `run.mjs` 2963/0 · `smoke_bankcsv` 11 grün. ⚠ Nicht an echten Bankdateien, nicht am Tablet.
+
 **Nachzug 2026-11-16 (Discovery, Stand Datei-Organizer 0.4.12):** Pro-main `9df9bee` (#479). Für die PWA wirksam: Discovery auf dem Stand `b3517cc`
 (Leiste des Intro-Videos antippbar, Übersicht behält das Baum-Bild, Knopf „Intro“, Start immer mit der Übersicht); eigener Vorrat
 `blpb-discovery-b3517cc`, `sw.js` v308. 724 Dateien, 72 Umschreibungen. `basic_gleichstand` 27 grün · `run.mjs` 2907/0. ⚠ Nicht am Tablet.
