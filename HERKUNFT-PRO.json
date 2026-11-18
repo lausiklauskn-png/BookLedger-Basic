@@ -1,11 +1,11 @@
 {
  "pro": "lausiklauskn-png/BookLedgerPro",
- "proCommit": "9df9beee73f339af634d0770509a501dc7d4dd91",
- "nachgezogenAm": "2026-11-16",
+ "proCommit": "3c01ddb6fc089f97913c86816d63c48813a89a76",
+ "nachgezogenAm": "2026-11-18",
  "regeln": 3,
- "anzahl": 724,
- "umgeschrieben": 72,
- "baumHash": "04181e76141cc3d9d17923b9f9a45852d8a364d5104c1991f50e69c7a84853ec",
+ "anzahl": 728,
+ "umgeschrieben": 74,
+ "baumHash": "66d3d9428858864618ec17cc679492fc9be2a150cca1f4e866c0e0bbc817ec7d",
  "dateien": [
   {
    "pfad": ".github/workflows/ci.yml",
@@ -2004,6 +2004,10 @@
    "sha256": "7e98992448d6df18537d628bd0fe2faa72bda8b6eb9cfaf8e39ebc5c38fa095a"
   },
   {
+   "pfad": "src/domain/bankCsv.js",
+   "sha256": "36c9d2b46f3040e2354111c4387befe028bcac4074dc5ddf157110f35b975c3c"
+  },
+  {
    "pfad": "src/domain/bankimport.js",
    "sha256": "e95848d166ee508b372595791ad0f0c38bbfecf0fe1c25e0240b3455c0bedd64"
   },
@@ -2204,6 +2208,10 @@
    "sha256": "d74a609d5bc2cf234d842d92e528352e1a4548341e1b418ec45bbe551abb3416"
   },
   {
+   "pfad": "src/domain/portemonnaieImport.js",
+   "sha256": "b2d99ce20f26fedf7602fa61afc93e26c5e46680ebdaabe7f4daf5b59ced4881"
+  },
+  {
    "pfad": "src/domain/proUebergabe.js",
    "sha256": "3388ff4d3f3c1f0b0434c98d4661ca657fe4f102a6df2f1a9687cae2f56c564e"
   },
@@ -2304,6 +2312,10 @@
    "sha256": "8381ef1adf1e30fcb84902a74aa752d6474f99474e98be7577f6addaaf194eff"
   },
   {
+   "pfad": "src/domain/xlsxZeilen.js",
+   "sha256": "792836f11e6d36716ea1ef354aad415467754aa5d7b6e1efe7d745c712a8f4bd"
+  },
+  {
    "pfad": "src/domain/zahlungsabgleich.js",
    "sha256": "7e3967557d9df0aa7a7614b00d7419721482fd8e79ef47ad2eb28aa2cf0dcf36"
   },
@@ -2401,7 +2413,7 @@
   },
   {
    "pfad": "src/ui/i18n.js",
-   "sha256": "0e80e5fa8aa76b573c79c637035451ff0889dd6bad574ea60b1f09eb3a15d953"
+   "sha256": "da7ab978a1ae850d04104c279909c7d4d2f15598c33c91051114f33fee7aaf1e"
   },
   {
    "pfad": "src/ui/icons.js",
@@ -2477,7 +2489,7 @@
   },
   {
    "pfad": "src/ui/updateFahne.js",
-   "sha256": "157bcbf1f07c26b1a615c816ba0ddaf7f25a076a450e651e29eaca0ea7554415"
+   "sha256": "3512df3b73b7c42dbc217239e08581db9afde96532aabda0454915d331da82b1"
   },
   {
    "pfad": "src/ui/verbundKarte.js",
@@ -2517,7 +2529,7 @@
   },
   {
    "pfad": "src/ui/views/documents.js",
-   "sha256": "6f47a345f5f8f5983c8da389b84d25c6d1caa0700939bfb73ba762893082a7df"
+   "sha256": "e60faaa123ba83ccf5753b5cf23d57c2a4ea9885c31bb91e3d7bf7dce2767260"
   },
   {
    "pfad": "src/ui/views/employees.js",
@@ -2601,7 +2613,7 @@
   },
   {
    "pfad": "sw.js",
-   "sha256": "c9931530aa16303c9fecafca21b9d8b6c60db45a21c9037251fd286fc7541995"
+   "sha256": "809d386179f5aa97fba138437aaf81caf8102d07f18452b375bbc1a25c953a9b"
   },
   {
    "pfad": "tests/daten/Testbild-versteckte-Anweisung.png",
@@ -2633,7 +2645,7 @@
   },
   {
    "pfad": "tests/run.mjs",
-   "sha256": "a71b2af45ddad954c9e06ab33e7685e1bbbe715ccafdb0e347973109863d26d1"
+   "sha256": "86b7a2bf6abaf6d063242dfe53992ade23abd8a66bc30e2742d77af30b7932c3"
   },
   {
    "pfad": "tests/smoke_a5_antwortpfad.mjs",
@@ -2642,6 +2654,10 @@
   {
    "pfad": "tests/smoke_apps.mjs",
    "sha256": "23e4c92ec242f8598ef1f316b3c3c592da140321f1a7dd90d5d387940c4ccd1e"
+  },
+  {
+   "pfad": "tests/smoke_bankcsv.mjs",
+   "sha256": "2fba3e7ce29b82269a123464183b6a2a392ee81cced7038d8d709a08b244fd2a"
   },
   {
    "pfad": "tests/smoke_befunde.mjs",
@@ -2901,7 +2917,7 @@
   },
   {
    "pfad": "version.json",
-   "sha256": "8477a8d7d38a0acd404791019804e31e63811389e78d1a4b5485b109d9967768"
+   "sha256": "cf5a2ecb8adfac66b3ddd6b069d747822bfdf8690bf3ac922135970b09c280e3"
   }
  ]
 }

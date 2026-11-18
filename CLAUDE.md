@@ -2,6 +2,11 @@
 
 # BookLedger Basic — Sitzungs-Anker
 
+**Nachzug 2026-11-18 (Kontoauszug CSV/Excel, Monatsdatei des Portemonnaies):** Pro `3c01ddb` – **Pro-Zweig `claude/portemonnaie-bank-integration-qvmebl`
+(Pro #480, Entwurf); nach dem Merge in Pro auf Pro-main neu pinnen.** Für die PWA wirksam: „Bankauszug einlesen“ nimmt .csv/.xlsx (Spalten zuordnen, gemerkt)
+und die Monatsdatei der Private Akte (→ Buchungs-Entwürfe); `sw.js` v309 (Vorrat `blpb-`). 728 Dateien, 74 Umschreibungen. `basic_gleichstand` 27 grün ·
+`run.mjs` 2958/0 · `smoke_bankcsv` 13 grün. ⚠ Nicht am Tablet, kein echter Bankexport.
+
 **Nachzug 2026-11-16 (Discovery, Stand Datei-Organizer 0.4.12):** Pro-main `9df9bee` (#479). Für die PWA wirksam: Discovery auf dem Stand `b3517cc`
 (Leiste des Intro-Videos antippbar, Übersicht behält das Baum-Bild, Knopf „Intro“, Start immer mit der Übersicht); eigener Vorrat
 `blpb-discovery-b3517cc`, `sw.js` v308. 724 Dateien, 72 Umschreibungen. `basic_gleichstand` 27 grün · `run.mjs` 2907/0. ⚠ Nicht am Tablet.
